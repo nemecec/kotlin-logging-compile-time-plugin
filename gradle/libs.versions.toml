@@ -1,0 +1,29 @@
+[versions]
+kotlinversion = "2.1.0"
+ktfmt = "0.47"
+dokka = "1.9.20"
+build-config = "5.3.5"
+maven-publish = "0.30.0"
+spotless = "7.0.1"
+
+auto-service = "1.0.1"
+kotlin-compiler-extensions = "0.4.4+2.0.21"
+junit-jupiter = "5.11.3"
+kctfork = "0.5.1"
+kotlin-logging-jvm = "7.0.3"
+logback = "1.5.11"
+
+[libraries]
+auto-service = { group = "com.google.auto.service", name = "auto-service", version.ref = "auto-service" }
+auto-service-annotations = { group = "com.google.auto.service", name = "auto-service-annotations", version.ref = "auto-service" }
+kotlin-compiler-extensions = { group = "com.javiersc.kotlin", name = "kotlin-compiler-extensions", version.ref = "kotlin-compiler-extensions" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit-jupiter" }
+kctfork = { group = "dev.zacsweers.kctfork", name = "core", version.ref = "kctfork" }
+kotlin-logging-jvm = { group = "io.github.oshai", name = "kotlin-logging-jvm", version.ref = "kotlin-logging-jvm" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
+
+[plugins]
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+build-config = { id = "com.github.gmazzo.buildconfig", version.ref = "build-config" }
+maven-publish = { id = "com.vanniktech.maven.publish.base", version.ref = "maven-publish" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
