@@ -94,12 +94,12 @@ The plugin can be configured using the following flags:
 
 The plugin is implemented using Kotlin IR compiler plugin API. It hooks into the Kotlin compiler and modifies the AST
 (Abstract Syntax Tree) of the project code. The plugin is applied to the whole project and it modifies all the classes that
-use the [https://github.com/oshai/kotlin-logging/blob/master/src/commonMain/kotlin/io/github/oshai/kotlinlogging/KLogger.kt](KLogger) API
+use the [KLogger](https://github.com/oshai/kotlin-logging/blob/master/src/commonMain/kotlin/io/github/oshai/kotlinlogging/KLogger.kt) API
 from `kotlin-logging` library (other classes are not touched).
 
 ### In detail
 
-Part of the `kotlin-logging` `KLogger` API is the [https://github.com/oshai/kotlin-logging/blob/master/src/commonMain/kotlin/io/github/oshai/kotlinlogging/KLoggingEventBuilder.kt](KLoggingEventBuilder)
+Part of the `kotlin-logging` `KLogger` API is the [KLoggingEventBuilder](https://github.com/oshai/kotlin-logging/blob/master/src/commonMain/kotlin/io/github/oshai/kotlinlogging/KLoggingEventBuilder.kt)
 class that is used to lazily build the log event. In order to support this compiler plugin, this class has been extended
 with a field of type `InternalCompilerData` - this allows the compile-time message template and caller data to be passed 
 from project code to the `kotlin-logging` backend.
