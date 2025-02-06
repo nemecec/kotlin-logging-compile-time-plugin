@@ -112,7 +112,7 @@ Internal compiler data in `KLoggingEventBuilder` is filled with the message temp
 
 Depending on the original logging API call, the plugin does some additional transformations, see below.
 
-For even more details, you can check the [code-samples-from-tests.md](code-samples-from-tests.md) file - it is generated
+For even more details, you can check the [code-samples-from-tests.md](kotlin-plugin/code-samples-from-tests.md) file - it is generated
 by the plugin test-suite and it contains all the test cases that the plugin is tested against with before+after code
 snippets and how different feature flags affect the transformation.
 
