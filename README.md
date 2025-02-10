@@ -79,6 +79,8 @@ kotlinLoggingCompileTimePlugin {
 to set `kotlin-logging-to-logback` system property to `true` in your application JVM). Other logging backends do not
 support passing through the message template to the log appender.
 
+See also the [sample](sample) project for a complete example.
+
 ## Feature flags
 
 The plugin can be configured using the following flags:
