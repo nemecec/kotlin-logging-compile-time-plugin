@@ -2,11 +2,11 @@ import assertk.assertAll
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNotNull
-import ch.qos.logback.classic.spi.ILoggingEvent
-import kotlin.test.Test
-import io.github.oshai.kotlinlogging.logback.internal.LogbackLoggerFactory
-import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.Level
+import ch.qos.logback.classic.Logger
+import ch.qos.logback.classic.spi.ILoggingEvent
+import io.github.oshai.kotlinlogging.logback.internal.LogbackLoggerFactory
+import kotlin.test.Test
 
 class SampleAppTest {
 
@@ -44,5 +44,4 @@ class SampleAppTest {
     rootLogger.level = Level.TRACE
     return appender
   }
-
 }
