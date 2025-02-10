@@ -50,6 +50,11 @@ class MainTest {
 
 For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail) section.
 
+## Requirements
+
+* [Kotlin](https://kotlinlang.org) 2.0.x (probably 2.1.x or newer works as well)
+* [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.4 or newer
+
 ## Usage
 
 Add the following to the `build.gradle.kts` of your Kotlin project:
