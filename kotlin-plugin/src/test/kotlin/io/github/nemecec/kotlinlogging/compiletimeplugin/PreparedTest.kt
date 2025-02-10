@@ -12,9 +12,9 @@ data class PreparedTest(
 
   fun compiled(
     classLoader: ClassLoader,
-    expectationAdjusters: List<io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResultBuilder.() -> Unit>,
-  ): io.github.nemecec.kotlinlogging.compiletimeplugin.CompiledTest {
-    return io.github.nemecec.kotlinlogging.compiletimeplugin.CompiledTest(
+    expectationAdjusters: List<TestExecutionResultBuilder.() -> Unit>,
+  ): CompiledTest {
+    return CompiledTest(
       preparedTest = this,
       classLoader = classLoader,
       expectedExecutionResult =
@@ -26,11 +26,10 @@ data class PreparedTest(
   }
 
   private fun adjustExpectations(
-    expectationAdjusters: List<io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResultBuilder.() -> Unit>,
-    originalExpectedTestExecutionResult: io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult,
-  ): io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult {
-    val result =
-      io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResultBuilder(originalExpectedTestExecutionResult)
+    expectationAdjusters: List<TestExecutionResultBuilder.() -> Unit>,
+    originalExpectedTestExecutionResult: TestExecutionResult,
+  ): TestExecutionResult {
+    val result = TestExecutionResultBuilder(originalExpectedTestExecutionResult)
     for (adjuster in expectationAdjusters) {
       adjuster.invoke(result)
     }
@@ -46,7 +45,7 @@ data class PreparedTest(
     )
   }
 
-  fun prepareTransformed(expectedExecutionResult: io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult): io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTestCode? {
+  fun prepareTransformed(expectedExecutionResult: TestExecutionResult): PreparedTestCode? {
     return definition.codeDescription.prepareTransformed(uniqueTestNumber, expectedExecutionResult)
   }
 }

@@ -12,8 +12,8 @@ data class TestDefinition(
   val expectedResult: TestExecutionResult,
 ) : TestLeaf {
 
-  fun prepare(uniqueTestNumber: Int): io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest {
-    return io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest(
+  fun prepare(uniqueTestNumber: Int): PreparedTest {
+    return PreparedTest(
       definition = this,
       uniqueTestNumber = uniqueTestNumber,
       testCode = codeDescription.prepare(uniqueTestNumber),
@@ -142,7 +142,7 @@ data class TestCodeDescription(
       funName = funName,
       needsInstance = needsInstance,
       logStatementLineNumber = logStatementLineNumber,
-      sourceCode = io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest.SourceCode(fileName, fullSourceCode),
+      sourceCode = PreparedTest.SourceCode(fileName, fullSourceCode),
       sourceCodeForDebugging = stringWithLineNumbers(fullSourceCode),
     )
   }

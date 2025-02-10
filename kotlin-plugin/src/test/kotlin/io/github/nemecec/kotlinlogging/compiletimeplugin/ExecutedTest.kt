@@ -4,18 +4,15 @@ import kotlin.test.assertEquals
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.function.Executable
 
-class ExecutedTest(val compiledTest: io.github.nemecec.kotlinlogging.compiletimeplugin.CompiledTest, val actualExecutionResult: io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult) :
-  io.github.nemecec.kotlinlogging.compiletimeplugin.TestLeaf by compiledTest {
+class ExecutedTest(val compiledTest: CompiledTest, val actualExecutionResult: TestExecutionResult) :
+  TestLeaf by compiledTest {
 
-  fun assertResults() = io.github.nemecec.kotlinlogging.compiletimeplugin.assertResult(
-    compiledTest.expectedExecutionResult,
-    actualExecutionResult
-  )
+  fun assertResults() = assertResult(compiledTest.expectedExecutionResult, actualExecutionResult)
 }
 
 private fun assertResult(
-  expectedExecutionResult: io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult,
-  actualExecutionResult: io.github.nemecec.kotlinlogging.compiletimeplugin.TestExecutionResult,
+  expectedExecutionResult: TestExecutionResult,
+  actualExecutionResult: TestExecutionResult,
 ): List<Executable> {
   val assertions = mutableListOf<Executable>()
   assertions.add(
@@ -37,10 +34,7 @@ private fun assertResult(
     }
   )
   assertions.addAll(
-    io.github.nemecec.kotlinlogging.compiletimeplugin.assertLoggedEvent(
-      expectedExecutionResult.loggedEvent,
-      actualExecutionResult.loggedEvent
-    )
+    assertLoggedEvent(expectedExecutionResult.loggedEvent, actualExecutionResult.loggedEvent)
   )
   return assertions
 }

@@ -26,7 +26,9 @@ import org.jetbrains.kotlin.gradle.plugin.SubpluginOption
 // Based on https://github.com/bnorm/kotlin-ir-plugin-template
 class KotlinLoggingGradlePlugin : KotlinCompilerPluginSupportPlugin {
   override fun apply(target: Project): Unit =
-    with(target) { extensions.create("kotlinLoggingCompileTimePlugin", KotlinLoggingGradleExtension::class.java) }
+    with(target) {
+      extensions.create("kotlinLoggingCompileTimePlugin", KotlinLoggingGradleExtension::class.java)
+    }
 
   override fun isApplicable(kotlinCompilation: KotlinCompilation<*>): Boolean = true
 
