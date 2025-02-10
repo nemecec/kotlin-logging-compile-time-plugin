@@ -1,7 +1,7 @@
 plugins {
   kotlin("jvm").version(libs.versions.kotlinversion)
   application
-  id("io.github.nemecec.kotlinlogging.compile-time-plugin")
+  id("dev.nemecec.kotlinlogging.compile-time-plugin")
   alias(libs.plugins.spotless)
 }
 

@@ -47,7 +47,7 @@ gradlePlugin {
       id = rootProject.extra["kotlin_plugin_id"] as String
       displayName = "kotlin-logging IR plugin"
       description = "Collects metadata about logging calls from the source code and adds it to the respective calls"
-      implementationClass = "io.github.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingGradlePlugin"
+      implementationClass = "dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingGradlePlugin"
     }
   }
 }

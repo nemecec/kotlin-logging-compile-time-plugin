@@ -1,6 +1,6 @@
 pluginManagement {
   plugins {
-    id("io.github.nemecec.kotlinlogging.compile-time-plugin")
+    id("dev.nemecec.kotlinlogging.compile-time-plugin")
   }
 }
 

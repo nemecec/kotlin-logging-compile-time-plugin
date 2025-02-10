@@ -5,7 +5,7 @@ A standalone project to demonstrate the Kotlin compile-time plugin for kotlin-lo
 [build.gradle.kts](build.gradle.kts)
 ```kotlin
 // Add the Gradle plugin to the build script
-id("io.github.nemecec.kotlinlogging.compile-time-plugin")
+id("dev.nemecec.kotlinlogging.compile-time-plugin")
 
 dependencies {
   // Add the kotlin-logging library

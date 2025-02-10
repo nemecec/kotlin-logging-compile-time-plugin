@@ -56,7 +56,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("io.github.nemecec.kotlinlogging.compile-time-plugin") version "<fill in latest version>"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "<fill in latest version>"
 }
 
 dependencies {

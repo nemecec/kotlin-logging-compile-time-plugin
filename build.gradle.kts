@@ -10,7 +10,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 import java.net.URI
 
 buildscript {
-  extra["kotlin_plugin_id"] = "io.github.nemecec.kotlinlogging.compile-time-plugin"
+  extra["kotlin_plugin_id"] = "dev.nemecec.kotlinlogging.compile-time-plugin"
 }
 
 plugins {
@@ -20,7 +20,7 @@ plugins {
 }
 
 allprojects {
-  group = "io.github.nemecec.kotlinlogging.compiletimeplugin"
+  group = "dev.nemecec.kotlinlogging.compiletimeplugin"
   version = "1.0.0-SNAPSHOT"
 }
 
@@ -41,7 +41,7 @@ allprojects {
       jdkVersion.set(8)
 
       perPackageOption {
-        matchingRegex.set("io\\.github\\.nemecec\\.kotlinlogging\\.compiletimeplugin\\.internal\\..*")
+        matchingRegex.set("dev\\.nemecec\\.kotlinlogging\\.compiletimeplugin\\.internal\\..*")
         suppress.set(true)
       }
       sourceLink {
