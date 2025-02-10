@@ -4,8 +4,6 @@ import org.jetbrains.dokka.DokkaConfiguration.Visibility
 import org.jetbrains.dokka.gradle.DokkaMultiModuleTask
 import org.jetbrains.dokka.gradle.DokkaTaskPartial
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
-import org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 import java.net.URI
 
@@ -60,15 +58,6 @@ allprojects {
 
   val javaVersion = JavaVersion.VERSION_1_8
 
-  plugins.withId("org.jetbrains.kotlin.multiplatform") {
-    val kotlin = extensions.getByName("kotlin") as KotlinMultiplatformExtension
-    kotlin.targets.withType(KotlinJvmTarget::class.java) {
-      compilerOptions {
-        freeCompilerArgs.add("-Xjdk-release=$javaVersion")
-      }
-    }
-  }
-
   tasks.withType(JavaCompile::class.java).configureEach {
     sourceCompatibility = javaVersion.toString()
     targetCompatibility = javaVersion.toString()
@@ -92,6 +81,7 @@ allprojects {
     configure<MavenPublishBaseExtension> {
       publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
       signAllPublications()
+      coordinates(group.toString(), name, version.toString())
       pom {
         description.set("Kotlin compile-time plugin for kotlin-logging library")
         name.set(project.name)
@@ -107,6 +97,7 @@ allprojects {
           developer {
             id.set("nemecec")
             name.set("Neeme Praks")
+            url.set("https://github.com/nemecec/")
           }
         }
         scm {
