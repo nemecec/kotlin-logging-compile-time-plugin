@@ -2,6 +2,7 @@ plugins {
   kotlin("jvm").version(libs.versions.kotlinversion)
   application
   id("io.github.nemecec.kotlinlogging.compile-time-plugin")
+  alias(libs.plugins.spotless)
 }
 
 dependencies {
@@ -33,4 +34,11 @@ kotlinLoggingCompileTimePlugin {
   disableTransformingEntryExitApi = false
   disableTransformingThrowingCatchingApi = false
   disableCollectingCallSiteInformation = false
+}
+
+spotless {
+  kotlin {
+    target("src/**/*.kt")
+    ktfmt(libs.versions.ktfmt.get()).googleStyle()
+  }
 }
