@@ -40,8 +40,8 @@ private fun assertResult(
 }
 
 private fun assertLoggedEvent(
-  expectedTestLoggingEvent: io.github.nemecec.kotlinlogging.compiletimeplugin.TestLoggingEvent?,
-  actualTestLoggingEvent: io.github.nemecec.kotlinlogging.compiletimeplugin.TestLoggingEvent?,
+  expectedTestLoggingEvent: TestLoggingEvent?,
+  actualTestLoggingEvent: TestLoggingEvent?,
 ): List<Executable> {
   val assertions = mutableListOf<Executable>()
   if (expectedTestLoggingEvent != null && actualTestLoggingEvent != null) {

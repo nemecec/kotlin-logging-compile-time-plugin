@@ -7,7 +7,7 @@ import io.github.oshai.kotlinlogging.logback.internal.LogbackLoggerFactory
 import java.lang.reflect.InvocationTargetException
 
 data class CompiledTest(
-  val preparedTest: io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest,
+  val preparedTest: PreparedTest,
   val classLoader: ClassLoader,
   val expectedExecutionResult: TestExecutionResult,
 ) : TestLeaf by preparedTest {
@@ -30,7 +30,7 @@ data class CompiledTest(
       .trimMargin()
   }
 
-  fun execute(): io.github.nemecec.kotlinlogging.compiletimeplugin.ExecutedTest {
+  fun execute(): ExecutedTest {
     val compiledClass = classLoader.loadClass(preparedTest.testCode.fqClassName)
     var returnedValue: Any? = null
     var thrownException: Throwable? = null
@@ -45,7 +45,7 @@ data class CompiledTest(
       thrownException = ite.cause
     }
 
-    return io.github.nemecec.kotlinlogging.compiletimeplugin.ExecutedTest(
+    return ExecutedTest(
       compiledTest = this,
       actualExecutionResult =
         TestExecutionResult(
@@ -71,7 +71,7 @@ data class CompiledTest(
     return appender
   }
 
-  fun prepareTransformed(): io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTestCode? {
+  fun prepareTransformed(): PreparedTestCode? {
     return preparedTest.prepareTransformed(expectedExecutionResult)
   }
 }

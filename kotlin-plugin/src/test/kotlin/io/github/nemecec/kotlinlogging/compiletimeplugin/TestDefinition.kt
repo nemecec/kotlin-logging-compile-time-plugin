@@ -65,7 +65,7 @@ data class TestCodeDescription(
   private fun prepare(
     uniqueTestNumber: Int,
     logStatementSourceCodeMaker: () -> String,
-  ): io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTestCode {
+  ): PreparedTestCode {
     val fileName = "test${uniqueTestNumber}.kt"
     val packageName = "test${uniqueTestNumber}"
     val className: String
@@ -130,7 +130,7 @@ data class TestCodeDescription(
         """
         .trimIndent()
         .trim()
-    return io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTestCode(
+    return PreparedTestCode(
       testName =
         " $logStatementSourceCode at $className.${funName}($fileName:$logStatementLineNumber)",
       fileName = fileName,

@@ -3,10 +3,10 @@ package io.github.nemecec.kotlinlogging.compiletimeplugin
 import io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest.SourceCode
 
 data class PreparedTest(
-  val definition: io.github.nemecec.kotlinlogging.compiletimeplugin.TestDefinition,
+  val definition: TestDefinition,
   val uniqueTestNumber: Int,
-  val testCode: io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTestCode,
-) : io.github.nemecec.kotlinlogging.compiletimeplugin.TestLeaf by definition {
+  val testCode: PreparedTestCode,
+) : TestLeaf by definition {
 
   data class SourceCode(val fileName: String, val text: String)
 

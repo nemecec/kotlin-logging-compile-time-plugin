@@ -10,7 +10,7 @@ import org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi
 @OptIn(ExperimentalCompilerApi::class)
 fun compileTests(
   featureFlagsToUse: EnumEntries<FeatureFlag>,
-  preparedTests: TestCollection<io.github.nemecec.kotlinlogging.compiletimeplugin.PreparedTest>,
+  preparedTests: TestCollection<PreparedTest>,
 ): List<FeatureFlagCompilationResult> {
   val sources = preparedTests.flatMapAndExtract { it.testCode.sourceCode }
   return featureFlagsToUse.map { featureFlag ->
