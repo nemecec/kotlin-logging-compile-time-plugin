@@ -23,9 +23,8 @@ jobs:
           distribution: 'adoptium'
           java-version: 21
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
       - name: Build with Gradle
+        uses: gradle/actions/setup-gradle@v4
       - run: ./gradlew build
       - run: ./gradlew -p sample build
 
