@@ -22,7 +22,7 @@ class PlaceholderReplacer(
     placeholder: String,
   ): ReplaceResult {
     var newArgIndex = currentArgIndex
-    if (msgExp is IrConst<*>) {
+    if (msgExp is IrConst) {
       val value = msgExp.value
       if (value is String && value.contains(placeholder)) {
         val (newExpression, argIndexAfterReplace) =

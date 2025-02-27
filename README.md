@@ -52,7 +52,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 
 ## Requirements
 
-* [Kotlin](https://kotlinlang.org) 2.0.x (probably 2.1.x or newer works as well)
+* [Kotlin](https://kotlinlang.org) 2.1.x (maybe newer works as well)
 * [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.4 or newer
 
 ## Usage
@@ -61,7 +61,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.0.0"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.1.0"
 }
 
 dependencies {
