@@ -69,7 +69,7 @@ class KotlinLoggingIrGenerationExtension(
       for (file in moduleFragment.files) {
         AccessorCallTransformer(
             config,
-            dev.nemecec.kotlinlogging.compiletimeplugin.SourceFile(file),
+            SourceFile(file),
             pluginContext,
             messageCollector,
           )
@@ -165,7 +165,7 @@ class KotlinLoggingIrGenerationExtension(
 
   class AccessorCallTransformer(
     private val config: KotlinLoggingPluginConfig,
-    private val sourceFile: dev.nemecec.kotlinlogging.compiletimeplugin.SourceFile,
+    private val sourceFile: SourceFile,
     private val context: IrPluginContext,
     private val messageCollector: MessageCollector,
   ) : IrElementTransformerVoidWithContext(), FileLoweringPass {
