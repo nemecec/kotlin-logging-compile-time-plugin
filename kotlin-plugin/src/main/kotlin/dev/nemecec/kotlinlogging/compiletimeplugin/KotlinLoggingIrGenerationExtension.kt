@@ -66,26 +66,25 @@ class KotlinLoggingIrGenerationExtension(
   override fun generate(moduleFragment: IrModuleFragment, pluginContext: IrPluginContext) {
     messageCollector.report(CompilerMessageSeverity.INFO, "Plugin config: $config")
     if (!config.disableAll) {
-      if (pluginContext.referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level"))) == null) {
+      if (!pluginContext.kotlinLoggingIsAvailable()) {
         messageCollector.report(
           severity = CompilerMessageSeverity.WARNING,
-          message = "Kotlin-logging compile-time plugin failed. " +
-            "Please make sure that the kotlin-logging library is on the classpath " +
+          message =
+            "Kotlin-logging compile-time plugin failed. " +
+              "Please make sure that the kotlin-logging library is on the classpath " +
               "or remove the plugin from the build.",
         )
         return
       }
       for (file in moduleFragment.files) {
-        AccessorCallTransformer(
-            config,
-            SourceFile(file),
-            pluginContext,
-            messageCollector,
-          )
+        AccessorCallTransformer(config, SourceFile(file), pluginContext, messageCollector)
           .runOnFileInOrder(file)
       }
     }
   }
+
+  private fun IrPluginContext.kotlinLoggingIsAvailable() =
+    referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level"))) != null
 
   class TypesHelper(val context: IrPluginContext) {
 
