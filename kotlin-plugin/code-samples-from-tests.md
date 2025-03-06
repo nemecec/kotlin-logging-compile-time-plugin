@@ -203,7 +203,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -823,7 +823,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -1307,7 +1307,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -1813,7 +1813,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -2301,7 +2301,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -2921,7 +2921,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -3405,7 +3405,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -3911,7 +3911,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -4399,7 +4399,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -5019,7 +5019,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -5503,7 +5503,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -6009,7 +6009,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -6497,7 +6497,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -7117,7 +7117,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -7601,7 +7601,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -8107,7 +8107,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -8595,7 +8595,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -9215,7 +9215,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -9699,7 +9699,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -10205,7 +10205,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -10865,7 +10865,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -11485,7 +11485,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -11927,7 +11927,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -12433,7 +12433,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -12879,7 +12879,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -13499,7 +13499,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -13941,7 +13941,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -14447,7 +14447,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -14893,7 +14893,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -15513,7 +15513,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -15955,7 +15955,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -16461,7 +16461,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -16907,7 +16907,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -17527,7 +17527,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -17969,7 +17969,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -18475,7 +18475,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -18921,7 +18921,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -19541,7 +19541,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -19983,7 +19983,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -20489,7 +20489,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 
@@ -21129,7 +21129,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -21151,7 +21151,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test6
 import io.github.oshai.kotlinlogging.*
@@ -21162,7 +21162,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace(marker, "trace message {}", arg, throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -21189,7 +21189,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test7
 import io.github.oshai.kotlinlogging.*
@@ -21200,7 +21200,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -21227,7 +21227,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test8
 import io.github.oshai.kotlinlogging.*
@@ -21238,7 +21238,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -21749,7 +21749,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -21770,7 +21770,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test22
 import io.github.oshai.kotlinlogging.*
@@ -21781,7 +21781,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace("trace message {}", arg, throwable)
+    logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -21806,7 +21806,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test23
 import io.github.oshai.kotlinlogging.*
@@ -21817,7 +21817,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -21842,7 +21842,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test24
 import io.github.oshai.kotlinlogging.*
@@ -21853,7 +21853,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -22233,7 +22233,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -22255,7 +22255,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test38
 import io.github.oshai.kotlinlogging.*
@@ -22266,7 +22266,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.trace(marker, "trace message {}", arg)
+    logger.at(Level.TRACE, marker) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -22293,7 +22293,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test39
 import io.github.oshai.kotlinlogging.*
@@ -22304,7 +22304,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -22331,7 +22331,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test40
 import io.github.oshai.kotlinlogging.*
@@ -22342,7 +22342,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -22739,7 +22739,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -22760,7 +22760,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test54
 import io.github.oshai.kotlinlogging.*
@@ -22771,7 +22771,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.trace("trace message {}", arg)
+    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -22796,7 +22796,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test55
 import io.github.oshai.kotlinlogging.*
@@ -22807,7 +22807,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -22832,7 +22832,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test56
 import io.github.oshai.kotlinlogging.*
@@ -22843,7 +22843,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -23227,7 +23227,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -23249,7 +23249,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test70
 import io.github.oshai.kotlinlogging.*
@@ -23260,7 +23260,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug(marker, "debug message {}", arg, throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -23287,7 +23287,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test71
 import io.github.oshai.kotlinlogging.*
@@ -23298,7 +23298,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -23325,7 +23325,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test72
 import io.github.oshai.kotlinlogging.*
@@ -23336,7 +23336,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -23847,7 +23847,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -23868,7 +23868,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test86
 import io.github.oshai.kotlinlogging.*
@@ -23879,7 +23879,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug("debug message {}", arg, throwable)
+    logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -23904,7 +23904,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test87
 import io.github.oshai.kotlinlogging.*
@@ -23915,7 +23915,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -23940,7 +23940,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test88
 import io.github.oshai.kotlinlogging.*
@@ -23951,7 +23951,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -24331,7 +24331,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -24353,7 +24353,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test102
 import io.github.oshai.kotlinlogging.*
@@ -24364,7 +24364,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.debug(marker, "debug message {}", arg)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -24391,7 +24391,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test103
 import io.github.oshai.kotlinlogging.*
@@ -24402,7 +24402,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -24429,7 +24429,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test104
 import io.github.oshai.kotlinlogging.*
@@ -24440,7 +24440,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -24837,7 +24837,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -24858,7 +24858,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test118
 import io.github.oshai.kotlinlogging.*
@@ -24869,7 +24869,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.debug("debug message {}", arg)
+    logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -24894,7 +24894,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test119
 import io.github.oshai.kotlinlogging.*
@@ -24905,7 +24905,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -24930,7 +24930,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test120
 import io.github.oshai.kotlinlogging.*
@@ -24941,7 +24941,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -25325,7 +25325,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -25347,7 +25347,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test134
 import io.github.oshai.kotlinlogging.*
@@ -25358,7 +25358,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info(marker, "info message {}", arg, throwable)
+    logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -25385,7 +25385,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test135
 import io.github.oshai.kotlinlogging.*
@@ -25396,7 +25396,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -25423,7 +25423,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test136
 import io.github.oshai.kotlinlogging.*
@@ -25434,7 +25434,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -25945,7 +25945,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -25966,7 +25966,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test150
 import io.github.oshai.kotlinlogging.*
@@ -25977,7 +25977,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info("info message {}", arg, throwable)
+    logger.at(Level.INFO) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -26002,7 +26002,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test151
 import io.github.oshai.kotlinlogging.*
@@ -26013,7 +26013,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -26038,7 +26038,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test152
 import io.github.oshai.kotlinlogging.*
@@ -26049,7 +26049,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -26429,7 +26429,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -26451,7 +26451,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test166
 import io.github.oshai.kotlinlogging.*
@@ -26462,7 +26462,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.info(marker, "info message {}", arg)
+    logger.at(Level.INFO, marker) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -26489,7 +26489,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test167
 import io.github.oshai.kotlinlogging.*
@@ -26500,7 +26500,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -26527,7 +26527,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test168
 import io.github.oshai.kotlinlogging.*
@@ -26538,7 +26538,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -26935,7 +26935,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -26956,7 +26956,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test182
 import io.github.oshai.kotlinlogging.*
@@ -26967,7 +26967,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.info("info message {}", arg)
+    logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -26992,7 +26992,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test183
 import io.github.oshai.kotlinlogging.*
@@ -27003,7 +27003,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -27028,7 +27028,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test184
 import io.github.oshai.kotlinlogging.*
@@ -27039,7 +27039,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -27423,7 +27423,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -27445,7 +27445,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test198
 import io.github.oshai.kotlinlogging.*
@@ -27456,7 +27456,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn(marker, "warn message {}", arg, throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -27483,7 +27483,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test199
 import io.github.oshai.kotlinlogging.*
@@ -27494,7 +27494,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -27521,7 +27521,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test200
 import io.github.oshai.kotlinlogging.*
@@ -27532,7 +27532,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -28043,7 +28043,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -28064,7 +28064,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test214
 import io.github.oshai.kotlinlogging.*
@@ -28075,7 +28075,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn("warn message {}", arg, throwable)
+    logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -28100,7 +28100,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test215
 import io.github.oshai.kotlinlogging.*
@@ -28111,7 +28111,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -28136,7 +28136,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test216
 import io.github.oshai.kotlinlogging.*
@@ -28147,7 +28147,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -28527,7 +28527,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -28549,7 +28549,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test230
 import io.github.oshai.kotlinlogging.*
@@ -28560,7 +28560,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.warn(marker, "warn message {}", arg)
+    logger.at(Level.WARN, marker) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -28587,7 +28587,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test231
 import io.github.oshai.kotlinlogging.*
@@ -28598,7 +28598,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -28625,7 +28625,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test232
 import io.github.oshai.kotlinlogging.*
@@ -28636,7 +28636,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -29033,7 +29033,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -29054,7 +29054,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test246
 import io.github.oshai.kotlinlogging.*
@@ -29065,7 +29065,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.warn("warn message {}", arg)
+    logger.at(Level.WARN) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -29090,7 +29090,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test247
 import io.github.oshai.kotlinlogging.*
@@ -29101,7 +29101,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -29126,7 +29126,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test248
 import io.github.oshai.kotlinlogging.*
@@ -29137,7 +29137,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -29521,7 +29521,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -29543,7 +29543,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test262
 import io.github.oshai.kotlinlogging.*
@@ -29554,7 +29554,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error(marker, "error message {}", arg, throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -29581,7 +29581,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test263
 import io.github.oshai.kotlinlogging.*
@@ -29592,7 +29592,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -29619,7 +29619,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test264
 import io.github.oshai.kotlinlogging.*
@@ -29630,7 +29630,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -30141,7 +30141,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -30162,7 +30162,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test278
 import io.github.oshai.kotlinlogging.*
@@ -30173,7 +30173,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error("error message {}", arg, throwable)
+    logger.at(Level.ERROR) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -30198,7 +30198,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test279
 import io.github.oshai.kotlinlogging.*
@@ -30209,7 +30209,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -30234,7 +30234,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test280
 import io.github.oshai.kotlinlogging.*
@@ -30245,7 +30245,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -30625,7 +30625,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -30647,7 +30647,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test294
 import io.github.oshai.kotlinlogging.*
@@ -30658,7 +30658,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.error(marker, "error message {}", arg)
+    logger.at(Level.ERROR, marker) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -30685,7 +30685,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test295
 import io.github.oshai.kotlinlogging.*
@@ -30696,7 +30696,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -30723,7 +30723,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test296
 import io.github.oshai.kotlinlogging.*
@@ -30734,7 +30734,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -31131,7 +31131,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -31152,7 +31152,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test310
 import io.github.oshai.kotlinlogging.*
@@ -31163,7 +31163,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.error("error message {}", arg)
+    logger.at(Level.ERROR) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -31188,7 +31188,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test311
 import io.github.oshai.kotlinlogging.*
@@ -31199,7 +31199,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -31224,7 +31224,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test312
 import io.github.oshai.kotlinlogging.*
@@ -31235,7 +31235,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -31791,7 +31791,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -31813,7 +31813,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test331
 import io.github.oshai.kotlinlogging.*
@@ -31824,7 +31824,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace(marker, "trace message {}", arg, throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 
 
@@ -31851,7 +31851,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test332
 import io.github.oshai.kotlinlogging.*
@@ -31862,7 +31862,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -31889,7 +31889,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test333
 import io.github.oshai.kotlinlogging.*
@@ -31900,7 +31900,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -32411,7 +32411,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -32430,7 +32430,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test347
 import io.github.oshai.kotlinlogging.*
@@ -32441,7 +32441,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace("trace message {}", arg, throwable)
+  logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 ```
 
@@ -32463,7 +32463,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test348
 import io.github.oshai.kotlinlogging.*
@@ -32474,7 +32474,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -32497,7 +32497,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test349
 import io.github.oshai.kotlinlogging.*
@@ -32508,7 +32508,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -32853,7 +32853,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -32875,7 +32875,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test363
 import io.github.oshai.kotlinlogging.*
@@ -32886,7 +32886,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.trace(marker, "trace message {}", arg)
+  logger.at(Level.TRACE, marker) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 
 
@@ -32913,7 +32913,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test364
 import io.github.oshai.kotlinlogging.*
@@ -32924,7 +32924,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -32951,7 +32951,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test365
 import io.github.oshai.kotlinlogging.*
@@ -32962,7 +32962,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -33359,7 +33359,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -33378,7 +33378,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test379
 import io.github.oshai.kotlinlogging.*
@@ -33389,7 +33389,7 @@ fun main() {
   
   
   val arg = 42
-  logger.trace("trace message {}", arg)
+  logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 ```
 
@@ -33411,7 +33411,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test380
 import io.github.oshai.kotlinlogging.*
@@ -33422,7 +33422,7 @@ fun main() {
   
   
   val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -33445,7 +33445,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test381
 import io.github.oshai.kotlinlogging.*
@@ -33456,7 +33456,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -33805,7 +33805,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -33827,7 +33827,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test395
 import io.github.oshai.kotlinlogging.*
@@ -33838,7 +33838,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug(marker, "debug message {}", arg, throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 
 
@@ -33865,7 +33865,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test396
 import io.github.oshai.kotlinlogging.*
@@ -33876,7 +33876,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -33903,7 +33903,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test397
 import io.github.oshai.kotlinlogging.*
@@ -33914,7 +33914,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -34425,7 +34425,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -34444,7 +34444,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test411
 import io.github.oshai.kotlinlogging.*
@@ -34455,7 +34455,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug("debug message {}", arg, throwable)
+  logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 ```
 
@@ -34477,7 +34477,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test412
 import io.github.oshai.kotlinlogging.*
@@ -34488,7 +34488,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -34511,7 +34511,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test413
 import io.github.oshai.kotlinlogging.*
@@ -34522,7 +34522,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -34867,7 +34867,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -34889,7 +34889,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test427
 import io.github.oshai.kotlinlogging.*
@@ -34900,7 +34900,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.debug(marker, "debug message {}", arg)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 
 
@@ -34927,7 +34927,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test428
 import io.github.oshai.kotlinlogging.*
@@ -34938,7 +34938,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -34965,7 +34965,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test429
 import io.github.oshai.kotlinlogging.*
@@ -34976,7 +34976,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -35373,7 +35373,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -35392,7 +35392,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test443
 import io.github.oshai.kotlinlogging.*
@@ -35403,7 +35403,7 @@ fun main() {
   
   
   val arg = 42
-  logger.debug("debug message {}", arg)
+  logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 ```
 
@@ -35425,7 +35425,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test444
 import io.github.oshai.kotlinlogging.*
@@ -35436,7 +35436,7 @@ fun main() {
   
   
   val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -35459,7 +35459,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test445
 import io.github.oshai.kotlinlogging.*
@@ -35470,7 +35470,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -35819,7 +35819,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -35841,7 +35841,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test459
 import io.github.oshai.kotlinlogging.*
@@ -35852,7 +35852,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info(marker, "info message {}", arg, throwable)
+  logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 
 
@@ -35879,7 +35879,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test460
 import io.github.oshai.kotlinlogging.*
@@ -35890,7 +35890,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -35917,7 +35917,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test461
 import io.github.oshai.kotlinlogging.*
@@ -35928,7 +35928,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -36439,7 +36439,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -36458,7 +36458,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test475
 import io.github.oshai.kotlinlogging.*
@@ -36469,7 +36469,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info("info message {}", arg, throwable)
+  logger.at(Level.INFO) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 ```
 
@@ -36491,7 +36491,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test476
 import io.github.oshai.kotlinlogging.*
@@ -36502,7 +36502,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -36525,7 +36525,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test477
 import io.github.oshai.kotlinlogging.*
@@ -36536,7 +36536,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -36881,7 +36881,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -36903,7 +36903,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test491
 import io.github.oshai.kotlinlogging.*
@@ -36914,7 +36914,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.info(marker, "info message {}", arg)
+  logger.at(Level.INFO, marker) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 
 
@@ -36941,7 +36941,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test492
 import io.github.oshai.kotlinlogging.*
@@ -36952,7 +36952,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -36979,7 +36979,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test493
 import io.github.oshai.kotlinlogging.*
@@ -36990,7 +36990,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -37387,7 +37387,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -37406,7 +37406,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test507
 import io.github.oshai.kotlinlogging.*
@@ -37417,7 +37417,7 @@ fun main() {
   
   
   val arg = 42
-  logger.info("info message {}", arg)
+  logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 ```
 
@@ -37439,7 +37439,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test508
 import io.github.oshai.kotlinlogging.*
@@ -37450,7 +37450,7 @@ fun main() {
   
   
   val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -37473,7 +37473,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test509
 import io.github.oshai.kotlinlogging.*
@@ -37484,7 +37484,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -37833,7 +37833,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -37855,7 +37855,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test523
 import io.github.oshai.kotlinlogging.*
@@ -37866,7 +37866,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn(marker, "warn message {}", arg, throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 
 
@@ -37893,7 +37893,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test524
 import io.github.oshai.kotlinlogging.*
@@ -37904,7 +37904,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -37931,7 +37931,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test525
 import io.github.oshai.kotlinlogging.*
@@ -37942,7 +37942,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -38453,7 +38453,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -38472,7 +38472,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test539
 import io.github.oshai.kotlinlogging.*
@@ -38483,7 +38483,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn("warn message {}", arg, throwable)
+  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 ```
 
@@ -38505,7 +38505,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test540
 import io.github.oshai.kotlinlogging.*
@@ -38516,7 +38516,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -38539,7 +38539,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test541
 import io.github.oshai.kotlinlogging.*
@@ -38550,7 +38550,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -38895,7 +38895,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -38917,7 +38917,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test555
 import io.github.oshai.kotlinlogging.*
@@ -38928,7 +38928,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.warn(marker, "warn message {}", arg)
+  logger.at(Level.WARN, marker) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 
 
@@ -38955,7 +38955,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test556
 import io.github.oshai.kotlinlogging.*
@@ -38966,7 +38966,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -38993,7 +38993,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test557
 import io.github.oshai.kotlinlogging.*
@@ -39004,7 +39004,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -39401,7 +39401,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -39420,7 +39420,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test571
 import io.github.oshai.kotlinlogging.*
@@ -39431,7 +39431,7 @@ fun main() {
   
   
   val arg = 42
-  logger.warn("warn message {}", arg)
+  logger.at(Level.WARN) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 ```
 
@@ -39453,7 +39453,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test572
 import io.github.oshai.kotlinlogging.*
@@ -39464,7 +39464,7 @@ fun main() {
   
   
   val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -39487,7 +39487,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test573
 import io.github.oshai.kotlinlogging.*
@@ -39498,7 +39498,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -39847,7 +39847,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -39869,7 +39869,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test587
 import io.github.oshai.kotlinlogging.*
@@ -39880,7 +39880,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error(marker, "error message {}", arg, throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 
 
@@ -39907,7 +39907,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test588
 import io.github.oshai.kotlinlogging.*
@@ -39918,7 +39918,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -39945,7 +39945,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test589
 import io.github.oshai.kotlinlogging.*
@@ -39956,7 +39956,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -40467,7 +40467,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -40486,7 +40486,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test603
 import io.github.oshai.kotlinlogging.*
@@ -40497,7 +40497,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error("error message {}", arg, throwable)
+  logger.at(Level.ERROR) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 ```
 
@@ -40519,7 +40519,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test604
 import io.github.oshai.kotlinlogging.*
@@ -40530,7 +40530,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -40553,7 +40553,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test605
 import io.github.oshai.kotlinlogging.*
@@ -40564,7 +40564,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -40909,7 +40909,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -40931,7 +40931,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test619
 import io.github.oshai.kotlinlogging.*
@@ -40942,7 +40942,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.error(marker, "error message {}", arg)
+  logger.at(Level.ERROR, marker) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 
 
@@ -40969,7 +40969,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test620
 import io.github.oshai.kotlinlogging.*
@@ -40980,7 +40980,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -41007,7 +41007,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test621
 import io.github.oshai.kotlinlogging.*
@@ -41018,7 +41018,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -41415,7 +41415,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 
@@ -41434,7 +41434,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test635
 import io.github.oshai.kotlinlogging.*
@@ -41445,7 +41445,7 @@ fun main() {
   
   
   val arg = 42
-  logger.error("error message {}", arg)
+  logger.at(Level.ERROR) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 ```
 
@@ -41467,7 +41467,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test636
 import io.github.oshai.kotlinlogging.*
@@ -41478,7 +41478,7 @@ fun main() {
   
   
   val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -41501,7 +41501,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test637
 import io.github.oshai.kotlinlogging.*
@@ -41512,7 +41512,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -41843,20932 +41843,6 @@ fun main() {
   
   val i = 42
   logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-</details>
-
-</details>
-
-</details><details><summary><b>featureFlag=DISABLE_TRANSFORMING_NOT_IMPLEMENTED_API</b></summary>
-
-<details><summary><b>with class=true</b></summary>
-
-<details><summary><b>entry/exit API</b></summary>
-
-###  entry(argument1, argument2) at MainTest.main(test1.kt:10) test
-
-User code:
-```kotlin
-package test1
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val argument1 = 42; val argument2 = true
-    logger.entry(argument1, argument2)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test1
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val argument1 = 42; val argument2 = true
-    logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1.MainTest", methodName = "main", fileName = "test1.kt", lineNumber = 10))
-  }
-  
-}
-```
-
-###  exit(resultValue) at MainTest.main(test2.kt:10) test
-
-User code:
-```kotlin
-package test2
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main(): Int {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val resultValue = 42
-    return logger.exit(resultValue)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test2
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main(): Int {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val resultValue = 42
-    return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test2.MainTest", methodName = "main", fileName = "test2.kt", lineNumber = 10))
-  }
-  
-}
-```
-
-###  exit() at MainTest.main(test3.kt:10) test
-
-User code:
-```kotlin
-package test3
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.exit()
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test3
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test3.MainTest", methodName = "main", fileName = "test3.kt", lineNumber = 10))
-  }
-  
-}
-```
-
-</details>
-
-<details><summary><b>throwing/catching API</b></summary>
-
-###  throwing(throwable) at MainTest.main(test4.kt:10) test
-
-User code:
-```kotlin
-package test4
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    throw logger.throwing(throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test4
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test4.MainTest", methodName = "main", fileName = "test4.kt", lineNumber = 10), throwable)
-  }
-  
-}
-```
-
-###  catching(throwable) at MainTest.main(test5.kt:10) test
-
-User code:
-```kotlin
-package test5
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.catching(throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test5
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test5.MainTest", methodName = "main", fileName = "test5.kt", lineNumber = 10), throwable)
-  }
-  
-}
-```
-
-</details>
-
-<details><summary><b>with log level=TRACE</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
-
-User code:
-```kotlin
-package test6
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace(marker, "trace message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test6
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace(marker, "trace message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test7.kt:10) test
-
-User code:
-```kotlin
-package test7
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test7
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test8.kt:10) test
-
-User code:
-```kotlin
-package test8
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test8
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(marker, throwable) { "trace messageBuilder" } at MainTest.main(test9.kt:10) test
-
-User code:
-```kotlin
-package test9
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.trace(marker, throwable) { "trace messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test9
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test9.MainTest", methodName = "main", fileName = "test9.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, throwable) { "trace messageBuilder $i" } at MainTest.main(test10.kt:10) test
-
-User code:
-```kotlin
-package test10
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(marker, throwable) { "trace messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test10
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test10.MainTest", methodName = "main", fileName = "test10.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, throwable) { "trace messageBuilder $i ${helper()}" } at MainTest.main(test11.kt:10) test
-
-User code:
-```kotlin
-package test11
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test11
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test11.MainTest", methodName = "main", fileName = "test11.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}", throwable) at MainTest.main(test12.kt:10) test
-
-User code:
-```kotlin
-package test12
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.trace(marker, "trace message {}", throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test12
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test12.MainTest", methodName = "main", fileName = "test12.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(throwable, marker) { "trace messageBuilder" } at MainTest.main(test13.kt:10) test
-
-User code:
-```kotlin
-package test13
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.trace(throwable, marker) { "trace messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test13
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test13.MainTest", methodName = "main", fileName = "test13.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(throwable, marker) { "trace messageBuilder $i" } at MainTest.main(test14.kt:10) test
-
-User code:
-```kotlin
-package test14
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(throwable, marker) { "trace messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test14
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test14.MainTest", methodName = "main", fileName = "test14.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(throwable, marker) { "trace messageBuilder $i ${helper()}" } at MainTest.main(test15.kt:10) test
-
-User code:
-```kotlin
-package test15
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(throwable, marker) { "trace messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test15
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test15.MainTest", methodName = "main", fileName = "test15.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder"; cause=throwable } at MainTest.main(test16.kt:10) test
-
-User code:
-```kotlin
-package test16
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.atTrace(marker) { message="trace eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test16
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test16.MainTest", methodName = "main", fileName = "test16.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i"; cause=throwable } at MainTest.main(test17.kt:10) test
-
-User code:
-```kotlin
-package test17
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atTrace(marker) { message="trace eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test17
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test17.MainTest", methodName = "main", fileName = "test17.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test18.kt:10) test
-
-User code:
-```kotlin
-package test18
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test18
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test18.MainTest", methodName = "main", fileName = "test18.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder"; cause=throwable } at MainTest.main(test19.kt:10) test
-
-User code:
-```kotlin
-package test19
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test19
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test19.MainTest", methodName = "main", fileName = "test19.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=throwable } at MainTest.main(test20.kt:10) test
-
-User code:
-```kotlin
-package test20
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test20
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test20.MainTest", methodName = "main", fileName = "test20.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test21.kt:10) test
-
-User code:
-```kotlin
-package test21
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test21
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test21.MainTest", methodName = "main", fileName = "test21.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
-
-User code:
-```kotlin
-package test22
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace("trace message {}", arg, throwable)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test22
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace("trace message {}", arg, throwable)
-  }
-  
-}
-```
-
-###  trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test23.kt:10) test
-
-User code:
-```kotlin
-package test23
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test23
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test24.kt:10) test
-
-User code:
-```kotlin
-package test24
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test24
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  trace("trace message {}", throwable) at MainTest.main(test28.kt:10) test
-
-User code:
-```kotlin
-package test28
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.trace("trace message {}", throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test28
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test28.MainTest", methodName = "main", fileName = "test28.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  trace(throwable) { "trace messageBuilder" } at MainTest.main(test29.kt:10) test
-
-User code:
-```kotlin
-package test29
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.trace(throwable) { "trace messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test29
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test29.MainTest", methodName = "main", fileName = "test29.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  trace(throwable) { "trace messageBuilder $i" } at MainTest.main(test30.kt:10) test
-
-User code:
-```kotlin
-package test30
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(throwable) { "trace messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test30
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test30.MainTest", methodName = "main", fileName = "test30.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  trace(throwable) { "trace messageBuilder $i ${helper()}" } at MainTest.main(test31.kt:10) test
-
-User code:
-```kotlin
-package test31
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.trace(throwable) { "trace messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test31
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test31.MainTest", methodName = "main", fileName = "test31.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atTrace() { message="trace eventBuilder"; cause=throwable } at MainTest.main(test32.kt:10) test
-
-User code:
-```kotlin
-package test32
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.atTrace() { message="trace eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test32
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test32.MainTest", methodName = "main", fileName = "test32.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i"; cause=throwable } at MainTest.main(test33.kt:10) test
-
-User code:
-```kotlin
-package test33
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atTrace() { message="trace eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test33
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test33.MainTest", methodName = "main", fileName = "test33.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test34.kt:10) test
-
-User code:
-```kotlin
-package test34
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test34
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test34.MainTest", methodName = "main", fileName = "test34.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder"; cause=throwable } at MainTest.main(test35.kt:10) test
-
-User code:
-```kotlin
-package test35
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test35
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.TRACE) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test35.MainTest", methodName = "main", fileName = "test35.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable } at MainTest.main(test36.kt:10) test
-
-User code:
-```kotlin
-package test36
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test36
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test36.MainTest", methodName = "main", fileName = "test36.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test37.kt:10) test
-
-User code:
-```kotlin
-package test37
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test37
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test37.MainTest", methodName = "main", fileName = "test37.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
-
-User code:
-```kotlin
-package test38
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.trace(marker, "trace message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test38
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.trace(marker, "trace message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test39.kt:10) test
-
-User code:
-```kotlin
-package test39
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test39
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test40.kt:10) test
-
-User code:
-```kotlin
-package test40
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test40
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(marker) { "trace messageBuilder" } at MainTest.main(test41.kt:10) test
-
-User code:
-```kotlin
-package test41
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.trace(marker) { "trace messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test41
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test41.MainTest", methodName = "main", fileName = "test41.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker) { "trace messageBuilder $i" } at MainTest.main(test42.kt:10) test
-
-User code:
-```kotlin
-package test42
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.trace(marker) { "trace messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test42
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test42.MainTest", methodName = "main", fileName = "test42.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker) { "trace messageBuilder $i ${helper()}" } at MainTest.main(test43.kt:10) test
-
-User code:
-```kotlin
-package test43
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.trace(marker) { "trace messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test43
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test43.MainTest", methodName = "main", fileName = "test43.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}") at MainTest.main(test44.kt:10) test
-
-User code:
-```kotlin
-package test44
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.trace(marker, "trace message {}")
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test44
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.TRACE, marker) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test44.MainTest", methodName = "main", fileName = "test44.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atTrace(marker) { message="trace eventBuilder"; cause=null } at MainTest.main(test48.kt:10) test
-
-User code:
-```kotlin
-package test48
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.atTrace(marker) { message="trace eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test48
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test48.MainTest", methodName = "main", fileName = "test48.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i"; cause=null } at MainTest.main(test49.kt:10) test
-
-User code:
-```kotlin
-package test49
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atTrace(marker) { message="trace eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test49
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test49.MainTest", methodName = "main", fileName = "test49.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test50.kt:10) test
-
-User code:
-```kotlin
-package test50
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test50
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test50.MainTest", methodName = "main", fileName = "test50.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null } at MainTest.main(test51.kt:10) test
-
-User code:
-```kotlin
-package test51
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test51
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test51.MainTest", methodName = "main", fileName = "test51.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null } at MainTest.main(test52.kt:10) test
-
-User code:
-```kotlin
-package test52
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test52
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test52.MainTest", methodName = "main", fileName = "test52.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test53.kt:10) test
-
-User code:
-```kotlin
-package test53
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test53
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test53.MainTest", methodName = "main", fileName = "test53.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
-
-User code:
-```kotlin
-package test54
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.trace("trace message {}", arg)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test54
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.trace("trace message {}", arg)
-  }
-  
-}
-```
-
-###  trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test55.kt:10) test
-
-User code:
-```kotlin
-package test55
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test55
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test56.kt:10) test
-
-User code:
-```kotlin
-package test56
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test56
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  trace("trace message {}") at MainTest.main(test60.kt:10) test
-
-User code:
-```kotlin
-package test60
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.trace("trace message {}")
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test60
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test60.MainTest", methodName = "main", fileName = "test60.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  trace() { "trace messageBuilder" } at MainTest.main(test61.kt:10) test
-
-User code:
-```kotlin
-package test61
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.trace() { "trace messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test61
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.TRACE) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test61.MainTest", methodName = "main", fileName = "test61.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  trace() { "trace messageBuilder $i" } at MainTest.main(test62.kt:10) test
-
-User code:
-```kotlin
-package test62
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.trace() { "trace messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test62
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test62.MainTest", methodName = "main", fileName = "test62.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  trace() { "trace messageBuilder $i ${helper()}" } at MainTest.main(test63.kt:10) test
-
-User code:
-```kotlin
-package test63
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.trace() { "trace messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test63
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test63.MainTest", methodName = "main", fileName = "test63.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atTrace() { message="trace eventBuilder"; cause=null } at MainTest.main(test64.kt:10) test
-
-User code:
-```kotlin
-package test64
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.atTrace() { message="trace eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test64
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test64.MainTest", methodName = "main", fileName = "test64.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i"; cause=null } at MainTest.main(test65.kt:10) test
-
-User code:
-```kotlin
-package test65
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atTrace() { message="trace eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test65
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test65.MainTest", methodName = "main", fileName = "test65.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test66.kt:10) test
-
-User code:
-```kotlin
-package test66
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test66
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test66.MainTest", methodName = "main", fileName = "test66.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder"; cause=null } at MainTest.main(test67.kt:10) test
-
-User code:
-```kotlin
-package test67
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.TRACE) { message="trace eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test67
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test67.MainTest", methodName = "main", fileName = "test67.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i"; cause=null } at MainTest.main(test68.kt:10) test
-
-User code:
-```kotlin
-package test68
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test68
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test68.MainTest", methodName = "main", fileName = "test68.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test69.kt:10) test
-
-User code:
-```kotlin
-package test69
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test69
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test69.MainTest", methodName = "main", fileName = "test69.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=DEBUG</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
-
-User code:
-```kotlin
-package test70
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug(marker, "debug message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test70
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug(marker, "debug message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test71.kt:10) test
-
-User code:
-```kotlin
-package test71
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test71
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test72.kt:10) test
-
-User code:
-```kotlin
-package test72
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test72
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(marker, throwable) { "debug messageBuilder" } at MainTest.main(test73.kt:10) test
-
-User code:
-```kotlin
-package test73
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.debug(marker, throwable) { "debug messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test73
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test73.MainTest", methodName = "main", fileName = "test73.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, throwable) { "debug messageBuilder $i" } at MainTest.main(test74.kt:10) test
-
-User code:
-```kotlin
-package test74
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(marker, throwable) { "debug messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test74
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test74.MainTest", methodName = "main", fileName = "test74.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, throwable) { "debug messageBuilder $i ${helper()}" } at MainTest.main(test75.kt:10) test
-
-User code:
-```kotlin
-package test75
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(marker, throwable) { "debug messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test75
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test75.MainTest", methodName = "main", fileName = "test75.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}", throwable) at MainTest.main(test76.kt:10) test
-
-User code:
-```kotlin
-package test76
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.debug(marker, "debug message {}", throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test76
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test76.MainTest", methodName = "main", fileName = "test76.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(throwable, marker) { "debug messageBuilder" } at MainTest.main(test77.kt:10) test
-
-User code:
-```kotlin
-package test77
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.debug(throwable, marker) { "debug messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test77
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test77.MainTest", methodName = "main", fileName = "test77.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(throwable, marker) { "debug messageBuilder $i" } at MainTest.main(test78.kt:10) test
-
-User code:
-```kotlin
-package test78
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(throwable, marker) { "debug messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test78
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test78.MainTest", methodName = "main", fileName = "test78.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(throwable, marker) { "debug messageBuilder $i ${helper()}" } at MainTest.main(test79.kt:10) test
-
-User code:
-```kotlin
-package test79
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(throwable, marker) { "debug messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test79
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test79.MainTest", methodName = "main", fileName = "test79.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder"; cause=throwable } at MainTest.main(test80.kt:10) test
-
-User code:
-```kotlin
-package test80
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.atDebug(marker) { message="debug eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test80
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test80.MainTest", methodName = "main", fileName = "test80.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i"; cause=throwable } at MainTest.main(test81.kt:10) test
-
-User code:
-```kotlin
-package test81
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atDebug(marker) { message="debug eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test81
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test81.MainTest", methodName = "main", fileName = "test81.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test82.kt:10) test
-
-User code:
-```kotlin
-package test82
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test82
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test82.MainTest", methodName = "main", fileName = "test82.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=throwable } at MainTest.main(test83.kt:10) test
-
-User code:
-```kotlin
-package test83
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test83
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test83.MainTest", methodName = "main", fileName = "test83.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=throwable } at MainTest.main(test84.kt:10) test
-
-User code:
-```kotlin
-package test84
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test84
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test84.MainTest", methodName = "main", fileName = "test84.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test85.kt:10) test
-
-User code:
-```kotlin
-package test85
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test85
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test85.MainTest", methodName = "main", fileName = "test85.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
-
-User code:
-```kotlin
-package test86
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug("debug message {}", arg, throwable)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test86
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug("debug message {}", arg, throwable)
-  }
-  
-}
-```
-
-###  debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test87.kt:10) test
-
-User code:
-```kotlin
-package test87
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test87
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test88.kt:10) test
-
-User code:
-```kotlin
-package test88
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test88
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  debug("debug message {}", throwable) at MainTest.main(test92.kt:10) test
-
-User code:
-```kotlin
-package test92
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.debug("debug message {}", throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test92
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test92.MainTest", methodName = "main", fileName = "test92.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  debug(throwable) { "debug messageBuilder" } at MainTest.main(test93.kt:10) test
-
-User code:
-```kotlin
-package test93
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.debug(throwable) { "debug messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test93
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test93.MainTest", methodName = "main", fileName = "test93.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  debug(throwable) { "debug messageBuilder $i" } at MainTest.main(test94.kt:10) test
-
-User code:
-```kotlin
-package test94
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(throwable) { "debug messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test94
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test94.MainTest", methodName = "main", fileName = "test94.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  debug(throwable) { "debug messageBuilder $i ${helper()}" } at MainTest.main(test95.kt:10) test
-
-User code:
-```kotlin
-package test95
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.debug(throwable) { "debug messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test95
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test95.MainTest", methodName = "main", fileName = "test95.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atDebug() { message="debug eventBuilder"; cause=throwable } at MainTest.main(test96.kt:10) test
-
-User code:
-```kotlin
-package test96
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.atDebug() { message="debug eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test96
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test96.MainTest", methodName = "main", fileName = "test96.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i"; cause=throwable } at MainTest.main(test97.kt:10) test
-
-User code:
-```kotlin
-package test97
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atDebug() { message="debug eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test97
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test97.MainTest", methodName = "main", fileName = "test97.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test98.kt:10) test
-
-User code:
-```kotlin
-package test98
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test98
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test98.MainTest", methodName = "main", fileName = "test98.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable } at MainTest.main(test99.kt:10) test
-
-User code:
-```kotlin
-package test99
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test99
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.DEBUG) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test99.MainTest", methodName = "main", fileName = "test99.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable } at MainTest.main(test100.kt:10) test
-
-User code:
-```kotlin
-package test100
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test100
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test100.MainTest", methodName = "main", fileName = "test100.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test101.kt:10) test
-
-User code:
-```kotlin
-package test101
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test101
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test101.MainTest", methodName = "main", fileName = "test101.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
-
-User code:
-```kotlin
-package test102
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.debug(marker, "debug message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test102
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.debug(marker, "debug message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test103.kt:10) test
-
-User code:
-```kotlin
-package test103
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test103
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test104.kt:10) test
-
-User code:
-```kotlin
-package test104
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test104
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(marker) { "debug messageBuilder" } at MainTest.main(test105.kt:10) test
-
-User code:
-```kotlin
-package test105
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.debug(marker) { "debug messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test105
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test105.MainTest", methodName = "main", fileName = "test105.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker) { "debug messageBuilder $i" } at MainTest.main(test106.kt:10) test
-
-User code:
-```kotlin
-package test106
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.debug(marker) { "debug messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test106
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test106.MainTest", methodName = "main", fileName = "test106.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker) { "debug messageBuilder $i ${helper()}" } at MainTest.main(test107.kt:10) test
-
-User code:
-```kotlin
-package test107
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.debug(marker) { "debug messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test107
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test107.MainTest", methodName = "main", fileName = "test107.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}") at MainTest.main(test108.kt:10) test
-
-User code:
-```kotlin
-package test108
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.debug(marker, "debug message {}")
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test108
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.DEBUG, marker) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test108.MainTest", methodName = "main", fileName = "test108.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atDebug(marker) { message="debug eventBuilder"; cause=null } at MainTest.main(test112.kt:10) test
-
-User code:
-```kotlin
-package test112
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.atDebug(marker) { message="debug eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test112
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test112.MainTest", methodName = "main", fileName = "test112.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i"; cause=null } at MainTest.main(test113.kt:10) test
-
-User code:
-```kotlin
-package test113
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atDebug(marker) { message="debug eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test113
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test113.MainTest", methodName = "main", fileName = "test113.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test114.kt:10) test
-
-User code:
-```kotlin
-package test114
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test114
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test114.MainTest", methodName = "main", fileName = "test114.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=null } at MainTest.main(test115.kt:10) test
-
-User code:
-```kotlin
-package test115
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test115
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test115.MainTest", methodName = "main", fileName = "test115.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=null } at MainTest.main(test116.kt:10) test
-
-User code:
-```kotlin
-package test116
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test116
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test116.MainTest", methodName = "main", fileName = "test116.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test117.kt:10) test
-
-User code:
-```kotlin
-package test117
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test117
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test117.MainTest", methodName = "main", fileName = "test117.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
-
-User code:
-```kotlin
-package test118
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.debug("debug message {}", arg)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test118
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.debug("debug message {}", arg)
-  }
-  
-}
-```
-
-###  debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test119.kt:10) test
-
-User code:
-```kotlin
-package test119
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test119
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test120.kt:10) test
-
-User code:
-```kotlin
-package test120
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test120
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  debug("debug message {}") at MainTest.main(test124.kt:10) test
-
-User code:
-```kotlin
-package test124
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.debug("debug message {}")
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test124
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test124.MainTest", methodName = "main", fileName = "test124.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  debug() { "debug messageBuilder" } at MainTest.main(test125.kt:10) test
-
-User code:
-```kotlin
-package test125
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.debug() { "debug messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test125
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.DEBUG) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test125.MainTest", methodName = "main", fileName = "test125.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  debug() { "debug messageBuilder $i" } at MainTest.main(test126.kt:10) test
-
-User code:
-```kotlin
-package test126
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.debug() { "debug messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test126
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test126.MainTest", methodName = "main", fileName = "test126.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  debug() { "debug messageBuilder $i ${helper()}" } at MainTest.main(test127.kt:10) test
-
-User code:
-```kotlin
-package test127
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.debug() { "debug messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test127
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test127.MainTest", methodName = "main", fileName = "test127.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atDebug() { message="debug eventBuilder"; cause=null } at MainTest.main(test128.kt:10) test
-
-User code:
-```kotlin
-package test128
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.atDebug() { message="debug eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test128
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test128.MainTest", methodName = "main", fileName = "test128.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i"; cause=null } at MainTest.main(test129.kt:10) test
-
-User code:
-```kotlin
-package test129
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atDebug() { message="debug eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test129
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test129.MainTest", methodName = "main", fileName = "test129.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test130.kt:10) test
-
-User code:
-```kotlin
-package test130
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test130
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test130.MainTest", methodName = "main", fileName = "test130.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder"; cause=null } at MainTest.main(test131.kt:10) test
-
-User code:
-```kotlin
-package test131
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test131
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test131.MainTest", methodName = "main", fileName = "test131.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null } at MainTest.main(test132.kt:10) test
-
-User code:
-```kotlin
-package test132
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test132
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test132.MainTest", methodName = "main", fileName = "test132.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test133.kt:10) test
-
-User code:
-```kotlin
-package test133
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test133
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test133.MainTest", methodName = "main", fileName = "test133.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=INFO</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
-
-User code:
-```kotlin
-package test134
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info(marker, "info message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test134
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info(marker, "info message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test135.kt:10) test
-
-User code:
-```kotlin
-package test135
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test135
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test136.kt:10) test
-
-User code:
-```kotlin
-package test136
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test136
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(marker, throwable) { "info messageBuilder" } at MainTest.main(test137.kt:10) test
-
-User code:
-```kotlin
-package test137
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.info(marker, throwable) { "info messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test137
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test137.MainTest", methodName = "main", fileName = "test137.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, throwable) { "info messageBuilder $i" } at MainTest.main(test138.kt:10) test
-
-User code:
-```kotlin
-package test138
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(marker, throwable) { "info messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test138
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test138.MainTest", methodName = "main", fileName = "test138.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, throwable) { "info messageBuilder $i ${helper()}" } at MainTest.main(test139.kt:10) test
-
-User code:
-```kotlin
-package test139
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test139
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test139.MainTest", methodName = "main", fileName = "test139.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}", throwable) at MainTest.main(test140.kt:10) test
-
-User code:
-```kotlin
-package test140
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.info(marker, "info message {}", throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test140
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test140.MainTest", methodName = "main", fileName = "test140.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(throwable, marker) { "info messageBuilder" } at MainTest.main(test141.kt:10) test
-
-User code:
-```kotlin
-package test141
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.info(throwable, marker) { "info messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test141
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test141.MainTest", methodName = "main", fileName = "test141.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(throwable, marker) { "info messageBuilder $i" } at MainTest.main(test142.kt:10) test
-
-User code:
-```kotlin
-package test142
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(throwable, marker) { "info messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test142
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test142.MainTest", methodName = "main", fileName = "test142.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(throwable, marker) { "info messageBuilder $i ${helper()}" } at MainTest.main(test143.kt:10) test
-
-User code:
-```kotlin
-package test143
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(throwable, marker) { "info messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test143
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test143.MainTest", methodName = "main", fileName = "test143.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder"; cause=throwable } at MainTest.main(test144.kt:10) test
-
-User code:
-```kotlin
-package test144
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.atInfo(marker) { message="info eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test144
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test144.MainTest", methodName = "main", fileName = "test144.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i"; cause=throwable } at MainTest.main(test145.kt:10) test
-
-User code:
-```kotlin
-package test145
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atInfo(marker) { message="info eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test145
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test145.MainTest", methodName = "main", fileName = "test145.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test146.kt:10) test
-
-User code:
-```kotlin
-package test146
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test146
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test146.MainTest", methodName = "main", fileName = "test146.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable } at MainTest.main(test147.kt:10) test
-
-User code:
-```kotlin
-package test147
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test147
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO, marker) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test147.MainTest", methodName = "main", fileName = "test147.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable } at MainTest.main(test148.kt:10) test
-
-User code:
-```kotlin
-package test148
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test148
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test148.MainTest", methodName = "main", fileName = "test148.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test149.kt:10) test
-
-User code:
-```kotlin
-package test149
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test149
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test149.MainTest", methodName = "main", fileName = "test149.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
-
-User code:
-```kotlin
-package test150
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info("info message {}", arg, throwable)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test150
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info("info message {}", arg, throwable)
-  }
-  
-}
-```
-
-###  info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test151.kt:10) test
-
-User code:
-```kotlin
-package test151
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test151
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test152.kt:10) test
-
-User code:
-```kotlin
-package test152
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test152
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  info("info message {}", throwable) at MainTest.main(test156.kt:10) test
-
-User code:
-```kotlin
-package test156
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.info("info message {}", throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test156
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test156.MainTest", methodName = "main", fileName = "test156.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  info(throwable) { "info messageBuilder" } at MainTest.main(test157.kt:10) test
-
-User code:
-```kotlin
-package test157
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.info(throwable) { "info messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test157
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test157.MainTest", methodName = "main", fileName = "test157.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  info(throwable) { "info messageBuilder $i" } at MainTest.main(test158.kt:10) test
-
-User code:
-```kotlin
-package test158
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(throwable) { "info messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test158
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test158.MainTest", methodName = "main", fileName = "test158.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  info(throwable) { "info messageBuilder $i ${helper()}" } at MainTest.main(test159.kt:10) test
-
-User code:
-```kotlin
-package test159
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.info(throwable) { "info messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test159
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test159.MainTest", methodName = "main", fileName = "test159.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atInfo() { message="info eventBuilder"; cause=throwable } at MainTest.main(test160.kt:10) test
-
-User code:
-```kotlin
-package test160
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.atInfo() { message="info eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test160
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test160.MainTest", methodName = "main", fileName = "test160.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atInfo() { message="info eventBuilder $i"; cause=throwable } at MainTest.main(test161.kt:10) test
-
-User code:
-```kotlin
-package test161
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atInfo() { message="info eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test161
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test161.MainTest", methodName = "main", fileName = "test161.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atInfo() { message="info eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test162.kt:10) test
-
-User code:
-```kotlin
-package test162
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test162
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test162.MainTest", methodName = "main", fileName = "test162.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder"; cause=throwable } at MainTest.main(test163.kt:10) test
-
-User code:
-```kotlin
-package test163
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO) { message="info eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test163
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test163.MainTest", methodName = "main", fileName = "test163.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i"; cause=throwable } at MainTest.main(test164.kt:10) test
-
-User code:
-```kotlin
-package test164
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message="info eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test164
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test164.MainTest", methodName = "main", fileName = "test164.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test165.kt:10) test
-
-User code:
-```kotlin
-package test165
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test165
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test165.MainTest", methodName = "main", fileName = "test165.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
-
-User code:
-```kotlin
-package test166
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.info(marker, "info message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test166
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.info(marker, "info message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test167.kt:10) test
-
-User code:
-```kotlin
-package test167
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test167
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test168.kt:10) test
-
-User code:
-```kotlin
-package test168
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test168
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(marker) { "info messageBuilder" } at MainTest.main(test169.kt:10) test
-
-User code:
-```kotlin
-package test169
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.info(marker) { "info messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test169
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test169.MainTest", methodName = "main", fileName = "test169.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker) { "info messageBuilder $i" } at MainTest.main(test170.kt:10) test
-
-User code:
-```kotlin
-package test170
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.info(marker) { "info messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test170
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test170.MainTest", methodName = "main", fileName = "test170.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker) { "info messageBuilder $i ${helper()}" } at MainTest.main(test171.kt:10) test
-
-User code:
-```kotlin
-package test171
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.info(marker) { "info messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test171
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test171.MainTest", methodName = "main", fileName = "test171.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}") at MainTest.main(test172.kt:10) test
-
-User code:
-```kotlin
-package test172
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.info(marker, "info message {}")
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test172
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test172.MainTest", methodName = "main", fileName = "test172.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atInfo(marker) { message="info eventBuilder"; cause=null } at MainTest.main(test176.kt:10) test
-
-User code:
-```kotlin
-package test176
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.atInfo(marker) { message="info eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test176
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.INFO, marker) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test176.MainTest", methodName = "main", fileName = "test176.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i"; cause=null } at MainTest.main(test177.kt:10) test
-
-User code:
-```kotlin
-package test177
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atInfo(marker) { message="info eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test177
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test177.MainTest", methodName = "main", fileName = "test177.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test178.kt:10) test
-
-User code:
-```kotlin
-package test178
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test178
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test178.MainTest", methodName = "main", fileName = "test178.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder"; cause=null } at MainTest.main(test179.kt:10) test
-
-User code:
-```kotlin
-package test179
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test179
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.INFO, marker) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test179.MainTest", methodName = "main", fileName = "test179.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null } at MainTest.main(test180.kt:10) test
-
-User code:
-```kotlin
-package test180
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test180
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test180.MainTest", methodName = "main", fileName = "test180.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test181.kt:10) test
-
-User code:
-```kotlin
-package test181
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test181
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test181.MainTest", methodName = "main", fileName = "test181.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
-
-User code:
-```kotlin
-package test182
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.info("info message {}", arg)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test182
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.info("info message {}", arg)
-  }
-  
-}
-```
-
-###  info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test183.kt:10) test
-
-User code:
-```kotlin
-package test183
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test183
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test184.kt:10) test
-
-User code:
-```kotlin
-package test184
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test184
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  info("info message {}") at MainTest.main(test188.kt:10) test
-
-User code:
-```kotlin
-package test188
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.info("info message {}")
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test188
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.INFO) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test188.MainTest", methodName = "main", fileName = "test188.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  info() { "info messageBuilder" } at MainTest.main(test189.kt:10) test
-
-User code:
-```kotlin
-package test189
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.info() { "info messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test189
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.INFO) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test189.MainTest", methodName = "main", fileName = "test189.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  info() { "info messageBuilder $i" } at MainTest.main(test190.kt:10) test
-
-User code:
-```kotlin
-package test190
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.info() { "info messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test190
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test190.MainTest", methodName = "main", fileName = "test190.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  info() { "info messageBuilder $i ${helper()}" } at MainTest.main(test191.kt:10) test
-
-User code:
-```kotlin
-package test191
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.info() { "info messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test191
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test191.MainTest", methodName = "main", fileName = "test191.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atInfo() { message="info eventBuilder"; cause=null } at MainTest.main(test192.kt:10) test
-
-User code:
-```kotlin
-package test192
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.atInfo() { message="info eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test192
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.INFO) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test192.MainTest", methodName = "main", fileName = "test192.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atInfo() { message="info eventBuilder $i"; cause=null } at MainTest.main(test193.kt:10) test
-
-User code:
-```kotlin
-package test193
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atInfo() { message="info eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test193
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test193.MainTest", methodName = "main", fileName = "test193.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atInfo() { message="info eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test194.kt:10) test
-
-User code:
-```kotlin
-package test194
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test194
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test194.MainTest", methodName = "main", fileName = "test194.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder"; cause=null } at MainTest.main(test195.kt:10) test
-
-User code:
-```kotlin
-package test195
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.INFO) { message="info eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test195
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.INFO) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test195.MainTest", methodName = "main", fileName = "test195.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i"; cause=null } at MainTest.main(test196.kt:10) test
-
-User code:
-```kotlin
-package test196
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message="info eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test196
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test196.MainTest", methodName = "main", fileName = "test196.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test197.kt:10) test
-
-User code:
-```kotlin
-package test197
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test197
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test197.MainTest", methodName = "main", fileName = "test197.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=WARN</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
-
-User code:
-```kotlin
-package test198
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn(marker, "warn message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test198
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn(marker, "warn message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test199.kt:10) test
-
-User code:
-```kotlin
-package test199
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test199
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test200.kt:10) test
-
-User code:
-```kotlin
-package test200
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test200
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(marker, throwable) { "warn messageBuilder" } at MainTest.main(test201.kt:10) test
-
-User code:
-```kotlin
-package test201
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.warn(marker, throwable) { "warn messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test201
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test201.MainTest", methodName = "main", fileName = "test201.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, throwable) { "warn messageBuilder $i" } at MainTest.main(test202.kt:10) test
-
-User code:
-```kotlin
-package test202
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(marker, throwable) { "warn messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test202
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test202.MainTest", methodName = "main", fileName = "test202.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, throwable) { "warn messageBuilder $i ${helper()}" } at MainTest.main(test203.kt:10) test
-
-User code:
-```kotlin
-package test203
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(marker, throwable) { "warn messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test203
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test203.MainTest", methodName = "main", fileName = "test203.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}", throwable) at MainTest.main(test204.kt:10) test
-
-User code:
-```kotlin
-package test204
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.warn(marker, "warn message {}", throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test204
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test204.MainTest", methodName = "main", fileName = "test204.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(throwable, marker) { "warn messageBuilder" } at MainTest.main(test205.kt:10) test
-
-User code:
-```kotlin
-package test205
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.warn(throwable, marker) { "warn messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test205
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test205.MainTest", methodName = "main", fileName = "test205.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(throwable, marker) { "warn messageBuilder $i" } at MainTest.main(test206.kt:10) test
-
-User code:
-```kotlin
-package test206
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(throwable, marker) { "warn messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test206
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test206.MainTest", methodName = "main", fileName = "test206.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(throwable, marker) { "warn messageBuilder $i ${helper()}" } at MainTest.main(test207.kt:10) test
-
-User code:
-```kotlin
-package test207
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test207
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test207.MainTest", methodName = "main", fileName = "test207.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder"; cause=throwable } at MainTest.main(test208.kt:10) test
-
-User code:
-```kotlin
-package test208
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.atWarn(marker) { message="warn eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test208
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test208.MainTest", methodName = "main", fileName = "test208.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i"; cause=throwable } at MainTest.main(test209.kt:10) test
-
-User code:
-```kotlin
-package test209
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test209
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test209.MainTest", methodName = "main", fileName = "test209.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test210.kt:10) test
-
-User code:
-```kotlin
-package test210
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test210
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test210.MainTest", methodName = "main", fileName = "test210.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable } at MainTest.main(test211.kt:10) test
-
-User code:
-```kotlin
-package test211
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test211
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test211.MainTest", methodName = "main", fileName = "test211.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable } at MainTest.main(test212.kt:10) test
-
-User code:
-```kotlin
-package test212
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test212
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test212.MainTest", methodName = "main", fileName = "test212.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test213.kt:10) test
-
-User code:
-```kotlin
-package test213
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test213
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test213.MainTest", methodName = "main", fileName = "test213.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
-
-User code:
-```kotlin
-package test214
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn("warn message {}", arg, throwable)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test214
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn("warn message {}", arg, throwable)
-  }
-  
-}
-```
-
-###  warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test215.kt:10) test
-
-User code:
-```kotlin
-package test215
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test215
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test216.kt:10) test
-
-User code:
-```kotlin
-package test216
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test216
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  warn("warn message {}", throwable) at MainTest.main(test220.kt:10) test
-
-User code:
-```kotlin
-package test220
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.warn("warn message {}", throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test220
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test220.MainTest", methodName = "main", fileName = "test220.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  warn(throwable) { "warn messageBuilder" } at MainTest.main(test221.kt:10) test
-
-User code:
-```kotlin
-package test221
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.warn(throwable) { "warn messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test221
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test221.MainTest", methodName = "main", fileName = "test221.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  warn(throwable) { "warn messageBuilder $i" } at MainTest.main(test222.kt:10) test
-
-User code:
-```kotlin
-package test222
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(throwable) { "warn messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test222
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test222.MainTest", methodName = "main", fileName = "test222.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  warn(throwable) { "warn messageBuilder $i ${helper()}" } at MainTest.main(test223.kt:10) test
-
-User code:
-```kotlin
-package test223
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.warn(throwable) { "warn messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test223
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test223.MainTest", methodName = "main", fileName = "test223.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atWarn() { message="warn eventBuilder"; cause=throwable } at MainTest.main(test224.kt:10) test
-
-User code:
-```kotlin
-package test224
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.atWarn() { message="warn eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test224
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test224.MainTest", methodName = "main", fileName = "test224.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i"; cause=throwable } at MainTest.main(test225.kt:10) test
-
-User code:
-```kotlin
-package test225
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atWarn() { message="warn eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test225
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test225.MainTest", methodName = "main", fileName = "test225.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test226.kt:10) test
-
-User code:
-```kotlin
-package test226
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atWarn() { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test226
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test226.MainTest", methodName = "main", fileName = "test226.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder"; cause=throwable } at MainTest.main(test227.kt:10) test
-
-User code:
-```kotlin
-package test227
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN) { message="warn eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test227
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test227.MainTest", methodName = "main", fileName = "test227.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i"; cause=throwable } at MainTest.main(test228.kt:10) test
-
-User code:
-```kotlin
-package test228
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message="warn eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test228
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test228.MainTest", methodName = "main", fileName = "test228.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test229.kt:10) test
-
-User code:
-```kotlin
-package test229
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test229
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test229.MainTest", methodName = "main", fileName = "test229.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
-
-User code:
-```kotlin
-package test230
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.warn(marker, "warn message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test230
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.warn(marker, "warn message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test231.kt:10) test
-
-User code:
-```kotlin
-package test231
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test231
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test232.kt:10) test
-
-User code:
-```kotlin
-package test232
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test232
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(marker) { "warn messageBuilder" } at MainTest.main(test233.kt:10) test
-
-User code:
-```kotlin
-package test233
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.warn(marker) { "warn messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test233
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test233.MainTest", methodName = "main", fileName = "test233.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker) { "warn messageBuilder $i" } at MainTest.main(test234.kt:10) test
-
-User code:
-```kotlin
-package test234
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.warn(marker) { "warn messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test234
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test234.MainTest", methodName = "main", fileName = "test234.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker) { "warn messageBuilder $i ${helper()}" } at MainTest.main(test235.kt:10) test
-
-User code:
-```kotlin
-package test235
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.warn(marker) { "warn messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test235
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test235.MainTest", methodName = "main", fileName = "test235.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}") at MainTest.main(test236.kt:10) test
-
-User code:
-```kotlin
-package test236
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.warn(marker, "warn message {}")
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test236
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test236.MainTest", methodName = "main", fileName = "test236.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atWarn(marker) { message="warn eventBuilder"; cause=null } at MainTest.main(test240.kt:10) test
-
-User code:
-```kotlin
-package test240
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.atWarn(marker) { message="warn eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test240
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test240.MainTest", methodName = "main", fileName = "test240.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i"; cause=null } at MainTest.main(test241.kt:10) test
-
-User code:
-```kotlin
-package test241
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atWarn(marker) { message="warn eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test241
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test241.MainTest", methodName = "main", fileName = "test241.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test242.kt:10) test
-
-User code:
-```kotlin
-package test242
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test242
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test242.MainTest", methodName = "main", fileName = "test242.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder"; cause=null } at MainTest.main(test243.kt:10) test
-
-User code:
-```kotlin
-package test243
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test243
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test243.MainTest", methodName = "main", fileName = "test243.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=null } at MainTest.main(test244.kt:10) test
-
-User code:
-```kotlin
-package test244
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test244
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test244.MainTest", methodName = "main", fileName = "test244.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test245.kt:10) test
-
-User code:
-```kotlin
-package test245
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test245
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test245.MainTest", methodName = "main", fileName = "test245.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
-
-User code:
-```kotlin
-package test246
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.warn("warn message {}", arg)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test246
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.warn("warn message {}", arg)
-  }
-  
-}
-```
-
-###  warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test247.kt:10) test
-
-User code:
-```kotlin
-package test247
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test247
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test248.kt:10) test
-
-User code:
-```kotlin
-package test248
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test248
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  warn("warn message {}") at MainTest.main(test252.kt:10) test
-
-User code:
-```kotlin
-package test252
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.warn("warn message {}")
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test252
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test252.MainTest", methodName = "main", fileName = "test252.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  warn() { "warn messageBuilder" } at MainTest.main(test253.kt:10) test
-
-User code:
-```kotlin
-package test253
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.warn() { "warn messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test253
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.WARN) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test253.MainTest", methodName = "main", fileName = "test253.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  warn() { "warn messageBuilder $i" } at MainTest.main(test254.kt:10) test
-
-User code:
-```kotlin
-package test254
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.warn() { "warn messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test254
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test254.MainTest", methodName = "main", fileName = "test254.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  warn() { "warn messageBuilder $i ${helper()}" } at MainTest.main(test255.kt:10) test
-
-User code:
-```kotlin
-package test255
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.warn() { "warn messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test255
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test255.MainTest", methodName = "main", fileName = "test255.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atWarn() { message="warn eventBuilder"; cause=null } at MainTest.main(test256.kt:10) test
-
-User code:
-```kotlin
-package test256
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.atWarn() { message="warn eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test256
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.WARN) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test256.MainTest", methodName = "main", fileName = "test256.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i"; cause=null } at MainTest.main(test257.kt:10) test
-
-User code:
-```kotlin
-package test257
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atWarn() { message="warn eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test257
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test257.MainTest", methodName = "main", fileName = "test257.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test258.kt:10) test
-
-User code:
-```kotlin
-package test258
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atWarn() { message="warn eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test258
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test258.MainTest", methodName = "main", fileName = "test258.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder"; cause=null } at MainTest.main(test259.kt:10) test
-
-User code:
-```kotlin
-package test259
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.WARN) { message="warn eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test259
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.WARN) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test259.MainTest", methodName = "main", fileName = "test259.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i"; cause=null } at MainTest.main(test260.kt:10) test
-
-User code:
-```kotlin
-package test260
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message="warn eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test260
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test260.MainTest", methodName = "main", fileName = "test260.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test261.kt:10) test
-
-User code:
-```kotlin
-package test261
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test261
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test261.MainTest", methodName = "main", fileName = "test261.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=ERROR</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
-
-User code:
-```kotlin
-package test262
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error(marker, "error message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test262
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error(marker, "error message {}", arg, throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test263.kt:10) test
-
-User code:
-```kotlin
-package test263
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test263
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test264.kt:10) test
-
-User code:
-```kotlin
-package test264
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test264
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(marker, throwable) { "error messageBuilder" } at MainTest.main(test265.kt:10) test
-
-User code:
-```kotlin
-package test265
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.error(marker, throwable) { "error messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test265
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test265.MainTest", methodName = "main", fileName = "test265.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, throwable) { "error messageBuilder $i" } at MainTest.main(test266.kt:10) test
-
-User code:
-```kotlin
-package test266
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(marker, throwable) { "error messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test266
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test266.MainTest", methodName = "main", fileName = "test266.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, throwable) { "error messageBuilder $i ${helper()}" } at MainTest.main(test267.kt:10) test
-
-User code:
-```kotlin
-package test267
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(marker, throwable) { "error messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test267
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test267.MainTest", methodName = "main", fileName = "test267.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}", throwable) at MainTest.main(test268.kt:10) test
-
-User code:
-```kotlin
-package test268
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.error(marker, "error message {}", throwable)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test268
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test268.MainTest", methodName = "main", fileName = "test268.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(throwable, marker) { "error messageBuilder" } at MainTest.main(test269.kt:10) test
-
-User code:
-```kotlin
-package test269
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.error(throwable, marker) { "error messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test269
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test269.MainTest", methodName = "main", fileName = "test269.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(throwable, marker) { "error messageBuilder $i" } at MainTest.main(test270.kt:10) test
-
-User code:
-```kotlin
-package test270
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(throwable, marker) { "error messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test270
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test270.MainTest", methodName = "main", fileName = "test270.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(throwable, marker) { "error messageBuilder $i ${helper()}" } at MainTest.main(test271.kt:10) test
-
-User code:
-```kotlin
-package test271
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(throwable, marker) { "error messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test271
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test271.MainTest", methodName = "main", fileName = "test271.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder"; cause=throwable } at MainTest.main(test272.kt:10) test
-
-User code:
-```kotlin
-package test272
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.atError(marker) { message="error eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test272
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test272.MainTest", methodName = "main", fileName = "test272.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test273.kt:10) test
-
-User code:
-```kotlin
-package test273
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atError(marker) { message="error eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test273
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test273.MainTest", methodName = "main", fileName = "test273.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test274.kt:10) test
-
-User code:
-```kotlin
-package test274
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test274
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test274.MainTest", methodName = "main", fileName = "test274.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable } at MainTest.main(test275.kt:10) test
-
-User code:
-```kotlin
-package test275
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test275
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test275.MainTest", methodName = "main", fileName = "test275.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test276.kt:10) test
-
-User code:
-```kotlin
-package test276
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test276
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test276.MainTest", methodName = "main", fileName = "test276.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test277.kt:10) test
-
-User code:
-```kotlin
-package test277
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test277
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test277.MainTest", methodName = "main", fileName = "test277.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
-
-User code:
-```kotlin
-package test278
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error("error message {}", arg, throwable)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test278
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error("error message {}", arg, throwable)
-  }
-  
-}
-```
-
-###  error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test279.kt:10) test
-
-User code:
-```kotlin
-package test279
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test279
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test280.kt:10) test
-
-User code:
-```kotlin
-package test280
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test280
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  error("error message {}", throwable) at MainTest.main(test284.kt:10) test
-
-User code:
-```kotlin
-package test284
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.error("error message {}", throwable)
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test284
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test284.MainTest", methodName = "main", fileName = "test284.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  error(throwable) { "error messageBuilder" } at MainTest.main(test285.kt:10) test
-
-User code:
-```kotlin
-package test285
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.error(throwable) { "error messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test285
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test285.MainTest", methodName = "main", fileName = "test285.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  error(throwable) { "error messageBuilder $i" } at MainTest.main(test286.kt:10) test
-
-User code:
-```kotlin
-package test286
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(throwable) { "error messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test286
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test286.MainTest", methodName = "main", fileName = "test286.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  error(throwable) { "error messageBuilder $i ${helper()}" } at MainTest.main(test287.kt:10) test
-
-User code:
-```kotlin
-package test287
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.error(throwable) { "error messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test287
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test287.MainTest", methodName = "main", fileName = "test287.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atError() { message="error eventBuilder"; cause=throwable } at MainTest.main(test288.kt:10) test
-
-User code:
-```kotlin
-package test288
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.atError() { message="error eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test288
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test288.MainTest", methodName = "main", fileName = "test288.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atError() { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test289.kt:10) test
-
-User code:
-```kotlin
-package test289
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atError() { message="error eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test289
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test289.MainTest", methodName = "main", fileName = "test289.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atError() { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test290.kt:10) test
-
-User code:
-```kotlin
-package test290
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test290
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test290.MainTest", methodName = "main", fileName = "test290.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder"; cause=throwable } at MainTest.main(test291.kt:10) test
-
-User code:
-```kotlin
-package test291
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test291
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    
-    logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test291.MainTest", methodName = "main", fileName = "test291.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test292.kt:10) test
-
-User code:
-```kotlin
-package test292
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test292
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test292.MainTest", methodName = "main", fileName = "test292.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test293.kt:10) test
-
-User code:
-```kotlin
-package test293
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test293
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    val throwable = Exception("expected!")
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test293.MainTest", methodName = "main", fileName = "test293.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
-
-User code:
-```kotlin
-package test294
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.error(marker, "error message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test294
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.error(marker, "error message {}", arg)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test295.kt:10) test
-
-User code:
-```kotlin
-package test295
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test295
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test296.kt:10) test
-
-User code:
-```kotlin
-package test296
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test296
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(marker) { "error messageBuilder" } at MainTest.main(test297.kt:10) test
-
-User code:
-```kotlin
-package test297
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.error(marker) { "error messageBuilder" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test297
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test297.MainTest", methodName = "main", fileName = "test297.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker) { "error messageBuilder $i" } at MainTest.main(test298.kt:10) test
-
-User code:
-```kotlin
-package test298
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.error(marker) { "error messageBuilder $i" }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test298
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test298.MainTest", methodName = "main", fileName = "test298.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker) { "error messageBuilder $i ${helper()}" } at MainTest.main(test299.kt:10) test
-
-User code:
-```kotlin
-package test299
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.error(marker) { "error messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test299
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test299.MainTest", methodName = "main", fileName = "test299.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}") at MainTest.main(test300.kt:10) test
-
-User code:
-```kotlin
-package test300
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.error(marker, "error message {}")
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test300
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.ERROR, marker) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test300.MainTest", methodName = "main", fileName = "test300.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atError(marker) { message="error eventBuilder"; cause=null } at MainTest.main(test304.kt:10) test
-
-User code:
-```kotlin
-package test304
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.atError(marker) { message="error eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test304
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test304.MainTest", methodName = "main", fileName = "test304.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i"; cause=null } at MainTest.main(test305.kt:10) test
-
-User code:
-```kotlin
-package test305
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atError(marker) { message="error eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test305
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test305.MainTest", methodName = "main", fileName = "test305.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test306.kt:10) test
-
-User code:
-```kotlin
-package test306
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test306
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test306.MainTest", methodName = "main", fileName = "test306.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder"; cause=null } at MainTest.main(test307.kt:10) test
-
-User code:
-```kotlin
-package test307
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test307
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test307.MainTest", methodName = "main", fileName = "test307.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null } at MainTest.main(test308.kt:10) test
-
-User code:
-```kotlin
-package test308
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test308
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test308.MainTest", methodName = "main", fileName = "test308.kt", lineNumber = 10)
-  }
-  
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test309.kt:10) test
-
-User code:
-```kotlin
-package test309
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test309
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    val marker = MyMarker("markerName")
-    
-    val i = 42
-    logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test309.MainTest", methodName = "main", fileName = "test309.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
-
-User code:
-```kotlin
-package test310
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.error("error message {}", arg)
-  }
-  
-}
-```
-
-Remains as-is:
-```kotlin
-package test310
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.error("error message {}", arg)
-  }
-  
-}
-```
-
-###  error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at MainTest.main(test311.kt:10) test
-
-User code:
-```kotlin
-package test311
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Remains as-is:
-```kotlin
-package test311
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at MainTest.main(test312.kt:10) test
-
-User code:
-```kotlin
-package test312
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-Remains as-is:
-```kotlin
-package test312
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-  }
-  fun ab() = 12
-}
-```
-
-</details>
-
-###  error("error message {}") at MainTest.main(test316.kt:10) test
-
-User code:
-```kotlin
-package test316
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.error("error message {}")
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test316
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test316.MainTest", methodName = "main", fileName = "test316.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-</details>
-
-###  error() { "error messageBuilder" } at MainTest.main(test317.kt:10) test
-
-User code:
-```kotlin
-package test317
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.error() { "error messageBuilder" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test317
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test317.MainTest", methodName = "main", fileName = "test317.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  error() { "error messageBuilder $i" } at MainTest.main(test318.kt:10) test
-
-User code:
-```kotlin
-package test318
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.error() { "error messageBuilder $i" }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test318
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test318.MainTest", methodName = "main", fileName = "test318.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  error() { "error messageBuilder $i ${helper()}" } at MainTest.main(test319.kt:10) test
-
-User code:
-```kotlin
-package test319
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.error() { "error messageBuilder $i ${helper()}" }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test319
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test319.MainTest", methodName = "main", fileName = "test319.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  atError() { message="error eventBuilder"; cause=null } at MainTest.main(test320.kt:10) test
-
-User code:
-```kotlin
-package test320
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.atError() { message="error eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test320
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test320.MainTest", methodName = "main", fileName = "test320.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atError() { message="error eventBuilder $i"; cause=null } at MainTest.main(test321.kt:10) test
-
-User code:
-```kotlin
-package test321
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atError() { message="error eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test321
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test321.MainTest", methodName = "main", fileName = "test321.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  atError() { message="error eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test322.kt:10) test
-
-User code:
-```kotlin
-package test322
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test322
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test322.MainTest", methodName = "main", fileName = "test322.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder"; cause=null } at MainTest.main(test323.kt:10) test
-
-User code:
-```kotlin
-package test323
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test323
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    
-    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test323.MainTest", methodName = "main", fileName = "test323.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i"; cause=null } at MainTest.main(test324.kt:10) test
-
-User code:
-```kotlin
-package test324
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
-  }
-  
-}
-```
-
-Transformed into:
-```kotlin
-package test324
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test324.MainTest", methodName = "main", fileName = "test324.kt", lineNumber = 10)
-  }
-  
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null } at MainTest.main(test325.kt:10) test
-
-User code:
-```kotlin
-package test325
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
-  }
-  fun helper() = "Hello!"
-}
-```
-
-Transformed into:
-```kotlin
-package test325
-import io.github.oshai.kotlinlogging.*
-
-public class MainTest {
-  fun main() {
-    val logger = KotlinLogging.logger {}
-    
-    
-    val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test325.MainTest", methodName = "main", fileName = "test325.kt", lineNumber = 10)
-  }
-  fun helper() = "Hello!"
-}
-```
-
-</details>
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with class=false</b></summary>
-
-<details><summary><b>entry/exit API</b></summary>
-
-###  entry(argument1, argument2) at Test326Kt.main(test326.kt:10) test
-
-User code:
-```kotlin
-package test326
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val argument1 = 42; val argument2 = true
-  logger.entry(argument1, argument2)
-}
-```
-
-Transformed into:
-```kotlin
-package test326
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val argument1 = 42; val argument2 = true
-  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test326.Test326Kt", methodName = "main", fileName = "test326.kt", lineNumber = 10))
-}
-```
-
-###  exit(resultValue) at Test327Kt.main(test327.kt:10) test
-
-User code:
-```kotlin
-package test327
-import io.github.oshai.kotlinlogging.*
-
-
-fun main(): Int {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val resultValue = 42
-  return logger.exit(resultValue)
-}
-```
-
-Transformed into:
-```kotlin
-package test327
-import io.github.oshai.kotlinlogging.*
-
-
-fun main(): Int {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val resultValue = 42
-  return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test327.Test327Kt", methodName = "main", fileName = "test327.kt", lineNumber = 10))
-}
-```
-
-###  exit() at Test328Kt.main(test328.kt:10) test
-
-User code:
-```kotlin
-package test328
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.exit()
-}
-```
-
-Transformed into:
-```kotlin
-package test328
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test328.Test328Kt", methodName = "main", fileName = "test328.kt", lineNumber = 10))
-}
-```
-
-</details>
-
-<details><summary><b>throwing/catching API</b></summary>
-
-###  throwing(throwable) at Test329Kt.main(test329.kt:10) test
-
-User code:
-```kotlin
-package test329
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  throw logger.throwing(throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test329
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test329.Test329Kt", methodName = "main", fileName = "test329.kt", lineNumber = 10), throwable)
-}
-```
-
-###  catching(throwable) at Test330Kt.main(test330.kt:10) test
-
-User code:
-```kotlin
-package test330
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.catching(throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test330
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test330.Test330Kt", methodName = "main", fileName = "test330.kt", lineNumber = 10), throwable)
-}
-```
-
-</details>
-
-<details><summary><b>with log level=TRACE</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
-
-User code:
-```kotlin
-package test331
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace(marker, "trace message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test331
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace(marker, "trace message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test332Kt.main(test332.kt:10) test
-
-User code:
-```kotlin
-package test332
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test332
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test333Kt.main(test333.kt:10) test
-
-User code:
-```kotlin
-package test333
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test333
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(marker, throwable) { "trace messageBuilder" } at Test334Kt.main(test334.kt:10) test
-
-User code:
-```kotlin
-package test334
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.trace(marker, throwable) { "trace messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test334
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test334.Test334Kt", methodName = "main", fileName = "test334.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, throwable) { "trace messageBuilder $i" } at Test335Kt.main(test335.kt:10) test
-
-User code:
-```kotlin
-package test335
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(marker, throwable) { "trace messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test335
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test335.Test335Kt", methodName = "main", fileName = "test335.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, throwable) { "trace messageBuilder $i ${helper()}" } at Test336Kt.main(test336.kt:10) test
-
-User code:
-```kotlin
-package test336
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test336
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test336.Test336Kt", methodName = "main", fileName = "test336.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}", throwable) at Test337Kt.main(test337.kt:10) test
-
-User code:
-```kotlin
-package test337
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.trace(marker, "trace message {}", throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test337
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test337.Test337Kt", methodName = "main", fileName = "test337.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(throwable, marker) { "trace messageBuilder" } at Test338Kt.main(test338.kt:10) test
-
-User code:
-```kotlin
-package test338
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.trace(throwable, marker) { "trace messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test338
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test338.Test338Kt", methodName = "main", fileName = "test338.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(throwable, marker) { "trace messageBuilder $i" } at Test339Kt.main(test339.kt:10) test
-
-User code:
-```kotlin
-package test339
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(throwable, marker) { "trace messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test339
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test339.Test339Kt", methodName = "main", fileName = "test339.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(throwable, marker) { "trace messageBuilder $i ${helper()}" } at Test340Kt.main(test340.kt:10) test
-
-User code:
-```kotlin
-package test340
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(throwable, marker) { "trace messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test340
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test340.Test340Kt", methodName = "main", fileName = "test340.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder"; cause=throwable } at Test341Kt.main(test341.kt:10) test
-
-User code:
-```kotlin
-package test341
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.atTrace(marker) { message="trace eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test341
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test341.Test341Kt", methodName = "main", fileName = "test341.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i"; cause=throwable } at Test342Kt.main(test342.kt:10) test
-
-User code:
-```kotlin
-package test342
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atTrace(marker) { message="trace eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test342
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test342.Test342Kt", methodName = "main", fileName = "test342.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at Test343Kt.main(test343.kt:10) test
-
-User code:
-```kotlin
-package test343
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test343
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test343.Test343Kt", methodName = "main", fileName = "test343.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder"; cause=throwable } at Test344Kt.main(test344.kt:10) test
-
-User code:
-```kotlin
-package test344
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test344
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test344.Test344Kt", methodName = "main", fileName = "test344.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=throwable } at Test345Kt.main(test345.kt:10) test
-
-User code:
-```kotlin
-package test345
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test345
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test345.Test345Kt", methodName = "main", fileName = "test345.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at Test346Kt.main(test346.kt:10) test
-
-User code:
-```kotlin
-package test346
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test346
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test346.Test346Kt", methodName = "main", fileName = "test346.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
-
-User code:
-```kotlin
-package test347
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace("trace message {}", arg, throwable)
-}
-```
-
-Remains as-is:
-```kotlin
-package test347
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace("trace message {}", arg, throwable)
-}
-```
-
-###  trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test348Kt.main(test348.kt:10) test
-
-User code:
-```kotlin
-package test348
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test348
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-###  trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test349Kt.main(test349.kt:10) test
-
-User code:
-```kotlin
-package test349
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test349
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-</details>
-
-###  trace("trace message {}", throwable) at Test353Kt.main(test353.kt:10) test
-
-User code:
-```kotlin
-package test353
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.trace("trace message {}", throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test353
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test353.Test353Kt", methodName = "main", fileName = "test353.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  trace(throwable) { "trace messageBuilder" } at Test354Kt.main(test354.kt:10) test
-
-User code:
-```kotlin
-package test354
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.trace(throwable) { "trace messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test354
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test354.Test354Kt", methodName = "main", fileName = "test354.kt", lineNumber = 10)
-}
-```
-
-###  trace(throwable) { "trace messageBuilder $i" } at Test355Kt.main(test355.kt:10) test
-
-User code:
-```kotlin
-package test355
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(throwable) { "trace messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test355
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test355.Test355Kt", methodName = "main", fileName = "test355.kt", lineNumber = 10)
-}
-```
-
-###  trace(throwable) { "trace messageBuilder $i ${helper()}" } at Test356Kt.main(test356.kt:10) test
-
-User code:
-```kotlin
-package test356
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.trace(throwable) { "trace messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test356
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test356.Test356Kt", methodName = "main", fileName = "test356.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atTrace() { message="trace eventBuilder"; cause=throwable } at Test357Kt.main(test357.kt:10) test
-
-User code:
-```kotlin
-package test357
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.atTrace() { message="trace eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test357
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test357.Test357Kt", methodName = "main", fileName = "test357.kt", lineNumber = 10)
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i"; cause=throwable } at Test358Kt.main(test358.kt:10) test
-
-User code:
-```kotlin
-package test358
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atTrace() { message="trace eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test358
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test358.Test358Kt", methodName = "main", fileName = "test358.kt", lineNumber = 10)
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable } at Test359Kt.main(test359.kt:10) test
-
-User code:
-```kotlin
-package test359
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test359
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test359.Test359Kt", methodName = "main", fileName = "test359.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder"; cause=throwable } at Test360Kt.main(test360.kt:10) test
-
-User code:
-```kotlin
-package test360
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test360
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test360.Test360Kt", methodName = "main", fileName = "test360.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable } at Test361Kt.main(test361.kt:10) test
-
-User code:
-```kotlin
-package test361
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test361
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test361.Test361Kt", methodName = "main", fileName = "test361.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable } at Test362Kt.main(test362.kt:10) test
-
-User code:
-```kotlin
-package test362
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test362
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test362.Test362Kt", methodName = "main", fileName = "test362.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
-
-User code:
-```kotlin
-package test363
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.trace(marker, "trace message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test363
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.trace(marker, "trace message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test364Kt.main(test364.kt:10) test
-
-User code:
-```kotlin
-package test364
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test364
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test365Kt.main(test365.kt:10) test
-
-User code:
-```kotlin
-package test365
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test365
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  trace(marker) { "trace messageBuilder" } at Test366Kt.main(test366.kt:10) test
-
-User code:
-```kotlin
-package test366
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.trace(marker) { "trace messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test366
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test366.Test366Kt", methodName = "main", fileName = "test366.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker) { "trace messageBuilder $i" } at Test367Kt.main(test367.kt:10) test
-
-User code:
-```kotlin
-package test367
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.trace(marker) { "trace messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test367
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test367.Test367Kt", methodName = "main", fileName = "test367.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker) { "trace messageBuilder $i ${helper()}" } at Test368Kt.main(test368.kt:10) test
-
-User code:
-```kotlin
-package test368
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.trace(marker) { "trace messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test368
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test368.Test368Kt", methodName = "main", fileName = "test368.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  trace(marker, "trace message {}") at Test369Kt.main(test369.kt:10) test
-
-User code:
-```kotlin
-package test369
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.trace(marker, "trace message {}")
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test369
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.TRACE, marker) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test369.Test369Kt", methodName = "main", fileName = "test369.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atTrace(marker) { message="trace eventBuilder"; cause=null } at Test373Kt.main(test373.kt:10) test
-
-User code:
-```kotlin
-package test373
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.atTrace(marker) { message="trace eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test373
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test373.Test373Kt", methodName = "main", fileName = "test373.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i"; cause=null } at Test374Kt.main(test374.kt:10) test
-
-User code:
-```kotlin
-package test374
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atTrace(marker) { message="trace eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test374
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test374.Test374Kt", methodName = "main", fileName = "test374.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null } at Test375Kt.main(test375.kt:10) test
-
-User code:
-```kotlin
-package test375
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test375
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test375.Test375Kt", methodName = "main", fileName = "test375.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null } at Test376Kt.main(test376.kt:10) test
-
-User code:
-```kotlin
-package test376
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test376
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test376.Test376Kt", methodName = "main", fileName = "test376.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null } at Test377Kt.main(test377.kt:10) test
-
-User code:
-```kotlin
-package test377
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test377
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test377.Test377Kt", methodName = "main", fileName = "test377.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null } at Test378Kt.main(test378.kt:10) test
-
-User code:
-```kotlin
-package test378
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test378
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test378.Test378Kt", methodName = "main", fileName = "test378.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
-
-User code:
-```kotlin
-package test379
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.trace("trace message {}", arg)
-}
-```
-
-Remains as-is:
-```kotlin
-package test379
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.trace("trace message {}", arg)
-}
-```
-
-###  trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test380Kt.main(test380.kt:10) test
-
-User code:
-```kotlin
-package test380
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test380
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-###  trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test381Kt.main(test381.kt:10) test
-
-User code:
-```kotlin
-package test381
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test381
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-</details>
-
-###  trace("trace message {}") at Test385Kt.main(test385.kt:10) test
-
-User code:
-```kotlin
-package test385
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.trace("trace message {}")
-}
-```
-
-Transformed into:
-```kotlin
-package test385
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test385.Test385Kt", methodName = "main", fileName = "test385.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  trace() { "trace messageBuilder" } at Test386Kt.main(test386.kt:10) test
-
-User code:
-```kotlin
-package test386
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.trace() { "trace messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test386
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.TRACE) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test386.Test386Kt", methodName = "main", fileName = "test386.kt", lineNumber = 10)
-}
-```
-
-###  trace() { "trace messageBuilder $i" } at Test387Kt.main(test387.kt:10) test
-
-User code:
-```kotlin
-package test387
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.trace() { "trace messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test387
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test387.Test387Kt", methodName = "main", fileName = "test387.kt", lineNumber = 10)
-}
-```
-
-###  trace() { "trace messageBuilder $i ${helper()}" } at Test388Kt.main(test388.kt:10) test
-
-User code:
-```kotlin
-package test388
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.trace() { "trace messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test388
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test388.Test388Kt", methodName = "main", fileName = "test388.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atTrace() { message="trace eventBuilder"; cause=null } at Test389Kt.main(test389.kt:10) test
-
-User code:
-```kotlin
-package test389
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.atTrace() { message="trace eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test389
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test389.Test389Kt", methodName = "main", fileName = "test389.kt", lineNumber = 10)
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i"; cause=null } at Test390Kt.main(test390.kt:10) test
-
-User code:
-```kotlin
-package test390
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atTrace() { message="trace eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test390
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test390.Test390Kt", methodName = "main", fileName = "test390.kt", lineNumber = 10)
-}
-```
-
-###  atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null } at Test391Kt.main(test391.kt:10) test
-
-User code:
-```kotlin
-package test391
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test391
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test391.Test391Kt", methodName = "main", fileName = "test391.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder"; cause=null } at Test392Kt.main(test392.kt:10) test
-
-User code:
-```kotlin
-package test392
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.TRACE) { message="trace eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test392
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test392.Test392Kt", methodName = "main", fileName = "test392.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i"; cause=null } at Test393Kt.main(test393.kt:10) test
-
-User code:
-```kotlin
-package test393
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test393
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test393.Test393Kt", methodName = "main", fileName = "test393.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null } at Test394Kt.main(test394.kt:10) test
-
-User code:
-```kotlin
-package test394
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test394
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test394.Test394Kt", methodName = "main", fileName = "test394.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=DEBUG</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
-
-User code:
-```kotlin
-package test395
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug(marker, "debug message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test395
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug(marker, "debug message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test396Kt.main(test396.kt:10) test
-
-User code:
-```kotlin
-package test396
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test396
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test397Kt.main(test397.kt:10) test
-
-User code:
-```kotlin
-package test397
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test397
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(marker, throwable) { "debug messageBuilder" } at Test398Kt.main(test398.kt:10) test
-
-User code:
-```kotlin
-package test398
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.debug(marker, throwable) { "debug messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test398
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test398.Test398Kt", methodName = "main", fileName = "test398.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, throwable) { "debug messageBuilder $i" } at Test399Kt.main(test399.kt:10) test
-
-User code:
-```kotlin
-package test399
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(marker, throwable) { "debug messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test399
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test399.Test399Kt", methodName = "main", fileName = "test399.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, throwable) { "debug messageBuilder $i ${helper()}" } at Test400Kt.main(test400.kt:10) test
-
-User code:
-```kotlin
-package test400
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(marker, throwable) { "debug messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test400
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test400.Test400Kt", methodName = "main", fileName = "test400.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}", throwable) at Test401Kt.main(test401.kt:10) test
-
-User code:
-```kotlin
-package test401
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.debug(marker, "debug message {}", throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test401
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test401.Test401Kt", methodName = "main", fileName = "test401.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(throwable, marker) { "debug messageBuilder" } at Test402Kt.main(test402.kt:10) test
-
-User code:
-```kotlin
-package test402
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.debug(throwable, marker) { "debug messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test402
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test402.Test402Kt", methodName = "main", fileName = "test402.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(throwable, marker) { "debug messageBuilder $i" } at Test403Kt.main(test403.kt:10) test
-
-User code:
-```kotlin
-package test403
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(throwable, marker) { "debug messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test403
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test403.Test403Kt", methodName = "main", fileName = "test403.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(throwable, marker) { "debug messageBuilder $i ${helper()}" } at Test404Kt.main(test404.kt:10) test
-
-User code:
-```kotlin
-package test404
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(throwable, marker) { "debug messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test404
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test404.Test404Kt", methodName = "main", fileName = "test404.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder"; cause=throwable } at Test405Kt.main(test405.kt:10) test
-
-User code:
-```kotlin
-package test405
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.atDebug(marker) { message="debug eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test405
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test405.Test405Kt", methodName = "main", fileName = "test405.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i"; cause=throwable } at Test406Kt.main(test406.kt:10) test
-
-User code:
-```kotlin
-package test406
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atDebug(marker) { message="debug eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test406
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test406.Test406Kt", methodName = "main", fileName = "test406.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at Test407Kt.main(test407.kt:10) test
-
-User code:
-```kotlin
-package test407
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test407
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test407.Test407Kt", methodName = "main", fileName = "test407.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=throwable } at Test408Kt.main(test408.kt:10) test
-
-User code:
-```kotlin
-package test408
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test408
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test408.Test408Kt", methodName = "main", fileName = "test408.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=throwable } at Test409Kt.main(test409.kt:10) test
-
-User code:
-```kotlin
-package test409
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test409
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test409.Test409Kt", methodName = "main", fileName = "test409.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at Test410Kt.main(test410.kt:10) test
-
-User code:
-```kotlin
-package test410
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test410
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test410.Test410Kt", methodName = "main", fileName = "test410.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
-
-User code:
-```kotlin
-package test411
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug("debug message {}", arg, throwable)
-}
-```
-
-Remains as-is:
-```kotlin
-package test411
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug("debug message {}", arg, throwable)
-}
-```
-
-###  debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test412Kt.main(test412.kt:10) test
-
-User code:
-```kotlin
-package test412
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test412
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-###  debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test413Kt.main(test413.kt:10) test
-
-User code:
-```kotlin
-package test413
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test413
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-</details>
-
-###  debug("debug message {}", throwable) at Test417Kt.main(test417.kt:10) test
-
-User code:
-```kotlin
-package test417
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.debug("debug message {}", throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test417
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test417.Test417Kt", methodName = "main", fileName = "test417.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  debug(throwable) { "debug messageBuilder" } at Test418Kt.main(test418.kt:10) test
-
-User code:
-```kotlin
-package test418
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.debug(throwable) { "debug messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test418
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test418.Test418Kt", methodName = "main", fileName = "test418.kt", lineNumber = 10)
-}
-```
-
-###  debug(throwable) { "debug messageBuilder $i" } at Test419Kt.main(test419.kt:10) test
-
-User code:
-```kotlin
-package test419
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(throwable) { "debug messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test419
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test419.Test419Kt", methodName = "main", fileName = "test419.kt", lineNumber = 10)
-}
-```
-
-###  debug(throwable) { "debug messageBuilder $i ${helper()}" } at Test420Kt.main(test420.kt:10) test
-
-User code:
-```kotlin
-package test420
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.debug(throwable) { "debug messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test420
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test420.Test420Kt", methodName = "main", fileName = "test420.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atDebug() { message="debug eventBuilder"; cause=throwable } at Test421Kt.main(test421.kt:10) test
-
-User code:
-```kotlin
-package test421
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.atDebug() { message="debug eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test421
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test421.Test421Kt", methodName = "main", fileName = "test421.kt", lineNumber = 10)
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i"; cause=throwable } at Test422Kt.main(test422.kt:10) test
-
-User code:
-```kotlin
-package test422
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atDebug() { message="debug eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test422
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test422.Test422Kt", methodName = "main", fileName = "test422.kt", lineNumber = 10)
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable } at Test423Kt.main(test423.kt:10) test
-
-User code:
-```kotlin
-package test423
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test423
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test423.Test423Kt", methodName = "main", fileName = "test423.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable } at Test424Kt.main(test424.kt:10) test
-
-User code:
-```kotlin
-package test424
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test424
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test424.Test424Kt", methodName = "main", fileName = "test424.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable } at Test425Kt.main(test425.kt:10) test
-
-User code:
-```kotlin
-package test425
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test425
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test425.Test425Kt", methodName = "main", fileName = "test425.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable } at Test426Kt.main(test426.kt:10) test
-
-User code:
-```kotlin
-package test426
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test426
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test426.Test426Kt", methodName = "main", fileName = "test426.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
-
-User code:
-```kotlin
-package test427
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.debug(marker, "debug message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test427
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.debug(marker, "debug message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test428Kt.main(test428.kt:10) test
-
-User code:
-```kotlin
-package test428
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test428
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test429Kt.main(test429.kt:10) test
-
-User code:
-```kotlin
-package test429
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test429
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  debug(marker) { "debug messageBuilder" } at Test430Kt.main(test430.kt:10) test
-
-User code:
-```kotlin
-package test430
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.debug(marker) { "debug messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test430
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test430.Test430Kt", methodName = "main", fileName = "test430.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker) { "debug messageBuilder $i" } at Test431Kt.main(test431.kt:10) test
-
-User code:
-```kotlin
-package test431
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.debug(marker) { "debug messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test431
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test431.Test431Kt", methodName = "main", fileName = "test431.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker) { "debug messageBuilder $i ${helper()}" } at Test432Kt.main(test432.kt:10) test
-
-User code:
-```kotlin
-package test432
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.debug(marker) { "debug messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test432
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test432.Test432Kt", methodName = "main", fileName = "test432.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  debug(marker, "debug message {}") at Test433Kt.main(test433.kt:10) test
-
-User code:
-```kotlin
-package test433
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.debug(marker, "debug message {}")
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test433
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.DEBUG, marker) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test433.Test433Kt", methodName = "main", fileName = "test433.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atDebug(marker) { message="debug eventBuilder"; cause=null } at Test437Kt.main(test437.kt:10) test
-
-User code:
-```kotlin
-package test437
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.atDebug(marker) { message="debug eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test437
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test437.Test437Kt", methodName = "main", fileName = "test437.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i"; cause=null } at Test438Kt.main(test438.kt:10) test
-
-User code:
-```kotlin
-package test438
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atDebug(marker) { message="debug eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test438
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test438.Test438Kt", methodName = "main", fileName = "test438.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=null } at Test439Kt.main(test439.kt:10) test
-
-User code:
-```kotlin
-package test439
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atDebug(marker) { message="debug eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test439
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test439.Test439Kt", methodName = "main", fileName = "test439.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=null } at Test440Kt.main(test440.kt:10) test
-
-User code:
-```kotlin
-package test440
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test440
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test440.Test440Kt", methodName = "main", fileName = "test440.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=null } at Test441Kt.main(test441.kt:10) test
-
-User code:
-```kotlin
-package test441
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test441
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test441.Test441Kt", methodName = "main", fileName = "test441.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=null } at Test442Kt.main(test442.kt:10) test
-
-User code:
-```kotlin
-package test442
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message="debug eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test442
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test442.Test442Kt", methodName = "main", fileName = "test442.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
-
-User code:
-```kotlin
-package test443
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.debug("debug message {}", arg)
-}
-```
-
-Remains as-is:
-```kotlin
-package test443
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.debug("debug message {}", arg)
-}
-```
-
-###  debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test444Kt.main(test444.kt:10) test
-
-User code:
-```kotlin
-package test444
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test444
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-###  debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test445Kt.main(test445.kt:10) test
-
-User code:
-```kotlin
-package test445
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test445
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-</details>
-
-###  debug("debug message {}") at Test449Kt.main(test449.kt:10) test
-
-User code:
-```kotlin
-package test449
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.debug("debug message {}")
-}
-```
-
-Transformed into:
-```kotlin
-package test449
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test449.Test449Kt", methodName = "main", fileName = "test449.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  debug() { "debug messageBuilder" } at Test450Kt.main(test450.kt:10) test
-
-User code:
-```kotlin
-package test450
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.debug() { "debug messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test450
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.DEBUG) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test450.Test450Kt", methodName = "main", fileName = "test450.kt", lineNumber = 10)
-}
-```
-
-###  debug() { "debug messageBuilder $i" } at Test451Kt.main(test451.kt:10) test
-
-User code:
-```kotlin
-package test451
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.debug() { "debug messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test451
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test451.Test451Kt", methodName = "main", fileName = "test451.kt", lineNumber = 10)
-}
-```
-
-###  debug() { "debug messageBuilder $i ${helper()}" } at Test452Kt.main(test452.kt:10) test
-
-User code:
-```kotlin
-package test452
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.debug() { "debug messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test452
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test452.Test452Kt", methodName = "main", fileName = "test452.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atDebug() { message="debug eventBuilder"; cause=null } at Test453Kt.main(test453.kt:10) test
-
-User code:
-```kotlin
-package test453
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.atDebug() { message="debug eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test453
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test453.Test453Kt", methodName = "main", fileName = "test453.kt", lineNumber = 10)
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i"; cause=null } at Test454Kt.main(test454.kt:10) test
-
-User code:
-```kotlin
-package test454
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atDebug() { message="debug eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test454
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test454.Test454Kt", methodName = "main", fileName = "test454.kt", lineNumber = 10)
-}
-```
-
-###  atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null } at Test455Kt.main(test455.kt:10) test
-
-User code:
-```kotlin
-package test455
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test455
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test455.Test455Kt", methodName = "main", fileName = "test455.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder"; cause=null } at Test456Kt.main(test456.kt:10) test
-
-User code:
-```kotlin
-package test456
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test456
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test456.Test456Kt", methodName = "main", fileName = "test456.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null } at Test457Kt.main(test457.kt:10) test
-
-User code:
-```kotlin
-package test457
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test457
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test457.Test457Kt", methodName = "main", fileName = "test457.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null } at Test458Kt.main(test458.kt:10) test
-
-User code:
-```kotlin
-package test458
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test458
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test458.Test458Kt", methodName = "main", fileName = "test458.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=INFO</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
-
-User code:
-```kotlin
-package test459
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info(marker, "info message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test459
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info(marker, "info message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test460Kt.main(test460.kt:10) test
-
-User code:
-```kotlin
-package test460
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test460
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test461Kt.main(test461.kt:10) test
-
-User code:
-```kotlin
-package test461
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test461
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(marker, throwable) { "info messageBuilder" } at Test462Kt.main(test462.kt:10) test
-
-User code:
-```kotlin
-package test462
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.info(marker, throwable) { "info messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test462
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test462.Test462Kt", methodName = "main", fileName = "test462.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, throwable) { "info messageBuilder $i" } at Test463Kt.main(test463.kt:10) test
-
-User code:
-```kotlin
-package test463
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(marker, throwable) { "info messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test463
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test463.Test463Kt", methodName = "main", fileName = "test463.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, throwable) { "info messageBuilder $i ${helper()}" } at Test464Kt.main(test464.kt:10) test
-
-User code:
-```kotlin
-package test464
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test464
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test464.Test464Kt", methodName = "main", fileName = "test464.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}", throwable) at Test465Kt.main(test465.kt:10) test
-
-User code:
-```kotlin
-package test465
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.info(marker, "info message {}", throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test465
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test465.Test465Kt", methodName = "main", fileName = "test465.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(throwable, marker) { "info messageBuilder" } at Test466Kt.main(test466.kt:10) test
-
-User code:
-```kotlin
-package test466
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.info(throwable, marker) { "info messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test466
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test466.Test466Kt", methodName = "main", fileName = "test466.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(throwable, marker) { "info messageBuilder $i" } at Test467Kt.main(test467.kt:10) test
-
-User code:
-```kotlin
-package test467
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(throwable, marker) { "info messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test467
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test467.Test467Kt", methodName = "main", fileName = "test467.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(throwable, marker) { "info messageBuilder $i ${helper()}" } at Test468Kt.main(test468.kt:10) test
-
-User code:
-```kotlin
-package test468
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(throwable, marker) { "info messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test468
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test468.Test468Kt", methodName = "main", fileName = "test468.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder"; cause=throwable } at Test469Kt.main(test469.kt:10) test
-
-User code:
-```kotlin
-package test469
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.atInfo(marker) { message="info eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test469
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test469.Test469Kt", methodName = "main", fileName = "test469.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i"; cause=throwable } at Test470Kt.main(test470.kt:10) test
-
-User code:
-```kotlin
-package test470
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atInfo(marker) { message="info eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test470
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test470.Test470Kt", methodName = "main", fileName = "test470.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test471Kt.main(test471.kt:10) test
-
-User code:
-```kotlin
-package test471
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test471
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test471.Test471Kt", methodName = "main", fileName = "test471.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable } at Test472Kt.main(test472.kt:10) test
-
-User code:
-```kotlin
-package test472
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test472
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO, marker) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test472.Test472Kt", methodName = "main", fileName = "test472.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable } at Test473Kt.main(test473.kt:10) test
-
-User code:
-```kotlin
-package test473
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test473
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test473.Test473Kt", methodName = "main", fileName = "test473.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test474Kt.main(test474.kt:10) test
-
-User code:
-```kotlin
-package test474
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test474
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test474.Test474Kt", methodName = "main", fileName = "test474.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
-
-User code:
-```kotlin
-package test475
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info("info message {}", arg, throwable)
-}
-```
-
-Remains as-is:
-```kotlin
-package test475
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info("info message {}", arg, throwable)
-}
-```
-
-###  info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test476Kt.main(test476.kt:10) test
-
-User code:
-```kotlin
-package test476
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test476
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-###  info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test477Kt.main(test477.kt:10) test
-
-User code:
-```kotlin
-package test477
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test477
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-</details>
-
-###  info("info message {}", throwable) at Test481Kt.main(test481.kt:10) test
-
-User code:
-```kotlin
-package test481
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.info("info message {}", throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test481
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test481.Test481Kt", methodName = "main", fileName = "test481.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  info(throwable) { "info messageBuilder" } at Test482Kt.main(test482.kt:10) test
-
-User code:
-```kotlin
-package test482
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.info(throwable) { "info messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test482
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test482.Test482Kt", methodName = "main", fileName = "test482.kt", lineNumber = 10)
-}
-```
-
-###  info(throwable) { "info messageBuilder $i" } at Test483Kt.main(test483.kt:10) test
-
-User code:
-```kotlin
-package test483
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(throwable) { "info messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test483
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test483.Test483Kt", methodName = "main", fileName = "test483.kt", lineNumber = 10)
-}
-```
-
-###  info(throwable) { "info messageBuilder $i ${helper()}" } at Test484Kt.main(test484.kt:10) test
-
-User code:
-```kotlin
-package test484
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.info(throwable) { "info messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test484
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test484.Test484Kt", methodName = "main", fileName = "test484.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atInfo() { message="info eventBuilder"; cause=throwable } at Test485Kt.main(test485.kt:10) test
-
-User code:
-```kotlin
-package test485
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.atInfo() { message="info eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test485
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test485.Test485Kt", methodName = "main", fileName = "test485.kt", lineNumber = 10)
-}
-```
-
-###  atInfo() { message="info eventBuilder $i"; cause=throwable } at Test486Kt.main(test486.kt:10) test
-
-User code:
-```kotlin
-package test486
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atInfo() { message="info eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test486
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test486.Test486Kt", methodName = "main", fileName = "test486.kt", lineNumber = 10)
-}
-```
-
-###  atInfo() { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test487Kt.main(test487.kt:10) test
-
-User code:
-```kotlin
-package test487
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test487
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test487.Test487Kt", methodName = "main", fileName = "test487.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.INFO) { message="info eventBuilder"; cause=throwable } at Test488Kt.main(test488.kt:10) test
-
-User code:
-```kotlin
-package test488
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO) { message="info eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test488
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test488.Test488Kt", methodName = "main", fileName = "test488.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i"; cause=throwable } at Test489Kt.main(test489.kt:10) test
-
-User code:
-```kotlin
-package test489
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message="info eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test489
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test489.Test489Kt", methodName = "main", fileName = "test489.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test490Kt.main(test490.kt:10) test
-
-User code:
-```kotlin
-package test490
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test490
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test490.Test490Kt", methodName = "main", fileName = "test490.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
-
-User code:
-```kotlin
-package test491
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.info(marker, "info message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test491
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.info(marker, "info message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test492Kt.main(test492.kt:10) test
-
-User code:
-```kotlin
-package test492
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test492
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test493Kt.main(test493.kt:10) test
-
-User code:
-```kotlin
-package test493
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test493
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  info(marker) { "info messageBuilder" } at Test494Kt.main(test494.kt:10) test
-
-User code:
-```kotlin
-package test494
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.info(marker) { "info messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test494
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test494.Test494Kt", methodName = "main", fileName = "test494.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker) { "info messageBuilder $i" } at Test495Kt.main(test495.kt:10) test
-
-User code:
-```kotlin
-package test495
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.info(marker) { "info messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test495
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test495.Test495Kt", methodName = "main", fileName = "test495.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker) { "info messageBuilder $i ${helper()}" } at Test496Kt.main(test496.kt:10) test
-
-User code:
-```kotlin
-package test496
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.info(marker) { "info messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test496
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test496.Test496Kt", methodName = "main", fileName = "test496.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  info(marker, "info message {}") at Test497Kt.main(test497.kt:10) test
-
-User code:
-```kotlin
-package test497
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.info(marker, "info message {}")
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test497
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test497.Test497Kt", methodName = "main", fileName = "test497.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atInfo(marker) { message="info eventBuilder"; cause=null } at Test501Kt.main(test501.kt:10) test
-
-User code:
-```kotlin
-package test501
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.atInfo(marker) { message="info eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test501
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.INFO, marker) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test501.Test501Kt", methodName = "main", fileName = "test501.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i"; cause=null } at Test502Kt.main(test502.kt:10) test
-
-User code:
-```kotlin
-package test502
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atInfo(marker) { message="info eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test502
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test502.Test502Kt", methodName = "main", fileName = "test502.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null } at Test503Kt.main(test503.kt:10) test
-
-User code:
-```kotlin
-package test503
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test503
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test503.Test503Kt", methodName = "main", fileName = "test503.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder"; cause=null } at Test504Kt.main(test504.kt:10) test
-
-User code:
-```kotlin
-package test504
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test504
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.INFO, marker) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test504.Test504Kt", methodName = "main", fileName = "test504.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null } at Test505Kt.main(test505.kt:10) test
-
-User code:
-```kotlin
-package test505
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test505
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test505.Test505Kt", methodName = "main", fileName = "test505.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null } at Test506Kt.main(test506.kt:10) test
-
-User code:
-```kotlin
-package test506
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test506
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.INFO, marker) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test506.Test506Kt", methodName = "main", fileName = "test506.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
-
-User code:
-```kotlin
-package test507
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.info("info message {}", arg)
-}
-```
-
-Remains as-is:
-```kotlin
-package test507
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.info("info message {}", arg)
-}
-```
-
-###  info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test508Kt.main(test508.kt:10) test
-
-User code:
-```kotlin
-package test508
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test508
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-###  info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test509Kt.main(test509.kt:10) test
-
-User code:
-```kotlin
-package test509
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test509
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-</details>
-
-###  info("info message {}") at Test513Kt.main(test513.kt:10) test
-
-User code:
-```kotlin
-package test513
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.info("info message {}")
-}
-```
-
-Transformed into:
-```kotlin
-package test513
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.INFO) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test513.Test513Kt", methodName = "main", fileName = "test513.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  info() { "info messageBuilder" } at Test514Kt.main(test514.kt:10) test
-
-User code:
-```kotlin
-package test514
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.info() { "info messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test514
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.INFO) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test514.Test514Kt", methodName = "main", fileName = "test514.kt", lineNumber = 10)
-}
-```
-
-###  info() { "info messageBuilder $i" } at Test515Kt.main(test515.kt:10) test
-
-User code:
-```kotlin
-package test515
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.info() { "info messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test515
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test515.Test515Kt", methodName = "main", fileName = "test515.kt", lineNumber = 10)
-}
-```
-
-###  info() { "info messageBuilder $i ${helper()}" } at Test516Kt.main(test516.kt:10) test
-
-User code:
-```kotlin
-package test516
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.info() { "info messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test516
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test516.Test516Kt", methodName = "main", fileName = "test516.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atInfo() { message="info eventBuilder"; cause=null } at Test517Kt.main(test517.kt:10) test
-
-User code:
-```kotlin
-package test517
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.atInfo() { message="info eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test517
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.INFO) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test517.Test517Kt", methodName = "main", fileName = "test517.kt", lineNumber = 10)
-}
-```
-
-###  atInfo() { message="info eventBuilder $i"; cause=null } at Test518Kt.main(test518.kt:10) test
-
-User code:
-```kotlin
-package test518
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atInfo() { message="info eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test518
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test518.Test518Kt", methodName = "main", fileName = "test518.kt", lineNumber = 10)
-}
-```
-
-###  atInfo() { message="info eventBuilder $i ${helper()}"; cause=null } at Test519Kt.main(test519.kt:10) test
-
-User code:
-```kotlin
-package test519
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test519
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test519.Test519Kt", methodName = "main", fileName = "test519.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.INFO) { message="info eventBuilder"; cause=null } at Test520Kt.main(test520.kt:10) test
-
-User code:
-```kotlin
-package test520
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.INFO) { message="info eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test520
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.INFO) { message = "info eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder"", className = "test520.Test520Kt", methodName = "main", fileName = "test520.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i"; cause=null } at Test521Kt.main(test521.kt:10) test
-
-User code:
-```kotlin
-package test521
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message="info eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test521
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i"", className = "test521.Test521Kt", methodName = "main", fileName = "test521.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null } at Test522Kt.main(test522.kt:10) test
-
-User code:
-```kotlin
-package test522
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test522
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info eventBuilder $i ${helper()}"", className = "test522.Test522Kt", methodName = "main", fileName = "test522.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=WARN</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
-
-User code:
-```kotlin
-package test523
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn(marker, "warn message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test523
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn(marker, "warn message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test524Kt.main(test524.kt:10) test
-
-User code:
-```kotlin
-package test524
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test524
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test525Kt.main(test525.kt:10) test
-
-User code:
-```kotlin
-package test525
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test525
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(marker, throwable) { "warn messageBuilder" } at Test526Kt.main(test526.kt:10) test
-
-User code:
-```kotlin
-package test526
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.warn(marker, throwable) { "warn messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test526
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test526.Test526Kt", methodName = "main", fileName = "test526.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, throwable) { "warn messageBuilder $i" } at Test527Kt.main(test527.kt:10) test
-
-User code:
-```kotlin
-package test527
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(marker, throwable) { "warn messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test527
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test527.Test527Kt", methodName = "main", fileName = "test527.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, throwable) { "warn messageBuilder $i ${helper()}" } at Test528Kt.main(test528.kt:10) test
-
-User code:
-```kotlin
-package test528
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(marker, throwable) { "warn messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test528
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test528.Test528Kt", methodName = "main", fileName = "test528.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}", throwable) at Test529Kt.main(test529.kt:10) test
-
-User code:
-```kotlin
-package test529
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.warn(marker, "warn message {}", throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test529
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test529.Test529Kt", methodName = "main", fileName = "test529.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(throwable, marker) { "warn messageBuilder" } at Test530Kt.main(test530.kt:10) test
-
-User code:
-```kotlin
-package test530
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.warn(throwable, marker) { "warn messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test530
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test530.Test530Kt", methodName = "main", fileName = "test530.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(throwable, marker) { "warn messageBuilder $i" } at Test531Kt.main(test531.kt:10) test
-
-User code:
-```kotlin
-package test531
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(throwable, marker) { "warn messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test531
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test531.Test531Kt", methodName = "main", fileName = "test531.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(throwable, marker) { "warn messageBuilder $i ${helper()}" } at Test532Kt.main(test532.kt:10) test
-
-User code:
-```kotlin
-package test532
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test532
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test532.Test532Kt", methodName = "main", fileName = "test532.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder"; cause=throwable } at Test533Kt.main(test533.kt:10) test
-
-User code:
-```kotlin
-package test533
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.atWarn(marker) { message="warn eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test533
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test533.Test533Kt", methodName = "main", fileName = "test533.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i"; cause=throwable } at Test534Kt.main(test534.kt:10) test
-
-User code:
-```kotlin
-package test534
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test534
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test534.Test534Kt", methodName = "main", fileName = "test534.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at Test535Kt.main(test535.kt:10) test
-
-User code:
-```kotlin
-package test535
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test535
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test535.Test535Kt", methodName = "main", fileName = "test535.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable } at Test536Kt.main(test536.kt:10) test
-
-User code:
-```kotlin
-package test536
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test536
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test536.Test536Kt", methodName = "main", fileName = "test536.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable } at Test537Kt.main(test537.kt:10) test
-
-User code:
-```kotlin
-package test537
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test537
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test537.Test537Kt", methodName = "main", fileName = "test537.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at Test538Kt.main(test538.kt:10) test
-
-User code:
-```kotlin
-package test538
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test538
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test538.Test538Kt", methodName = "main", fileName = "test538.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
-
-User code:
-```kotlin
-package test539
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn("warn message {}", arg, throwable)
-}
-```
-
-Remains as-is:
-```kotlin
-package test539
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn("warn message {}", arg, throwable)
-}
-```
-
-###  warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test540Kt.main(test540.kt:10) test
-
-User code:
-```kotlin
-package test540
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test540
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-###  warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test541Kt.main(test541.kt:10) test
-
-User code:
-```kotlin
-package test541
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test541
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-</details>
-
-###  warn("warn message {}", throwable) at Test545Kt.main(test545.kt:10) test
-
-User code:
-```kotlin
-package test545
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.warn("warn message {}", throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test545
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test545.Test545Kt", methodName = "main", fileName = "test545.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  warn(throwable) { "warn messageBuilder" } at Test546Kt.main(test546.kt:10) test
-
-User code:
-```kotlin
-package test546
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.warn(throwable) { "warn messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test546
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test546.Test546Kt", methodName = "main", fileName = "test546.kt", lineNumber = 10)
-}
-```
-
-###  warn(throwable) { "warn messageBuilder $i" } at Test547Kt.main(test547.kt:10) test
-
-User code:
-```kotlin
-package test547
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(throwable) { "warn messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test547
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test547.Test547Kt", methodName = "main", fileName = "test547.kt", lineNumber = 10)
-}
-```
-
-###  warn(throwable) { "warn messageBuilder $i ${helper()}" } at Test548Kt.main(test548.kt:10) test
-
-User code:
-```kotlin
-package test548
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.warn(throwable) { "warn messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test548
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test548.Test548Kt", methodName = "main", fileName = "test548.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atWarn() { message="warn eventBuilder"; cause=throwable } at Test549Kt.main(test549.kt:10) test
-
-User code:
-```kotlin
-package test549
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.atWarn() { message="warn eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test549
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test549.Test549Kt", methodName = "main", fileName = "test549.kt", lineNumber = 10)
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i"; cause=throwable } at Test550Kt.main(test550.kt:10) test
-
-User code:
-```kotlin
-package test550
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atWarn() { message="warn eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test550
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test550.Test550Kt", methodName = "main", fileName = "test550.kt", lineNumber = 10)
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i ${helper()}"; cause=throwable } at Test551Kt.main(test551.kt:10) test
-
-User code:
-```kotlin
-package test551
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atWarn() { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test551
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test551.Test551Kt", methodName = "main", fileName = "test551.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.WARN) { message="warn eventBuilder"; cause=throwable } at Test552Kt.main(test552.kt:10) test
-
-User code:
-```kotlin
-package test552
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN) { message="warn eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test552
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test552.Test552Kt", methodName = "main", fileName = "test552.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i"; cause=throwable } at Test553Kt.main(test553.kt:10) test
-
-User code:
-```kotlin
-package test553
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message="warn eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test553
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test553.Test553Kt", methodName = "main", fileName = "test553.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=throwable } at Test554Kt.main(test554.kt:10) test
-
-User code:
-```kotlin
-package test554
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test554
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test554.Test554Kt", methodName = "main", fileName = "test554.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
-
-User code:
-```kotlin
-package test555
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.warn(marker, "warn message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test555
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.warn(marker, "warn message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test556Kt.main(test556.kt:10) test
-
-User code:
-```kotlin
-package test556
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test556
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test557Kt.main(test557.kt:10) test
-
-User code:
-```kotlin
-package test557
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test557
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  warn(marker) { "warn messageBuilder" } at Test558Kt.main(test558.kt:10) test
-
-User code:
-```kotlin
-package test558
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.warn(marker) { "warn messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test558
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test558.Test558Kt", methodName = "main", fileName = "test558.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker) { "warn messageBuilder $i" } at Test559Kt.main(test559.kt:10) test
-
-User code:
-```kotlin
-package test559
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.warn(marker) { "warn messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test559
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test559.Test559Kt", methodName = "main", fileName = "test559.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker) { "warn messageBuilder $i ${helper()}" } at Test560Kt.main(test560.kt:10) test
-
-User code:
-```kotlin
-package test560
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.warn(marker) { "warn messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test560
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test560.Test560Kt", methodName = "main", fileName = "test560.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  warn(marker, "warn message {}") at Test561Kt.main(test561.kt:10) test
-
-User code:
-```kotlin
-package test561
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.warn(marker, "warn message {}")
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test561
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test561.Test561Kt", methodName = "main", fileName = "test561.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atWarn(marker) { message="warn eventBuilder"; cause=null } at Test565Kt.main(test565.kt:10) test
-
-User code:
-```kotlin
-package test565
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.atWarn(marker) { message="warn eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test565
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test565.Test565Kt", methodName = "main", fileName = "test565.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i"; cause=null } at Test566Kt.main(test566.kt:10) test
-
-User code:
-```kotlin
-package test566
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atWarn(marker) { message="warn eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test566
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test566.Test566Kt", methodName = "main", fileName = "test566.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=null } at Test567Kt.main(test567.kt:10) test
-
-User code:
-```kotlin
-package test567
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test567
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test567.Test567Kt", methodName = "main", fileName = "test567.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder"; cause=null } at Test568Kt.main(test568.kt:10) test
-
-User code:
-```kotlin
-package test568
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test568
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test568.Test568Kt", methodName = "main", fileName = "test568.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=null } at Test569Kt.main(test569.kt:10) test
-
-User code:
-```kotlin
-package test569
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test569
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test569.Test569Kt", methodName = "main", fileName = "test569.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=null } at Test570Kt.main(test570.kt:10) test
-
-User code:
-```kotlin
-package test570
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test570
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.WARN, marker) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test570.Test570Kt", methodName = "main", fileName = "test570.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
-
-User code:
-```kotlin
-package test571
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.warn("warn message {}", arg)
-}
-```
-
-Remains as-is:
-```kotlin
-package test571
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.warn("warn message {}", arg)
-}
-```
-
-###  warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test572Kt.main(test572.kt:10) test
-
-User code:
-```kotlin
-package test572
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test572
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-###  warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test573Kt.main(test573.kt:10) test
-
-User code:
-```kotlin
-package test573
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test573
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-</details>
-
-###  warn("warn message {}") at Test577Kt.main(test577.kt:10) test
-
-User code:
-```kotlin
-package test577
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.warn("warn message {}")
-}
-```
-
-Transformed into:
-```kotlin
-package test577
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test577.Test577Kt", methodName = "main", fileName = "test577.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  warn() { "warn messageBuilder" } at Test578Kt.main(test578.kt:10) test
-
-User code:
-```kotlin
-package test578
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.warn() { "warn messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test578
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.WARN) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test578.Test578Kt", methodName = "main", fileName = "test578.kt", lineNumber = 10)
-}
-```
-
-###  warn() { "warn messageBuilder $i" } at Test579Kt.main(test579.kt:10) test
-
-User code:
-```kotlin
-package test579
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.warn() { "warn messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test579
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test579.Test579Kt", methodName = "main", fileName = "test579.kt", lineNumber = 10)
-}
-```
-
-###  warn() { "warn messageBuilder $i ${helper()}" } at Test580Kt.main(test580.kt:10) test
-
-User code:
-```kotlin
-package test580
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.warn() { "warn messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test580
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test580.Test580Kt", methodName = "main", fileName = "test580.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atWarn() { message="warn eventBuilder"; cause=null } at Test581Kt.main(test581.kt:10) test
-
-User code:
-```kotlin
-package test581
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.atWarn() { message="warn eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test581
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.WARN) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test581.Test581Kt", methodName = "main", fileName = "test581.kt", lineNumber = 10)
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i"; cause=null } at Test582Kt.main(test582.kt:10) test
-
-User code:
-```kotlin
-package test582
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atWarn() { message="warn eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test582
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test582.Test582Kt", methodName = "main", fileName = "test582.kt", lineNumber = 10)
-}
-```
-
-###  atWarn() { message="warn eventBuilder $i ${helper()}"; cause=null } at Test583Kt.main(test583.kt:10) test
-
-User code:
-```kotlin
-package test583
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atWarn() { message="warn eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test583
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test583.Test583Kt", methodName = "main", fileName = "test583.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.WARN) { message="warn eventBuilder"; cause=null } at Test584Kt.main(test584.kt:10) test
-
-User code:
-```kotlin
-package test584
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.WARN) { message="warn eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test584
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.WARN) { message = "warn eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test584.Test584Kt", methodName = "main", fileName = "test584.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i"; cause=null } at Test585Kt.main(test585.kt:10) test
-
-User code:
-```kotlin
-package test585
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message="warn eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test585
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test585.Test585Kt", methodName = "main", fileName = "test585.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=null } at Test586Kt.main(test586.kt:10) test
-
-User code:
-```kotlin
-package test586
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message="warn eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test586
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test586.Test586Kt", methodName = "main", fileName = "test586.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-</details>
-
-<details><summary><b>with log level=ERROR</b></summary>
-
-<details><summary><b>with throwable=true</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
-
-User code:
-```kotlin
-package test587
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error(marker, "error message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test587
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error(marker, "error message {}", arg, throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test588Kt.main(test588.kt:10) test
-
-User code:
-```kotlin
-package test588
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test588
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test589Kt.main(test589.kt:10) test
-
-User code:
-```kotlin
-package test589
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test589
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(marker, throwable) { "error messageBuilder" } at Test590Kt.main(test590.kt:10) test
-
-User code:
-```kotlin
-package test590
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.error(marker, throwable) { "error messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test590
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test590.Test590Kt", methodName = "main", fileName = "test590.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, throwable) { "error messageBuilder $i" } at Test591Kt.main(test591.kt:10) test
-
-User code:
-```kotlin
-package test591
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(marker, throwable) { "error messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test591
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test591.Test591Kt", methodName = "main", fileName = "test591.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, throwable) { "error messageBuilder $i ${helper()}" } at Test592Kt.main(test592.kt:10) test
-
-User code:
-```kotlin
-package test592
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(marker, throwable) { "error messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test592
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test592.Test592Kt", methodName = "main", fileName = "test592.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}", throwable) at Test593Kt.main(test593.kt:10) test
-
-User code:
-```kotlin
-package test593
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.error(marker, "error message {}", throwable)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test593
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test593.Test593Kt", methodName = "main", fileName = "test593.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(throwable, marker) { "error messageBuilder" } at Test594Kt.main(test594.kt:10) test
-
-User code:
-```kotlin
-package test594
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.error(throwable, marker) { "error messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test594
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test594.Test594Kt", methodName = "main", fileName = "test594.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(throwable, marker) { "error messageBuilder $i" } at Test595Kt.main(test595.kt:10) test
-
-User code:
-```kotlin
-package test595
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(throwable, marker) { "error messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test595
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test595.Test595Kt", methodName = "main", fileName = "test595.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(throwable, marker) { "error messageBuilder $i ${helper()}" } at Test596Kt.main(test596.kt:10) test
-
-User code:
-```kotlin
-package test596
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(throwable, marker) { "error messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test596
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test596.Test596Kt", methodName = "main", fileName = "test596.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder"; cause=throwable } at Test597Kt.main(test597.kt:10) test
-
-User code:
-```kotlin
-package test597
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.atError(marker) { message="error eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test597
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test597.Test597Kt", methodName = "main", fileName = "test597.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i"; cause=throwable } at Test598Kt.main(test598.kt:10) test
-
-User code:
-```kotlin
-package test598
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atError(marker) { message="error eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test598
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test598.Test598Kt", methodName = "main", fileName = "test598.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable } at Test599Kt.main(test599.kt:10) test
-
-User code:
-```kotlin
-package test599
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test599
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test599.Test599Kt", methodName = "main", fileName = "test599.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable } at Test600Kt.main(test600.kt:10) test
-
-User code:
-```kotlin
-package test600
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test600
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test600.Test600Kt", methodName = "main", fileName = "test600.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable } at Test601Kt.main(test601.kt:10) test
-
-User code:
-```kotlin
-package test601
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test601
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test601.Test601Kt", methodName = "main", fileName = "test601.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable } at Test602Kt.main(test602.kt:10) test
-
-User code:
-```kotlin
-package test602
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test602
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test602.Test602Kt", methodName = "main", fileName = "test602.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
-
-User code:
-```kotlin
-package test603
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error("error message {}", arg, throwable)
-}
-```
-
-Remains as-is:
-```kotlin
-package test603
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error("error message {}", arg, throwable)
-}
-```
-
-###  error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at Test604Kt.main(test604.kt:10) test
-
-User code:
-```kotlin
-package test604
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test604
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
-}
-fun helper() = "Hello!"
-```
-
-###  error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at Test605Kt.main(test605.kt:10) test
-
-User code:
-```kotlin
-package test605
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test605
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
-}
-fun ab() = 12
-```
-
-</details>
-
-###  error("error message {}", throwable) at Test609Kt.main(test609.kt:10) test
-
-User code:
-```kotlin
-package test609
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.error("error message {}", throwable)
-}
-```
-
-Transformed into:
-```kotlin
-package test609
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test609.Test609Kt", methodName = "main", fileName = "test609.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  error(throwable) { "error messageBuilder" } at Test610Kt.main(test610.kt:10) test
-
-User code:
-```kotlin
-package test610
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.error(throwable) { "error messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test610
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test610.Test610Kt", methodName = "main", fileName = "test610.kt", lineNumber = 10)
-}
-```
-
-###  error(throwable) { "error messageBuilder $i" } at Test611Kt.main(test611.kt:10) test
-
-User code:
-```kotlin
-package test611
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(throwable) { "error messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test611
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test611.Test611Kt", methodName = "main", fileName = "test611.kt", lineNumber = 10)
-}
-```
-
-###  error(throwable) { "error messageBuilder $i ${helper()}" } at Test612Kt.main(test612.kt:10) test
-
-User code:
-```kotlin
-package test612
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.error(throwable) { "error messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test612
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test612.Test612Kt", methodName = "main", fileName = "test612.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atError() { message="error eventBuilder"; cause=throwable } at Test613Kt.main(test613.kt:10) test
-
-User code:
-```kotlin
-package test613
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.atError() { message="error eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test613
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test613.Test613Kt", methodName = "main", fileName = "test613.kt", lineNumber = 10)
-}
-```
-
-###  atError() { message="error eventBuilder $i"; cause=throwable } at Test614Kt.main(test614.kt:10) test
-
-User code:
-```kotlin
-package test614
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atError() { message="error eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test614
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test614.Test614Kt", methodName = "main", fileName = "test614.kt", lineNumber = 10)
-}
-```
-
-###  atError() { message="error eventBuilder $i ${helper()}"; cause=throwable } at Test615Kt.main(test615.kt:10) test
-
-User code:
-```kotlin
-package test615
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test615
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test615.Test615Kt", methodName = "main", fileName = "test615.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.ERROR) { message="error eventBuilder"; cause=throwable } at Test616Kt.main(test616.kt:10) test
-
-User code:
-```kotlin
-package test616
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test616
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  
-  logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test616.Test616Kt", methodName = "main", fileName = "test616.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable } at Test617Kt.main(test617.kt:10) test
-
-User code:
-```kotlin
-package test617
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
-}
-```
-
-Transformed into:
-```kotlin
-package test617
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test617.Test617Kt", methodName = "main", fileName = "test617.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable } at Test618Kt.main(test618.kt:10) test
-
-User code:
-```kotlin
-package test618
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test618
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  val throwable = Exception("expected!")
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test618.Test618Kt", methodName = "main", fileName = "test618.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-</details>
-
-</details>
-
-<details><summary><b>with throwable=false</b></summary>
-
-<details><summary><b>with marker=true</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
-
-User code:
-```kotlin
-package test619
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.error(marker, "error message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test619
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.error(marker, "error message {}", arg)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test620Kt.main(test620.kt:10) test
-
-User code:
-```kotlin
-package test620
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test620
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test621Kt.main(test621.kt:10) test
-
-User code:
-```kotlin
-package test621
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Remains as-is:
-```kotlin
-package test621
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  error(marker) { "error messageBuilder" } at Test622Kt.main(test622.kt:10) test
-
-User code:
-```kotlin
-package test622
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.error(marker) { "error messageBuilder" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test622
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test622.Test622Kt", methodName = "main", fileName = "test622.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker) { "error messageBuilder $i" } at Test623Kt.main(test623.kt:10) test
-
-User code:
-```kotlin
-package test623
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.error(marker) { "error messageBuilder $i" }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test623
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test623.Test623Kt", methodName = "main", fileName = "test623.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker) { "error messageBuilder $i ${helper()}" } at Test624Kt.main(test624.kt:10) test
-
-User code:
-```kotlin
-package test624
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.error(marker) { "error messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test624
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test624.Test624Kt", methodName = "main", fileName = "test624.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  error(marker, "error message {}") at Test625Kt.main(test625.kt:10) test
-
-User code:
-```kotlin
-package test625
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.error(marker, "error message {}")
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test625
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.ERROR, marker) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test625.Test625Kt", methodName = "main", fileName = "test625.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-###  atError(marker) { message="error eventBuilder"; cause=null } at Test629Kt.main(test629.kt:10) test
-
-User code:
-```kotlin
-package test629
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.atError(marker) { message="error eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test629
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test629.Test629Kt", methodName = "main", fileName = "test629.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i"; cause=null } at Test630Kt.main(test630.kt:10) test
-
-User code:
-```kotlin
-package test630
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atError(marker) { message="error eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test630
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test630.Test630Kt", methodName = "main", fileName = "test630.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null } at Test631Kt.main(test631.kt:10) test
-
-User code:
-```kotlin
-package test631
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test631
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test631.Test631Kt", methodName = "main", fileName = "test631.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder"; cause=null } at Test632Kt.main(test632.kt:10) test
-
-User code:
-```kotlin
-package test632
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test632
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test632.Test632Kt", methodName = "main", fileName = "test632.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null } at Test633Kt.main(test633.kt:10) test
-
-User code:
-```kotlin
-package test633
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test633
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test633.Test633Kt", methodName = "main", fileName = "test633.kt", lineNumber = 10)
-}
-
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-###  at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null } at Test634Kt.main(test634.kt:10) test
-
-User code:
-```kotlin
-package test634
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-Transformed into:
-```kotlin
-package test634
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  val marker = MyMarker("markerName")
-  
-  val i = 42
-  logger.at(Level.ERROR, marker) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test634.Test634Kt", methodName = "main", fileName = "test634.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-
-class MyMarker(private val name: String): Marker { override fun getName() = name }
-```
-
-</details>
-
-<details><summary><b>with marker=false</b></summary>
-
-<details><summary><b>deprecated KLogger API</b></summary>
-
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
-
-###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
-
-User code:
-```kotlin
-package test635
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.error("error message {}", arg)
-}
-```
-
-Remains as-is:
-```kotlin
-package test635
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.error("error message {}", arg)
-}
-```
-
-###  error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper()) at Test636Kt.main(test636.kt:10) test
-
-User code:
-```kotlin
-package test636
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-Remains as-is:
-```kotlin
-package test636
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
-}
-fun helper() = "Hello!"
-```
-
-###  error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab()) at Test637Kt.main(test637.kt:10) test
-
-User code:
-```kotlin
-package test637
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-Remains as-is:
-```kotlin
-package test637
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
-}
-fun ab() = 12
-```
-
-</details>
-
-###  error("error message {}") at Test641Kt.main(test641.kt:10) test
-
-User code:
-```kotlin
-package test641
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.error("error message {}")
-}
-```
-
-Transformed into:
-```kotlin
-package test641
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test641.Test641Kt", methodName = "main", fileName = "test641.kt", lineNumber = 10)
-}
-```
-
-</details>
-
-###  error() { "error messageBuilder" } at Test642Kt.main(test642.kt:10) test
-
-User code:
-```kotlin
-package test642
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.error() { "error messageBuilder" }
-}
-```
-
-Transformed into:
-```kotlin
-package test642
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test642.Test642Kt", methodName = "main", fileName = "test642.kt", lineNumber = 10)
-}
-```
-
-###  error() { "error messageBuilder $i" } at Test643Kt.main(test643.kt:10) test
-
-User code:
-```kotlin
-package test643
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.error() { "error messageBuilder $i" }
-}
-```
-
-Transformed into:
-```kotlin
-package test643
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test643.Test643Kt", methodName = "main", fileName = "test643.kt", lineNumber = 10)
-}
-```
-
-###  error() { "error messageBuilder $i ${helper()}" } at Test644Kt.main(test644.kt:10) test
-
-User code:
-```kotlin
-package test644
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.error() { "error messageBuilder $i ${helper()}" }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test644
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test644.Test644Kt", methodName = "main", fileName = "test644.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  atError() { message="error eventBuilder"; cause=null } at Test645Kt.main(test645.kt:10) test
-
-User code:
-```kotlin
-package test645
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.atError() { message="error eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test645
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test645.Test645Kt", methodName = "main", fileName = "test645.kt", lineNumber = 10)
-}
-```
-
-###  atError() { message="error eventBuilder $i"; cause=null } at Test646Kt.main(test646.kt:10) test
-
-User code:
-```kotlin
-package test646
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atError() { message="error eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test646
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test646.Test646Kt", methodName = "main", fileName = "test646.kt", lineNumber = 10)
-}
-```
-
-###  atError() { message="error eventBuilder $i ${helper()}"; cause=null } at Test647Kt.main(test647.kt:10) test
-
-User code:
-```kotlin
-package test647
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test647
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test647.Test647Kt", methodName = "main", fileName = "test647.kt", lineNumber = 10)
-}
-fun helper() = "Hello!"
-```
-
-###  at(Level.ERROR) { message="error eventBuilder"; cause=null } at Test648Kt.main(test648.kt:10) test
-
-User code:
-```kotlin
-package test648
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test648
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  
-  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test648.Test648Kt", methodName = "main", fileName = "test648.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i"; cause=null } at Test649Kt.main(test649.kt:10) test
-
-User code:
-```kotlin
-package test649
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
-}
-```
-
-Transformed into:
-```kotlin
-package test649
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test649.Test649Kt", methodName = "main", fileName = "test649.kt", lineNumber = 10)
-}
-```
-
-###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null } at Test650Kt.main(test650.kt:10) test
-
-User code:
-```kotlin
-package test650
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
-}
-fun helper() = "Hello!"
-```
-
-Transformed into:
-```kotlin
-package test650
-import io.github.oshai.kotlinlogging.*
-
-
-fun main() {
-  val logger = KotlinLogging.logger {}
-  
-  
-  val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test650.Test650Kt", methodName = "main", fileName = "test650.kt", lineNumber = 10)
 }
 fun helper() = "Hello!"
 ```
@@ -62981,7 +42055,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -63003,7 +42077,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test6
 import io.github.oshai.kotlinlogging.*
@@ -63014,7 +42088,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace(marker, "trace message {}", arg, throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -63041,7 +42115,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test7
 import io.github.oshai.kotlinlogging.*
@@ -63052,7 +42126,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -63079,7 +42153,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test8
 import io.github.oshai.kotlinlogging.*
@@ -63090,7 +42164,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -63601,7 +42675,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -63622,7 +42696,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test22
 import io.github.oshai.kotlinlogging.*
@@ -63633,7 +42707,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace("trace message {}", arg, throwable)
+    logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -63658,7 +42732,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test23
 import io.github.oshai.kotlinlogging.*
@@ -63669,7 +42743,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -63694,7 +42768,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test24
 import io.github.oshai.kotlinlogging.*
@@ -63705,7 +42779,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -64085,7 +43159,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -64107,7 +43181,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test38
 import io.github.oshai.kotlinlogging.*
@@ -64118,7 +43192,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.trace(marker, "trace message {}", arg)
+    logger.at(Level.TRACE, marker) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -64145,7 +43219,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test39
 import io.github.oshai.kotlinlogging.*
@@ -64156,7 +43230,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -64183,7 +43257,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test40
 import io.github.oshai.kotlinlogging.*
@@ -64194,7 +43268,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -64591,7 +43665,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -64612,7 +43686,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test54
 import io.github.oshai.kotlinlogging.*
@@ -64623,7 +43697,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.trace("trace message {}", arg)
+    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
   }
   
 }
@@ -64648,7 +43722,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test55
 import io.github.oshai.kotlinlogging.*
@@ -64659,7 +43733,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -64684,7 +43758,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test56
 import io.github.oshai.kotlinlogging.*
@@ -64695,7 +43769,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -65079,7 +44153,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -65101,7 +44175,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test70
 import io.github.oshai.kotlinlogging.*
@@ -65112,7 +44186,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug(marker, "debug message {}", arg, throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -65139,7 +44213,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test71
 import io.github.oshai.kotlinlogging.*
@@ -65150,7 +44224,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -65177,7 +44251,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test72
 import io.github.oshai.kotlinlogging.*
@@ -65188,7 +44262,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -65699,7 +44773,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -65720,7 +44794,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test86
 import io.github.oshai.kotlinlogging.*
@@ -65731,7 +44805,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug("debug message {}", arg, throwable)
+    logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -65756,7 +44830,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test87
 import io.github.oshai.kotlinlogging.*
@@ -65767,7 +44841,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -65792,7 +44866,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test88
 import io.github.oshai.kotlinlogging.*
@@ -65803,7 +44877,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -66183,7 +45257,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -66205,7 +45279,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test102
 import io.github.oshai.kotlinlogging.*
@@ -66216,7 +45290,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.debug(marker, "debug message {}", arg)
+    logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -66243,7 +45317,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test103
 import io.github.oshai.kotlinlogging.*
@@ -66254,7 +45328,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -66281,7 +45355,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test104
 import io.github.oshai.kotlinlogging.*
@@ -66292,7 +45366,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -66689,7 +45763,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -66710,7 +45784,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test118
 import io.github.oshai.kotlinlogging.*
@@ -66721,7 +45795,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.debug("debug message {}", arg)
+    logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
   }
   
 }
@@ -66746,7 +45820,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test119
 import io.github.oshai.kotlinlogging.*
@@ -66757,7 +45831,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -66782,7 +45856,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test120
 import io.github.oshai.kotlinlogging.*
@@ -66793,7 +45867,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -67177,7 +46251,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -67199,7 +46273,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test134
 import io.github.oshai.kotlinlogging.*
@@ -67210,7 +46284,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info(marker, "info message {}", arg, throwable)
+    logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -67237,7 +46311,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test135
 import io.github.oshai.kotlinlogging.*
@@ -67248,7 +46322,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -67275,7 +46349,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test136
 import io.github.oshai.kotlinlogging.*
@@ -67286,7 +46360,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -67797,7 +46871,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -67818,7 +46892,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test150
 import io.github.oshai.kotlinlogging.*
@@ -67829,7 +46903,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info("info message {}", arg, throwable)
+    logger.at(Level.INFO) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -67854,7 +46928,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test151
 import io.github.oshai.kotlinlogging.*
@@ -67865,7 +46939,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -67890,7 +46964,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test152
 import io.github.oshai.kotlinlogging.*
@@ -67901,7 +46975,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -68281,7 +47355,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -68303,7 +47377,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test166
 import io.github.oshai.kotlinlogging.*
@@ -68314,7 +47388,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.info(marker, "info message {}", arg)
+    logger.at(Level.INFO, marker) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -68341,7 +47415,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test167
 import io.github.oshai.kotlinlogging.*
@@ -68352,7 +47426,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -68379,7 +47453,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test168
 import io.github.oshai.kotlinlogging.*
@@ -68390,7 +47464,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -68787,7 +47861,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -68808,7 +47882,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test182
 import io.github.oshai.kotlinlogging.*
@@ -68819,7 +47893,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.info("info message {}", arg)
+    logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
   }
   
 }
@@ -68844,7 +47918,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test183
 import io.github.oshai.kotlinlogging.*
@@ -68855,7 +47929,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -68880,7 +47954,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test184
 import io.github.oshai.kotlinlogging.*
@@ -68891,7 +47965,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -69275,7 +48349,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -69297,7 +48371,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test198
 import io.github.oshai.kotlinlogging.*
@@ -69308,7 +48382,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn(marker, "warn message {}", arg, throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -69335,7 +48409,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test199
 import io.github.oshai.kotlinlogging.*
@@ -69346,7 +48420,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -69373,7 +48447,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test200
 import io.github.oshai.kotlinlogging.*
@@ -69384,7 +48458,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -69895,7 +48969,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -69916,7 +48990,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test214
 import io.github.oshai.kotlinlogging.*
@@ -69927,7 +49001,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn("warn message {}", arg, throwable)
+    logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -69952,7 +49026,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test215
 import io.github.oshai.kotlinlogging.*
@@ -69963,7 +49037,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -69988,7 +49062,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test216
 import io.github.oshai.kotlinlogging.*
@@ -69999,7 +49073,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -70379,7 +49453,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -70401,7 +49475,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test230
 import io.github.oshai.kotlinlogging.*
@@ -70412,7 +49486,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.warn(marker, "warn message {}", arg)
+    logger.at(Level.WARN, marker) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -70439,7 +49513,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test231
 import io.github.oshai.kotlinlogging.*
@@ -70450,7 +49524,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -70477,7 +49551,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test232
 import io.github.oshai.kotlinlogging.*
@@ -70488,7 +49562,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -70885,7 +49959,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -70906,7 +49980,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test246
 import io.github.oshai.kotlinlogging.*
@@ -70917,7 +49991,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.warn("warn message {}", arg)
+    logger.at(Level.WARN) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
   }
   
 }
@@ -70942,7 +50016,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test247
 import io.github.oshai.kotlinlogging.*
@@ -70953,7 +50027,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -70978,7 +50052,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test248
 import io.github.oshai.kotlinlogging.*
@@ -70989,7 +50063,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -71373,7 +50447,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -71395,7 +50469,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test262
 import io.github.oshai.kotlinlogging.*
@@ -71406,7 +50480,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error(marker, "error message {}", arg, throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -71433,7 +50507,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test263
 import io.github.oshai.kotlinlogging.*
@@ -71444,7 +50518,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -71471,7 +50545,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test264
 import io.github.oshai.kotlinlogging.*
@@ -71482,7 +50556,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -71993,7 +51067,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -72014,7 +51088,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test278
 import io.github.oshai.kotlinlogging.*
@@ -72025,7 +51099,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error("error message {}", arg, throwable)
+    logger.at(Level.ERROR) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -72050,7 +51124,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test279
 import io.github.oshai.kotlinlogging.*
@@ -72061,7 +51135,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -72086,7 +51160,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test280
 import io.github.oshai.kotlinlogging.*
@@ -72097,7 +51171,7 @@ public class MainTest {
     
     val throwable = Exception("expected!")
     val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -72477,7 +51551,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -72499,7 +51573,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test294
 import io.github.oshai.kotlinlogging.*
@@ -72510,7 +51584,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.error(marker, "error message {}", arg)
+    logger.at(Level.ERROR, marker) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -72537,7 +51611,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test295
 import io.github.oshai.kotlinlogging.*
@@ -72548,7 +51622,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val arg = 42
-    logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -72575,7 +51649,7 @@ public class MainTest {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test296
 import io.github.oshai.kotlinlogging.*
@@ -72586,7 +51660,7 @@ public class MainTest {
     val marker = MyMarker("markerName")
     
     val a = 1; val b = 2
-    logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -72983,7 +52057,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -73004,7 +52078,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test310
 import io.github.oshai.kotlinlogging.*
@@ -73015,7 +52089,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.error("error message {}", arg)
+    logger.at(Level.ERROR) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
   }
   
 }
@@ -73040,7 +52114,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test311
 import io.github.oshai.kotlinlogging.*
@@ -73051,7 +52125,7 @@ public class MainTest {
     
     
     val arg = 42
-    logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+    logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
   }
   fun helper() = "Hello!"
 }
@@ -73076,7 +52150,7 @@ public class MainTest {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test312
 import io.github.oshai.kotlinlogging.*
@@ -73087,7 +52161,7 @@ public class MainTest {
     
     
     val a = 1; val b = 2
-    logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+    logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
   }
   fun ab() = 12
 }
@@ -73643,7 +52717,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -73665,7 +52739,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test331
 import io.github.oshai.kotlinlogging.*
@@ -73676,7 +52750,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace(marker, "trace message {}", arg, throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 
 
@@ -73703,7 +52777,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test332
 import io.github.oshai.kotlinlogging.*
@@ -73714,7 +52788,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -73741,7 +52815,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test333
 import io.github.oshai.kotlinlogging.*
@@ -73752,7 +52826,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -74263,7 +53337,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -74282,7 +53356,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test347
 import io.github.oshai.kotlinlogging.*
@@ -74293,7 +53367,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace("trace message {}", arg, throwable)
+  logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 ```
 
@@ -74315,7 +53389,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test348
 import io.github.oshai.kotlinlogging.*
@@ -74326,7 +53400,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -74349,7 +53423,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test349
 import io.github.oshai.kotlinlogging.*
@@ -74360,7 +53434,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -74705,7 +53779,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -74727,7 +53801,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test363
 import io.github.oshai.kotlinlogging.*
@@ -74738,7 +53812,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.trace(marker, "trace message {}", arg)
+  logger.at(Level.TRACE, marker) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 
 
@@ -74765,7 +53839,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test364
 import io.github.oshai.kotlinlogging.*
@@ -74776,7 +53850,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.trace(marker, "trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.TRACE, marker) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -74803,7 +53877,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test365
 import io.github.oshai.kotlinlogging.*
@@ -74814,7 +53888,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.trace(marker, "trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.TRACE, marker) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -75211,7 +54285,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -75230,7 +54304,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test379
 import io.github.oshai.kotlinlogging.*
@@ -75241,7 +54315,7 @@ fun main() {
   
   
   val arg = 42
-  logger.trace("trace message {}", arg)
+  logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}")
 }
 ```
 
@@ -75263,7 +54337,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test380
 import io.github.oshai.kotlinlogging.*
@@ -75274,7 +54348,7 @@ fun main() {
   
   
   val arg = 42
-  logger.trace("trace message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -75297,7 +54371,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test381
 import io.github.oshai.kotlinlogging.*
@@ -75308,7 +54382,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.trace("trace message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "trace message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -75657,7 +54731,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -75679,7 +54753,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test395
 import io.github.oshai.kotlinlogging.*
@@ -75690,7 +54764,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug(marker, "debug message {}", arg, throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 
 
@@ -75717,7 +54791,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test396
 import io.github.oshai.kotlinlogging.*
@@ -75728,7 +54802,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -75755,7 +54829,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test397
 import io.github.oshai.kotlinlogging.*
@@ -75766,7 +54840,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -76277,7 +55351,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -76296,7 +55370,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test411
 import io.github.oshai.kotlinlogging.*
@@ -76307,7 +55381,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug("debug message {}", arg, throwable)
+  logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 ```
 
@@ -76329,7 +55403,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test412
 import io.github.oshai.kotlinlogging.*
@@ -76340,7 +55414,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -76363,7 +55437,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test413
 import io.github.oshai.kotlinlogging.*
@@ -76374,7 +55448,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -76719,7 +55793,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -76741,7 +55815,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test427
 import io.github.oshai.kotlinlogging.*
@@ -76752,7 +55826,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.debug(marker, "debug message {}", arg)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 
 
@@ -76779,7 +55853,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test428
 import io.github.oshai.kotlinlogging.*
@@ -76790,7 +55864,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.debug(marker, "debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -76817,7 +55891,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test429
 import io.github.oshai.kotlinlogging.*
@@ -76828,7 +55902,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.debug(marker, "debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -77225,7 +56299,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -77244,7 +56318,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test443
 import io.github.oshai.kotlinlogging.*
@@ -77255,7 +56329,7 @@ fun main() {
   
   
   val arg = 42
-  logger.debug("debug message {}", arg)
+  logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}")
 }
 ```
 
@@ -77277,7 +56351,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test444
 import io.github.oshai.kotlinlogging.*
@@ -77288,7 +56362,7 @@ fun main() {
   
   
   val arg = 42
-  logger.debug("debug message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -77311,7 +56385,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test445
 import io.github.oshai.kotlinlogging.*
@@ -77322,7 +56396,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.debug("debug message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "debug message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -77671,7 +56745,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -77693,7 +56767,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test459
 import io.github.oshai.kotlinlogging.*
@@ -77704,7 +56778,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info(marker, "info message {}", arg, throwable)
+  logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 
 
@@ -77731,7 +56805,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test460
 import io.github.oshai.kotlinlogging.*
@@ -77742,7 +56816,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -77769,7 +56843,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test461
 import io.github.oshai.kotlinlogging.*
@@ -77780,7 +56854,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -78291,7 +57365,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -78310,7 +57384,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test475
 import io.github.oshai.kotlinlogging.*
@@ -78321,7 +57395,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info("info message {}", arg, throwable)
+  logger.at(Level.INFO) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 ```
 
@@ -78343,7 +57417,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test476
 import io.github.oshai.kotlinlogging.*
@@ -78354,7 +57428,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -78377,7 +57451,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test477
 import io.github.oshai.kotlinlogging.*
@@ -78388,7 +57462,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -78733,7 +57807,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -78755,7 +57829,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test491
 import io.github.oshai.kotlinlogging.*
@@ -78766,7 +57840,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.info(marker, "info message {}", arg)
+  logger.at(Level.INFO, marker) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 
 
@@ -78793,7 +57867,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test492
 import io.github.oshai.kotlinlogging.*
@@ -78804,7 +57878,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.INFO, marker) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -78831,7 +57905,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test493
 import io.github.oshai.kotlinlogging.*
@@ -78842,7 +57916,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -79239,7 +58313,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -79258,7 +58332,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test507
 import io.github.oshai.kotlinlogging.*
@@ -79269,7 +58343,7 @@ fun main() {
   
   
   val arg = 42
-  logger.info("info message {}", arg)
+  logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}")
 }
 ```
 
@@ -79291,7 +58365,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test508
 import io.github.oshai.kotlinlogging.*
@@ -79302,7 +58376,7 @@ fun main() {
   
   
   val arg = 42
-  logger.info("info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -79325,7 +58399,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test509
 import io.github.oshai.kotlinlogging.*
@@ -79336,7 +58410,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.info("info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "info message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -79685,7 +58759,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -79707,7 +58781,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test523
 import io.github.oshai.kotlinlogging.*
@@ -79718,7 +58792,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn(marker, "warn message {}", arg, throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 
 
@@ -79745,7 +58819,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test524
 import io.github.oshai.kotlinlogging.*
@@ -79756,7 +58830,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -79783,7 +58857,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test525
 import io.github.oshai.kotlinlogging.*
@@ -79794,7 +58868,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -80305,7 +59379,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -80324,7 +59398,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test539
 import io.github.oshai.kotlinlogging.*
@@ -80335,7 +59409,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn("warn message {}", arg, throwable)
+  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 ```
 
@@ -80357,7 +59431,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test540
 import io.github.oshai.kotlinlogging.*
@@ -80368,7 +59442,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -80391,7 +59465,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test541
 import io.github.oshai.kotlinlogging.*
@@ -80402,7 +59476,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -80747,7 +59821,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -80769,7 +59843,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test555
 import io.github.oshai.kotlinlogging.*
@@ -80780,7 +59854,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.warn(marker, "warn message {}", arg)
+  logger.at(Level.WARN, marker) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 
 
@@ -80807,7 +59881,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test556
 import io.github.oshai.kotlinlogging.*
@@ -80818,7 +59892,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.warn(marker, "warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.WARN, marker) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -80845,7 +59919,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test557
 import io.github.oshai.kotlinlogging.*
@@ -80856,7 +59930,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.warn(marker, "warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.WARN, marker) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -81253,7 +60327,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -81272,7 +60346,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test571
 import io.github.oshai.kotlinlogging.*
@@ -81283,7 +60357,7 @@ fun main() {
   
   
   val arg = 42
-  logger.warn("warn message {}", arg)
+  logger.at(Level.WARN) { message = "warn message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}")
 }
 ```
 
@@ -81305,7 +60379,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test572
 import io.github.oshai.kotlinlogging.*
@@ -81316,7 +60390,7 @@ fun main() {
   
   
   val arg = 42
-  logger.warn("warn message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.WARN) { message = "warn message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -81339,7 +60413,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test573
 import io.github.oshai.kotlinlogging.*
@@ -81350,7 +60424,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.warn("warn message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "warn message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -81699,7 +60773,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -81721,7 +60795,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test587
 import io.github.oshai.kotlinlogging.*
@@ -81732,7 +60806,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error(marker, "error message {}", arg, throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 
 
@@ -81759,7 +60833,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test588
 import io.github.oshai.kotlinlogging.*
@@ -81770,7 +60844,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -81797,7 +60871,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test589
 import io.github.oshai.kotlinlogging.*
@@ -81808,7 +60882,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -82319,7 +61393,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -82338,7 +61412,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test603
 import io.github.oshai.kotlinlogging.*
@@ -82349,7 +61423,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error("error message {}", arg, throwable)
+  logger.at(Level.ERROR) { message = "error message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 ```
 
@@ -82371,7 +61445,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test604
 import io.github.oshai.kotlinlogging.*
@@ -82382,7 +61456,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -82405,7 +61479,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test605
 import io.github.oshai.kotlinlogging.*
@@ -82416,7 +61490,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -82761,7 +61835,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -82783,7 +61857,7 @@ fun main() {
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test619
 import io.github.oshai.kotlinlogging.*
@@ -82794,7 +61868,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.error(marker, "error message {}", arg)
+  logger.at(Level.ERROR, marker) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 
 
@@ -82821,7 +61895,7 @@ fun helper() = "Hello!"
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test620
 import io.github.oshai.kotlinlogging.*
@@ -82832,7 +61906,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.error(marker, "error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.ERROR, marker) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 
@@ -82859,7 +61933,7 @@ fun ab() = 12
 class MyMarker(private val name: String): Marker { override fun getName() = name }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test621
 import io.github.oshai.kotlinlogging.*
@@ -82870,7 +61944,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.error(marker, "error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.ERROR, marker) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 
@@ -83267,7 +62341,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 
@@ -83286,7 +62360,7 @@ fun main() {
 }
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test635
 import io.github.oshai.kotlinlogging.*
@@ -83297,7 +62371,7 @@ fun main() {
   
   
   val arg = 42
-  logger.error("error message {}", arg)
+  logger.at(Level.ERROR) { message = "error message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}")
 }
 ```
 
@@ -83319,7 +62393,7 @@ fun main() {
 fun helper() = "Hello!"
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test636
 import io.github.oshai.kotlinlogging.*
@@ -83330,7 +62404,7 @@ fun main() {
   
   
   val arg = 42
-  logger.error("error message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper())
+  logger.at(Level.ERROR) { message = "error message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {} {}{} abc {}")
 }
 fun helper() = "Hello!"
 ```
@@ -83353,7 +62427,7 @@ fun main() {
 fun ab() = 12
 ```
 
-Remains as-is:
+Transformed into:
 ```kotlin
 package test637
 import io.github.oshai.kotlinlogging.*
@@ -83364,7 +62438,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.error("error message {}a" + " {}b" + " {}ab" + " ab", a, b, ab())
+  logger.at(Level.ERROR) { message = "error message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "error message {}a {}b {}ab ab")
 }
 fun ab() = 12
 ```
@@ -83907,7 +62981,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -84527,7 +63601,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -85011,7 +64085,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -85517,7 +64591,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -86005,7 +65079,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -86625,7 +65699,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -87109,7 +66183,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -87615,7 +66689,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -88103,7 +67177,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -88723,7 +67797,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -89207,7 +68281,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -89713,7 +68787,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -90201,7 +69275,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -90821,7 +69895,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -91305,7 +70379,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -91811,7 +70885,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -92299,7 +71373,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -92919,7 +71993,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -93403,7 +72477,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -93909,7 +72983,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -94569,7 +73643,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -95189,7 +74263,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -95631,7 +74705,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -96137,7 +75211,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -96583,7 +75657,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -97203,7 +76277,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -97645,7 +76719,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -98151,7 +77225,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -98597,7 +77671,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -99217,7 +78291,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -99659,7 +78733,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -100165,7 +79239,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -100611,7 +79685,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -101231,7 +80305,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -101673,7 +80747,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -102179,7 +81253,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -102625,7 +81699,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -103245,7 +82319,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -103687,7 +82761,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -104193,7 +83267,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 
@@ -104833,7 +83907,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -105453,7 +84527,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -105937,7 +85011,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -106443,7 +85517,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -106931,7 +86005,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -107551,7 +86625,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -108035,7 +87109,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -108541,7 +87615,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -109029,7 +88103,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -109649,7 +88723,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -110133,7 +89207,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -110639,7 +89713,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -111127,7 +90201,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -111747,7 +90821,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -112231,7 +91305,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -112737,7 +91811,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -113225,7 +92299,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -113845,7 +92919,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -114329,7 +93403,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -114835,7 +93909,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -115495,7 +94569,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -116115,7 +95189,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -116557,7 +95631,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -117063,7 +96137,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -117509,7 +96583,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -118129,7 +97203,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -118571,7 +97645,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -119077,7 +98151,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -119523,7 +98597,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -120143,7 +99217,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -120585,7 +99659,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -121091,7 +100165,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -121537,7 +100611,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -122157,7 +101231,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -122599,7 +101673,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -123105,7 +102179,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -123551,7 +102625,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -124171,7 +103245,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -124613,7 +103687,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -125119,7 +104193,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 
@@ -125759,7 +104833,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at MainTest.main(test6.kt:10) test
 
@@ -126379,7 +105453,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at MainTest.main(test22.kt:10) test
 
@@ -126863,7 +105937,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at MainTest.main(test38.kt:10) test
 
@@ -127369,7 +106443,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at MainTest.main(test54.kt:10) test
 
@@ -127857,7 +106931,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at MainTest.main(test70.kt:10) test
 
@@ -128477,7 +107551,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at MainTest.main(test86.kt:10) test
 
@@ -128961,7 +108035,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at MainTest.main(test102.kt:10) test
 
@@ -129467,7 +108541,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at MainTest.main(test118.kt:10) test
 
@@ -129955,7 +109029,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at MainTest.main(test134.kt:10) test
 
@@ -130575,7 +109649,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at MainTest.main(test150.kt:10) test
 
@@ -131059,7 +110133,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at MainTest.main(test166.kt:10) test
 
@@ -131565,7 +110639,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at MainTest.main(test182.kt:10) test
 
@@ -132053,7 +111127,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at MainTest.main(test198.kt:10) test
 
@@ -132673,7 +111747,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at MainTest.main(test214.kt:10) test
 
@@ -133157,7 +112231,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at MainTest.main(test230.kt:10) test
 
@@ -133663,7 +112737,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at MainTest.main(test246.kt:10) test
 
@@ -134151,7 +113225,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at MainTest.main(test262.kt:10) test
 
@@ -134771,7 +113845,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at MainTest.main(test278.kt:10) test
 
@@ -135255,7 +114329,7 @@ public class MainTest {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at MainTest.main(test294.kt:10) test
 
@@ -135761,7 +114835,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at MainTest.main(test310.kt:10) test
 
@@ -136421,7 +115495,7 @@ fun main() {
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg, throwable) at Test331Kt.main(test331.kt:10) test
 
@@ -137041,7 +116115,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg, throwable) at Test347Kt.main(test347.kt:10) test
 
@@ -137483,7 +116557,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace(marker, "trace message {}", arg) at Test363Kt.main(test363.kt:10) test
 
@@ -137989,7 +117063,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  trace("trace message {}", arg) at Test379Kt.main(test379.kt:10) test
 
@@ -138435,7 +117509,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg, throwable) at Test395Kt.main(test395.kt:10) test
 
@@ -139055,7 +118129,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg, throwable) at Test411Kt.main(test411.kt:10) test
 
@@ -139497,7 +118571,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug(marker, "debug message {}", arg) at Test427Kt.main(test427.kt:10) test
 
@@ -140003,7 +119077,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  debug("debug message {}", arg) at Test443Kt.main(test443.kt:10) test
 
@@ -140449,7 +119523,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg, throwable) at Test459Kt.main(test459.kt:10) test
 
@@ -141069,7 +120143,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg, throwable) at Test475Kt.main(test475.kt:10) test
 
@@ -141511,7 +120585,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info(marker, "info message {}", arg) at Test491Kt.main(test491.kt:10) test
 
@@ -142017,7 +121091,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  info("info message {}", arg) at Test507Kt.main(test507.kt:10) test
 
@@ -142463,7 +121537,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg, throwable) at Test523Kt.main(test523.kt:10) test
 
@@ -143083,7 +122157,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg, throwable) at Test539Kt.main(test539.kt:10) test
 
@@ -143525,7 +122599,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn(marker, "warn message {}", arg) at Test555Kt.main(test555.kt:10) test
 
@@ -144031,7 +123105,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  warn("warn message {}", arg) at Test571Kt.main(test571.kt:10) test
 
@@ -144477,7 +123551,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg, throwable) at Test587Kt.main(test587.kt:10) test
 
@@ -145097,7 +124171,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg, throwable) at Test603Kt.main(test603.kt:10) test
 
@@ -145539,7 +124613,7 @@ fun helper() = "Hello!"
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error(marker, "error message {}", arg) at Test619Kt.main(test619.kt:10) test
 
@@ -146045,7 +125119,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 <details><summary><b>deprecated KLogger API</b></summary>
 
-<details><summary><b>deprecated API not implemented by KLogger</b></summary>
+<details><summary><b>deprecated API with SLF4J placeholders</b></summary>
 
 ###  error("error message {}", arg) at Test635Kt.main(test635.kt:10) test
 

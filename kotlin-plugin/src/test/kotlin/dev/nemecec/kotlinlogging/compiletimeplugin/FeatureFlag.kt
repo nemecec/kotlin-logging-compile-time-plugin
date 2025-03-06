@@ -14,10 +14,6 @@ enum class FeatureFlag(
       }
     },
   ),
-  DISABLE_TRANSFORMING_NOT_IMPLEMENTED_API(
-    { KotlinLoggingPluginConfig(disableTransformingNotImplementedApi = true) },
-    {},
-  ),
   DISABLE_TRANSFORMING_DEPRECATED_API(
     { KotlinLoggingPluginConfig(disableTransformingDeprecatedApi = true) },
     {},

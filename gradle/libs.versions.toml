@@ -10,7 +10,7 @@ auto-service = "1.0.1"
 kotlin-compiler-extensions = "0.5.2+2.1.10"
 junit-jupiter = "5.11.3"
 kctfork = "0.7.0"
-kotlin-logging-jvm = "7.0.4"
+kotlin-logging-jvm = "7.0.5"
 logback = "1.5.11"
 
 [libraries]

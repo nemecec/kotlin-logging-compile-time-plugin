@@ -30,7 +30,6 @@ tasks.withType<Test> {
 kotlinLoggingCompileTimePlugin {
   disableAll = false
   disableTransformingDeprecatedApi = false
-  disableTransformingNotImplementedApi = false
   disableTransformingEntryExitApi = false
   disableTransformingThrowingCatchingApi = false
   disableCollectingCallSiteInformation = false

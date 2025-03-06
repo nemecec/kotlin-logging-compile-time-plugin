@@ -28,54 +28,38 @@ import org.jetbrains.kotlin.config.CompilerConfiguration
 
 // Based on https://github.com/bnorm/kotlin-ir-plugin-template
 @AutoService(CompilerPluginRegistrar::class)
-class KotlinLoggingCompilerRegistrar(
-  private val defaultConfig: dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingPluginConfig
-) : CompilerPluginRegistrar() {
+class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPluginConfig) :
+  CompilerPluginRegistrar() {
   override val supportsK2 = true
 
   @Suppress("unused") // Used by service loader
-  constructor() : this(dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingPluginConfig())
+  constructor() : this(KotlinLoggingPluginConfig())
 
   override fun ExtensionStorage.registerExtensions(configuration: CompilerConfiguration) {
     val messageCollector =
       configuration[CommonConfigurationKeys.MESSAGE_COLLECTOR_KEY] ?: MessageCollector.NONE
     val config =
-      dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingPluginConfig(
+      KotlinLoggingPluginConfig(
         disableAll =
-          configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_ALL] ?: defaultConfig.disableAll,
+          configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_ALL]
+            ?: defaultConfig.disableAll,
         disableTransformingDeprecatedApi =
-          configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_TRANSFORMING_DEPRECATED_API]
+          configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_TRANSFORMING_DEPRECATED_API]
             ?: defaultConfig.disableTransformingDeprecatedApi,
-        disableTransformingNotImplementedApi =
-          configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_TRANSFORMING_NOT_IMPLEMENTED_API]
-            ?: defaultConfig.disableTransformingNotImplementedApi,
         disableTransformingEntryExitApi =
-          configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_TRANSFORMING_ENTRY_EXIT_API]
+          configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_TRANSFORMING_ENTRY_EXIT_API]
             ?: defaultConfig.disableTransformingEntryExitApi,
         disableTransformingThrowingCatchingApi =
           configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_TRANSFORMING_THROWING_CATCHING_API]
+            KotlinLoggingCommandLineProcessor.ARG_DISABLE_TRANSFORMING_THROWING_CATCHING_API]
             ?: defaultConfig.disableTransformingThrowingCatchingApi,
         disableCollectingCallSiteInformation =
           configuration[
-            dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingCommandLineProcessor.Companion
-              .ARG_DISABLE_COLLECTING_CALL_SITE_INFORMATION]
+            KotlinLoggingCommandLineProcessor.ARG_DISABLE_COLLECTING_CALL_SITE_INFORMATION]
             ?: defaultConfig.disableCollectingCallSiteInformation,
       )
     IrGenerationExtension.registerExtension(
-      dev.nemecec.kotlinlogging.compiletimeplugin.KotlinLoggingIrGenerationExtension(
-        messageCollector,
-        config,
-      )
+      KotlinLoggingIrGenerationExtension(messageCollector, config)
     )
   }
 }

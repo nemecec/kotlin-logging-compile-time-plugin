@@ -7,6 +7,7 @@ import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.spi.ILoggingEvent
 import io.github.oshai.kotlinlogging.logback.internal.LogbackLoggerFactory
 import kotlin.test.Test
+import kotlin.test.fail
 
 class SampleAppTest {
 
@@ -32,7 +33,8 @@ class SampleAppTest {
   }
 
   private fun configureLogging(): EventCollectingLogbackAppender<ILoggingEvent> {
-    val loggerContext = LogbackLoggerFactory.getLoggerContext()
+    val loggerContext =
+      LogbackLoggerFactory.getLoggerContext() ?: fail("Logback logger context not found")
     loggerContext.reset()
     val appender = EventCollectingLogbackAppender<ILoggingEvent>()
     appender.name = "EventCollectingLogbackAppender"
