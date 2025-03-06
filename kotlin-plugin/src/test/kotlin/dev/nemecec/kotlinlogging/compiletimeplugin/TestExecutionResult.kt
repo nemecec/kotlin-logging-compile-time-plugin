@@ -37,7 +37,9 @@ fun TestDefinition.toExpectedTestExecutionResult(
 data class TestLoggingEvent(
   val level: TestLoggingLevel,
   val message: String,
+  val slf4jMessage: String,
   val formattedMessage: String,
+  val slf4jFormattedMessage: String,
   val hasMarker: Boolean,
   val hasThrowable: Boolean,
   val callerDataFirstElement: StackTraceElement?,
@@ -46,7 +48,9 @@ data class TestLoggingEvent(
 class TestLoggingEventBuilder(sourceEvent: TestLoggingEvent? = null) {
   var level: TestLoggingLevel? = sourceEvent?.level
   var message: String? = sourceEvent?.message
+  var slf4jMessage: String? = sourceEvent?.slf4jMessage
   var formattedMessage: String? = sourceEvent?.formattedMessage
+  var slf4jFormattedMessage: String? = sourceEvent?.slf4jFormattedMessage
   var hasMarker: Boolean? = sourceEvent?.hasMarker
   var hasThrowable: Boolean? = sourceEvent?.hasThrowable
   var callerDataFirstElement: StackTraceElement? = sourceEvent?.callerDataFirstElement
@@ -55,7 +59,10 @@ class TestLoggingEventBuilder(sourceEvent: TestLoggingEvent? = null) {
     return TestLoggingEvent(
       level = level!!,
       message = message!!,
+      slf4jMessage = if (slf4jMessage != null) slf4jMessage!! else message!!,
       formattedMessage = formattedMessage!!,
+      slf4jFormattedMessage =
+        if (slf4jFormattedMessage != null) slf4jFormattedMessage!! else formattedMessage!!,
       hasMarker = hasMarker!!,
       hasThrowable = hasThrowable!!,
       callerDataFirstElement = callerDataFirstElement,

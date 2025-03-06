@@ -54,10 +54,6 @@ class KotlinLoggingGradlePlugin : KotlinCompilerPluginSupportPlugin {
           value = extension.disableTransformingDeprecatedApi.get().toString(),
         ),
         SubpluginOption(
-          key = "disableTransformingNotImplementedApi",
-          value = extension.disableTransformingNotImplementedApi.get().toString(),
-        ),
-        SubpluginOption(
           key = "disableTransformingEntryExitApi",
           value = extension.disableTransformingEntryExitApi.get().toString(),
         ),

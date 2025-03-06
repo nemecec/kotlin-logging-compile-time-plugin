@@ -24,8 +24,6 @@ open class KotlinLoggingGradleExtension(objects: ObjectFactory) {
   val disableAll: Property<Boolean> = objects.property(Boolean::class.java).convention(false)
   val disableTransformingDeprecatedApi: Property<Boolean> =
     objects.property(Boolean::class.java).convention(false)
-  val disableTransformingNotImplementedApi: Property<Boolean> =
-    objects.property(Boolean::class.java).convention(false)
   val disableTransformingEntryExitApi: Property<Boolean> =
     objects.property(Boolean::class.java).convention(false)
   val disableTransformingThrowingCatchingApi: Property<Boolean> =

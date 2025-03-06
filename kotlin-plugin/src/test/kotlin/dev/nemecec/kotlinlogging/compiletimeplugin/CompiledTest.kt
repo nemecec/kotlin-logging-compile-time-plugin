@@ -5,6 +5,7 @@ import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.spi.ILoggingEvent
 import io.github.oshai.kotlinlogging.logback.internal.LogbackLoggerFactory
 import java.lang.reflect.InvocationTargetException
+import kotlin.test.fail
 
 data class CompiledTest(
   val preparedTest: PreparedTest,
@@ -58,7 +59,8 @@ data class CompiledTest(
 
   private fun configureLogging(): EventCollectingLogbackAppender<ILoggingEvent> {
     System.setProperty("kotlin-logging-to-logback", "true")
-    val loggerContext = LogbackLoggerFactory.getLoggerContext()
+    val loggerContext =
+      LogbackLoggerFactory.getLoggerContext() ?: fail("Logback logger context not found")
     loggerContext.reset()
     val appender = EventCollectingLogbackAppender<ILoggingEvent>()
     appender.name = "EventCollectingLogbackAppender"

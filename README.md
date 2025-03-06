@@ -52,8 +52,8 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 
 ## Requirements
 
-* [Kotlin](https://kotlinlang.org) 2.0.x (probably 2.1.x or newer works as well)
-* [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.4 or newer
+* [Kotlin](https://kotlinlang.org) 2.1.x (maybe newer works as well)
+* [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.5 or newer
 
 ## Usage
 
@@ -73,7 +73,6 @@ dependencies {
 kotlinLoggingCompileTimePlugin {
   disableAll = false
   disableTransformingDeprecatedApi = false
-  disableTransformingNotImplementedApi = false
   disableTransformingEntryExitApi = false
   disableTransformingThrowingCatchingApi = false
   disableCollectingCallSiteInformation = false
@@ -243,42 +242,42 @@ Transformed to the `at` API with the message template filled in:
 #### Log-message-as-plain-String API calls, parameterized
 
 ```kotlin
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(msg: String?, arg: Any?): Unit
 fun debug(msg: String?, arg: Any?): Unit
 fun info(msg: String?, arg: Any?): Unit
 fun warn(msg: String?, arg: Any?): Unit
 fun error(msg: String?, arg: Any?): Unit
 
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(msg: String?, arg1: Any?, arg2: Any?): Unit
 fun debug(msg: String?, arg1: Any?, arg2: Any?): Unit
 fun info(msg: String?, arg1: Any?, arg2: Any?): Unit
 fun warn(msg: String?, arg1: Any?, arg2: Any?): Unit
 fun error(msg: String?, arg1: Any?, arg2: Any?): Unit
 
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(msg: String?, vararg arguments: Any?): Unit
 fun debug(msg: String?, vararg arguments: Any?): Unit
 fun info(msg: String?, vararg arguments: Any?): Unit
 fun warn(msg: String?, vararg arguments: Any?): Unit
 fun error(msg: String?, vararg arguments: Any?): Unit
 
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(marker: Marker?, msg: String?, arg: Any?): Unit
 fun debug(marker: Marker?, msg: String?, arg: Any?): Unit
 fun info(marker: Marker?, msg: String?, arg: Any?): Unit
 fun warn(marker: Marker?, msg: String?, arg: Any?): Unit
 fun error(marker: Marker?, msg: String?, arg: Any?): Unit
 
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
 fun debug(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
 fun info(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
 fun warn(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
 fun error(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
 
-// not implemented by KLogger, throws exception
+// deprecated
 fun trace(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
 fun debug(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
 fun info(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
@@ -286,8 +285,7 @@ fun warn(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
 fun error(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
 ```
 
-These API calls are actually not implemented by `KLogger` and without the compiler plugin they will throw an exception at runtime.
-The plugin will transform them also to the `at` API with the compiler data filled in. It will also merge the message template
+Transformed to the `at` API with the compiler data filled in. It will also merge the message template
 with the argument values and will extract `Throwable` if possible.
 
 ```kotlin

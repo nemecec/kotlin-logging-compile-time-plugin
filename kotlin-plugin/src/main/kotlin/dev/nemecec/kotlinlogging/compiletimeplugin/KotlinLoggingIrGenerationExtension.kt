@@ -242,12 +242,6 @@ class KotlinLoggingIrGenerationExtension(
           "warn",
           "error" -> {
             if (
-              config.disableTransformingNotImplementedApi &&
-                expression.isNotImplementedKLoggerApiCall(typesHelper)
-            ) {
-              return super.visitCall(expression)
-            }
-            if (
               config.disableTransformingDeprecatedApi &&
                 expression.symbol.owner.isAnnotatedWithDeprecated
             ) {
@@ -540,40 +534,6 @@ class KotlinLoggingIrGenerationExtension(
       return true
     }
   }
-}
-
-@OptIn(UnsafeDuringIrConstructionAPI::class)
-private fun IrCall.isNotImplementedKLoggerApiCall(
-  typesHelper: KotlinLoggingIrGenerationExtension.TypesHelper
-): Boolean {
-  val function = symbol.owner
-  val functionParameters = function.valueParameters
-  if (
-    functionParameters.any {
-      it.type.classifierOrFail == typesHelper.throwableType.classifierOrFail
-    }
-  ) {
-    // arguments: message, throwable
-    // arguments: marker, message, throwable
-    // arguments: marker, throwable, message builder
-    return false
-  }
-  if (functionParameters.size > 2) {
-    // arguments: marker, message, arg - not supported by KLogger API
-    // arguments: marker, message, arg1, arg2 - not supported by KLogger API
-    // arguments: marker, message, vararg - not supported by KLogger API
-    // arguments: message, arg1, arg2 - not supported by KLogger API
-    return true
-  }
-  if (
-    functionParameters.size > 1 &&
-      functionParameters.first().type.classifierOrFail == typesHelper.stringType.classifierOrFail
-  ) {
-    // arguments: message, arg - not supported by KLogger API
-    // arguments: message, vararg - not supported by KLogger API
-    return true
-  }
-  return false
 }
 
 @OptIn(UnsafeDuringIrConstructionAPI::class)

@@ -353,17 +353,19 @@ class KotlinLoggingIrGenerationExtensionTest {
                         }
                       }
                       collection {
-                        name = "deprecated API not implemented by ${KLogger::class.simpleName}"
+                        name = "deprecated API with SLF4J placeholders"
                         featureFlagExpectationAdjuster {
                           featureFlags(
                             FeatureFlag.DISABLE_ALL,
-                            FeatureFlag.DISABLE_TRANSFORMING_NOT_IMPLEMENTED_API,
                             FeatureFlag.DISABLE_TRANSFORMING_DEPRECATED_API,
                           )
                           adjuster {
-                            loggedEvent(null)
-                            thrownExceptionToString =
-                              "kotlin.NotImplementedError: An operation is not implemented."
+                            loggedEvent {
+                              message = slf4jMessage
+                              formattedMessage = slf4jFormattedMessage
+                              callerDataFirstElement = null
+                              hasThrowable = withThrowable
+                            }
                           }
                         }
                         test {
@@ -388,6 +390,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                             loggedEvent {
                               level = withLogLevel
                               message = "\"${withLogLevel.levelName} message {}\""
+                              slf4jMessage = "${withLogLevel.levelName} message {}"
                               formattedMessage = "${withLogLevel.levelName} message 42"
                               hasMarker = withMarker
                               hasThrowable = withThrowable
@@ -420,10 +423,13 @@ class KotlinLoggingIrGenerationExtensionTest {
                               level = withLogLevel
                               message =
                                 """"${withLogLevel.levelName} message {} " + "" + "{}" + "{}" + " abc" + " {}""""
+                              slf4jMessage = "${withLogLevel.levelName} message {} {}{} abc {}"
                               formattedMessage =
                                 if (withThrowable)
                                   "${withLogLevel.levelName} message 42 Hello!java.lang.Exception: expected! abc {}"
                                 else "${withLogLevel.levelName} message 42 Hello!{} abc {}"
+                              slf4jFormattedMessage =
+                                "${withLogLevel.levelName} message 42 Hello!{} abc {}"
                               hasMarker = withMarker
                               hasThrowable = false
                             }
@@ -456,6 +462,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                               level = withLogLevel
                               message =
                                 """"${withLogLevel.levelName} message {}a" + " {}b" + " {}ab" + " ab""""
+                              slf4jMessage = "${withLogLevel.levelName} message {}a {}b {}ab ab"
                               formattedMessage = "${withLogLevel.levelName} message 1a 2b 12ab ab"
                               hasMarker = withMarker
                               hasThrowable = withThrowable
