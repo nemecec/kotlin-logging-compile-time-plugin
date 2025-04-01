@@ -219,7 +219,7 @@ class KotlinLoggingIrGenerationExtension(
           location = sourceFile.getCompilerMessageLocation(expression),
           message =
             """Kotlin-logging IR plugin failed.
-          Please report to https://github.com/oshai/kotlin-logging/issues and include the below information.
+          Please report to https://github.com/nemecec/kotlin-logging-compile-time-plugin/issues and include the below information.
           Error: ${e.message}
           ${e.stackTraceToString()}
           Expression source code: ${sourceFile.getText(expression)}
