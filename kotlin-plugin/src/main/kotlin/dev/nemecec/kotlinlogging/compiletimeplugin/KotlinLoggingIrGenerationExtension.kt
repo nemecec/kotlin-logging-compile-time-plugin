@@ -221,10 +221,13 @@ class KotlinLoggingIrGenerationExtension(
             """Kotlin-logging IR plugin failed.
           Please report to https://github.com/nemecec/kotlin-logging-compile-time-plugin/issues and include the below information.
           Error: ${e.message}
-          ${e.stackTraceToString()}
+          Plugin version: ${getVersion(KotlinLoggingIrGenerationExtension::class.java)}
+          Kotlin version: ${getVersion(IrGenerationExtension::class.java)}
+          Plugin config: $config
           Expression source code: ${sourceFile.getText(expression)}
-          Expression raw dump: ${expression.dump()}
           Expression Kotlin-like dump: ${expression.dumpKotlinLike()}
+          Expression raw dump: ${expression.dump()}
+          ${e.stackTraceToString()}
           """
               .trimIndent(),
         )
@@ -557,4 +560,8 @@ fun FileLoweringPass.runOnFileInOrder(irFile: IrFile) {
       }
     }
   )
+}
+
+fun getVersion(clazz: Class<*>): String? {
+  return clazz.getPackage().implementationVersion
 }
