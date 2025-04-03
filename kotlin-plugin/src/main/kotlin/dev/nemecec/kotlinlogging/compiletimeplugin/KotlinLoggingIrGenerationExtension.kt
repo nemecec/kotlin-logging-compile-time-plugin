@@ -356,6 +356,12 @@ class KotlinLoggingIrGenerationExtension(
           }
         }
       }
+      if (messageExpression == null) {
+        val atCallSource = sourceFile.getText(atCall)
+        throw IllegalStateException(
+          "Unable to find message expression in statement lambda: $atCallSource\n ${atCall.dumpKotlinLike()}\n ${atCall.dump()}"
+        )
+      }
       return sourceFile.getText(messageExpression!!)
     }
 
