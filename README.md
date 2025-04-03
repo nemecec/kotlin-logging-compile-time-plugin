@@ -52,8 +52,16 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 
 ## Requirements
 
-* [Kotlin](https://kotlinlang.org) 2.1.x (maybe newer works as well)
+* [Kotlin](https://kotlinlang.org) 2.0 or newer (see below for compatibility matrix)
 * [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.5 or newer
+
+### Kotlin compatibility matrix
+
+| Kotlin version | Plugin version       |
+|----------------|----------------------|
+| 2.0.21         | 1.0.x (latest 1.0.0) |
+| 2.1.10         | 1.1.x (latest 1.1.2) |
+| 2.1.20         | 1.2.x (latest 1.2.0) |
 
 ## Usage
 
@@ -61,7 +69,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.1.2"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.2.0"
 }
 
 dependencies {

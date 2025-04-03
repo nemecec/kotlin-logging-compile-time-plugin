@@ -83,17 +83,17 @@ class PlaceholderReplacer(
           if (index == 0) {
             // first element
             builder.irCall(plusFunctionSymbol).apply {
-              dispatchReceiver = builder.irString(msgPart)
+              insertDispatchReceiver(builder.irString(msgPart))
               putValueArgument(0, arg!! as IrExpression)
             }
           } else {
             // in-between elements
             builder.irCall(plusFunctionSymbol).apply {
-              dispatchReceiver = accumulator
+              insertDispatchReceiver(accumulator)
               putValueArgument(
                 0,
                 builder.irCall(plusFunctionSymbol).apply {
-                  dispatchReceiver = builder.irString(msgPart)
+                  insertDispatchReceiver(builder.irString(msgPart))
                   putValueArgument(0, arg!! as IrExpression)
                 },
               )
@@ -102,7 +102,7 @@ class PlaceholderReplacer(
         } else {
           // last element
           builder.irCall(plusFunctionSymbol).apply {
-            dispatchReceiver = accumulator
+            insertDispatchReceiver(accumulator)
             putValueArgument(0, builder.irString(msgPart))
           }
         }
