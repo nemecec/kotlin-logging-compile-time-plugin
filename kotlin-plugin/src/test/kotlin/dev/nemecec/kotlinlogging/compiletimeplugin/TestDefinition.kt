@@ -52,6 +52,8 @@ data class TestCodeDescription(
   val initCode: String,
   val logStatement: LogStatement,
   val throwReturnValueFromLogStatement: Boolean,
+  val extraImportCode: String,
+  val extraCodeBeforeMethod: String,
   val extraMethodCode: String,
 ) {
   fun prepare(uniqueTestNumber: Int) =
@@ -86,8 +88,6 @@ data class TestCodeDescription(
       needsInstance = false
       classIndent = ""
     }
-    // line number depends on the generated source code template (see below)
-    val logStatementLineNumber = 10
     val fqClassName = "$packageName.$className"
     val initMarkerSourceCode =
       if (useMarker) "val $MARKER_VARIABLE_NAME = MyMarker(\"markerName\")" else ""
@@ -111,14 +111,18 @@ data class TestCodeDescription(
       }
     }
     val logStatementSourceCode = logStatementSourceCodeMaker()
+    // line number depends on the generated source code template (see below)
+    val logStatementLineNumber = 12
     val fullSourceCode =
       """
               package $packageName
               import io.github.oshai.kotlinlogging.*
+              $extraImportCode
               
               $classDeclareStart
+              private val logger = KotlinLogging.logger {}
+              $extraCodeBeforeMethod
               ${classIndent}fun ${funName}()$funReturnTypeSuffix {
-              ${classIndent}  val logger = KotlinLogging.logger {}
               ${classIndent}  $initMarkerSourceCode
               ${classIndent}  $initThrowableSourceCode
               ${classIndent}  $initCode
@@ -234,6 +238,8 @@ class TestCodeDescriptionBuilder {
   var funReturnType: KClass<*>? = null
   var logStatement: LogStatement? = null
   var throwReturnValueFromLogStatement: Boolean? = null
+  var extraImportCode: String = ""
+  var extraCodeBeforeMethod: String = ""
   var extraMethodCode: String = ""
 
   fun build(): TestCodeDescription {
@@ -245,6 +251,8 @@ class TestCodeDescriptionBuilder {
       funReturnType = funReturnType,
       logStatement = logStatement!!,
       throwReturnValueFromLogStatement = throwReturnValueFromLogStatement ?: false,
+      extraImportCode = extraImportCode,
+      extraCodeBeforeMethod = extraCodeBeforeMethod,
       extraMethodCode = extraMethodCode,
     )
   }

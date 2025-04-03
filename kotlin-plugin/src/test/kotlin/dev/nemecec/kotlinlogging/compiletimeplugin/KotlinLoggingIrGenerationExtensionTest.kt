@@ -402,6 +402,36 @@ class KotlinLoggingIrGenerationExtensionTest {
                             useClass = withClass
                             useThrowable = withThrowable
                             useMarker = withMarker
+                            extraImportCode = "import kotlin.time.Duration.Companion.minutes"
+                            extraCodeBeforeMethod = "private var arg: Long = 42"
+                            logStatement =
+                              LogStatement(
+                                funName = withLogLevel.levelName,
+                                arguments =
+                                  listOf(
+                                    MARKER_PLACEHOLDER,
+                                    """ "${withLogLevel.levelName} with extension function {} interval" """.trim(),
+                                    "arg.minutes",
+                                    THROWABLE_PLACEHOLDER,
+                                  ),
+                              )
+                          }
+                          expect {
+                            loggedEvent {
+                              level = withLogLevel
+                              message = "\"${withLogLevel.levelName} with extension function {} interval\""
+                              slf4jMessage = "${withLogLevel.levelName} with extension function {} interval"
+                              formattedMessage = "${withLogLevel.levelName} with extension function 42m interval"
+                              hasMarker = withMarker
+                              hasThrowable = withThrowable
+                            }
+                          }
+                        }
+                        test {
+                          code {
+                            useClass = withClass
+                            useThrowable = withThrowable
+                            useMarker = withMarker
                             initCode = "val arg = 42"
                             logStatement =
                               LogStatement(
