@@ -352,6 +352,31 @@ class KotlinLoggingIrGenerationExtensionTest {
                           }
                         }
                       }
+                      test {
+                        code {
+                          useClass = withClass
+                          useThrowable = withThrowable
+                          useMarker = withMarker
+                          initCode =
+                            "val message = \"${withLogLevel.levelName} message as variable\""
+                          logStatement =
+                            LogStatement(
+                              funName = withLogLevel.levelName,
+                              arguments =
+                                listOf(MARKER_PLACEHOLDER, "message", THROWABLE_PLACEHOLDER),
+                            )
+                        }
+                        expect {
+                          loggedEvent {
+                            level = withLogLevel
+                            message = "message"
+                            slf4jMessage = "${withLogLevel.levelName} message as variable"
+                            formattedMessage = "${withLogLevel.levelName} message as variable"
+                            hasMarker = withMarker
+                            hasThrowable = withThrowable
+                          }
+                        }
+                      }
                       collection {
                         name = "deprecated API with SLF4J placeholders"
                         featureFlagExpectationAdjuster {
@@ -402,6 +427,39 @@ class KotlinLoggingIrGenerationExtensionTest {
                             useClass = withClass
                             useThrowable = withThrowable
                             useMarker = withMarker
+                            initCode = "val arg = 42"
+                            logStatement =
+                              LogStatement(
+                                funName = withLogLevel.levelName,
+                                arguments =
+                                  listOf(
+                                    MARKER_PLACEHOLDER,
+                                    """ "${withLogLevel.levelName} message with concatenation ${expression("arg")} {}" """
+                                      .trim(),
+                                    "arg",
+                                    THROWABLE_PLACEHOLDER,
+                                  ),
+                              )
+                          }
+                          expect {
+                            loggedEvent {
+                              level = withLogLevel
+                              message =
+                                "\"${withLogLevel.levelName} message with concatenation ${expression("arg")} {}\""
+                              slf4jMessage =
+                                "${withLogLevel.levelName} message with concatenation 42 {}"
+                              formattedMessage =
+                                "${withLogLevel.levelName} message with concatenation 42 42"
+                              hasMarker = withMarker
+                              hasThrowable = withThrowable
+                            }
+                          }
+                        }
+                        test {
+                          code {
+                            useClass = withClass
+                            useThrowable = withThrowable
+                            useMarker = withMarker
                             extraImportCode = "import kotlin.time.Duration.Companion.minutes"
                             extraCodeBeforeMethod = "private var arg: Long = 42"
                             logStatement =
@@ -410,7 +468,8 @@ class KotlinLoggingIrGenerationExtensionTest {
                                 arguments =
                                   listOf(
                                     MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} with extension function {} interval" """.trim(),
+                                    """ "${withLogLevel.levelName} with extension function {} interval" """
+                                      .trim(),
                                     "arg.minutes",
                                     THROWABLE_PLACEHOLDER,
                                   ),
@@ -419,9 +478,12 @@ class KotlinLoggingIrGenerationExtensionTest {
                           expect {
                             loggedEvent {
                               level = withLogLevel
-                              message = "\"${withLogLevel.levelName} with extension function {} interval\""
-                              slf4jMessage = "${withLogLevel.levelName} with extension function {} interval"
-                              formattedMessage = "${withLogLevel.levelName} with extension function 42m interval"
+                              message =
+                                "\"${withLogLevel.levelName} with extension function {} interval\""
+                              slf4jMessage =
+                                "${withLogLevel.levelName} with extension function {} interval"
+                              formattedMessage =
+                                "${withLogLevel.levelName} with extension function 42m interval"
                               hasMarker = withMarker
                               hasThrowable = withThrowable
                             }
