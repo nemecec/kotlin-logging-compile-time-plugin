@@ -195,7 +195,7 @@ class SimpleLoggingCallExpressionsBuilder(
           .toList()
       replaceResult =
         placeholderReplacer.replace(
-          originalLogExpression.valueArguments[messageArgumentIndex],
+          originalLogExpression.valueArguments[messageArgumentIndex]!!,
           varArgs,
           0,
           "{}",
@@ -209,7 +209,7 @@ class SimpleLoggingCallExpressionsBuilder(
     } else {
       replaceResult =
         placeholderReplacer.replace(
-          originalLogExpression.valueArguments[messageArgumentIndex],
+          originalLogExpression.valueArguments[messageArgumentIndex]!!,
           originalLogExpression.valueArguments,
           messageArgumentIndex + 1,
           "{}",

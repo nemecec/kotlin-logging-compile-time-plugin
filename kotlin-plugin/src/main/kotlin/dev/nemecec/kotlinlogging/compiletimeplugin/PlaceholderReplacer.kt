@@ -8,6 +8,7 @@ import org.jetbrains.kotlin.ir.builders.irString
 import org.jetbrains.kotlin.ir.expressions.IrCall
 import org.jetbrains.kotlin.ir.expressions.IrConst
 import org.jetbrains.kotlin.ir.expressions.IrExpression
+import org.jetbrains.kotlin.ir.expressions.IrStringConcatenation
 
 class PlaceholderReplacer(
   private val typesHelper: KotlinLoggingIrGenerationExtension.TypesHelper,
@@ -16,31 +17,43 @@ class PlaceholderReplacer(
   data class ReplaceResult(val newExpression: IrExpression, val newArgIndex: Int)
 
   fun replace(
-    msgExp: IrExpression?,
+    msgExp: IrExpression,
     valueArguments: List<IrElement?>,
     currentArgIndex: Int,
     placeholder: String,
   ): ReplaceResult {
     var newArgIndex = currentArgIndex
-    if (msgExp is IrConst<*>) {
-      val value = msgExp.value
-      if (value is String && value.contains(placeholder)) {
-        val (newExpression, argIndexAfterReplace) =
-          replacePlaceholdersInStringConstant(value, valueArguments, newArgIndex, placeholder)
-        return ReplaceResult(newExpression!!, argIndexAfterReplace)
+
+    when (msgExp) {
+      is IrConst<*> -> {
+        val value = msgExp.value
+        if (value is String && value.contains(placeholder)) {
+          val (newExpression, argIndexAfterReplace) =
+            replacePlaceholdersInStringConstant(value, valueArguments, newArgIndex, placeholder)
+          return ReplaceResult(newExpression!!, argIndexAfterReplace)
+        }
       }
-    } else if (msgExp is IrCall) {
-      val dispatchResult =
-        replace(msgExp.dispatchReceiver, valueArguments, newArgIndex, placeholder)
-      msgExp.dispatchReceiver = dispatchResult.newExpression
-      newArgIndex = dispatchResult.newArgIndex
-      msgExp.valueArguments.forEachIndexed { index, valueArgument ->
-        val argResult = replace(valueArgument, valueArguments, newArgIndex, placeholder)
-        msgExp.putValueArgument(index, argResult.newExpression)
-        newArgIndex = argResult.newArgIndex
+      is IrCall -> {
+        val dispatchResult =
+          replace(msgExp.dispatchReceiver!!, valueArguments, newArgIndex, placeholder)
+        msgExp.dispatchReceiver = dispatchResult.newExpression
+        newArgIndex = dispatchResult.newArgIndex
+        msgExp.valueArguments.forEachIndexed { index, valueArgument ->
+          val argResult = replace(valueArgument!!, valueArguments, newArgIndex, placeholder)
+          msgExp.putValueArgument(index, argResult.newExpression)
+          newArgIndex = argResult.newArgIndex
+        }
       }
-    } else {
-      error("Unknown message expression: $msgExp")
+      is IrStringConcatenation -> {
+        msgExp.arguments.forEachIndexed { index, argument ->
+          val argResult = replace(argument, valueArguments, newArgIndex, placeholder)
+          msgExp.arguments[index] = argResult.newExpression
+          newArgIndex = argResult.newArgIndex
+        }
+      }
+      else -> {
+        // Other cases do not require any post-processing, return as-is
+      }
     }
     return ReplaceResult(msgExp, newArgIndex)
   }
