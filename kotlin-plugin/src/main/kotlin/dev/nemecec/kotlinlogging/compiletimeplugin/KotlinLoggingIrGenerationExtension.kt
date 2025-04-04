@@ -62,6 +62,7 @@ private const val PACKAGE_NAME_INTERNAL = "io.github.oshai.kotlinlogging.interna
 class KotlinLoggingIrGenerationExtension(
   private val messageCollector: MessageCollector,
   private val config: KotlinLoggingPluginConfig,
+  private val loggingApiVersion: String?,
 ) : IrGenerationExtension {
   override fun generate(moduleFragment: IrModuleFragment, pluginContext: IrPluginContext) {
     messageCollector.report(CompilerMessageSeverity.INFO, "Plugin config: $config")
@@ -77,7 +78,13 @@ class KotlinLoggingIrGenerationExtension(
         return
       }
       for (file in moduleFragment.files) {
-        AccessorCallTransformer(config, SourceFile(file), pluginContext, messageCollector)
+        AccessorCallTransformer(
+            config,
+            loggingApiVersion,
+            SourceFile(file),
+            pluginContext,
+            messageCollector,
+          )
           .runOnFileInOrder(file)
       }
     }
@@ -173,6 +180,7 @@ class KotlinLoggingIrGenerationExtension(
 
   class AccessorCallTransformer(
     private val config: KotlinLoggingPluginConfig,
+    private val loggingApiVersion: String?,
     private val sourceFile: SourceFile,
     private val context: IrPluginContext,
     private val messageCollector: MessageCollector,
@@ -223,6 +231,7 @@ class KotlinLoggingIrGenerationExtension(
           Error: ${e.message}
           Plugin version: ${getVersion(KotlinLoggingIrGenerationExtension::class.java)}
           Kotlin version: ${getVersion(IrGenerationExtension::class.java)}
+          Kotlin-logging version: $loggingApiVersion
           Plugin config: $config
           Expression source code: ${sourceFile.getText(expression)}
           Expression Kotlin-like dump: ${expression.dumpKotlinLike()}
