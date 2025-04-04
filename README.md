@@ -52,7 +52,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 
 ## Requirements
 
-* [Kotlin](https://kotlinlang.org) 2.1.x (maybe newer works as well)
+* [Kotlin](https://kotlinlang.org) 2.0.x
 * [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.5 or newer
 
 ## Usage
