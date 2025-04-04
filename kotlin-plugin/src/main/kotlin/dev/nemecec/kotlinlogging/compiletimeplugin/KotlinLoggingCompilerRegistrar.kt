@@ -20,11 +20,16 @@ package dev.nemecec.kotlinlogging.compiletimeplugin
 
 import com.google.auto.service.AutoService
 import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
+import org.jetbrains.kotlin.cli.common.contentRoots
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
+import org.jetbrains.kotlin.cli.jvm.config.JvmContentRoot
 import org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar
 import org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi
 import org.jetbrains.kotlin.config.CommonConfigurationKeys
 import org.jetbrains.kotlin.config.CompilerConfiguration
+import org.jetbrains.kotlin.util.capitalizeDecapitalize.toLowerCaseAsciiOnly
+
+private const val KOTLIN_LOGGING_PREFIX = "kotlin-logging-"
 
 // Based on https://github.com/bnorm/kotlin-ir-plugin-template
 @AutoService(CompilerPluginRegistrar::class)
@@ -36,6 +41,14 @@ class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPlu
   constructor() : this(KotlinLoggingPluginConfig())
 
   override fun ExtensionStorage.registerExtensions(configuration: CompilerConfiguration) {
+    val loggingApiVersion =
+      configuration.contentRoots
+        .filterIsInstance<JvmContentRoot>()
+        .map { it.file.name }
+        .filter { it.startsWith(KOTLIN_LOGGING_PREFIX) }
+        .joinToString {
+          it.toLowerCaseAsciiOnly().removePrefix(KOTLIN_LOGGING_PREFIX).removeSuffix(".jar")
+        }
     val messageCollector =
       configuration[CommonConfigurationKeys.MESSAGE_COLLECTOR_KEY] ?: MessageCollector.NONE
     val config =
@@ -59,7 +72,7 @@ class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPlu
             ?: defaultConfig.disableCollectingCallSiteInformation,
       )
     IrGenerationExtension.registerExtension(
-      KotlinLoggingIrGenerationExtension(messageCollector, config)
+      KotlinLoggingIrGenerationExtension(messageCollector, config, loggingApiVersion)
     )
   }
 }
