@@ -228,6 +228,7 @@ class KotlinLoggingIrGenerationExtension(
           message =
             """Kotlin-logging IR plugin failed.
           Please report to https://github.com/nemecec/kotlin-logging-compile-time-plugin/issues and include the below information.
+          ### Start of debug information ###
           Error: ${e.message}
           Plugin version: ${getVersion(KotlinLoggingIrGenerationExtension::class.java)}
           Kotlin version: ${getVersion(IrGenerationExtension::class.java)}
@@ -237,6 +238,7 @@ class KotlinLoggingIrGenerationExtension(
           Expression Kotlin-like dump: ${expression.dumpKotlinLike()}
           Expression raw dump: ${expression.dump()}
           ${e.stackTraceToString()}
+          ### End of debug information ###
           """
               .trimIndent(),
         )
