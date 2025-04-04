@@ -42,7 +42,8 @@ class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPlu
 
   override fun ExtensionStorage.registerExtensions(configuration: CompilerConfiguration) {
     val loggingApiVersion =
-      configuration.getList(CLIConfigurationKeys.CONTENT_ROOTS)
+      configuration
+        .getList(CLIConfigurationKeys.CONTENT_ROOTS)
         .filterIsInstance<JvmContentRoot>()
         .map { it.file.name }
         .filter { it.startsWith(KOTLIN_LOGGING_PREFIX) }
