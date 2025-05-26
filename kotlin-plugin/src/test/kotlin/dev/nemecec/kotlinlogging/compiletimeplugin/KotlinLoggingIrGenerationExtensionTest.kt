@@ -235,6 +235,34 @@ class KotlinLoggingIrGenerationExtensionTest {
                         }
                       }
                     }
+                    test {
+                      skip =
+                        (withMarker &&
+                          !withThrowable) // skip variant with only marker and message builder --
+                      // that is handled in deprecated API container
+                      code {
+                        useClass = withClass
+                        useThrowable = withThrowable
+                        useMarker = withMarker
+                        initCode =
+                          "val messageLambda: () -> Any = { \"${withLogLevel.levelName} messageBuilder\" }"
+                        logStatement =
+                          LogStatement(
+                            funName = withLogLevel.levelName,
+                            arguments =
+                              listOf(THROWABLE_PLACEHOLDER, MARKER_PLACEHOLDER, "messageLambda"),
+                          )
+                      }
+                      expect {
+                        loggedEvent {
+                          level = withLogLevel
+                          message = "messageLambda"
+                          formattedMessage = "${withLogLevel.levelName} messageBuilder"
+                          hasMarker = withMarker
+                          hasThrowable = withThrowable
+                        }
+                      }
+                    }
                     collection {
                       name = "deprecated ${KLogger::class.simpleName} API"
                       featureFlagExpectationAdjuster {

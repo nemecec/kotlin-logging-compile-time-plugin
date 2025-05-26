@@ -144,9 +144,12 @@ class SimpleLoggingCallExpressionsBuilder(
     var markerExpression: IrExpression? = null
     var messageExpression: IrExpression? = null
     var causeExpression: IrExpression? = null
-    val originalMessageExpression =
-      originalLogExpression.valueArguments.last() as IrFunctionExpression
-    val messageTemplate = originalMessageExpression.function.body?.let { sourceFile.getText(it) }!!
+    val originalMessageExpression = originalLogExpression.valueArguments.last()
+
+    val messageTemplate =
+      if (originalMessageExpression is IrFunctionExpression)
+        originalMessageExpression.function.body?.let { sourceFile.getText(it) }!!
+      else sourceFile.getText(originalMessageExpression!!)
 
     function.valueParameters.forEachIndexed { index, parameter ->
       if (
