@@ -16,6 +16,7 @@ dependencies {
 
   testImplementation(kotlin("test-junit"))
   testImplementation(libs.junit.jupiter)
+  testRuntimeOnly(libs.junit.platform)
   testImplementation("org.jetbrains.kotlin:kotlin-compiler-embeddable")
   testImplementation(libs.kctfork)
   testImplementation(libs.kotlin.logging.jvm)
