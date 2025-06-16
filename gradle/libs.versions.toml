@@ -2,7 +2,7 @@
 kotlinversion = "2.1.21"
 ktfmt = "0.47"
 dokka = "2.0.0"
-build-config = "5.6.5"
+build-config = "5.6.6"
 maven-publish = "0.32.0"
 spotless = "7.0.4"
 
