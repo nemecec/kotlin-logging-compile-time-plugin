@@ -79,7 +79,7 @@ allprojects {
       }
     }
     configure<MavenPublishBaseExtension> {
-      publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+      publishToMavenCentral(automaticRelease = true)
       signAllPublications()
       coordinates(group.toString(), name, version.toString())
       pom {
