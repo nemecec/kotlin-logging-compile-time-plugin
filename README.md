@@ -62,7 +62,8 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 | 2.0.21         | 1.0.x (latest 1.0.2) |
 | 2.1.10         | 1.1.x (latest 1.1.3) |
 | 2.1.20         | 1.2.x (latest 1.2.2) |
-| 2.1.21         | 1.2.x (latest 1.2.2) |
+| 2.1.21         | 1.2.x (latest 1.2.3) |
+| 2.2.0          | 1.2.x (latest 1.2.3) |
 
 ## Usage
 

@@ -19,7 +19,7 @@ plugins {
 
 allprojects {
   group = "dev.nemecec.kotlinlogging.compiletimeplugin"
-  version = "1.2.2"
+  version = "1.2.3"
 }
 
 tasks.named("dokkaHtmlMultiModule", DokkaMultiModuleTask::class.java).configure {
