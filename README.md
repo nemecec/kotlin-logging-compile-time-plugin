@@ -71,7 +71,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.2.2"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.2.3"
 }
 
 dependencies {
