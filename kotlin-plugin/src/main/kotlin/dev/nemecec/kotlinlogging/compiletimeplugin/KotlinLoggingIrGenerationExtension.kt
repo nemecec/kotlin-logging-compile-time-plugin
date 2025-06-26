@@ -14,8 +14,6 @@ import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
 import org.jetbrains.kotlin.ir.IrElement
 import org.jetbrains.kotlin.ir.UNDEFINED_OFFSET
-import org.jetbrains.kotlin.ir.backend.js.utils.valueArguments
-import org.jetbrains.kotlin.ir.builders.declarations.UNDEFINED_PARAMETER_INDEX
 import org.jetbrains.kotlin.ir.builders.irCall
 import org.jetbrains.kotlin.ir.builders.irInt
 import org.jetbrains.kotlin.ir.builders.irString
@@ -25,15 +23,20 @@ import org.jetbrains.kotlin.ir.declarations.IrEnumEntry
 import org.jetbrains.kotlin.ir.declarations.IrFile
 import org.jetbrains.kotlin.ir.declarations.IrFunction
 import org.jetbrains.kotlin.ir.declarations.IrModuleFragment
+import org.jetbrains.kotlin.ir.declarations.IrParameterKind
+import org.jetbrains.kotlin.ir.declarations.IrSimpleFunction
 import org.jetbrains.kotlin.ir.declarations.IrValueParameter
 import org.jetbrains.kotlin.ir.expressions.IrBlockBody
 import org.jetbrains.kotlin.ir.expressions.IrCall
 import org.jetbrains.kotlin.ir.expressions.IrConstructorCall
 import org.jetbrains.kotlin.ir.expressions.IrExpression
+import org.jetbrains.kotlin.ir.expressions.IrFunctionAccessExpression
 import org.jetbrains.kotlin.ir.expressions.IrFunctionExpression
+import org.jetbrains.kotlin.ir.expressions.IrMemberAccessExpression
 import org.jetbrains.kotlin.ir.expressions.IrStatementOrigin
 import org.jetbrains.kotlin.ir.expressions.impl.IrGetValueImpl
 import org.jetbrains.kotlin.ir.symbols.IrSimpleFunctionSymbol
+import org.jetbrains.kotlin.ir.symbols.IrSymbol
 import org.jetbrains.kotlin.ir.symbols.UnsafeDuringIrConstructionAPI
 import org.jetbrains.kotlin.ir.symbols.impl.IrValueParameterSymbolImpl
 import org.jetbrains.kotlin.ir.types.IrType
@@ -55,6 +58,29 @@ import org.jetbrains.kotlin.name.CallableId
 import org.jetbrains.kotlin.name.ClassId
 import org.jetbrains.kotlin.name.FqName
 import org.jetbrains.kotlin.name.Name
+
+internal val IrFunction.regularParameters
+  get() = parameters.filter { it.kind == IrParameterKind.Regular }
+
+@OptIn(UnsafeDuringIrConstructionAPI::class)
+internal fun <T : IrSymbol> IrMemberAccessExpression<T>.setRegularArgument(
+  regularIndex: Int,
+  value: IrExpression?,
+) {
+  val argumentIndex = (symbol.owner as IrFunction).regularParameters[regularIndex].indexInParameters
+  arguments[argumentIndex] = value
+}
+
+@OptIn(UnsafeDuringIrConstructionAPI::class)
+internal fun IrFunctionAccessExpression.getRegularArgument(regularIndex: Int) =
+  arguments[symbol.owner.regularParameters[regularIndex].indexInParameters]
+
+@OptIn(UnsafeDuringIrConstructionAPI::class)
+internal val IrCall.regularArguments
+  get() = symbol.owner.regularParameters.map { parameter -> arguments[parameter.indexInParameters] }
+
+private val IrSimpleFunction.extensionReceiverValueParameter
+  get() = parameters.firstOrNull({ it.kind == IrParameterKind.ExtensionReceiver })
 
 private const val PACKAGE_NAME = "io.github.oshai.kotlinlogging"
 private const val PACKAGE_NAME_INTERNAL = "io.github.oshai.kotlinlogging.internal"
@@ -135,9 +161,9 @@ class KotlinLoggingIrGenerationExtension(
           )
         )
         .single {
-          it.owner.extensionReceiverParameter?.type?.classifierOrFail ==
+          it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
             eventBuilderClassSymbol.defaultType.classifierOrFail &&
-            it.owner.valueParameters.first().type.classifierOrFail ==
+            it.owner.regularParameters.first().type.classifierOrFail ==
               internalCompilerDataClassSymbol.defaultType.classifierOrFail
         }
     @OptIn(UnsafeDuringIrConstructionAPI::class)
@@ -158,7 +184,7 @@ class KotlinLoggingIrGenerationExtension(
           )
         )
         .single {
-          it.owner.extensionReceiverParameter?.type?.classifierOrFail ==
+          it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
             messageBuilderLambdaType.classifierOrFail
         }
     @OptIn(UnsafeDuringIrConstructionAPI::class)
@@ -171,7 +197,8 @@ class KotlinLoggingIrGenerationExtension(
           )
         )
         .single {
-          it.owner.extensionReceiverParameter?.type?.classifierOrFail == anyType.classifierOrFail
+          it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
+            anyType.classifierOrFail
         }
 
     val kLoggerClassSymbol =
@@ -202,7 +229,7 @@ class KotlinLoggingIrGenerationExtension(
           )
         )
         .single {
-          it.owner.extensionReceiverParameter?.type?.classifierOrFail ==
+          it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
             typesHelper.kLoggerClassSymbol.defaultType.classifierOrFail &&
             extraFilter.invoke(it.owner)
         }
@@ -342,11 +369,11 @@ class KotlinLoggingIrGenerationExtension(
       builder: DeclarationIrBuilder,
     ): IrConstructorCall {
       return typesHelper.internalCompilerDataConstructor.toIrConstructorCall().apply {
-        putValueArgument(0, compilerData.messageTemplate?.let { builder.irString(it) })
-        putValueArgument(1, compilerData.className?.let { builder.irString(it) })
-        putValueArgument(2, compilerData.methodName?.let { builder.irString(it) })
-        putValueArgument(3, compilerData.lineNumber?.let { builder.irInt(it) })
-        putValueArgument(4, compilerData.fileName?.let { builder.irString(it) })
+        setRegularArgument(0, compilerData.messageTemplate?.let { builder.irString(it) })
+        setRegularArgument(1, compilerData.className?.let { builder.irString(it) })
+        setRegularArgument(2, compilerData.methodName?.let { builder.irString(it) })
+        setRegularArgument(3, compilerData.lineNumber?.let { builder.irInt(it) })
+        setRegularArgument(4, compilerData.fileName?.let { builder.irString(it) })
       }
     }
 
@@ -354,15 +381,15 @@ class KotlinLoggingIrGenerationExtension(
     private fun collectMessageTemplateFromAtStatement(atCall: IrCall): String {
       val function = atCall.symbol.owner
       var messageExpression: IrExpression? = null
-      function.valueParameters.forEachIndexed { index, parameter ->
+      function.regularParameters.forEachIndexed { index, parameter ->
         if (
           parameter.type.classifierOrFail == typesHelper.eventBuilderLambdaType.classifierOrFail
         ) {
-          val eventBuilderLambdaArgument = atCall.valueArguments[index] as IrFunctionExpression
+          val eventBuilderLambdaArgument = atCall.getRegularArgument(index) as IrFunctionExpression
           val eventBuilderLambdaBody = eventBuilderLambdaArgument.function.body!!
           eventBuilderLambdaBody.statements.forEach { statement ->
             if (statement is IrCall && statement.symbol == typesHelper.setMessageFunction) {
-              messageExpression = statement.valueArguments[0]
+              messageExpression = statement.getRegularArgument(0)
             }
           }
         }
@@ -390,18 +417,19 @@ class KotlinLoggingIrGenerationExtension(
           originalLogExpression.startOffset,
           originalLogExpression.endOffset,
         )
-      val eventBuilderLambdaArgument = atCall.valueArguments.last() as IrFunctionExpression
+      val eventBuilderLambdaArgument = atCall.arguments.last() as IrFunctionExpression
       val eventBuilderLambdaBody = eventBuilderLambdaArgument.function.body!! as IrBlockBody
       eventBuilderLambdaBody.statements.add(
         0,
         builder.irCall(typesHelper.setHiddenInternalCompilerDataFunction.owner).apply {
-          extensionReceiver =
+          insertExtensionReceiver(
             IrGetValueImpl(
               startOffset = UNDEFINED_OFFSET,
               endOffset = UNDEFINED_OFFSET,
-              symbol = eventBuilderLambdaArgument.function.extensionReceiverParameter!!.symbol,
+              symbol = eventBuilderLambdaArgument.function.extensionReceiverValueParameter!!.symbol,
             )
-          putValueArgument(0, makeCompilerDataConstructorCall(compilerData, builder))
+          )
+          setRegularArgument(0, makeCompilerDataConstructorCall(compilerData, builder))
         },
       )
     }
@@ -416,18 +444,17 @@ class KotlinLoggingIrGenerationExtension(
           originalLogExpression.startOffset,
           originalLogExpression.endOffset,
         )
-      val loggerExpression = originalLogExpression.dispatchReceiver!!
       val originalFunction = originalLogExpression.symbol.owner
       val functionName = originalFunction.name.toString()
       val overloadedFunction =
         findKLoggerExtensionFunction(functionName) {
-          it.valueParameters.size == originalFunction.valueParameters.size + 1 &&
-            it.valueParameters.first().type.classifierOrFail ==
+          it.regularParameters.size == originalFunction.regularParameters.size + 1 &&
+            it.regularParameters.first().type.classifierOrFail ==
               typesHelper.internalCompilerDataClassSymbol.defaultType.classifierOrFail
         }
       val firstArgument =
-        if (originalLogExpression.valueArguments.isNotEmpty()) {
-          originalLogExpression.valueArguments[0]
+        if (originalLogExpression.regularArguments.isNotEmpty()) {
+          originalLogExpression.getRegularArgument(0)
         } else {
           null
         }
@@ -438,10 +465,10 @@ class KotlinLoggingIrGenerationExtension(
             (if (firstArgument != null) "(${sourceFile.getText(firstArgument)})" else ""),
         )
       return builder.irCall(overloadedFunction).apply {
-        extensionReceiver = loggerExpression
-        putValueArgument(0, makeCompilerDataConstructorCall(compilerData, builder))
-        originalLogExpression.valueArguments.forEachIndexed { index, exp ->
-          putValueArgument(index + 1, exp)
+        insertExtensionReceiver(originalLogExpression.dispatchReceiver)
+        setRegularArgument(0, makeCompilerDataConstructorCall(compilerData, builder))
+        originalLogExpression.regularArguments.forEachIndexed { index, exp ->
+          setRegularArgument(index + 1, exp)
         }
       }
     }
@@ -466,7 +493,7 @@ class KotlinLoggingIrGenerationExtension(
         loggerExpression.type.classOrFail.owner.functions.single {
           it.name == typesHelper.atMethodName &&
             sameParameters(
-              it.valueParameters,
+              it.regularParameters,
               listOf(
                 typesHelper.levelClassSymbol.defaultType,
                 typesHelper.markerClassSymbol.createType(true, listOf()),
@@ -477,31 +504,33 @@ class KotlinLoggingIrGenerationExtension(
       return Pair(
         builder.irCall(atFunction).apply {
           dispatchReceiver = loggerExpression
-          putValueArgument(0, loggingCallExpressions.levelExpression)
-          putValueArgument(1, loggingCallExpressions.markerExpression)
-          putValueArgument(
+          setRegularArgument(0, loggingCallExpressions.levelExpression)
+          setRegularArgument(1, loggingCallExpressions.markerExpression)
+          setRegularArgument(
             2,
             createIrFunctionExpression(
               type = typesHelper.eventBuilderLambdaType,
               function =
                 context.createLambdaIrSimpleFunction {
-                  extensionReceiverParameter =
-                    factory
-                      .createValueParameter(
-                        startOffset = UNDEFINED_OFFSET,
-                        endOffset = UNDEFINED_OFFSET,
-                        origin = IrDeclarationOrigin.DEFINED,
-                        name = typesHelper.extensionReceiverParameterName,
-                        type = typesHelper.eventBuilderClassSymbol.defaultType,
-                        isAssignable = false,
-                        symbol = IrValueParameterSymbolImpl(),
-                        index = UNDEFINED_PARAMETER_INDEX,
-                        varargElementType = null,
-                        isCrossinline = false,
-                        isNoinline = false,
-                        isHidden = false,
-                      )
-                      .apply { parent = this@createLambdaIrSimpleFunction }
+                  parameters =
+                    listOf(
+                      factory
+                        .createValueParameter(
+                          startOffset = UNDEFINED_OFFSET,
+                          endOffset = UNDEFINED_OFFSET,
+                          origin = IrDeclarationOrigin.DEFINED,
+                          kind = IrParameterKind.ExtensionReceiver,
+                          name = typesHelper.extensionReceiverParameterName,
+                          type = typesHelper.eventBuilderClassSymbol.defaultType,
+                          isAssignable = false,
+                          symbol = IrValueParameterSymbolImpl(),
+                          varargElementType = null,
+                          isCrossinline = false,
+                          isNoinline = false,
+                          isHidden = false,
+                        )
+                        .apply { parent = this@createLambdaIrSimpleFunction }
+                    )
                   returnType = typesHelper.unitType
                   parent = currentDeclarationParent!!
                   body =
@@ -512,10 +541,10 @@ class KotlinLoggingIrGenerationExtension(
                             IrGetValueImpl(
                               startOffset = UNDEFINED_OFFSET,
                               endOffset = UNDEFINED_OFFSET,
-                              symbol = extensionReceiverParameter!!.symbol,
+                              symbol = extensionReceiverValueParameter!!.symbol,
                             )
                           parent = currentDeclarationParent!!
-                          putValueArgument(0, loggingCallExpressions.messageExpression)
+                          setRegularArgument(0, loggingCallExpressions.messageExpression)
                         }
                       )
                       if (loggingCallExpressions.causeExpression != null) {
@@ -525,10 +554,10 @@ class KotlinLoggingIrGenerationExtension(
                               IrGetValueImpl(
                                 startOffset = UNDEFINED_OFFSET,
                                 endOffset = UNDEFINED_OFFSET,
-                                symbol = extensionReceiverParameter!!.symbol,
+                                symbol = extensionReceiverValueParameter!!.symbol,
                               )
                             parent = currentDeclarationParent!!
-                            putValueArgument(0, loggingCallExpressions.causeExpression)
+                            setRegularArgument(0, loggingCallExpressions.causeExpression)
                           }
                         )
                       }

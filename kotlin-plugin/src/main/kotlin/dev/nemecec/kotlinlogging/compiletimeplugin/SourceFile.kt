@@ -22,6 +22,7 @@ import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSourceLocation
 import org.jetbrains.kotlin.ir.IrElement
 import org.jetbrains.kotlin.ir.SourceRangeInfo
 import org.jetbrains.kotlin.ir.declarations.IrFile
+import org.jetbrains.kotlin.ir.declarations.IrParameterKind
 import org.jetbrains.kotlin.ir.declarations.name
 import org.jetbrains.kotlin.ir.declarations.path
 import org.jetbrains.kotlin.ir.expressions.IrCall
@@ -41,8 +42,13 @@ data class SourceFile(private val irFile: IrFile) {
     var range = element.startOffset..element.endOffset
     when (element) {
       is IrCall -> {
-        val receiver = element.extensionReceiver ?: element.dispatchReceiver
-        if (element.symbol.owner.isInfix && receiver != null) {
+        val receiverIndex =
+          element.symbol.owner.parameters.indexOfFirst {
+            it.kind == IrParameterKind.ExtensionReceiver ||
+              it.kind == IrParameterKind.DispatchReceiver
+          }
+        if (element.symbol.owner.isInfix && receiverIndex > -1) {
+          val receiver = element.arguments[receiverIndex]!!
           // When an infix function is called *not* with infix notation, the startOffset will not
           // include the receiver.
           // Force the range to include the receiver, so it is always present

@@ -2,13 +2,13 @@ package dev.nemecec.kotlinlogging.compiletimeplugin
 
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
 import org.jetbrains.kotlin.ir.IrElement
-import org.jetbrains.kotlin.ir.backend.js.utils.valueArguments
 import org.jetbrains.kotlin.ir.builders.irCall
 import org.jetbrains.kotlin.ir.builders.irString
 import org.jetbrains.kotlin.ir.expressions.IrCall
 import org.jetbrains.kotlin.ir.expressions.IrConst
 import org.jetbrains.kotlin.ir.expressions.IrExpression
 import org.jetbrains.kotlin.ir.expressions.IrStringConcatenation
+import org.jetbrains.kotlin.ir.symbols.UnsafeDuringIrConstructionAPI
 
 class PlaceholderReplacer(
   private val typesHelper: KotlinLoggingIrGenerationExtension.TypesHelper,
@@ -16,6 +16,7 @@ class PlaceholderReplacer(
 ) {
   data class ReplaceResult(val newExpression: IrExpression, val newArgIndex: Int)
 
+  @OptIn(UnsafeDuringIrConstructionAPI::class)
   fun replace(
     msgExp: IrExpression,
     valueArguments: List<IrElement?>,
@@ -38,9 +39,9 @@ class PlaceholderReplacer(
           replace(msgExp.dispatchReceiver!!, valueArguments, newArgIndex, placeholder)
         msgExp.dispatchReceiver = dispatchResult.newExpression
         newArgIndex = dispatchResult.newArgIndex
-        msgExp.valueArguments.forEachIndexed { index, valueArgument ->
+        msgExp.regularArguments.forEachIndexed { index, valueArgument ->
           val argResult = replace(valueArgument!!, valueArguments, newArgIndex, placeholder)
-          msgExp.putValueArgument(index, argResult.newExpression)
+          msgExp.setRegularArgument(index, argResult.newExpression)
           newArgIndex = argResult.newArgIndex
         }
       }
@@ -84,17 +85,17 @@ class PlaceholderReplacer(
             // first element
             builder.irCall(plusFunctionSymbol).apply {
               insertDispatchReceiver(builder.irString(msgPart))
-              putValueArgument(0, arg!! as IrExpression)
+              setRegularArgument(0, arg!! as IrExpression)
             }
           } else {
             // in-between elements
             builder.irCall(plusFunctionSymbol).apply {
               insertDispatchReceiver(accumulator)
-              putValueArgument(
+              setRegularArgument(
                 0,
                 builder.irCall(plusFunctionSymbol).apply {
                   insertDispatchReceiver(builder.irString(msgPart))
-                  putValueArgument(0, arg!! as IrExpression)
+                  setRegularArgument(0, arg!! as IrExpression)
                 },
               )
             }
@@ -103,7 +104,7 @@ class PlaceholderReplacer(
           // last element
           builder.irCall(plusFunctionSymbol).apply {
             insertDispatchReceiver(accumulator)
-            putValueArgument(0, builder.irString(msgPart))
+            setRegularArgument(0, builder.irString(msgPart))
           }
         }
       }
