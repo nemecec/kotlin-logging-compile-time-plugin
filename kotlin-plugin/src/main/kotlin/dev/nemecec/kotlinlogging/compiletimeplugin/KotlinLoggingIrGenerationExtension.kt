@@ -373,7 +373,7 @@ class KotlinLoggingIrGenerationExtension(
           "Unable to find message expression in statement lambda: $atCallSource\n ${atCall.dumpKotlinLike()}\n ${atCall.dump()}"
         )
       }
-      return sourceFile.getText(messageExpression!!)
+      return sourceFile.getText(messageExpression)
     }
 
     @OptIn(UnsafeDuringIrConstructionAPI::class)
@@ -566,7 +566,7 @@ fun IrClass.enumEntry(enumName: String): IrEnumEntry? =
 
 fun FileLoweringPass.runOnFileInOrder(irFile: IrFile) {
   irFile.acceptVoid(
-    object : IrElementVisitorVoid {
+    object : IrVisitorVoid() {
       override fun visitElement(element: IrElement) {
         element.acceptChildrenVoid(this)
       }
