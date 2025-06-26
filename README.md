@@ -57,13 +57,13 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 
 ### Kotlin compatibility matrix
 
-| Kotlin version | Plugin version        |
-|----------------|-----------------------|
-| 2.0.21         | 1.0.x (latest 1.0.2)  |
-| 2.1.10         | 1.1.x (latest 1.1.3)  |
-| 2.1.20         | 1.2.x (latest 1.2.2)  |
-| 2.1.21         | 1.2.x (latest 1.2.3)  |
-| 2.2.0          | 1.2.3+ (latest 1.2.3) |
+| Kotlin version | Plugin version       |
+|----------------|----------------------|
+| 2.0.21         | 1.0.x (latest 1.0.2) |
+| 2.1.10         | 1.1.x (latest 1.1.3) |
+| 2.1.20         | 1.2.x (latest 1.2.2) |
+| 2.1.21         | 1.2.x (latest 1.2.3) |
+| 2.2.0          | 1.3.x (latest 1.3.0) |
 
 ## Usage
 
@@ -71,7 +71,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.2.3"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.3.0"
 }
 
 dependencies {
