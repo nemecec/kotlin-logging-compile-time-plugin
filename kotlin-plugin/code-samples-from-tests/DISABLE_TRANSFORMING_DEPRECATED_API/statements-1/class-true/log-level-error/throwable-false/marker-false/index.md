@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test396.MainTest", methodName = "main", fileName = "test396.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder\"", className = "test396.MainTest", methodName = "main", fileName = "test396.kt", lineNumber = 12)
   }
   
 }
@@ -82,7 +82,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test397.MainTest", methodName = "main", fileName = "test397.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i\"", className = "test397.MainTest", methodName = "main", fileName = "test397.kt", lineNumber = 12)
   }
   
 }
@@ -126,7 +126,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test398.MainTest", methodName = "main", fileName = "test398.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i ${helper()}\"", className = "test398.MainTest", methodName = "main", fileName = "test398.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }
@@ -214,7 +214,7 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test400.MainTest", methodName = "main", fileName = "test400.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test400.MainTest", methodName = "main", fileName = "test400.kt", lineNumber = 12)
   }
   
 }
@@ -258,7 +258,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test401.MainTest", methodName = "main", fileName = "test401.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test401.MainTest", methodName = "main", fileName = "test401.kt", lineNumber = 12)
   }
   
 }
@@ -302,7 +302,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test402.MainTest", methodName = "main", fileName = "test402.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test402.MainTest", methodName = "main", fileName = "test402.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }
@@ -346,7 +346,7 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test403.MainTest", methodName = "main", fileName = "test403.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test403.MainTest", methodName = "main", fileName = "test403.kt", lineNumber = 12)
   }
   
 }
@@ -390,7 +390,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test404.MainTest", methodName = "main", fileName = "test404.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test404.MainTest", methodName = "main", fileName = "test404.kt", lineNumber = 12)
   }
   
 }
@@ -434,7 +434,7 @@ private val logger = KotlinLogging.logger {}
     
     
     val i = 42
-    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test405.MainTest", methodName = "main", fileName = "test405.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test405.MainTest", methodName = "main", fileName = "test405.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }

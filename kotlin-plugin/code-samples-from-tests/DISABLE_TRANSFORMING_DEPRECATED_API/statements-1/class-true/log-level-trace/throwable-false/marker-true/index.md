@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test60.MainTest", methodName = "main", fileName = "test60.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder\"", className = "test60.MainTest", methodName = "main", fileName = "test60.kt", lineNumber = 12)
   }
   
 }
@@ -82,7 +82,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test61.MainTest", methodName = "main", fileName = "test61.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i\"", className = "test61.MainTest", methodName = "main", fileName = "test61.kt", lineNumber = 12)
   }
   
 }
@@ -126,7 +126,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test62.MainTest", methodName = "main", fileName = "test62.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i ${helper()}\"", className = "test62.MainTest", methodName = "main", fileName = "test62.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +170,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test63.MainTest", methodName = "main", fileName = "test63.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder\"", className = "test63.MainTest", methodName = "main", fileName = "test63.kt", lineNumber = 12)
   }
   
 }
@@ -214,7 +214,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test64.MainTest", methodName = "main", fileName = "test64.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i\"", className = "test64.MainTest", methodName = "main", fileName = "test64.kt", lineNumber = 12)
   }
   
 }
@@ -258,7 +258,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test65.MainTest", methodName = "main", fileName = "test65.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i ${helper()}\"", className = "test65.MainTest", methodName = "main", fileName = "test65.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }

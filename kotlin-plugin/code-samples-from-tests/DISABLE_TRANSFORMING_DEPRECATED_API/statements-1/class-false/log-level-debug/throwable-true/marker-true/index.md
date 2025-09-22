@@ -38,7 +38,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test501.Test501Kt", methodName = "main", fileName = "test501.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder\"", className = "test501.Test501Kt", methodName = "main", fileName = "test501.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test502.Test502Kt", methodName = "main", fileName = "test502.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder $i\"", className = "test502.Test502Kt", methodName = "main", fileName = "test502.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test503.Test503Kt", methodName = "main", fileName = "test503.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder $i ${helper()}\"", className = "test503.Test503Kt", methodName = "main", fileName = "test503.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test505.Test505Kt", methodName = "main", fileName = "test505.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder\"", className = "test505.Test505Kt", methodName = "main", fileName = "test505.kt", lineNumber = 12)
 }
 
 
@@ -258,7 +258,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test506.Test506Kt", methodName = "main", fileName = "test506.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i\"", className = "test506.Test506Kt", methodName = "main", fileName = "test506.kt", lineNumber = 12)
 }
 
 
@@ -302,7 +302,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test507.Test507Kt", methodName = "main", fileName = "test507.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i ${helper()}\"", className = "test507.Test507Kt", methodName = "main", fileName = "test507.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -346,7 +346,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test508.Test508Kt", methodName = "main", fileName = "test508.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder\"", className = "test508.Test508Kt", methodName = "main", fileName = "test508.kt", lineNumber = 12)
 }
 
 
@@ -390,7 +390,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test509.Test509Kt", methodName = "main", fileName = "test509.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i\"", className = "test509.Test509Kt", methodName = "main", fileName = "test509.kt", lineNumber = 12)
 }
 
 
@@ -434,7 +434,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test510.Test510Kt", methodName = "main", fileName = "test510.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i ${helper()}\"", className = "test510.Test510Kt", methodName = "main", fileName = "test510.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 

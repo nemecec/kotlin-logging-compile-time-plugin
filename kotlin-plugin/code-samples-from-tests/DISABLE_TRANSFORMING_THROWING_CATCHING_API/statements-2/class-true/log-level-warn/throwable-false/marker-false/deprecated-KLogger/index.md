@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
-    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
+    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
+    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
   }
   
 }

@@ -39,10 +39,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1481.Test1481Kt", methodName = "main", fileName = "test1481.kt", lineNumber = 13)
 }
 
 
@@ -87,10 +87,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message with concatenation $arg {}"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message with concatenation $arg {}"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message with concatenation $arg {}"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message with concatenation $arg {}"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message with concatenation $arg {}\"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message with concatenation $arg {}\"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message with concatenation $arg {}\"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message with concatenation $arg {}\"", className = "test1482.Test1482Kt", methodName = "main", fileName = "test1482.kt", lineNumber = 13)
 }
 
 
@@ -135,10 +135,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn with extension function {} interval"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn with extension function {} interval"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn with extension function {} interval"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn with extension function {} interval"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn with extension function {} interval\"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn with extension function {} interval\"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn with extension function {} interval\"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn with extension function {} interval\"", className = "test1483.Test1483Kt", methodName = "main", fileName = "test1483.kt", lineNumber = 13)
 }
 
 
@@ -183,10 +183,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   val arg = 42
-  logger.at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1484.Test1484Kt", methodName = "main", fileName = "test1484.kt", lineNumber = 13)
 }
 fun helper() = "Hello!"
 
@@ -231,10 +231,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   val a = 1; val b = 2
-  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}a" + " {}b" + " {}ab" + " ab"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}a" + " {}b" + " {}ab" + " ab"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}a" + " {}b" + " {}ab" + " ab"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}a" + " {}b" + " {}ab" + " ab"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1485.Test1485Kt", methodName = "main", fileName = "test1485.kt", lineNumber = 13)
 }
 fun ab() = 12
 

@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test11.MainTest", methodName = "main", fileName = "test11.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder\"", className = "test11.MainTest", methodName = "main", fileName = "test11.kt", lineNumber = 12)
   }
   
 }
@@ -82,7 +82,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test12.MainTest", methodName = "main", fileName = "test12.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i\"", className = "test12.MainTest", methodName = "main", fileName = "test12.kt", lineNumber = 12)
   }
   
 }
@@ -126,7 +126,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     val i = 42
-    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test13.MainTest", methodName = "main", fileName = "test13.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i ${helper()}\"", className = "test13.MainTest", methodName = "main", fileName = "test13.kt", lineNumber = 12)
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +170,7 @@ private val logger = KotlinLogging.logger {}
     val marker = MyMarker("markerName")
     val throwable = Exception("expected!")
     
-    logger.at(Level.TRACE, marker) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test14.MainTest", methodName = "main", fileName = "test14.kt", lineNumber = 12)
+    logger.at(Level.TRACE, marker) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test14.MainTest", methodName = "main", fileName = "test14.kt", lineNumber = 12)
   }
   
 }

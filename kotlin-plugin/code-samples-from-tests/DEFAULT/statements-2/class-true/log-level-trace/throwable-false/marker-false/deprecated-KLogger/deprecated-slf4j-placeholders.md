@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     
     val arg = 42
-    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test876.MainTest", methodName = "main", fileName = "test876.kt", lineNumber = 13)
   }
   
 }
@@ -87,10 +87,10 @@ private val logger = KotlinLogging.logger {}
     
     
     val arg = 42
-    logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message with concatenation $arg {}"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message with concatenation $arg {}"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message with concatenation $arg {}"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message with concatenation $arg {}"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test877.MainTest", methodName = "main", fileName = "test877.kt", lineNumber = 13)
   }
   
 }
@@ -135,10 +135,10 @@ private var arg: Long = 42
     
     
     
-    logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace with extension function {} interval"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace with extension function {} interval"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace with extension function {} interval"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace with extension function {} interval"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test878.MainTest", methodName = "main", fileName = "test878.kt", lineNumber = 13)
   }
   
 }
@@ -183,10 +183,10 @@ private val logger = KotlinLogging.logger {}
     
     
     val arg = 42
-    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test879.MainTest", methodName = "main", fileName = "test879.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }
@@ -231,10 +231,10 @@ private val logger = KotlinLogging.logger {}
     
     
     val a = 1; val b = 2
-    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}a" + " {}b" + " {}ab" + " ab"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}a" + " {}b" + " {}ab" + " ab"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}a" + " {}b" + " {}ab" + " ab"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}a" + " {}b" + " {}ab" + " ab"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test880.MainTest", methodName = "main", fileName = "test880.kt", lineNumber = 13)
   }
   fun ab() = 12
 }

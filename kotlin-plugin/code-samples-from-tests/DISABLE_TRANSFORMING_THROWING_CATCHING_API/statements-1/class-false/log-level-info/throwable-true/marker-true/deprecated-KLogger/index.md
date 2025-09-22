@@ -38,7 +38,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test576.Test576Kt", methodName = "main", fileName = "test576.kt", lineNumber = 12)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test576.Test576Kt", methodName = "main", fileName = "test576.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test577.Test577Kt", methodName = "main", fileName = "test577.kt", lineNumber = 12)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test577.Test577Kt", methodName = "main", fileName = "test577.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test578.Test578Kt", methodName = "main", fileName = "test578.kt", lineNumber = 12)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test578.Test578Kt", methodName = "main", fileName = "test578.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -170,7 +170,7 @@ fun main() {
   val marker = MyMarker("markerName")
   val throwable = Exception("expected!")
   
-  logger.at(Level.INFO, marker) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test579.Test579Kt", methodName = "main", fileName = "test579.kt", lineNumber = 12)
+  logger.at(Level.INFO, marker) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test579.Test579Kt", methodName = "main", fileName = "test579.kt", lineNumber = 12)
 }
 
 

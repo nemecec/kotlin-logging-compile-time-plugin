@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 13)
-    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 13)
+    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 12)
+at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test884.MainTest", methodName = "main", fileName = "test884.kt", lineNumber = 13)
   }
   
 }

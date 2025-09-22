@@ -39,10 +39,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1489.Test1489Kt", methodName = "main", fileName = "test1489.kt", lineNumber = 13)
 }
 
 

@@ -210,7 +210,7 @@ private fun LogStatement.makeTransformedSource(loggedEvent: TestLoggingEvent): S
     if (useMarker) arguments.add(MARKER_VARIABLE_NAME)
 
     val lambdaValues = mutableListOf<String>()
-    lambdaValues.add("message = \"${loggedEvent.formattedMessage}\"")
+    lambdaValues.add("message = \"${escapeQuotes(loggedEvent.formattedMessage)}\"")
     if (useThrowable) lambdaValues.add("cause = $THROWABLE_VARIABLE_NAME")
     lambdaValues.add(
       "internalCompilerData = KLoggingEventBuilder.InternalCompilerData(${compilerDataValues.joinToString(", ")})"
@@ -223,17 +223,19 @@ private fun LogStatement.makeTransformedSource(loggedEvent: TestLoggingEvent): S
 private fun makeCompilerDataValues(loggedEvent: TestLoggingEvent): MutableList<String> {
   val compilerDataValues = mutableListOf<String>()
   if (loggedEvent.message != loggedEvent.formattedMessage) {
-    compilerDataValues.add("messageTemplate = \"${loggedEvent.message}\"")
+    compilerDataValues.add("messageTemplate = \"${escapeQuotes(loggedEvent.message)}\"")
   }
   val callerDataFirstElement = loggedEvent.callerDataFirstElement
   if (callerDataFirstElement != null) {
-    compilerDataValues.add("className = \"${callerDataFirstElement.className}\"")
-    compilerDataValues.add("methodName = \"${callerDataFirstElement.methodName}\"")
-    compilerDataValues.add("fileName = \"${callerDataFirstElement.fileName}\"")
+    compilerDataValues.add("className = \"${escapeQuotes(callerDataFirstElement.className)}\"")
+    compilerDataValues.add("methodName = \"${escapeQuotes(callerDataFirstElement.methodName)}\"")
+    compilerDataValues.add("fileName = \"${escapeQuotes(callerDataFirstElement.fileName)}\"")
     compilerDataValues.add("lineNumber = ${callerDataFirstElement.lineNumber}")
   }
   return compilerDataValues
 }
+
+private fun escapeQuotes(message: String?) = message?.replace("\"", "\\\"")
 
 private fun LogStatement.makeArgumentList(useMarker: Boolean, useThrowable: Boolean): String {
   val arguments =

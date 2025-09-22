@@ -38,7 +38,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test456.Test456Kt", methodName = "main", fileName = "test456.kt", lineNumber = 12)
+  logger.at(Level.TRACE, marker) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder\"", className = "test456.Test456Kt", methodName = "main", fileName = "test456.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test457.Test457Kt", methodName = "main", fileName = "test457.kt", lineNumber = 12)
+  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i\"", className = "test457.Test457Kt", methodName = "main", fileName = "test457.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val i = 42
-  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test458.Test458Kt", methodName = "main", fileName = "test458.kt", lineNumber = 12)
+  logger.at(Level.TRACE, marker) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i ${helper()}\"", className = "test458.Test458Kt", methodName = "main", fileName = "test458.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -170,7 +170,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   
-  logger.at(Level.TRACE, marker) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test459.Test459Kt", methodName = "main", fileName = "test459.kt", lineNumber = 12)
+  logger.at(Level.TRACE, marker) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test459.Test459Kt", methodName = "main", fileName = "test459.kt", lineNumber = 12)
 }
 
 

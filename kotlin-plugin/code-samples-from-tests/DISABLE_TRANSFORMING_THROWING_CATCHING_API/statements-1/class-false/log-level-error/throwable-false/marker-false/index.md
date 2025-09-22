@@ -38,7 +38,7 @@ fun main() {
   
   
   
-  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder"", className = "test801.Test801Kt", methodName = "main", fileName = "test801.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder\"", className = "test801.Test801Kt", methodName = "main", fileName = "test801.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i"", className = "test802.Test802Kt", methodName = "main", fileName = "test802.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i\"", className = "test802.Test802Kt", methodName = "main", fileName = "test802.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error messageBuilder $i ${helper()}"", className = "test803.Test803Kt", methodName = "main", fileName = "test803.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i ${helper()}\"", className = "test803.Test803Kt", methodName = "main", fileName = "test803.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   
   
   
-  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test805.Test805Kt", methodName = "main", fileName = "test805.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test805.Test805Kt", methodName = "main", fileName = "test805.kt", lineNumber = 12)
 }
 
 
@@ -258,7 +258,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test806.Test806Kt", methodName = "main", fileName = "test806.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test806.Test806Kt", methodName = "main", fileName = "test806.kt", lineNumber = 12)
 }
 
 
@@ -302,7 +302,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test807.Test807Kt", methodName = "main", fileName = "test807.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test807.Test807Kt", methodName = "main", fileName = "test807.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -346,7 +346,7 @@ fun main() {
   
   
   
-  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder"", className = "test808.Test808Kt", methodName = "main", fileName = "test808.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test808.Test808Kt", methodName = "main", fileName = "test808.kt", lineNumber = 12)
 }
 
 
@@ -390,7 +390,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i"", className = "test809.Test809Kt", methodName = "main", fileName = "test809.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test809.Test809Kt", methodName = "main", fileName = "test809.kt", lineNumber = 12)
 }
 
 
@@ -434,7 +434,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error eventBuilder $i ${helper()}"", className = "test810.Test810Kt", methodName = "main", fileName = "test810.kt", lineNumber = 12)
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test810.Test810Kt", methodName = "main", fileName = "test810.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 

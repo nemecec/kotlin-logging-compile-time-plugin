@@ -38,7 +38,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test531.Test531Kt", methodName = "main", fileName = "test531.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test531.Test531Kt", methodName = "main", fileName = "test531.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.at(Level.DEBUG, marker) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message with concatenation $arg {}"", className = "test532.Test532Kt", methodName = "main", fileName = "test532.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test532.Test532Kt", methodName = "main", fileName = "test532.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   
-  logger.at(Level.DEBUG, marker) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug with extension function {} interval"", className = "test533.Test533Kt", methodName = "main", fileName = "test533.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test533.Test533Kt", methodName = "main", fileName = "test533.kt", lineNumber = 12)
 }
 
 
@@ -170,7 +170,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val arg = 42
-  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test534.Test534Kt", methodName = "main", fileName = "test534.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test534.Test534Kt", methodName = "main", fileName = "test534.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val a = 1; val b = 2
-  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}a" + " {}b" + " {}ab" + " ab"", className = "test535.Test535Kt", methodName = "main", fileName = "test535.kt", lineNumber = 12)
+  logger.at(Level.DEBUG, marker) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test535.Test535Kt", methodName = "main", fileName = "test535.kt", lineNumber = 12)
 }
 fun ab() = 12
 

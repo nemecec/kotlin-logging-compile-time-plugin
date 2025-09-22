@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test74.MainTest", methodName = "main", fileName = "test74.kt", lineNumber = 12)
+    logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test74.MainTest", methodName = "main", fileName = "test74.kt", lineNumber = 12)
   }
   
 }

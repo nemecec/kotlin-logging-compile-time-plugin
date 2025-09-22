@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     
     val throwable = Exception("expected!")
     
-    logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test34.MainTest", methodName = "main", fileName = "test34.kt", lineNumber = 12)
+    logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test34.MainTest", methodName = "main", fileName = "test34.kt", lineNumber = 12)
   }
   
 }

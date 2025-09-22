@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     
     val throwable = Exception("expected!")
     
-    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test354.MainTest", methodName = "main", fileName = "test354.kt", lineNumber = 12)
+    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test354.MainTest", methodName = "main", fileName = "test354.kt", lineNumber = 12)
   }
   
 }

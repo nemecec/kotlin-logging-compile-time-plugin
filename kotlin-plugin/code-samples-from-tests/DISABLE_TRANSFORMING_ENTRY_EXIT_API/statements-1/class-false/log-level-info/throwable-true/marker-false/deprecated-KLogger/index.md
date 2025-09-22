@@ -38,7 +38,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test599.Test599Kt", methodName = "main", fileName = "test599.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test599.Test599Kt", methodName = "main", fileName = "test599.kt", lineNumber = 12)
 }
 
 

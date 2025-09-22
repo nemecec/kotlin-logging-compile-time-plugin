@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 12)
+at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 12)
+at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test964.MainTest", methodName = "main", fileName = "test964.kt", lineNumber = 13)
   }
   
 }

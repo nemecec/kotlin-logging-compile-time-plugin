@@ -38,7 +38,7 @@ private val logger = KotlinLogging.logger {}
     
     
     
-    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test314.MainTest", methodName = "main", fileName = "test314.kt", lineNumber = 12)
+    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test314.MainTest", methodName = "main", fileName = "test314.kt", lineNumber = 12)
   }
   
 }

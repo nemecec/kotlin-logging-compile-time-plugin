@@ -39,10 +39,10 @@ fun main() {
   
   
   
-  logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 13)
-  logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 13)
+  logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 12)
+at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 13)
+  logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 12)
+at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1609.Test1609Kt", methodName = "main", fileName = "test1609.kt", lineNumber = 13)
 }
 
 

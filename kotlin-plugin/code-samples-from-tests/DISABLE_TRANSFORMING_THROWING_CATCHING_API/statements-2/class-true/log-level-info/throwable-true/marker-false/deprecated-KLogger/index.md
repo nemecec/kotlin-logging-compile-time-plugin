@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     val throwable = Exception("expected!")
     
-    logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 12)
+at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 12)
+at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1004.MainTest", methodName = "main", fileName = "test1004.kt", lineNumber = 13)
   }
   
 }

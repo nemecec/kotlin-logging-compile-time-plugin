@@ -38,7 +38,7 @@ fun main() {
   
   
   
-  logger.at(Level.TRACE) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder"", className = "test481.Test481Kt", methodName = "main", fileName = "test481.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder\"", className = "test481.Test481Kt", methodName = "main", fileName = "test481.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i"", className = "test482.Test482Kt", methodName = "main", fileName = "test482.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i\"", className = "test482.Test482Kt", methodName = "main", fileName = "test482.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace messageBuilder $i ${helper()}"", className = "test483.Test483Kt", methodName = "main", fileName = "test483.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace messageBuilder $i ${helper()}\"", className = "test483.Test483Kt", methodName = "main", fileName = "test483.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   
   
   
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test485.Test485Kt", methodName = "main", fileName = "test485.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder\"", className = "test485.Test485Kt", methodName = "main", fileName = "test485.kt", lineNumber = 12)
 }
 
 
@@ -258,7 +258,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test486.Test486Kt", methodName = "main", fileName = "test486.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i\"", className = "test486.Test486Kt", methodName = "main", fileName = "test486.kt", lineNumber = 12)
 }
 
 
@@ -302,7 +302,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test487.Test487Kt", methodName = "main", fileName = "test487.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i ${helper()}\"", className = "test487.Test487Kt", methodName = "main", fileName = "test487.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -346,7 +346,7 @@ fun main() {
   
   
   
-  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder"", className = "test488.Test488Kt", methodName = "main", fileName = "test488.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder\"", className = "test488.Test488Kt", methodName = "main", fileName = "test488.kt", lineNumber = 12)
 }
 
 
@@ -390,7 +390,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i"", className = "test489.Test489Kt", methodName = "main", fileName = "test489.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i\"", className = "test489.Test489Kt", methodName = "main", fileName = "test489.kt", lineNumber = 12)
 }
 
 
@@ -434,7 +434,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace eventBuilder $i ${helper()}"", className = "test490.Test490Kt", methodName = "main", fileName = "test490.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace eventBuilder $i ${helper()}\"", className = "test490.Test490Kt", methodName = "main", fileName = "test490.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 

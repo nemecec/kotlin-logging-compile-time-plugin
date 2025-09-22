@@ -38,7 +38,7 @@ fun main() {
   
   
   
-  logger.at(Level.INFO) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test639.Test639Kt", methodName = "main", fileName = "test639.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test639.Test639Kt", methodName = "main", fileName = "test639.kt", lineNumber = 12)
 }
 
 

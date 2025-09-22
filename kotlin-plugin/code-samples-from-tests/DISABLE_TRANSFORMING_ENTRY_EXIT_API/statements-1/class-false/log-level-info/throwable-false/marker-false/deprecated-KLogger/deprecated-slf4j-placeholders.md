@@ -38,7 +38,7 @@ fun main() {
   
   
   val arg = 42
-  logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test631.Test631Kt", methodName = "main", fileName = "test631.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test631.Test631Kt", methodName = "main", fileName = "test631.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   
   
   val arg = 42
-  logger.at(Level.INFO) { message = "info message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message with concatenation $arg {}"", className = "test632.Test632Kt", methodName = "main", fileName = "test632.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message with concatenation $arg {}\"", className = "test632.Test632Kt", methodName = "main", fileName = "test632.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   
   
   
-  logger.at(Level.INFO) { message = "info with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info with extension function {} interval"", className = "test633.Test633Kt", methodName = "main", fileName = "test633.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info with extension function {} interval\"", className = "test633.Test633Kt", methodName = "main", fileName = "test633.kt", lineNumber = 12)
 }
 
 
@@ -170,7 +170,7 @@ fun main() {
   
   
   val arg = 42
-  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test634.Test634Kt", methodName = "main", fileName = "test634.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test634.Test634Kt", methodName = "main", fileName = "test634.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   
   
   val a = 1; val b = 2
-  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}a" + " {}b" + " {}ab" + " ab"", className = "test635.Test635Kt", methodName = "main", fileName = "test635.kt", lineNumber = 12)
+  logger.at(Level.INFO) { message = "info message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test635.Test635Kt", methodName = "main", fileName = "test635.kt", lineNumber = 12)
 }
 fun ab() = 12
 

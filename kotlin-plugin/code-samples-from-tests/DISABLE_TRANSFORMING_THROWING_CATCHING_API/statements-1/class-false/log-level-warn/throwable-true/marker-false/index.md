@@ -38,7 +38,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.WARN) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder"", className = "test681.Test681Kt", methodName = "main", fileName = "test681.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test681.Test681Kt", methodName = "main", fileName = "test681.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i"", className = "test682.Test682Kt", methodName = "main", fileName = "test682.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test682.Test682Kt", methodName = "main", fileName = "test682.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn messageBuilder $i ${helper()}"", className = "test683.Test683Kt", methodName = "main", fileName = "test683.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test683.Test683Kt", methodName = "main", fileName = "test683.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test685.Test685Kt", methodName = "main", fileName = "test685.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder\"", className = "test685.Test685Kt", methodName = "main", fileName = "test685.kt", lineNumber = 12)
 }
 
 
@@ -258,7 +258,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test686.Test686Kt", methodName = "main", fileName = "test686.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder $i\"", className = "test686.Test686Kt", methodName = "main", fileName = "test686.kt", lineNumber = 12)
 }
 
 
@@ -302,7 +302,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test687.Test687Kt", methodName = "main", fileName = "test687.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder $i ${helper()}\"", className = "test687.Test687Kt", methodName = "main", fileName = "test687.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -346,7 +346,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder"", className = "test688.Test688Kt", methodName = "main", fileName = "test688.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder\"", className = "test688.Test688Kt", methodName = "main", fileName = "test688.kt", lineNumber = 12)
 }
 
 
@@ -390,7 +390,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i"", className = "test689.Test689Kt", methodName = "main", fileName = "test689.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder $i\"", className = "test689.Test689Kt", methodName = "main", fileName = "test689.kt", lineNumber = 12)
 }
 
 
@@ -434,7 +434,7 @@ fun main() {
   
   val throwable = Exception("expected!")
   val i = 42
-  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn eventBuilder $i ${helper()}"", className = "test690.Test690Kt", methodName = "main", fileName = "test690.kt", lineNumber = 12)
+  logger.at(Level.WARN) { message = "warn eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn eventBuilder $i ${helper()}\"", className = "test690.Test690Kt", methodName = "main", fileName = "test690.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 

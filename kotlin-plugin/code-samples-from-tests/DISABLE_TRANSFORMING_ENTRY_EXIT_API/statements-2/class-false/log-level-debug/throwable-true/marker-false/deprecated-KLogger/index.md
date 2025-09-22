@@ -39,10 +39,10 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug message {}"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 12)
+at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 12)
+at(Level.DEBUG) { message = "debug message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1329.Test1329Kt", methodName = "main", fileName = "test1329.kt", lineNumber = 13)
 }
 
 

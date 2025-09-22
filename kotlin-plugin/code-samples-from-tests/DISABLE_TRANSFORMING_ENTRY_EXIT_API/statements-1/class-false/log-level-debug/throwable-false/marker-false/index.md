@@ -38,7 +38,7 @@ fun main() {
   
   
   
-  logger.at(Level.DEBUG) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder"", className = "test561.Test561Kt", methodName = "main", fileName = "test561.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder\"", className = "test561.Test561Kt", methodName = "main", fileName = "test561.kt", lineNumber = 12)
 }
 
 
@@ -82,7 +82,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i"", className = "test562.Test562Kt", methodName = "main", fileName = "test562.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder $i\"", className = "test562.Test562Kt", methodName = "main", fileName = "test562.kt", lineNumber = 12)
 }
 
 
@@ -126,7 +126,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug messageBuilder $i ${helper()}"", className = "test563.Test563Kt", methodName = "main", fileName = "test563.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug messageBuilder $i ${helper()}\"", className = "test563.Test563Kt", methodName = "main", fileName = "test563.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -214,7 +214,7 @@ fun main() {
   
   
   
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test565.Test565Kt", methodName = "main", fileName = "test565.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder\"", className = "test565.Test565Kt", methodName = "main", fileName = "test565.kt", lineNumber = 12)
 }
 
 
@@ -258,7 +258,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test566.Test566Kt", methodName = "main", fileName = "test566.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i\"", className = "test566.Test566Kt", methodName = "main", fileName = "test566.kt", lineNumber = 12)
 }
 
 
@@ -302,7 +302,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test567.Test567Kt", methodName = "main", fileName = "test567.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i ${helper()}\"", className = "test567.Test567Kt", methodName = "main", fileName = "test567.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 
@@ -346,7 +346,7 @@ fun main() {
   
   
   
-  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder"", className = "test568.Test568Kt", methodName = "main", fileName = "test568.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder\"", className = "test568.Test568Kt", methodName = "main", fileName = "test568.kt", lineNumber = 12)
 }
 
 
@@ -390,7 +390,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i"", className = "test569.Test569Kt", methodName = "main", fileName = "test569.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i\"", className = "test569.Test569Kt", methodName = "main", fileName = "test569.kt", lineNumber = 12)
 }
 
 
@@ -434,7 +434,7 @@ fun main() {
   
   
   val i = 42
-  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""debug eventBuilder $i ${helper()}"", className = "test570.Test570Kt", methodName = "main", fileName = "test570.kt", lineNumber = 12)
+  logger.at(Level.DEBUG) { message = "debug eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug eventBuilder $i ${helper()}\"", className = "test570.Test570Kt", methodName = "main", fileName = "test570.kt", lineNumber = 12)
 }
 fun helper() = "Hello!"
 

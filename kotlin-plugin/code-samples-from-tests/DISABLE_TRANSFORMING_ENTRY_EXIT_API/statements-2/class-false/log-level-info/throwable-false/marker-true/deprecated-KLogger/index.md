@@ -39,10 +39,10 @@ fun main() {
   val marker = MyMarker("markerName")
   
   
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 13)
-  logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1426.Test1426Kt", methodName = "main", fileName = "test1426.kt", lineNumber = 13)
 }
 
 
@@ -87,10 +87,10 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 13)
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1427.Test1427Kt", methodName = "main", fileName = "test1427.kt", lineNumber = 13)
 }
 
 
@@ -135,10 +135,10 @@ fun main() {
   val marker = MyMarker("markerName")
   
   val i = 42
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 13)
-  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info messageBuilder $i ${helper()}"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1428.Test1428Kt", methodName = "main", fileName = "test1428.kt", lineNumber = 13)
 }
 fun helper() = "Hello!"
 
@@ -183,10 +183,10 @@ fun main() {
   val marker = MyMarker("markerName")
   
   
-  logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 13)
-  logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 12)
-at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 13)
+  logger.at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1429.Test1429Kt", methodName = "main", fileName = "test1429.kt", lineNumber = 13)
 }
 
 

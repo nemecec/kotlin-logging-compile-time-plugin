@@ -38,7 +38,7 @@ fun main() {
   
   
   
-  logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""trace message {}"", className = "test479.Test479Kt", methodName = "main", fileName = "test479.kt", lineNumber = 12)
+  logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test479.Test479Kt", methodName = "main", fileName = "test479.kt", lineNumber = 12)
 }
 
 

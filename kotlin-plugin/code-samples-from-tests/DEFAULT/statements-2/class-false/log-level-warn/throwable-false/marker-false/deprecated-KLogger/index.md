@@ -39,10 +39,10 @@ fun main() {
   
   
   
-  logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 13)
-  logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""warn message {}"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 13)
+  logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 12)
+at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1529.Test1529Kt", methodName = "main", fileName = "test1529.kt", lineNumber = 13)
 }
 
 

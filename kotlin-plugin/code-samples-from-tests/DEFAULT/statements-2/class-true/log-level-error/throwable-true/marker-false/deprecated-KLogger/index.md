@@ -39,10 +39,10 @@ private val logger = KotlinLogging.logger {}
     
     val throwable = Exception("expected!")
     
-    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 13)
-    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""error message {}"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 13)
+    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 12)
+at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 13)
+    logger.at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 12)
+at(Level.ERROR) { message = "error message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1164.MainTest", methodName = "main", fileName = "test1164.kt", lineNumber = 13)
   }
   
 }
