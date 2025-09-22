@@ -15,20 +15,22 @@ data class CompiledTest(
 
   override fun toMarkDownDocument(): String {
     val transformed = prepareTransformed()
-    return """
-      |### ${preparedTest.testCode.testName} test
+    val contents =
+      """
+      |### ${preparedTest.testCode.testName}
       |
       |User code:
       |```kotlin
       |${preparedTest.testCode.sourceCode.text}
       |```
-
+      |  
       |${if (preparedTest.testCode.sourceCode.text == transformed?.sourceCode?.text || transformed == null) "Remains as-is" else "Transformed into"}:
       |```kotlin
       |${transformed?.sourceCode?.text ?: preparedTest.testCode.sourceCode.text}
       |```
-    """
-      .trimMargin()
+      """
+        .trimMargin()
+    return contents
   }
 
   fun execute(): ExecutedTest {
@@ -52,7 +54,7 @@ data class CompiledTest(
         TestExecutionResult(
           returnedValue = returnedValue,
           thrownExceptionToString = thrownException?.toString(),
-          loggedEvent = if (appender.events.isNotEmpty()) appender.events.single() else null,
+          loggedEvents = appender.events,
         ),
     )
   }

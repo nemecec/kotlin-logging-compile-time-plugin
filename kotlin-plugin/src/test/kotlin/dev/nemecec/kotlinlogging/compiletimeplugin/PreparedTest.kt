@@ -20,7 +20,7 @@ data class PreparedTest(
       expectedExecutionResult =
         adjustExpectations(
           expectationAdjusters,
-          definition.toExpectedTestExecutionResult(makeExpectedStackTraceElement()),
+          definition.toExpectedTestExecutionResult(makeExpectedStackTraceElements()),
         ),
     )
   }
@@ -36,14 +36,10 @@ data class PreparedTest(
     return result.build()
   }
 
-  private fun makeExpectedStackTraceElement(): StackTraceElement {
-    return StackTraceElement(
-      testCode.fqClassName,
-      testCode.funName,
-      testCode.fileName,
-      testCode.logStatementLineNumber,
-    )
-  }
+  private fun makeExpectedStackTraceElements() =
+    testCode.logStatementLineNumbers.map {
+      StackTraceElement(testCode.fqClassName, testCode.funName, testCode.fileName, it)
+    }
 
   fun prepareTransformed(expectedExecutionResult: TestExecutionResult): PreparedTestCode? {
     return definition.codeDescription.prepareTransformed(uniqueTestNumber, expectedExecutionResult)
@@ -59,7 +55,7 @@ data class PreparedTestCode(
   val classDeclareEnd: String,
   val fqClassName: String,
   val funName: String,
-  val logStatementLineNumber: Int,
+  val logStatementLineNumbers: List<Int>,
   val needsInstance: Boolean,
   val sourceCode: SourceCode,
   val sourceCodeForDebugging: String = "",

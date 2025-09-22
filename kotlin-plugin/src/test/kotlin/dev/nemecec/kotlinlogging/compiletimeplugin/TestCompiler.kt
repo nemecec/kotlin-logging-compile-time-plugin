@@ -11,14 +11,14 @@ import org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi
 fun compileTests(
   featureFlagsToUse: EnumEntries<FeatureFlag>,
   preparedTests: TestCollection<PreparedTest>,
-): List<FeatureFlagCompilationResult> {
+): List<TestCollection<CompiledTest>> {
   val sources = preparedTests.flatMapAndExtract { it.testCode.sourceCode }
   return featureFlagsToUse.map { featureFlag ->
     val result =
       compile(sources.map { SourceFile.kotlin(it.fileName, it.text) }, featureFlag.configurer)
     if (result.exitCode != KotlinCompilation.ExitCode.OK) {
       preparedTests.forEach(
-        collectionVisitor = { indent, collection -> println(indent + collection.name) },
+        collectionVisitor = { indent, collection -> println(indent + collection.label) },
         testVisitor = { indent, test ->
           println("${indent}Source file: ${test.testCode.fileName}")
           println("${indent}Test definition: ${test.definition}")
@@ -29,17 +29,13 @@ fun compileTests(
       println(result.messages)
     }
     assertEquals(KotlinCompilation.ExitCode.OK, result.exitCode)
-    FeatureFlagCompilationResult(
-      featureFlag = featureFlag,
-      compilationResult = result,
-      compiledTests =
-        preparedTests.mapWithExpectationAdjusters(
-          featureFlag,
-          listOf(featureFlag.expectationAdjuster),
-        ) { expectationAdjusters, preparedTest ->
-          preparedTest.compiled(result.classLoader, expectationAdjusters)
-        },
-    )
+    preparedTests
+      .cloneWithNewName("featureFlag=${featureFlag.name}", featureFlag.name)
+      .mapWithExpectationAdjusters(featureFlag, listOf(featureFlag.expectationAdjuster)) {
+        expectationAdjusters,
+        preparedTest ->
+        preparedTest.compiled(result.classLoader, expectationAdjusters)
+      }
   }
 }
 
@@ -61,11 +57,3 @@ private fun compile(
     }
     .compile()
 }
-
-data class FeatureFlagCompilationResult
-@OptIn(ExperimentalCompilerApi::class)
-constructor(
-  val featureFlag: FeatureFlag,
-  val compilationResult: JvmCompilationResult,
-  val compiledTests: TestCollection<CompiledTest>,
-)

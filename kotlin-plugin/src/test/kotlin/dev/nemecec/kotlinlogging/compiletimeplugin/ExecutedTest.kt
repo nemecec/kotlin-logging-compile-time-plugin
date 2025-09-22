@@ -1,6 +1,7 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
 import kotlin.test.assertEquals
+import org.jetbrains.kotlin.utils.addToStdlib.zipWithNulls
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.function.Executable
 
@@ -34,7 +35,32 @@ private fun assertResult(
     }
   )
   assertions.addAll(
-    assertLoggedEvent(expectedExecutionResult.loggedEvent, actualExecutionResult.loggedEvent)
+    assertLoggedEvents(expectedExecutionResult.loggedEvents, actualExecutionResult.loggedEvents)
+  )
+  return assertions
+}
+
+private fun assertLoggedEvents(
+  expectedTestLoggingEvent: List<TestLoggingEvent>,
+  actualTestLoggingEvent: List<TestLoggingEvent>,
+): List<Executable> {
+  val assertions = mutableListOf<Executable>()
+  assertions.add(
+    Executable {
+      assertEquals(
+        expectedTestLoggingEvent.size,
+        actualTestLoggingEvent.size,
+        "number of logged events",
+      )
+    }
+  )
+  assertions.addAll(
+    expectedTestLoggingEvent
+      .zipWithNulls(actualTestLoggingEvent)
+      .map { (expectedTestLoggingEvent, actualTestLoggingEvent) ->
+        assertLoggedEvent(expectedTestLoggingEvent, actualTestLoggingEvent)
+      }
+      .flatten()
   )
   return assertions
 }

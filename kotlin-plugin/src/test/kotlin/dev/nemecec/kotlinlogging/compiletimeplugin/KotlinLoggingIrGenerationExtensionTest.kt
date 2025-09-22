@@ -1,7 +1,9 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
 import io.github.oshai.kotlinlogging.KLogger
-import java.io.File
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
 import org.jetbrains.kotlin.util.capitalizeDecapitalize.capitalizeAsciiOnly
 import org.jetbrains.kotlin.util.capitalizeDecapitalize.toUpperCaseAsciiOnly
 import org.junit.jupiter.api.Assertions
@@ -18,13 +20,16 @@ const val EXCEPTION_MESSAGE = "expected!"
 
 class KotlinLoggingIrGenerationExtensionTest {
 
-  private val testDefinitions = rootCollection {
-    name = "root"
+  private val testDefinitionsTemplate = rootCollection {
+    label = "definitions"
+    filename = "definitions"
     sequenceOf(true, false).forEach { withClass ->
       collection {
-        name = "with class=$withClass"
+        label = "with class=$withClass"
+        filename = "class-$withClass"
         collection {
-          name = "entry/exit API"
+          label = "entry/exit API"
+          filename = "entry-exit-$withClass"
           featureFlagExpectationAdjuster {
             featureFlags(FeatureFlag.DISABLE_TRANSFORMING_ENTRY_EXIT_API)
             adjuster {
@@ -92,7 +97,8 @@ class KotlinLoggingIrGenerationExtensionTest {
           }
         }
         collection {
-          name = "throwing/catching API"
+          label = "throwing/catching API"
+          filename = "throwing-catching"
           featureFlagExpectationAdjuster {
             featureFlags(FeatureFlag.DISABLE_TRANSFORMING_THROWING_CATCHING_API)
             adjuster {
@@ -143,13 +149,16 @@ class KotlinLoggingIrGenerationExtensionTest {
         }
         TestLoggingLevel.entries.forEach { withLogLevel ->
           collection {
-            name = "with log level=${withLogLevel.levelEnum}"
+            label = "with log level=${withLogLevel.levelEnum}"
+            filename = "log-level-${withLogLevel.levelName}"
             sequenceOf(true, false).forEach { withThrowable ->
               collection {
-                name = "with throwable=$withThrowable"
+                label = "with throwable=$withThrowable"
+                filename = "throwable-$withThrowable"
                 sequenceOf(true, false).forEach { withMarker ->
                   collection {
-                    name = "with marker=$withMarker"
+                    label = "with marker=$withMarker"
+                    filename = "marker-$withMarker"
                     test {
                       skip =
                         (withMarker &&
@@ -264,7 +273,8 @@ class KotlinLoggingIrGenerationExtensionTest {
                       }
                     }
                     collection {
-                      name = "deprecated ${KLogger::class.simpleName} API"
+                      label = "deprecated ${KLogger::class.simpleName} API"
+                      filename = "deprecated-${KLogger::class.simpleName}"
                       featureFlagExpectationAdjuster {
                         featureFlags(FeatureFlag.DISABLE_TRANSFORMING_DEPRECATED_API)
                         adjuster {
@@ -406,7 +416,8 @@ class KotlinLoggingIrGenerationExtensionTest {
                         }
                       }
                       collection {
-                        name = "deprecated API with SLF4J placeholders"
+                        label = "deprecated API with SLF4J placeholders"
+                        filename = "deprecated-slf4j-placeholders"
                         featureFlagExpectationAdjuster {
                           featureFlags(
                             FeatureFlag.DISABLE_ALL,
@@ -778,30 +789,54 @@ class KotlinLoggingIrGenerationExtensionTest {
   @TestFactory
   fun `generate code, compile it, run it and assert resulting log event(s)`(): List<DynamicNode> {
     var testCounter = 0
+    val testDefinitions =
+      TestCollection(
+        label = "root",
+        filename = "root",
+        childCollections =
+          (1..1).map { numberOfLogStatementInvocations ->
+            this.testDefinitionsTemplate.cloneWithNewName(
+              newLabel = "With $numberOfLogStatementInvocations log statement(s)",
+              newFilename = "statements-$numberOfLogStatementInvocations",
+            ) { def ->
+              def.copyWithNewNumberOfLogStatements(numberOfLogStatementInvocations)
+            }
+          },
+      )
     val preparedTests = testDefinitions.map { it.prepare(++testCounter) }
-    val featureFlagCompilationResults = compileTests(FeatureFlag.entries, preparedTests)
+    val compilationResults = compileTests(FeatureFlag.entries, preparedTests)
 
-    File("code-samples-from-tests.md").bufferedWriter().use { writer ->
+    val samplesDir = Paths.get("code-samples-from-tests")
+    Files.createDirectories(samplesDir)
+    val rootDoc = MarkDownDocument(samplesDir, hasChildCollections = true)
+    val docs =
+      compilationResults.map { compiledTests ->
+        compiledTests.toMarkDown(rootDoc) { childDoc, contents ->
+          val filePath = childDoc.getFullPath()
+          Files.createDirectories(filePath.parent)
+          filePath.toFile().bufferedWriter().use { writer -> writer.write(contents) }
+        }
+      }
+    samplesDir.resolve("index.md").toFile().bufferedWriter().use { writer ->
       writer.write("# Code samples from tests\n\n")
       writer.write(
         """
         |All the test cases that the plugin is tested against with before+after code snippets and how different feature
-        |flags affect the transformation. Organized on the top level by feature flags and then by groups of test cases.
+        |flags affect the transformation. Organized on the top level by feature flags, then by number of log statements
+        |and finally by groups of test cases.
+        |
+        |${docs.joinToString(separator = "\n") { "* ${it.getLinkFromParentPerspective()}" }}
+        |
         |"""
           .trimMargin()
       )
       writer.write("\n")
-      featureFlagCompilationResults.forEach { featureFlagCompilationResult ->
-        featureFlagCompilationResult.compiledTests
-          .toMarkDownDocument("featureFlag=${featureFlagCompilationResult.featureFlag.name}")
-          .let { writer.write(it) }
-      }
     }
 
-    return featureFlagCompilationResults.map {
+    return compilationResults.map {
       DynamicContainer.dynamicContainer(
-        "featureFlag=${it.featureFlag.name}",
-        it.compiledTests
+        it.label,
+        it
           .toDynamicTests {
             DynamicTest.dynamicTest(preparedTest.testCode.testName) {
               Assertions.assertAll(execute().assertResults())
@@ -811,4 +846,29 @@ class KotlinLoggingIrGenerationExtensionTest {
       )
     }
   }
+}
+
+data class MarkDownDocument(
+  val path: Path,
+  val localName: String = "",
+  val title: String = "",
+  val titleWithParents: String = "",
+  val hasChildCollections: Boolean,
+) {
+  fun newChild(newLocalName: String, newTitle: String, hasChildCollections: Boolean) =
+    MarkDownDocument(
+      path = if (localName.isNotEmpty()) path.resolve(localName) else path,
+      localName = newLocalName,
+      title = newTitle,
+      titleWithParents =
+        if (titleWithParents.isNotEmpty()) "$titleWithParents / $newTitle" else newTitle,
+      hasChildCollections = hasChildCollections,
+    )
+
+  fun getFullPath(): Path =
+    if (hasChildCollections) path.resolve(localName).resolve("index.md")
+    else path.resolve("$localName.md")
+
+  fun getLinkFromParentPerspective() =
+    if (hasChildCollections) "[${title}](${localName}/index.md)" else "[${title}](${localName}.md)"
 }

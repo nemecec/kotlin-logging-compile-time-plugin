@@ -4,15 +4,31 @@ import org.junit.jupiter.api.DynamicContainer
 import org.junit.jupiter.api.DynamicTest
 
 data class TestCollection<T : TestLeaf>(
-  val name: String,
-  private val childCollections: List<TestCollection<T>>,
-  private val tests: List<T>,
-  private var expectationAdjustersPerTest: List<FeatureFlagExpectationAdjuster>,
+  val label: String,
+  val filename: String,
+  private val childCollections: List<TestCollection<T>> = emptyList(),
+  private val tests: List<T> = emptyList(),
+  private var expectationAdjustersPerTest: List<FeatureFlagExpectationAdjuster> = emptyList(),
 ) {
+
+  fun cloneWithNewName(
+    newLabel: String,
+    newFilename: String,
+    mapper: (T) -> T = { it },
+  ): TestCollection<T> {
+    return TestCollection(
+      newLabel,
+      newFilename,
+      childCollections.map { it.map(mapper) },
+      tests.map { mapper(it) },
+      expectationAdjustersPerTest,
+    )
+  }
 
   fun <TT : TestLeaf> map(mapper: (T) -> TT): TestCollection<TT> {
     return TestCollection(
-      name,
+      label,
+      filename,
       childCollections.map { it.map(mapper) },
       tests.map { mapper(it) },
       expectationAdjustersPerTest,
@@ -30,7 +46,8 @@ data class TestCollection<T : TestLeaf>(
           .filter { it.applicableFeatureFlags.contains(featureFlag) }
           .map { it.expectationAdjuster }
     return TestCollection(
-      name,
+      label,
+      filename,
       childCollections.map {
         it.mapWithExpectationAdjusters(featureFlag, expectationAdjusters, mapper)
       },
@@ -57,14 +74,26 @@ data class TestCollection<T : TestLeaf>(
     val children =
       childCollections.map { it.toDynamicTests(testMaker) } +
         tests.filter { !it.skip }.map { it.testMaker() }
-    return DynamicContainer.dynamicContainer(name, children)
+    return DynamicContainer.dynamicContainer(label, children)
   }
 
-  fun toMarkDownDocument(title: String): String {
-    val children =
-      childCollections.map { it.toMarkDownDocument(it.name) } +
-        tests.filter { !it.skip }.map { it.toMarkDownDocument() }
-    return "<details><summary><b>$title</b></summary>\n\n${children.joinToString("\n\n")}\n\n</details>"
+  fun toMarkDown(
+    parent: MarkDownDocument,
+    writer: (MarkDownDocument, String) -> Unit,
+  ): MarkDownDocument {
+    val thisDoc = parent.newChild(filename, label, childCollections.isNotEmpty())
+    val childDocuments = childCollections.map { it.toMarkDown(thisDoc, writer) }
+    val contents =
+      """
+      |## ${thisDoc.titleWithParents}
+      |
+      |${childDocuments.joinToString(separator = "\n") { "* ${it.getLinkFromParentPerspective()}" }}
+      |
+      |${tests.filter { !it.skip }.joinToString(separator = "\n\n") { it.toMarkDownDocument() }}
+      |"""
+        .trimMargin()
+    writer.invoke(thisDoc, contents)
+    return thisDoc
   }
 }
 
@@ -80,7 +109,8 @@ fun rootCollection(init: TestCollectionBuilder.() -> Unit) =
   TestCollectionBuilder().apply(init).build()
 
 class TestCollectionBuilder {
-  var name: String? = null
+  var label: String? = null
+  var filename: String? = null
   private var childCollections: MutableList<TestCollection<TestDefinition>> = mutableListOf()
   private var tests: MutableList<TestDefinition> = mutableListOf()
   private var expectationAdjustersPerTest: MutableList<FeatureFlagExpectationAdjuster> =
@@ -99,5 +129,6 @@ class TestCollectionBuilder {
     expectationAdjustersPerTest.add(FeatureFlagExpectationAdjusterBuilder().apply(init).build())
   }
 
-  fun build() = TestCollection(name!!, childCollections, tests, expectationAdjustersPerTest)
+  fun build() =
+    TestCollection(label!!, filename!!, childCollections, tests, expectationAdjustersPerTest)
 }

@@ -12,6 +12,12 @@ data class TestDefinition(
   val expectedResult: TestExecutionResult,
 ) : TestLeaf {
 
+  fun copyWithNewNumberOfLogStatements(newNumberOfLogStatements: Int) =
+    copy(
+      codeDescription = codeDescription.copyWithNewNumberOfLogStatements(newNumberOfLogStatements),
+      expectedResult = expectedResult.copyWithNewNumberOfLogStatements(newNumberOfLogStatements),
+    )
+
   fun prepare(uniqueTestNumber: Int): PreparedTest {
     return PreparedTest(
       definition = this,
@@ -50,23 +56,36 @@ data class TestCodeDescription(
   val funName: String = "main",
   val funReturnType: KClass<*>?,
   val initCode: String,
-  val logStatement: LogStatement,
-  val throwReturnValueFromLogStatement: Boolean,
+  val logStatements: List<LogStatement>,
+  val throwReturnValueFromLastLogStatement: Boolean,
   val extraImportCode: String,
   val extraCodeBeforeMethod: String,
   val extraMethodCode: String,
 ) {
+  fun copyWithNewNumberOfLogStatements(newNumberOfLogStatements: Int): TestCodeDescription {
+    val currentNumberOfLogStatements = logStatements.size
+    check(newNumberOfLogStatements >= currentNumberOfLogStatements)
+    if (newNumberOfLogStatements == currentNumberOfLogStatements) {
+      return this
+    }
+    return copy(
+      logStatements =
+        logStatements +
+          List(newNumberOfLogStatements - currentNumberOfLogStatements) { logStatements.last() }
+    )
+  }
+
   fun prepare(uniqueTestNumber: Int) =
-    prepare(uniqueTestNumber) { logStatement.makeSource(useMarker, useThrowable) }
+    prepare(uniqueTestNumber) { makeSource(useMarker, useThrowable) }
 
   fun prepareTransformed(uniqueTestNumber: Int, expectedResult: TestExecutionResult) =
-    if (expectedResult.loggedEvent != null)
-      prepare(uniqueTestNumber) { logStatement.makeTransformedSource(expectedResult) }
+    if (expectedResult.loggedEvents.isNotEmpty())
+      prepare(uniqueTestNumber) { makeTransformedSource(expectedResult) }
     else null
 
   private fun prepare(
     uniqueTestNumber: Int,
-    logStatementSourceCodeMaker: () -> String,
+    logStatementSourceCodeMaker: LogStatement.() -> String,
   ): PreparedTestCode {
     val fileName = "test${uniqueTestNumber}.kt"
     val packageName = "test${uniqueTestNumber}"
@@ -104,39 +123,44 @@ data class TestCodeDescription(
       funReturnTypeSuffix = ": " + funReturnType.qualifiedName?.removePrefix("kotlin.")
     } else {
       funReturnTypeSuffix = ""
-      if (throwReturnValueFromLogStatement) {
+      if (throwReturnValueFromLastLogStatement) {
         logStatementPrefix = "throw "
       } else {
         logStatementPrefix = ""
       }
     }
-    val logStatementSourceCode = logStatementSourceCodeMaker()
     // line number depends on the generated source code template (see below)
-    val logStatementLineNumber = 12
+    val firstLogStatementLineNumber = 12
+    val logStatementLineNumbers =
+      (firstLogStatementLineNumber until firstLogStatementLineNumber + logStatements.size).toList()
+    val logStatementSources = logStatements.map { logStatementSourceCodeMaker.invoke(it) }
+    val logStatementStrings =
+      logStatementSources.take(logStatements.size - 1).map { "$classIndent  logger.$it" } +
+        logStatementSources.last().let { "$classIndent  ${logStatementPrefix}logger.$it" }
+    val logStatements = logStatementStrings.joinToString("\n")
     val fullSourceCode =
       """
-              package $packageName
-              import io.github.oshai.kotlinlogging.*
-              $extraImportCode
-              
-              $classDeclareStart
-              private val logger = KotlinLogging.logger {}
-              $extraCodeBeforeMethod
-              ${classIndent}fun ${funName}()$funReturnTypeSuffix {
-              ${classIndent}  $initMarkerSourceCode
-              ${classIndent}  $initThrowableSourceCode
-              ${classIndent}  $initCode
-              ${classIndent}  ${logStatementPrefix}logger.$logStatementSourceCode
-              ${classIndent}}
-              ${classIndent}$extraMethodCode
-              $classDeclareEnd
-              $declareMarkerSourceCode
-        """
-        .trimIndent()
-        .trim()
+      |package $packageName
+      |import io.github.oshai.kotlinlogging.*
+      |$extraImportCode
+      |
+      |$classDeclareStart
+      |private val logger = KotlinLogging.logger {}
+      |$extraCodeBeforeMethod
+      |${classIndent}fun ${funName}()$funReturnTypeSuffix {
+      |$classIndent  $initMarkerSourceCode
+      |$classIndent  $initThrowableSourceCode
+      |$classIndent  $initCode
+      |$logStatements
+      |${classIndent}}
+      |${classIndent}$extraMethodCode
+      |$classDeclareEnd
+      |$declareMarkerSourceCode
+      |"""
+        .trimMargin()
     return PreparedTestCode(
       testName =
-        " $logStatementSourceCode at $className.${funName}($fileName:$logStatementLineNumber)",
+        " ${logStatementSources.first()} at $className.${funName}($fileName:${logStatementLineNumbers.first()})",
       fileName = fileName,
       packageName = packageName,
       className = className,
@@ -145,7 +169,7 @@ data class TestCodeDescription(
       fqClassName = fqClassName,
       funName = funName,
       needsInstance = needsInstance,
-      logStatementLineNumber = logStatementLineNumber,
+      logStatementLineNumbers = logStatementLineNumbers,
       sourceCode = PreparedTest.SourceCode(fileName, fullSourceCode),
       sourceCodeForDebugging = stringWithLineNumbers(fullSourceCode),
     )
@@ -162,8 +186,10 @@ private fun LogStatement.makeSource(useMarker: Boolean, useThrowable: Boolean): 
   return "${funName}${makeArgumentList(useMarker, useThrowable)}${makeLastArgumentLambda(useThrowable)}"
 }
 
-private fun LogStatement.makeTransformedSource(expectedResult: TestExecutionResult): String {
-  val loggedEvent: TestLoggingEvent = expectedResult.loggedEvent!!
+private fun LogStatement.makeTransformedSource(expectedResult: TestExecutionResult) =
+  expectedResult.loggedEvents.joinToString("\n") { makeTransformedSource(it) }
+
+private fun LogStatement.makeTransformedSource(loggedEvent: TestLoggingEvent): String {
   val useMarker = loggedEvent.hasMarker
   val useThrowable = loggedEvent.hasThrowable
   val compilerDataValues = makeCompilerDataValues(loggedEvent)
@@ -237,6 +263,7 @@ class TestCodeDescriptionBuilder {
   var initCode: String = ""
   var funReturnType: KClass<*>? = null
   var logStatement: LogStatement? = null
+  var logStatements: List<LogStatement> = emptyList()
   var throwReturnValueFromLogStatement: Boolean? = null
   var extraImportCode: String = ""
   var extraCodeBeforeMethod: String = ""
@@ -249,8 +276,8 @@ class TestCodeDescriptionBuilder {
       useMarker = useMarker ?: false,
       initCode = initCode,
       funReturnType = funReturnType,
-      logStatement = logStatement!!,
-      throwReturnValueFromLogStatement = throwReturnValueFromLogStatement ?: false,
+      logStatements = if (logStatement != null) logStatements + logStatement!! else logStatements,
+      throwReturnValueFromLastLogStatement = throwReturnValueFromLogStatement ?: false,
       extraImportCode = extraImportCode,
       extraCodeBeforeMethod = extraCodeBeforeMethod,
       extraMethodCode = extraMethodCode,

@@ -1,38 +1,68 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
+import org.jetbrains.kotlin.utils.addToStdlib.zipWithNulls
+
 data class TestExecutionResult(
   val returnedValue: Any? = null,
   val thrownExceptionToString: String? = null,
-  val loggedEvent: TestLoggingEvent? = null,
-)
+  val loggedEvents: List<TestLoggingEvent> = emptyList(),
+) {
+  fun copyWithNewNumberOfLogStatements(newNumberOfLogStatements: Int): TestExecutionResult {
+    val firstEvent = loggedEvents.first()
+    var callerDataLineNumber = firstEvent.callerDataFirstElement?.lineNumber ?: 0
+    return this.copy(
+      loggedEvents =
+        loggedEvents +
+          List(newNumberOfLogStatements - loggedEvents.size) {
+            firstEvent.copy(
+              callerDataFirstElement =
+                firstEvent.callerDataFirstElement?.copyWithLineNumber(++callerDataLineNumber)
+            )
+          }
+    )
+  }
+}
+
+private fun StackTraceElement.copyWithLineNumber(callerDataLineNumber: Int): StackTraceElement {
+  return StackTraceElement(className, methodName, fileName, callerDataLineNumber)
+}
 
 class TestExecutionResultBuilder(sourceTestExecutionResult: TestExecutionResult? = null) {
   var returnedValue: Any? = sourceTestExecutionResult?.returnedValue
   var thrownExceptionToString: String? = sourceTestExecutionResult?.thrownExceptionToString
-  private var loggedEvent: TestLoggingEvent? = sourceTestExecutionResult?.loggedEvent
+  private var loggedEvents =
+    (sourceTestExecutionResult?.loggedEvents ?: emptyList()).toMutableList()
 
   fun loggedEvent(block: (TestLoggingEventBuilder.() -> Unit)?) {
-    loggedEvent =
-      if (block != null) TestLoggingEventBuilder(loggedEvent).apply(block).build() else null
+    if (block != null) {
+      if (loggedEvents.isNotEmpty()) {
+        loggedEvents =
+          loggedEvents.map { TestLoggingEventBuilder(it).apply(block).build() }.toMutableList()
+      } else {
+        loggedEvents.add(TestLoggingEventBuilder().apply(block).build())
+      }
+    }
   }
 
   fun build(): TestExecutionResult {
     return TestExecutionResult(
       returnedValue = returnedValue,
       thrownExceptionToString = thrownExceptionToString,
-      loggedEvent = loggedEvent,
+      loggedEvents = loggedEvents,
     )
   }
 }
 
 fun TestDefinition.toExpectedTestExecutionResult(
-  expectedStackTraceElement: StackTraceElement?
-): TestExecutionResult {
-  return expectedResult.copy(
-    loggedEvent =
-      expectedResult.loggedEvent?.copy(callerDataFirstElement = expectedStackTraceElement)
+  expectedStackTraceElements: List<StackTraceElement>
+) =
+  expectedResult.copy(
+    loggedEvents =
+      expectedResult.loggedEvents.zipWithNulls(expectedStackTraceElements).mapNotNull { (event, ste)
+        ->
+        event?.copy(callerDataFirstElement = ste)
+      }
   )
-}
 
 data class TestLoggingEvent(
   val level: TestLoggingLevel,
