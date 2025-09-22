@@ -1,0 +1,99 @@
+## featureFlag=DISABLE_ALL / With 2 log statement(s) / with class=true / with log level=WARN / with throwable=true / with marker=false / deprecated KLogger API
+
+* [deprecated API with SLF4J placeholders](deprecated-slf4j-placeholders.md)
+
+###  warn("warn message {}", throwable) at MainTest.main(test1084.kt:12)
+
+User code:
+```kotlin
+package test1084
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.warn("warn message {}", throwable)
+    logger.warn("warn message {}", throwable)
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test1084
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.warn("warn message {}", throwable)
+warn("warn message {}", throwable)
+    logger.warn("warn message {}", throwable)
+warn("warn message {}", throwable)
+  }
+  
+}
+
+
+```
+
+###  warn(message, throwable) at MainTest.main(test1085.kt:12)
+
+User code:
+```kotlin
+package test1085
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val message = "warn message as variable"
+    logger.warn(message, throwable)
+    logger.warn(message, throwable)
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test1085
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val message = "warn message as variable"
+    logger.warn(message, throwable)
+warn(message, throwable)
+    logger.warn(message, throwable)
+warn(message, throwable)
+  }
+  
+}
+
+
+```

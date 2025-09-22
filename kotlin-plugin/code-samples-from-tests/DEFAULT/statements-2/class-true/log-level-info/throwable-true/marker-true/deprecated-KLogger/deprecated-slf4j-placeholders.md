@@ -1,0 +1,243 @@
+## featureFlag=DEFAULT / With 2 log statement(s) / with class=true / with log level=INFO / with throwable=true / with marker=true / deprecated KLogger API / deprecated API with SLF4J placeholders
+
+
+
+###  info(marker, "info message {}", arg, throwable) at MainTest.main(test976.kt:12)
+
+User code:
+```kotlin
+package test976
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.info(marker, "info message {}", arg, throwable)
+    logger.info(marker, "info message {}", arg, throwable)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Transformed into:
+```kotlin
+package test976
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test976.MainTest", methodName = "main", fileName = "test976.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test976.MainTest", methodName = "main", fileName = "test976.kt", lineNumber = 13)
+    logger.at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test976.MainTest", methodName = "main", fileName = "test976.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}"", className = "test976.MainTest", methodName = "main", fileName = "test976.kt", lineNumber = 13)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, "info message with concatenation $arg {}", arg, throwable) at MainTest.main(test977.kt:12)
+
+User code:
+```kotlin
+package test977
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.info(marker, "info message with concatenation $arg {}", arg, throwable)
+    logger.info(marker, "info message with concatenation $arg {}", arg, throwable)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Transformed into:
+```kotlin
+package test977
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.at(Level.INFO, marker) { message = "info message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message with concatenation $arg {}"", className = "test977.MainTest", methodName = "main", fileName = "test977.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message with concatenation $arg {}"", className = "test977.MainTest", methodName = "main", fileName = "test977.kt", lineNumber = 13)
+    logger.at(Level.INFO, marker) { message = "info message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message with concatenation $arg {}"", className = "test977.MainTest", methodName = "main", fileName = "test977.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message with concatenation $arg {}"", className = "test977.MainTest", methodName = "main", fileName = "test977.kt", lineNumber = 13)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, "info with extension function {} interval", arg.minutes, throwable) at MainTest.main(test978.kt:12)
+
+User code:
+```kotlin
+package test978
+import io.github.oshai.kotlinlogging.*
+import kotlin.time.Duration.Companion.minutes
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+private var arg: Long = 42
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    
+    logger.info(marker, "info with extension function {} interval", arg.minutes, throwable)
+    logger.info(marker, "info with extension function {} interval", arg.minutes, throwable)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Transformed into:
+```kotlin
+package test978
+import io.github.oshai.kotlinlogging.*
+import kotlin.time.Duration.Companion.minutes
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+private var arg: Long = 42
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    
+    logger.at(Level.INFO, marker) { message = "info with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info with extension function {} interval"", className = "test978.MainTest", methodName = "main", fileName = "test978.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info with extension function {} interval"", className = "test978.MainTest", methodName = "main", fileName = "test978.kt", lineNumber = 13)
+    logger.at(Level.INFO, marker) { message = "info with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info with extension function {} interval"", className = "test978.MainTest", methodName = "main", fileName = "test978.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info with extension function {} interval"", className = "test978.MainTest", methodName = "main", fileName = "test978.kt", lineNumber = 13)
+  }
+  
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable) at MainTest.main(test979.kt:12)
+
+User code:
+```kotlin
+package test979
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+    logger.info(marker, "info message {} " + "" + "{}" + "{}" + " abc" + " {}", arg, helper(), throwable)
+  }
+  fun helper() = "Hello!"
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Transformed into:
+```kotlin
+package test979
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val arg = 42
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test979.MainTest", methodName = "main", fileName = "test979.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test979.MainTest", methodName = "main", fileName = "test979.kt", lineNumber = 13)
+    logger.at(Level.INFO, marker) { message = "info message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test979.MainTest", methodName = "main", fileName = "test979.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {} " + "" + "{}" + "{}" + " abc" + " {}"", className = "test979.MainTest", methodName = "main", fileName = "test979.kt", lineNumber = 13)
+  }
+  fun helper() = "Hello!"
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable) at MainTest.main(test980.kt:12)
+
+User code:
+```kotlin
+package test980
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val a = 1; val b = 2
+    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+    logger.info(marker, "info message {}a" + " {}b" + " {}ab" + " ab", a, b, ab(), throwable)
+  }
+  fun ab() = 12
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Transformed into:
+```kotlin
+package test980
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    val marker = MyMarker("markerName")
+    val throwable = Exception("expected!")
+    val a = 1; val b = 2
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}a" + " {}b" + " {}ab" + " ab"", className = "test980.MainTest", methodName = "main", fileName = "test980.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}a" + " {}b" + " {}ab" + " ab"", className = "test980.MainTest", methodName = "main", fileName = "test980.kt", lineNumber = 13)
+    logger.at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}a" + " {}b" + " {}ab" + " ab"", className = "test980.MainTest", methodName = "main", fileName = "test980.kt", lineNumber = 12)
+at(Level.INFO, marker) { message = "info message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = ""info message {}a" + " {}b" + " {}ab" + " ab"", className = "test980.MainTest", methodName = "main", fileName = "test980.kt", lineNumber = 13)
+  }
+  fun ab() = 12
+}
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
