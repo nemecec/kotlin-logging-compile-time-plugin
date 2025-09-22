@@ -44,6 +44,12 @@ tasks {
   }
 }
 
+kotlin {
+  compilerOptions {
+    javaParameters = true
+  }
+}
+
 spotless {
   kotlin {
     target("src/**/*.kt")
