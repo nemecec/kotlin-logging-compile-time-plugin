@@ -511,7 +511,7 @@ class KotlinLoggingIrGenerationExtension(
             createIrFunctionExpression(
               type = typesHelper.eventBuilderLambdaType,
               function =
-                context.createLambdaIrSimpleFunction {
+                context.createLambdaIrSimpleFunction(origin = IrDeclarationOrigin.LOCAL_FUNCTION) {
                   parameters =
                     listOf(
                       factory

@@ -794,7 +794,7 @@ class KotlinLoggingIrGenerationExtensionTest {
         label = "root",
         filename = "root",
         childCollections =
-          (1..1).map { numberOfLogStatementInvocations ->
+          (1..2).map { numberOfLogStatementInvocations ->
             this.testDefinitionsTemplate.cloneWithNewName(
               newLabel = "With $numberOfLogStatementInvocations log statement(s)",
               newFilename = "statements-$numberOfLogStatementInvocations",
