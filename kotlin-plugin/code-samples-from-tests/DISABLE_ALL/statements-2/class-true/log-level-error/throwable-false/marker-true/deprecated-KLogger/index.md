@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1181
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.error(marker) { "error messageBuilder" }
-error(marker) { "error messageBuilder" }
     logger.error(marker) { "error messageBuilder" }
-error(marker) { "error messageBuilder" }
   }
   
 }
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1182
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.error(marker) { "error messageBuilder $i" }
-error(marker) { "error messageBuilder $i" }
     logger.error(marker) { "error messageBuilder $i" }
-error(marker) { "error messageBuilder $i" }
   }
   
 }
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1183
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.error(marker) { "error messageBuilder $i ${helper()}" }
-error(marker) { "error messageBuilder $i ${helper()}" }
     logger.error(marker) { "error messageBuilder $i ${helper()}" }
-error(marker) { "error messageBuilder $i ${helper()}" }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1184
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.error(marker, "error message {}")
-error(marker, "error message {}")
     logger.error(marker, "error message {}")
-error(marker, "error message {}")
   }
   
 }
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1185
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     
     val message = "error message as variable"
     logger.error(marker, message)
-error(marker, message)
     logger.error(marker, message)
-error(marker, message)
   }
   
 }

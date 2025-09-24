@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1346
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.debug(marker) { "debug messageBuilder" }
-debug(marker) { "debug messageBuilder" }
   logger.debug(marker) { "debug messageBuilder" }
-debug(marker) { "debug messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1347
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.debug(marker) { "debug messageBuilder $i" }
-debug(marker) { "debug messageBuilder $i" }
   logger.debug(marker) { "debug messageBuilder $i" }
-debug(marker) { "debug messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1348
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.debug(marker) { "debug messageBuilder $i ${helper()}" }
-debug(marker) { "debug messageBuilder $i ${helper()}" }
   logger.debug(marker) { "debug messageBuilder $i ${helper()}" }
-debug(marker) { "debug messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1349
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   
   logger.debug(marker, "debug message {}")
-debug(marker, "debug message {}")
   logger.debug(marker, "debug message {}")
-debug(marker, "debug message {}")
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1350
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   val message = "debug message as variable"
   logger.debug(marker, message)
-debug(marker, message)
   logger.debug(marker, message)
-debug(marker, message)
 }
 
 

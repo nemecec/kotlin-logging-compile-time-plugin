@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1409
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.info("info message {}", throwable)
-info("info message {}", throwable)
   logger.info("info message {}", throwable)
-info("info message {}", throwable)
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1410
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val message = "info message as variable"
   logger.info(message, throwable)
-info(message, throwable)
   logger.info(message, throwable)
-info(message, throwable)
 }
 
 

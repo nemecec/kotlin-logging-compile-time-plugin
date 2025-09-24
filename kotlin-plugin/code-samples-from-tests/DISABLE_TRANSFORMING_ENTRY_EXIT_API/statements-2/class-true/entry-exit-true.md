@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test811
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     val argument1 = 42; val argument2 = true
     logger.entry(argument1, argument2)
-entry(argument1, argument2)
     logger.entry(argument1, argument2)
-entry(argument1, argument2)
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test812
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val resultValue = 42
     logger.exit(resultValue)
-exit(resultValue)
     return logger.exit(resultValue)
-exit(resultValue)
   }
   
 }
@@ -122,7 +118,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test813
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.exit()
-exit()
     logger.exit()
-exit()
   }
   
 }

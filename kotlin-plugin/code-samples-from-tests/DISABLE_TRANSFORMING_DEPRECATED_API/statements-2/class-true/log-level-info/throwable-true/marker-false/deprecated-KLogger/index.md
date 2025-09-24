@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1004
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.info("info message {}", throwable)
-info("info message {}", throwable)
     logger.info("info message {}", throwable)
-info("info message {}", throwable)
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1005
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val message = "info message as variable"
     logger.info(message, throwable)
-info(message, throwable)
     logger.info(message, throwable)
-info(message, throwable)
   }
   
 }

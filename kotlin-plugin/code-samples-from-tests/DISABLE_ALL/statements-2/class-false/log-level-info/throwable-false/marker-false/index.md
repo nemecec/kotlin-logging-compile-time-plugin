@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1451
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.info() { "info messageBuilder" }
-info() { "info messageBuilder" }
   logger.info() { "info messageBuilder" }
-info() { "info messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1452
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.info() { "info messageBuilder $i" }
-info() { "info messageBuilder $i" }
   logger.info() { "info messageBuilder $i" }
-info() { "info messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1453
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.info() { "info messageBuilder $i ${helper()}" }
-info() { "info messageBuilder $i ${helper()}" }
   logger.info() { "info messageBuilder $i ${helper()}" }
-info() { "info messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1454
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   val messageLambda: () -> Any = { "info messageBuilder" }
   logger.info(messageLambda)
-info(messageLambda)
   logger.info(messageLambda)
-info(messageLambda)
 }
 
 
@@ -218,7 +210,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1455
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   
   logger.atInfo() { message="info eventBuilder"; cause=null }
-atInfo() { message="info eventBuilder"; cause=null }
   logger.atInfo() { message="info eventBuilder"; cause=null }
-atInfo() { message="info eventBuilder"; cause=null }
 }
 
 
@@ -266,7 +256,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1456
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   
   val i = 42
   logger.atInfo() { message="info eventBuilder $i"; cause=null }
-atInfo() { message="info eventBuilder $i"; cause=null }
   logger.atInfo() { message="info eventBuilder $i"; cause=null }
-atInfo() { message="info eventBuilder $i"; cause=null }
 }
 
 
@@ -314,7 +302,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1457
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ fun main() {
   
   val i = 42
   logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
-atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
   logger.atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
-atInfo() { message="info eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 
@@ -362,7 +348,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1458
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ fun main() {
   
   
   logger.at(Level.INFO) { message="info eventBuilder"; cause=null }
-at(Level.INFO) { message="info eventBuilder"; cause=null }
   logger.at(Level.INFO) { message="info eventBuilder"; cause=null }
-at(Level.INFO) { message="info eventBuilder"; cause=null }
 }
 
 
@@ -410,7 +394,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1459
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.INFO) { message="info eventBuilder $i"; cause=null }
-at(Level.INFO) { message="info eventBuilder $i"; cause=null }
   logger.at(Level.INFO) { message="info eventBuilder $i"; cause=null }
-at(Level.INFO) { message="info eventBuilder $i"; cause=null }
 }
 
 
@@ -458,7 +440,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1460
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
-at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
   logger.at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
-at(Level.INFO) { message="info eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 

@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1249.Test1249Kt", methodName = "main", fileName = "test1249.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1249.Test1249Kt", methodName = "main", fileName = "test1249.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1249.Test1249Kt", methodName = "main", fileName = "test1249.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1249.Test1249Kt", methodName = "main", fileName = "test1249.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1249.Test1249Kt", methodName = "main", fileName = "test1249.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val message = "trace message as variable"
   logger.at(Level.TRACE) { message = "trace message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1250.Test1250Kt", methodName = "main", fileName = "test1250.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1250.Test1250Kt", methodName = "main", fileName = "test1250.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1250.Test1250Kt", methodName = "main", fileName = "test1250.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1250.Test1250Kt", methodName = "main", fileName = "test1250.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1250.Test1250Kt", methodName = "main", fileName = "test1250.kt", lineNumber = 13)
 }
 
 

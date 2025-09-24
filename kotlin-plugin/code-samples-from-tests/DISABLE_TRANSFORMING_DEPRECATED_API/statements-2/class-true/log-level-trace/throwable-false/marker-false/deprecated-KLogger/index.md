@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test884
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.trace("trace message {}")
-trace("trace message {}")
     logger.trace("trace message {}")
-trace("trace message {}")
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test885
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val message = "trace message as variable"
     logger.trace(message)
-trace(message)
     logger.trace(message)
-trace(message)
   }
   
 }

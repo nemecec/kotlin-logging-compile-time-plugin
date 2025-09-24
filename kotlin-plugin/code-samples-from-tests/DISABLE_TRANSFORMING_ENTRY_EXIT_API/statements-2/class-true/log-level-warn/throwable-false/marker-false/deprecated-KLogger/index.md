@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
-    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
+    logger.at(Level.WARN) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1124.MainTest", methodName = "main", fileName = "test1124.kt", lineNumber = 13)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val message = "warn message as variable"
     logger.at(Level.WARN) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1125.MainTest", methodName = "main", fileName = "test1125.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1125.MainTest", methodName = "main", fileName = "test1125.kt", lineNumber = 13)
-    logger.at(Level.WARN) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1125.MainTest", methodName = "main", fileName = "test1125.kt", lineNumber = 12)
-at(Level.WARN) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1125.MainTest", methodName = "main", fileName = "test1125.kt", lineNumber = 13)
+    logger.at(Level.WARN) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1125.MainTest", methodName = "main", fileName = "test1125.kt", lineNumber = 13)
   }
   
 }

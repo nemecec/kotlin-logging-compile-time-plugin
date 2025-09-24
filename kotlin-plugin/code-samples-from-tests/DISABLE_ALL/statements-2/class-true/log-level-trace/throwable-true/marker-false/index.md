@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test846
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.trace(throwable) { "trace messageBuilder" }
-trace(throwable) { "trace messageBuilder" }
     logger.trace(throwable) { "trace messageBuilder" }
-trace(throwable) { "trace messageBuilder" }
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test847
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.trace(throwable) { "trace messageBuilder $i" }
-trace(throwable) { "trace messageBuilder $i" }
     logger.trace(throwable) { "trace messageBuilder $i" }
-trace(throwable) { "trace messageBuilder $i" }
   }
   
 }
@@ -122,7 +118,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test848
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.trace(throwable) { "trace messageBuilder $i ${helper()}" }
-trace(throwable) { "trace messageBuilder $i ${helper()}" }
     logger.trace(throwable) { "trace messageBuilder $i ${helper()}" }
-trace(throwable) { "trace messageBuilder $i ${helper()}" }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test849
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val messageLambda: () -> Any = { "trace messageBuilder" }
     logger.trace(throwable, messageLambda)
-trace(throwable, messageLambda)
     logger.trace(throwable, messageLambda)
-trace(throwable, messageLambda)
   }
   
 }
@@ -218,7 +210,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test850
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.atTrace() { message="trace eventBuilder"; cause=throwable }
-atTrace() { message="trace eventBuilder"; cause=throwable }
     logger.atTrace() { message="trace eventBuilder"; cause=throwable }
-atTrace() { message="trace eventBuilder"; cause=throwable }
   }
   
 }
@@ -266,7 +256,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test851
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atTrace() { message="trace eventBuilder $i"; cause=throwable }
-atTrace() { message="trace eventBuilder $i"; cause=throwable }
     logger.atTrace() { message="trace eventBuilder $i"; cause=throwable }
-atTrace() { message="trace eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -314,7 +302,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test852
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
     logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-atTrace() { message="trace eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }
@@ -362,7 +348,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test853
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
     logger.at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder"; cause=throwable }
   }
   
 }
@@ -410,7 +394,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test854
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
     logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -458,7 +440,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test855
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
     logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }

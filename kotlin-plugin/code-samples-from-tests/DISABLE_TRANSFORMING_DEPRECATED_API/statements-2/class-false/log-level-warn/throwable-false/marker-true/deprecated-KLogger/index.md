@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1506
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.warn(marker) { "warn messageBuilder" }
-warn(marker) { "warn messageBuilder" }
   logger.warn(marker) { "warn messageBuilder" }
-warn(marker) { "warn messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1507
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.warn(marker) { "warn messageBuilder $i" }
-warn(marker) { "warn messageBuilder $i" }
   logger.warn(marker) { "warn messageBuilder $i" }
-warn(marker) { "warn messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1508
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.warn(marker) { "warn messageBuilder $i ${helper()}" }
-warn(marker) { "warn messageBuilder $i ${helper()}" }
   logger.warn(marker) { "warn messageBuilder $i ${helper()}" }
-warn(marker) { "warn messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1509
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   
   logger.warn(marker, "warn message {}")
-warn(marker, "warn message {}")
   logger.warn(marker, "warn message {}")
-warn(marker, "warn message {}")
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1510
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   val message = "warn message as variable"
   logger.warn(marker, message)
-warn(marker, message)
   logger.warn(marker, message)
-warn(marker, message)
 }
 
 

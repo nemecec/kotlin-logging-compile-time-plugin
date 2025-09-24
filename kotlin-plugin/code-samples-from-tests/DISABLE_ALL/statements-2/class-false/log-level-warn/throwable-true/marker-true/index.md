@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1471
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.warn(throwable, marker) { "warn messageBuilder" }
-warn(throwable, marker) { "warn messageBuilder" }
   logger.warn(throwable, marker) { "warn messageBuilder" }
-warn(throwable, marker) { "warn messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1472
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.warn(throwable, marker) { "warn messageBuilder $i" }
-warn(throwable, marker) { "warn messageBuilder $i" }
   logger.warn(throwable, marker) { "warn messageBuilder $i" }
-warn(throwable, marker) { "warn messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1473
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
-warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
   logger.warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
-warn(throwable, marker) { "warn messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1474
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   val messageLambda: () -> Any = { "warn messageBuilder" }
   logger.warn(throwable, marker, messageLambda)
-warn(throwable, marker, messageLambda)
   logger.warn(throwable, marker, messageLambda)
-warn(throwable, marker, messageLambda)
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1475
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.atWarn(marker) { message="warn eventBuilder"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder"; cause=throwable }
   logger.atWarn(marker) { message="warn eventBuilder"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder"; cause=throwable }
 }
 
 
@@ -266,7 +256,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1476
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
   logger.atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder $i"; cause=throwable }
 }
 
 
@@ -314,7 +302,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1477
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
   logger.atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-atWarn(marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
 }
 fun helper() = "Hello!"
 
@@ -362,7 +348,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1478
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
   logger.at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder"; cause=throwable }
 }
 
 
@@ -410,7 +394,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1479
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
   logger.at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder $i"; cause=throwable }
 }
 
 
@@ -458,7 +440,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1480
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
   logger.at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.WARN, marker) { message="warn eventBuilder $i ${helper()}"; cause=throwable }
 }
 fun helper() = "Hello!"
 

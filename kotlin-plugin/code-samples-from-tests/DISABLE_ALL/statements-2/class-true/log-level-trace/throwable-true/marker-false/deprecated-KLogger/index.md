@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test844
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.trace("trace message {}", throwable)
-trace("trace message {}", throwable)
     logger.trace("trace message {}", throwable)
-trace("trace message {}", throwable)
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test845
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val message = "trace message as variable"
     logger.trace(message, throwable)
-trace(message, throwable)
     logger.trace(message, throwable)
-trace(message, throwable)
   }
   
 }

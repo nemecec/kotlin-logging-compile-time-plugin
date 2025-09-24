@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1006.MainTest", methodName = "main", fileName = "test1006.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1006.MainTest", methodName = "main", fileName = "test1006.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1006.MainTest", methodName = "main", fileName = "test1006.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1006.MainTest", methodName = "main", fileName = "test1006.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder\"", className = "test1006.MainTest", methodName = "main", fileName = "test1006.kt", lineNumber = 13)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1007.MainTest", methodName = "main", fileName = "test1007.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1007.MainTest", methodName = "main", fileName = "test1007.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1007.MainTest", methodName = "main", fileName = "test1007.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1007.MainTest", methodName = "main", fileName = "test1007.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i\"", className = "test1007.MainTest", methodName = "main", fileName = "test1007.kt", lineNumber = 13)
   }
   
 }
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1008.MainTest", methodName = "main", fileName = "test1008.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1008.MainTest", methodName = "main", fileName = "test1008.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1008.MainTest", methodName = "main", fileName = "test1008.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1008.MainTest", methodName = "main", fileName = "test1008.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info messageBuilder $i ${helper()}\"", className = "test1008.MainTest", methodName = "main", fileName = "test1008.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val messageLambda: () -> Any = { "info messageBuilder" }
     logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test1009.MainTest", methodName = "main", fileName = "test1009.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test1009.MainTest", methodName = "main", fileName = "test1009.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test1009.MainTest", methodName = "main", fileName = "test1009.kt", lineNumber = 12)
-at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test1009.MainTest", methodName = "main", fileName = "test1009.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test1009.MainTest", methodName = "main", fileName = "test1009.kt", lineNumber = 13)
   }
   
 }
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1010.MainTest", methodName = "main", fileName = "test1010.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1010.MainTest", methodName = "main", fileName = "test1010.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1010.MainTest", methodName = "main", fileName = "test1010.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1010.MainTest", methodName = "main", fileName = "test1010.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1010.MainTest", methodName = "main", fileName = "test1010.kt", lineNumber = 13)
   }
   
 }
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1011.MainTest", methodName = "main", fileName = "test1011.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1011.MainTest", methodName = "main", fileName = "test1011.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1011.MainTest", methodName = "main", fileName = "test1011.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1011.MainTest", methodName = "main", fileName = "test1011.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1011.MainTest", methodName = "main", fileName = "test1011.kt", lineNumber = 13)
   }
   
 }
@@ -328,9 +316,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1012.MainTest", methodName = "main", fileName = "test1012.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1012.MainTest", methodName = "main", fileName = "test1012.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1012.MainTest", methodName = "main", fileName = "test1012.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1012.MainTest", methodName = "main", fileName = "test1012.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1012.MainTest", methodName = "main", fileName = "test1012.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }
@@ -376,9 +362,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1013.MainTest", methodName = "main", fileName = "test1013.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1013.MainTest", methodName = "main", fileName = "test1013.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1013.MainTest", methodName = "main", fileName = "test1013.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1013.MainTest", methodName = "main", fileName = "test1013.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder\"", className = "test1013.MainTest", methodName = "main", fileName = "test1013.kt", lineNumber = 13)
   }
   
 }
@@ -424,9 +408,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1014.MainTest", methodName = "main", fileName = "test1014.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1014.MainTest", methodName = "main", fileName = "test1014.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1014.MainTest", methodName = "main", fileName = "test1014.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1014.MainTest", methodName = "main", fileName = "test1014.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i\"", className = "test1014.MainTest", methodName = "main", fileName = "test1014.kt", lineNumber = 13)
   }
   
 }
@@ -472,9 +454,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1015.MainTest", methodName = "main", fileName = "test1015.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1015.MainTest", methodName = "main", fileName = "test1015.kt", lineNumber = 13)
-    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1015.MainTest", methodName = "main", fileName = "test1015.kt", lineNumber = 12)
-at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1015.MainTest", methodName = "main", fileName = "test1015.kt", lineNumber = 13)
+    logger.at(Level.INFO) { message = "info eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info eventBuilder $i ${helper()}\"", className = "test1015.MainTest", methodName = "main", fileName = "test1015.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }

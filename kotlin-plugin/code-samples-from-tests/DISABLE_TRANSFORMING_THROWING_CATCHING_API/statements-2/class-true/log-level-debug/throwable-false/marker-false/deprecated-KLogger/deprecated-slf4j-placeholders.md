@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     val arg = 42
     logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test956.MainTest", methodName = "main", fileName = "test956.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test956.MainTest", methodName = "main", fileName = "test956.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test956.MainTest", methodName = "main", fileName = "test956.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test956.MainTest", methodName = "main", fileName = "test956.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test956.MainTest", methodName = "main", fileName = "test956.kt", lineNumber = 13)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val arg = 42
     logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test957.MainTest", methodName = "main", fileName = "test957.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test957.MainTest", methodName = "main", fileName = "test957.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test957.MainTest", methodName = "main", fileName = "test957.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test957.MainTest", methodName = "main", fileName = "test957.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test957.MainTest", methodName = "main", fileName = "test957.kt", lineNumber = 13)
   }
   
 }
@@ -136,9 +132,7 @@ private var arg: Long = 42
     
     
     logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test958.MainTest", methodName = "main", fileName = "test958.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test958.MainTest", methodName = "main", fileName = "test958.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test958.MainTest", methodName = "main", fileName = "test958.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test958.MainTest", methodName = "main", fileName = "test958.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test958.MainTest", methodName = "main", fileName = "test958.kt", lineNumber = 13)
   }
   
 }
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     
     val arg = 42
     logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test959.MainTest", methodName = "main", fileName = "test959.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test959.MainTest", methodName = "main", fileName = "test959.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test959.MainTest", methodName = "main", fileName = "test959.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test959.MainTest", methodName = "main", fileName = "test959.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message 42 Hello!{} abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test959.MainTest", methodName = "main", fileName = "test959.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     
     val a = 1; val b = 2
     logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test960.MainTest", methodName = "main", fileName = "test960.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test960.MainTest", methodName = "main", fileName = "test960.kt", lineNumber = 13)
-    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test960.MainTest", methodName = "main", fileName = "test960.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test960.MainTest", methodName = "main", fileName = "test960.kt", lineNumber = 13)
+    logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test960.MainTest", methodName = "main", fileName = "test960.kt", lineNumber = 13)
   }
   fun ab() = 12
 }

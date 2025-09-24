@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test1101.MainTest", methodName = "main", fileName = "test1101.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test1101.MainTest", methodName = "main", fileName = "test1101.kt", lineNumber = 13)
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test1101.MainTest", methodName = "main", fileName = "test1101.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test1101.MainTest", methodName = "main", fileName = "test1101.kt", lineNumber = 13)
+    logger.at(Level.WARN, marker) { message = "warn messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder\"", className = "test1101.MainTest", methodName = "main", fileName = "test1101.kt", lineNumber = 13)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test1102.MainTest", methodName = "main", fileName = "test1102.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test1102.MainTest", methodName = "main", fileName = "test1102.kt", lineNumber = 13)
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test1102.MainTest", methodName = "main", fileName = "test1102.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test1102.MainTest", methodName = "main", fileName = "test1102.kt", lineNumber = 13)
+    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i\"", className = "test1102.MainTest", methodName = "main", fileName = "test1102.kt", lineNumber = 13)
   }
   
 }
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test1103.MainTest", methodName = "main", fileName = "test1103.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test1103.MainTest", methodName = "main", fileName = "test1103.kt", lineNumber = 13)
-    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test1103.MainTest", methodName = "main", fileName = "test1103.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test1103.MainTest", methodName = "main", fileName = "test1103.kt", lineNumber = 13)
+    logger.at(Level.WARN, marker) { message = "warn messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn messageBuilder $i ${helper()}\"", className = "test1103.MainTest", methodName = "main", fileName = "test1103.kt", lineNumber = 13)
   }
   fun helper() = "Hello!"
 }
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1104.MainTest", methodName = "main", fileName = "test1104.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1104.MainTest", methodName = "main", fileName = "test1104.kt", lineNumber = 13)
-    logger.at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1104.MainTest", methodName = "main", fileName = "test1104.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1104.MainTest", methodName = "main", fileName = "test1104.kt", lineNumber = 13)
+    logger.at(Level.WARN, marker) { message = "warn message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"warn message {}\"", className = "test1104.MainTest", methodName = "main", fileName = "test1104.kt", lineNumber = 13)
   }
   
 }
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     
     val message = "warn message as variable"
     logger.at(Level.WARN, marker) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1105.MainTest", methodName = "main", fileName = "test1105.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1105.MainTest", methodName = "main", fileName = "test1105.kt", lineNumber = 13)
-    logger.at(Level.WARN, marker) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1105.MainTest", methodName = "main", fileName = "test1105.kt", lineNumber = 12)
-at(Level.WARN, marker) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1105.MainTest", methodName = "main", fileName = "test1105.kt", lineNumber = 13)
+    logger.at(Level.WARN, marker) { message = "warn message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1105.MainTest", methodName = "main", fileName = "test1105.kt", lineNumber = 13)
   }
   
 }

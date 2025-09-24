@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1435
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.atInfo(marker) { message="info eventBuilder"; cause=null }
-atInfo(marker) { message="info eventBuilder"; cause=null }
   logger.atInfo(marker) { message="info eventBuilder"; cause=null }
-atInfo(marker) { message="info eventBuilder"; cause=null }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1436
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.atInfo(marker) { message="info eventBuilder $i"; cause=null }
-atInfo(marker) { message="info eventBuilder $i"; cause=null }
   logger.atInfo(marker) { message="info eventBuilder $i"; cause=null }
-atInfo(marker) { message="info eventBuilder $i"; cause=null }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1437
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
   logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1438
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   
   logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
   logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder"; cause=null }
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1439
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
   logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder $i"; cause=null }
 }
 
 
@@ -266,7 +256,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1440
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
   logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
-at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 

@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test870
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.atTrace(marker) { message="trace eventBuilder"; cause=null }
-atTrace(marker) { message="trace eventBuilder"; cause=null }
     logger.atTrace(marker) { message="trace eventBuilder"; cause=null }
-atTrace(marker) { message="trace eventBuilder"; cause=null }
   }
   
 }
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test871
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.atTrace(marker) { message="trace eventBuilder $i"; cause=null }
-atTrace(marker) { message="trace eventBuilder $i"; cause=null }
     logger.atTrace(marker) { message="trace eventBuilder $i"; cause=null }
-atTrace(marker) { message="trace eventBuilder $i"; cause=null }
   }
   
 }
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test872
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
     logger.atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-atTrace(marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test873
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
     logger.at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder"; cause=null }
   }
   
 }
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test874
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
     logger.at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder $i"; cause=null }
   }
   
 }
@@ -266,7 +256,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test875
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
     logger.at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
-at(Level.TRACE, marker) { message="trace eventBuilder $i ${helper()}"; cause=null }
   }
   fun helper() = "Hello!"
 }

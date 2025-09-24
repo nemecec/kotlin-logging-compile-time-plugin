@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test814.MainTest", methodName = "main", fileName = "test814.kt", lineNumber = 12), throwable)
-throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test814.MainTest", methodName = "main", fileName = "test814.kt", lineNumber = 13), throwable)
-    throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test814.MainTest", methodName = "main", fileName = "test814.kt", lineNumber = 12), throwable)
-throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test814.MainTest", methodName = "main", fileName = "test814.kt", lineNumber = 13), throwable)
+    throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test814.MainTest", methodName = "main", fileName = "test814.kt", lineNumber = 13), throwable)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test815.MainTest", methodName = "main", fileName = "test815.kt", lineNumber = 12), throwable)
-catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test815.MainTest", methodName = "main", fileName = "test815.kt", lineNumber = 13), throwable)
-    logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test815.MainTest", methodName = "main", fileName = "test815.kt", lineNumber = 12), throwable)
-catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test815.MainTest", methodName = "main", fileName = "test815.kt", lineNumber = 13), throwable)
+    logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test815.MainTest", methodName = "main", fileName = "test815.kt", lineNumber = 13), throwable)
   }
   
 }

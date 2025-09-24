@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1241.Test1241Kt", methodName = "main", fileName = "test1241.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1241.Test1241Kt", methodName = "main", fileName = "test1241.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1241.Test1241Kt", methodName = "main", fileName = "test1241.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1241.Test1241Kt", methodName = "main", fileName = "test1241.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1241.Test1241Kt", methodName = "main", fileName = "test1241.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test1242.Test1242Kt", methodName = "main", fileName = "test1242.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test1242.Test1242Kt", methodName = "main", fileName = "test1242.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test1242.Test1242Kt", methodName = "main", fileName = "test1242.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test1242.Test1242Kt", methodName = "main", fileName = "test1242.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message with concatenation $arg {}\"", className = "test1242.Test1242Kt", methodName = "main", fileName = "test1242.kt", lineNumber = 13)
 }
 
 
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test1243.Test1243Kt", methodName = "main", fileName = "test1243.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test1243.Test1243Kt", methodName = "main", fileName = "test1243.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test1243.Test1243Kt", methodName = "main", fileName = "test1243.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test1243.Test1243Kt", methodName = "main", fileName = "test1243.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace with extension function {} interval\"", className = "test1243.Test1243Kt", methodName = "main", fileName = "test1243.kt", lineNumber = 13)
 }
 
 
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.TRACE) { message = "trace message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1244.Test1244Kt", methodName = "main", fileName = "test1244.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1244.Test1244Kt", methodName = "main", fileName = "test1244.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1244.Test1244Kt", methodName = "main", fileName = "test1244.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1244.Test1244Kt", methodName = "main", fileName = "test1244.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1244.Test1244Kt", methodName = "main", fileName = "test1244.kt", lineNumber = 13)
 }
 fun helper() = "Hello!"
 
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   val a = 1; val b = 2
   logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1245.Test1245Kt", methodName = "main", fileName = "test1245.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1245.Test1245Kt", methodName = "main", fileName = "test1245.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1245.Test1245Kt", methodName = "main", fileName = "test1245.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1245.Test1245Kt", methodName = "main", fileName = "test1245.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1245.Test1245Kt", methodName = "main", fileName = "test1245.kt", lineNumber = 13)
 }
 fun ab() = 12
 

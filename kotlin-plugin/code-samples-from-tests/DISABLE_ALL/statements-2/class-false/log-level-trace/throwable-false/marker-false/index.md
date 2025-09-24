@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1291
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.trace() { "trace messageBuilder" }
-trace() { "trace messageBuilder" }
   logger.trace() { "trace messageBuilder" }
-trace() { "trace messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1292
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.trace() { "trace messageBuilder $i" }
-trace() { "trace messageBuilder $i" }
   logger.trace() { "trace messageBuilder $i" }
-trace() { "trace messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1293
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.trace() { "trace messageBuilder $i ${helper()}" }
-trace() { "trace messageBuilder $i ${helper()}" }
   logger.trace() { "trace messageBuilder $i ${helper()}" }
-trace() { "trace messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1294
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   val messageLambda: () -> Any = { "trace messageBuilder" }
   logger.trace(messageLambda)
-trace(messageLambda)
   logger.trace(messageLambda)
-trace(messageLambda)
 }
 
 
@@ -218,7 +210,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1295
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   
   logger.atTrace() { message="trace eventBuilder"; cause=null }
-atTrace() { message="trace eventBuilder"; cause=null }
   logger.atTrace() { message="trace eventBuilder"; cause=null }
-atTrace() { message="trace eventBuilder"; cause=null }
 }
 
 
@@ -266,7 +256,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1296
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   
   val i = 42
   logger.atTrace() { message="trace eventBuilder $i"; cause=null }
-atTrace() { message="trace eventBuilder $i"; cause=null }
   logger.atTrace() { message="trace eventBuilder $i"; cause=null }
-atTrace() { message="trace eventBuilder $i"; cause=null }
 }
 
 
@@ -314,7 +302,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1297
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ fun main() {
   
   val i = 42
   logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
-atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
   logger.atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
-atTrace() { message="trace eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 
@@ -362,7 +348,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1298
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ fun main() {
   
   
   logger.at(Level.TRACE) { message="trace eventBuilder"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder"; cause=null }
   logger.at(Level.TRACE) { message="trace eventBuilder"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder"; cause=null }
 }
 
 
@@ -410,7 +394,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1299
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
   logger.at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder $i"; cause=null }
 }
 
 
@@ -458,7 +440,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1300
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
   logger.at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
-at(Level.TRACE) { message="trace eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 

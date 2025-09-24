@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1206
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.error() { "error messageBuilder" }
-error() { "error messageBuilder" }
     logger.error() { "error messageBuilder" }
-error() { "error messageBuilder" }
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1207
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.error() { "error messageBuilder $i" }
-error() { "error messageBuilder $i" }
     logger.error() { "error messageBuilder $i" }
-error() { "error messageBuilder $i" }
   }
   
 }
@@ -122,7 +118,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1208
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.error() { "error messageBuilder $i ${helper()}" }
-error() { "error messageBuilder $i ${helper()}" }
     logger.error() { "error messageBuilder $i ${helper()}" }
-error() { "error messageBuilder $i ${helper()}" }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1209
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     
     val messageLambda: () -> Any = { "error messageBuilder" }
     logger.error(messageLambda)
-error(messageLambda)
     logger.error(messageLambda)
-error(messageLambda)
   }
   
 }
@@ -218,7 +210,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1210
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.atError() { message="error eventBuilder"; cause=null }
-atError() { message="error eventBuilder"; cause=null }
     logger.atError() { message="error eventBuilder"; cause=null }
-atError() { message="error eventBuilder"; cause=null }
   }
   
 }
@@ -266,7 +256,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1211
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.atError() { message="error eventBuilder $i"; cause=null }
-atError() { message="error eventBuilder $i"; cause=null }
     logger.atError() { message="error eventBuilder $i"; cause=null }
-atError() { message="error eventBuilder $i"; cause=null }
   }
   
 }
@@ -314,7 +302,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1212
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
-atError() { message="error eventBuilder $i ${helper()}"; cause=null }
     logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
-atError() { message="error eventBuilder $i ${helper()}"; cause=null }
   }
   fun helper() = "Hello!"
 }
@@ -362,7 +348,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1213
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
-at(Level.ERROR) { message="error eventBuilder"; cause=null }
     logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
-at(Level.ERROR) { message="error eventBuilder"; cause=null }
   }
   
 }
@@ -410,7 +394,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1214
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
-at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
     logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
-at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
   }
   
 }
@@ -458,7 +440,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1215
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ private val logger = KotlinLogging.logger {}
     
     val i = 42
     logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
-at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
     logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
-at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
   }
   fun helper() = "Hello!"
 }

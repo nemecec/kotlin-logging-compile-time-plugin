@@ -26,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test926
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.debug(throwable) { "debug messageBuilder" }
-debug(throwable) { "debug messageBuilder" }
     logger.debug(throwable) { "debug messageBuilder" }
-debug(throwable) { "debug messageBuilder" }
   }
   
 }
@@ -74,7 +72,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test927
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.debug(throwable) { "debug messageBuilder $i" }
-debug(throwable) { "debug messageBuilder $i" }
     logger.debug(throwable) { "debug messageBuilder $i" }
-debug(throwable) { "debug messageBuilder $i" }
   }
   
 }
@@ -122,7 +118,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test928
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.debug(throwable) { "debug messageBuilder $i ${helper()}" }
-debug(throwable) { "debug messageBuilder $i ${helper()}" }
     logger.debug(throwable) { "debug messageBuilder $i ${helper()}" }
-debug(throwable) { "debug messageBuilder $i ${helper()}" }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test929
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val messageLambda: () -> Any = { "debug messageBuilder" }
     logger.debug(throwable, messageLambda)
-debug(throwable, messageLambda)
     logger.debug(throwable, messageLambda)
-debug(throwable, messageLambda)
   }
   
 }
@@ -218,7 +210,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test930
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.atDebug() { message="debug eventBuilder"; cause=throwable }
-atDebug() { message="debug eventBuilder"; cause=throwable }
     logger.atDebug() { message="debug eventBuilder"; cause=throwable }
-atDebug() { message="debug eventBuilder"; cause=throwable }
   }
   
 }
@@ -266,7 +256,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test931
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atDebug() { message="debug eventBuilder $i"; cause=throwable }
-atDebug() { message="debug eventBuilder $i"; cause=throwable }
     logger.atDebug() { message="debug eventBuilder $i"; cause=throwable }
-atDebug() { message="debug eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -314,7 +302,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test932
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
     logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-atDebug() { message="debug eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }
@@ -362,7 +348,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test933
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
     logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder"; cause=throwable }
   }
   
 }
@@ -410,7 +394,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test934
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
     logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -458,7 +440,7 @@ private val logger = KotlinLogging.logger {}
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test935
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
     logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }

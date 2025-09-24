@@ -40,9 +40,7 @@ fun main() {
   
   val argument1 = 42; val argument2 = true
   logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 12))
-entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 13))
-  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 12))
-entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 13))
+  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 13))
 }
 
 
@@ -88,9 +86,7 @@ fun main(): Int {
   
   val resultValue = 42
   logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 13))
-  return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 13))
+  return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 13))
 }
 
 
@@ -136,9 +132,7 @@ fun main() {
   
   
   logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 13))
-  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 13))
+  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 13))
 }
 
 

@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1369.Test1369Kt", methodName = "main", fileName = "test1369.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1369.Test1369Kt", methodName = "main", fileName = "test1369.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1369.Test1369Kt", methodName = "main", fileName = "test1369.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1369.Test1369Kt", methodName = "main", fileName = "test1369.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1369.Test1369Kt", methodName = "main", fileName = "test1369.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   
   val message = "debug message as variable"
   logger.at(Level.DEBUG) { message = "debug message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1370.Test1370Kt", methodName = "main", fileName = "test1370.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1370.Test1370Kt", methodName = "main", fileName = "test1370.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1370.Test1370Kt", methodName = "main", fileName = "test1370.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1370.Test1370Kt", methodName = "main", fileName = "test1370.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1370.Test1370Kt", methodName = "main", fileName = "test1370.kt", lineNumber = 13)
 }
 
 

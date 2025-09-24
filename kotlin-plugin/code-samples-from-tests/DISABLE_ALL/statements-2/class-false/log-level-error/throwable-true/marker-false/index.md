@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1571
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.error(throwable) { "error messageBuilder" }
-error(throwable) { "error messageBuilder" }
   logger.error(throwable) { "error messageBuilder" }
-error(throwable) { "error messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1572
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.error(throwable) { "error messageBuilder $i" }
-error(throwable) { "error messageBuilder $i" }
   logger.error(throwable) { "error messageBuilder $i" }
-error(throwable) { "error messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1573
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.error(throwable) { "error messageBuilder $i ${helper()}" }
-error(throwable) { "error messageBuilder $i ${helper()}" }
   logger.error(throwable) { "error messageBuilder $i ${helper()}" }
-error(throwable) { "error messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1574
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   val messageLambda: () -> Any = { "error messageBuilder" }
   logger.error(throwable, messageLambda)
-error(throwable, messageLambda)
   logger.error(throwable, messageLambda)
-error(throwable, messageLambda)
 }
 
 
@@ -218,7 +210,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1575
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.atError() { message="error eventBuilder"; cause=throwable }
-atError() { message="error eventBuilder"; cause=throwable }
   logger.atError() { message="error eventBuilder"; cause=throwable }
-atError() { message="error eventBuilder"; cause=throwable }
 }
 
 
@@ -266,7 +256,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1576
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.atError() { message="error eventBuilder $i"; cause=throwable }
-atError() { message="error eventBuilder $i"; cause=throwable }
   logger.atError() { message="error eventBuilder $i"; cause=throwable }
-atError() { message="error eventBuilder $i"; cause=throwable }
 }
 
 
@@ -314,7 +302,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1577
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
-atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
   logger.atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
-atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
 }
 fun helper() = "Hello!"
 
@@ -362,7 +348,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1578
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
   logger.at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
 }
 
 
@@ -410,7 +394,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1579
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
   logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
 }
 
 
@@ -458,7 +440,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1580
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
   logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
 }
 fun helper() = "Hello!"
 

@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1146
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.error(throwable, marker) { "error messageBuilder" }
-error(throwable, marker) { "error messageBuilder" }
     logger.error(throwable, marker) { "error messageBuilder" }
-error(throwable, marker) { "error messageBuilder" }
   }
   
 }
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1147
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.error(throwable, marker) { "error messageBuilder $i" }
-error(throwable, marker) { "error messageBuilder $i" }
     logger.error(throwable, marker) { "error messageBuilder $i" }
-error(throwable, marker) { "error messageBuilder $i" }
   }
   
 }
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1148
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.error(throwable, marker) { "error messageBuilder $i ${helper()}" }
-error(throwable, marker) { "error messageBuilder $i ${helper()}" }
     logger.error(throwable, marker) { "error messageBuilder $i ${helper()}" }
-error(throwable, marker) { "error messageBuilder $i ${helper()}" }
   }
   fun helper() = "Hello!"
 }
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1149
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val messageLambda: () -> Any = { "error messageBuilder" }
     logger.error(throwable, marker, messageLambda)
-error(throwable, marker, messageLambda)
     logger.error(throwable, marker, messageLambda)
-error(throwable, marker, messageLambda)
   }
   
 }
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1150
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.atError(marker) { message="error eventBuilder"; cause=throwable }
-atError(marker) { message="error eventBuilder"; cause=throwable }
     logger.atError(marker) { message="error eventBuilder"; cause=throwable }
-atError(marker) { message="error eventBuilder"; cause=throwable }
   }
   
 }
@@ -266,7 +256,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1151
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atError(marker) { message="error eventBuilder $i"; cause=throwable }
-atError(marker) { message="error eventBuilder $i"; cause=throwable }
     logger.atError(marker) { message="error eventBuilder $i"; cause=throwable }
-atError(marker) { message="error eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -314,7 +302,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1152
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
     logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-atError(marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }
@@ -362,7 +348,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1153
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     
     logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
     logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder"; cause=throwable }
   }
   
 }
@@ -410,7 +394,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1154
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
     logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=throwable }
   }
   
 }
@@ -458,7 +440,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1155
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ private val logger = KotlinLogging.logger {}
     val throwable = Exception("expected!")
     val i = 42
     logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
     logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
-at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=throwable }
   }
   fun helper() = "Hello!"
 }

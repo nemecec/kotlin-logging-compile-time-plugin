@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1371
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.debug() { "debug messageBuilder" }
-debug() { "debug messageBuilder" }
   logger.debug() { "debug messageBuilder" }
-debug() { "debug messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1372
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.debug() { "debug messageBuilder $i" }
-debug() { "debug messageBuilder $i" }
   logger.debug() { "debug messageBuilder $i" }
-debug() { "debug messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1373
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.debug() { "debug messageBuilder $i ${helper()}" }
-debug() { "debug messageBuilder $i ${helper()}" }
   logger.debug() { "debug messageBuilder $i ${helper()}" }
-debug() { "debug messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1374
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   val messageLambda: () -> Any = { "debug messageBuilder" }
   logger.debug(messageLambda)
-debug(messageLambda)
   logger.debug(messageLambda)
-debug(messageLambda)
 }
 
 
@@ -218,7 +210,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1375
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   
   logger.atDebug() { message="debug eventBuilder"; cause=null }
-atDebug() { message="debug eventBuilder"; cause=null }
   logger.atDebug() { message="debug eventBuilder"; cause=null }
-atDebug() { message="debug eventBuilder"; cause=null }
 }
 
 
@@ -266,7 +256,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1376
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   
   val i = 42
   logger.atDebug() { message="debug eventBuilder $i"; cause=null }
-atDebug() { message="debug eventBuilder $i"; cause=null }
   logger.atDebug() { message="debug eventBuilder $i"; cause=null }
-atDebug() { message="debug eventBuilder $i"; cause=null }
 }
 
 
@@ -314,7 +302,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1377
 import io.github.oshai.kotlinlogging.*
@@ -328,9 +316,7 @@ fun main() {
   
   val i = 42
   logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
-atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
   logger.atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
-atDebug() { message="debug eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 
@@ -362,7 +348,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1378
 import io.github.oshai.kotlinlogging.*
@@ -376,9 +362,7 @@ fun main() {
   
   
   logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
   logger.at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder"; cause=null }
 }
 
 
@@ -410,7 +394,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1379
 import io.github.oshai.kotlinlogging.*
@@ -424,9 +408,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
   logger.at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder $i"; cause=null }
 }
 
 
@@ -458,7 +440,7 @@ fun helper() = "Hello!"
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1380
 import io.github.oshai.kotlinlogging.*
@@ -472,9 +454,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
   logger.at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
-at(Level.DEBUG) { message="debug eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 

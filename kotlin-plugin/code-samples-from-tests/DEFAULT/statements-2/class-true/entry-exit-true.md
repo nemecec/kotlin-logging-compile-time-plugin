@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     val argument1 = 42; val argument2 = true
     logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test811.MainTest", methodName = "main", fileName = "test811.kt", lineNumber = 12))
-entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test811.MainTest", methodName = "main", fileName = "test811.kt", lineNumber = 13))
-    logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test811.MainTest", methodName = "main", fileName = "test811.kt", lineNumber = 12))
-entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test811.MainTest", methodName = "main", fileName = "test811.kt", lineNumber = 13))
+    logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test811.MainTest", methodName = "main", fileName = "test811.kt", lineNumber = 13))
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val resultValue = 42
     logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test812.MainTest", methodName = "main", fileName = "test812.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test812.MainTest", methodName = "main", fileName = "test812.kt", lineNumber = 13))
-    return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test812.MainTest", methodName = "main", fileName = "test812.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test812.MainTest", methodName = "main", fileName = "test812.kt", lineNumber = 13))
+    return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test812.MainTest", methodName = "main", fileName = "test812.kt", lineNumber = 13))
   }
   
 }
@@ -136,9 +132,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test813.MainTest", methodName = "main", fileName = "test813.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test813.MainTest", methodName = "main", fileName = "test813.kt", lineNumber = 13))
-    logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test813.MainTest", methodName = "main", fileName = "test813.kt", lineNumber = 12))
-exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test813.MainTest", methodName = "main", fileName = "test813.kt", lineNumber = 13))
+    logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test813.MainTest", methodName = "main", fileName = "test813.kt", lineNumber = 13))
   }
   
 }

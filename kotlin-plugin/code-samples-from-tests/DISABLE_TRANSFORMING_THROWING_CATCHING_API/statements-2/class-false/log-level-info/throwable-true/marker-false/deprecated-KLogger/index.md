@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1409.Test1409Kt", methodName = "main", fileName = "test1409.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1409.Test1409Kt", methodName = "main", fileName = "test1409.kt", lineNumber = 13)
-  logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1409.Test1409Kt", methodName = "main", fileName = "test1409.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1409.Test1409Kt", methodName = "main", fileName = "test1409.kt", lineNumber = 13)
+  logger.at(Level.INFO) { message = "info message {}"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"info message {}\"", className = "test1409.Test1409Kt", methodName = "main", fileName = "test1409.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val message = "info message as variable"
   logger.at(Level.INFO) { message = "info message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1410.Test1410Kt", methodName = "main", fileName = "test1410.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1410.Test1410Kt", methodName = "main", fileName = "test1410.kt", lineNumber = 13)
-  logger.at(Level.INFO) { message = "info message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1410.Test1410Kt", methodName = "main", fileName = "test1410.kt", lineNumber = 12)
-at(Level.INFO) { message = "info message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1410.Test1410Kt", methodName = "main", fileName = "test1410.kt", lineNumber = 13)
+  logger.at(Level.INFO) { message = "info message as variable"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1410.Test1410Kt", methodName = "main", fileName = "test1410.kt", lineNumber = 13)
 }
 
 

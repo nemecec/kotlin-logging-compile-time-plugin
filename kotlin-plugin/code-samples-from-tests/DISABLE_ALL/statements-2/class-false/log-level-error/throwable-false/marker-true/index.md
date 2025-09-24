@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1595
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.atError(marker) { message="error eventBuilder"; cause=null }
-atError(marker) { message="error eventBuilder"; cause=null }
   logger.atError(marker) { message="error eventBuilder"; cause=null }
-atError(marker) { message="error eventBuilder"; cause=null }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1596
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val i = 42
   logger.atError(marker) { message="error eventBuilder $i"; cause=null }
-atError(marker) { message="error eventBuilder $i"; cause=null }
   logger.atError(marker) { message="error eventBuilder $i"; cause=null }
-atError(marker) { message="error eventBuilder $i"; cause=null }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1597
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   val i = 42
   logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
   logger.atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-atError(marker) { message="error eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1598
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   
   
   logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
   logger.at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder"; cause=null }
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1599
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
   logger.at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder $i"; cause=null }
 }
 
 
@@ -266,7 +256,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1600
 import io.github.oshai.kotlinlogging.*
@@ -280,9 +270,7 @@ fun main() {
   
   val i = 42
   logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
   logger.at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
-at(Level.ERROR, marker) { message="error eventBuilder $i ${helper()}"; cause=null }
 }
 fun helper() = "Hello!"
 

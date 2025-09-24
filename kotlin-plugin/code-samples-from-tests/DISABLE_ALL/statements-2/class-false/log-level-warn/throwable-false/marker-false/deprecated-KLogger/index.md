@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1529
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.warn("warn message {}")
-warn("warn message {}")
   logger.warn("warn message {}")
-warn("warn message {}")
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1530
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val message = "warn message as variable"
   logger.warn(message)
-warn(message)
   logger.warn(message)
-warn(message)
 }
 
 

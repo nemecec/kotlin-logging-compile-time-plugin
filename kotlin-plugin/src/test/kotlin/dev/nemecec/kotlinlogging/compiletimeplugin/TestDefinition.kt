@@ -76,16 +76,18 @@ data class TestCodeDescription(
   }
 
   fun prepare(uniqueTestNumber: Int) =
-    prepare(uniqueTestNumber) { makeSource(useMarker, useThrowable) }
+    prepare(uniqueTestNumber) { _ -> makeSource(useMarker, useThrowable) }
 
   fun prepareTransformed(uniqueTestNumber: Int, expectedResult: TestExecutionResult) =
     if (expectedResult.loggedEvents.isNotEmpty())
-      prepare(uniqueTestNumber) { makeTransformedSource(expectedResult) }
+      prepare(uniqueTestNumber) { statementIndex ->
+        makeTransformedSource(expectedResult.loggedEvents[statementIndex])
+      }
     else null
 
   private fun prepare(
     uniqueTestNumber: Int,
-    logStatementSourceCodeMaker: LogStatement.() -> String,
+    logStatementSourceCodeMaker: LogStatement.(Int) -> String,
   ): PreparedTestCode {
     val fileName = "test${uniqueTestNumber}.kt"
     val packageName = "test${uniqueTestNumber}"
@@ -133,7 +135,10 @@ data class TestCodeDescription(
     val firstLogStatementLineNumber = 12
     val logStatementLineNumbers =
       (firstLogStatementLineNumber until firstLogStatementLineNumber + logStatements.size).toList()
-    val logStatementSources = logStatements.map { logStatementSourceCodeMaker.invoke(it) }
+    val logStatementSources =
+      logStatements.mapIndexed { index, statement ->
+        logStatementSourceCodeMaker.invoke(statement, index)
+      }
     val logStatementStrings =
       logStatementSources.take(logStatements.size - 1).map { "$classIndent  logger.$it" } +
         logStatementSources.last().let { "$classIndent  ${logStatementPrefix}logger.$it" }
@@ -185,9 +190,6 @@ data class TestCodeDescription(
 private fun LogStatement.makeSource(useMarker: Boolean, useThrowable: Boolean): String {
   return "${funName}${makeArgumentList(useMarker, useThrowable)}${makeLastArgumentLambda(useThrowable)}"
 }
-
-private fun LogStatement.makeTransformedSource(expectedResult: TestExecutionResult) =
-  expectedResult.loggedEvents.joinToString("\n") { makeTransformedSource(it) }
 
 private fun LogStatement.makeTransformedSource(loggedEvent: TestLoggingEvent): String {
   val useMarker = loggedEvent.hasMarker

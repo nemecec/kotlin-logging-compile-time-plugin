@@ -40,9 +40,7 @@ private val logger = KotlinLogging.logger {}
     
     
     logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1204.MainTest", methodName = "main", fileName = "test1204.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1204.MainTest", methodName = "main", fileName = "test1204.kt", lineNumber = 13)
-    logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1204.MainTest", methodName = "main", fileName = "test1204.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1204.MainTest", methodName = "main", fileName = "test1204.kt", lineNumber = 13)
+    logger.at(Level.ERROR) { message = "error message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error message {}\"", className = "test1204.MainTest", methodName = "main", fileName = "test1204.kt", lineNumber = 13)
   }
   
 }
@@ -88,9 +86,7 @@ private val logger = KotlinLogging.logger {}
     
     val message = "error message as variable"
     logger.at(Level.ERROR) { message = "error message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1205.MainTest", methodName = "main", fileName = "test1205.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1205.MainTest", methodName = "main", fileName = "test1205.kt", lineNumber = 13)
-    logger.at(Level.ERROR) { message = "error message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1205.MainTest", methodName = "main", fileName = "test1205.kt", lineNumber = 12)
-at(Level.ERROR) { message = "error message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1205.MainTest", methodName = "main", fileName = "test1205.kt", lineNumber = 13)
+    logger.at(Level.ERROR) { message = "error message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1205.MainTest", methodName = "main", fileName = "test1205.kt", lineNumber = 13)
   }
   
 }

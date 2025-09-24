@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1321.Test1321Kt", methodName = "main", fileName = "test1321.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1321.Test1321Kt", methodName = "main", fileName = "test1321.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1321.Test1321Kt", methodName = "main", fileName = "test1321.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1321.Test1321Kt", methodName = "main", fileName = "test1321.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}\"", className = "test1321.Test1321Kt", methodName = "main", fileName = "test1321.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test1322.Test1322Kt", methodName = "main", fileName = "test1322.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test1322.Test1322Kt", methodName = "main", fileName = "test1322.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test1322.Test1322Kt", methodName = "main", fileName = "test1322.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test1322.Test1322Kt", methodName = "main", fileName = "test1322.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message with concatenation 42 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message with concatenation $arg {}\"", className = "test1322.Test1322Kt", methodName = "main", fileName = "test1322.kt", lineNumber = 13)
 }
 
 
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test1323.Test1323Kt", methodName = "main", fileName = "test1323.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test1323.Test1323Kt", methodName = "main", fileName = "test1323.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test1323.Test1323Kt", methodName = "main", fileName = "test1323.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test1323.Test1323Kt", methodName = "main", fileName = "test1323.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug with extension function 42m interval"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug with extension function {} interval\"", className = "test1323.Test1323Kt", methodName = "main", fileName = "test1323.kt", lineNumber = 13)
 }
 
 
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   val arg = 42
   logger.at(Level.DEBUG) { message = "debug message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1324.Test1324Kt", methodName = "main", fileName = "test1324.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1324.Test1324Kt", methodName = "main", fileName = "test1324.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1324.Test1324Kt", methodName = "main", fileName = "test1324.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1324.Test1324Kt", methodName = "main", fileName = "test1324.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message 42 Hello!java.lang.Exception: expected! abc {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {} \" + \"\" + \"{}\" + \"{}\" + \" abc\" + \" {}\"", className = "test1324.Test1324Kt", methodName = "main", fileName = "test1324.kt", lineNumber = 13)
 }
 fun helper() = "Hello!"
 
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   val a = 1; val b = 2
   logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1325.Test1325Kt", methodName = "main", fileName = "test1325.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1325.Test1325Kt", methodName = "main", fileName = "test1325.kt", lineNumber = 13)
-  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1325.Test1325Kt", methodName = "main", fileName = "test1325.kt", lineNumber = 12)
-at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1325.Test1325Kt", methodName = "main", fileName = "test1325.kt", lineNumber = 13)
+  logger.at(Level.DEBUG) { message = "debug message 1a 2b 12ab ab"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"debug message {}a\" + \" {}b\" + \" {}ab\" + \" ab\"", className = "test1325.Test1325Kt", methodName = "main", fileName = "test1325.kt", lineNumber = 13)
 }
 fun ab() = 12
 

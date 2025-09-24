@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1289.Test1289Kt", methodName = "main", fileName = "test1289.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1289.Test1289Kt", methodName = "main", fileName = "test1289.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1289.Test1289Kt", methodName = "main", fileName = "test1289.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1289.Test1289Kt", methodName = "main", fileName = "test1289.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message {}"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"trace message {}\"", className = "test1289.Test1289Kt", methodName = "main", fileName = "test1289.kt", lineNumber = 13)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   
   val message = "trace message as variable"
   logger.at(Level.TRACE) { message = "trace message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1290.Test1290Kt", methodName = "main", fileName = "test1290.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1290.Test1290Kt", methodName = "main", fileName = "test1290.kt", lineNumber = 13)
-  logger.at(Level.TRACE) { message = "trace message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1290.Test1290Kt", methodName = "main", fileName = "test1290.kt", lineNumber = 12)
-at(Level.TRACE) { message = "trace message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1290.Test1290Kt", methodName = "main", fileName = "test1290.kt", lineNumber = 13)
+  logger.at(Level.TRACE) { message = "trace message as variable"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "message", className = "test1290.Test1290Kt", methodName = "main", fileName = "test1290.kt", lineNumber = 13)
 }
 
 

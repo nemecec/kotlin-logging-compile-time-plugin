@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 12), throwable)
-throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 13), throwable)
-  throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 12), throwable)
-throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 13), throwable)
+  throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 13), throwable)
 }
 
 
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 12), throwable)
-catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 13), throwable)
-  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 12), throwable)
-catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 13), throwable)
+  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 13), throwable)
 }
 
 

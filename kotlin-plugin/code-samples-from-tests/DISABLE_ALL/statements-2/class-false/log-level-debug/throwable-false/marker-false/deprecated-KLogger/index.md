@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1369
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.debug("debug message {}")
-debug("debug message {}")
   logger.debug("debug message {}")
-debug("debug message {}")
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1370
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val message = "debug message as variable"
   logger.debug(message)
-debug(message)
   logger.debug(message)
-debug(message)
 }
 
 

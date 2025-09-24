@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1289
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   
   logger.trace("trace message {}")
-trace("trace message {}")
   logger.trace("trace message {}")
-trace("trace message {}")
 }
 
 
@@ -74,7 +72,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1290
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   
   val message = "trace message as variable"
   logger.trace(message)
-trace(message)
   logger.trace(message)
-trace(message)
 }
 
 

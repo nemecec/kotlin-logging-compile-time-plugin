@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1386
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.info(marker, throwable) { "info messageBuilder" }
-info(marker, throwable) { "info messageBuilder" }
   logger.info(marker, throwable) { "info messageBuilder" }
-info(marker, throwable) { "info messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1387
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.info(marker, throwable) { "info messageBuilder $i" }
-info(marker, throwable) { "info messageBuilder $i" }
   logger.info(marker, throwable) { "info messageBuilder $i" }
-info(marker, throwable) { "info messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1388
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
-info(marker, throwable) { "info messageBuilder $i ${helper()}" }
   logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
-info(marker, throwable) { "info messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1389
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.info(marker, "info message {}", throwable)
-info(marker, "info message {}", throwable)
   logger.info(marker, "info message {}", throwable)
-info(marker, "info message {}", throwable)
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1390
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   val message = "info message as variable"
   logger.info(marker, message, throwable)
-info(marker, message, throwable)
   logger.info(marker, message, throwable)
-info(marker, message, throwable)
 }
 
 

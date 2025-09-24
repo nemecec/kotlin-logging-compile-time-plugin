@@ -26,7 +26,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1216
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   
   val argument1 = 42; val argument2 = true
   logger.entry(argument1, argument2)
-entry(argument1, argument2)
   logger.entry(argument1, argument2)
-entry(argument1, argument2)
 }
 
 
@@ -74,7 +72,7 @@ fun main(): Int {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1217
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main(): Int {
   
   val resultValue = 42
   logger.exit(resultValue)
-exit(resultValue)
   return logger.exit(resultValue)
-exit(resultValue)
 }
 
 
@@ -122,7 +118,7 @@ fun main() {
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1218
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   
   
   logger.exit()
-exit()
   logger.exit()
-exit()
 }
 
 

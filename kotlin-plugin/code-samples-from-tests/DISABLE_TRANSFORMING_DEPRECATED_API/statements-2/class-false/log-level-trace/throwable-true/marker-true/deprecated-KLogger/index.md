@@ -26,7 +26,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1226
 import io.github.oshai.kotlinlogging.*
@@ -40,9 +40,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.trace(marker, throwable) { "trace messageBuilder" }
-trace(marker, throwable) { "trace messageBuilder" }
   logger.trace(marker, throwable) { "trace messageBuilder" }
-trace(marker, throwable) { "trace messageBuilder" }
 }
 
 
@@ -74,7 +72,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1227
 import io.github.oshai.kotlinlogging.*
@@ -88,9 +86,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.trace(marker, throwable) { "trace messageBuilder $i" }
-trace(marker, throwable) { "trace messageBuilder $i" }
   logger.trace(marker, throwable) { "trace messageBuilder $i" }
-trace(marker, throwable) { "trace messageBuilder $i" }
 }
 
 
@@ -122,7 +118,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1228
 import io.github.oshai.kotlinlogging.*
@@ -136,9 +132,7 @@ fun main() {
   val throwable = Exception("expected!")
   val i = 42
   logger.trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
-trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
   logger.trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
-trace(marker, throwable) { "trace messageBuilder $i ${helper()}" }
 }
 fun helper() = "Hello!"
 
@@ -170,7 +164,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1229
 import io.github.oshai.kotlinlogging.*
@@ -184,9 +178,7 @@ fun main() {
   val throwable = Exception("expected!")
   
   logger.trace(marker, "trace message {}", throwable)
-trace(marker, "trace message {}", throwable)
   logger.trace(marker, "trace message {}", throwable)
-trace(marker, "trace message {}", throwable)
 }
 
 
@@ -218,7 +210,7 @@ class MyMarker(private val name: String): Marker { override fun getName() = name
 
 ```
   
-Transformed into:
+Remains as-is:
 ```kotlin
 package test1230
 import io.github.oshai.kotlinlogging.*
@@ -232,9 +224,7 @@ fun main() {
   val throwable = Exception("expected!")
   val message = "trace message as variable"
   logger.trace(marker, message, throwable)
-trace(marker, message, throwable)
   logger.trace(marker, message, throwable)
-trace(marker, message, throwable)
 }
 
 
