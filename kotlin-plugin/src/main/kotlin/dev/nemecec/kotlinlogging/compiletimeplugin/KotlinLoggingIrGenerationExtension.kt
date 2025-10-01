@@ -511,7 +511,7 @@ class KotlinLoggingIrGenerationExtension(
             createIrFunctionExpression(
               type = typesHelper.eventBuilderLambdaType,
               function =
-                context.createLambdaIrSimpleFunction(origin = IrDeclarationOrigin.LOCAL_FUNCTION) {
+                context.createLambdaIrSimpleFunction {
                   parameters =
                     listOf(
                       factory
@@ -543,8 +543,13 @@ class KotlinLoggingIrGenerationExtension(
                               endOffset = UNDEFINED_OFFSET,
                               symbol = extensionReceiverValueParameter!!.symbol,
                             )
-                          parent = currentDeclarationParent!!
-                          setRegularArgument(0, loggingCallExpressions.messageExpression)
+                          parent = this@createLambdaIrSimpleFunction
+                          setRegularArgument(
+                            0,
+                            loggingCallExpressions.messageExpression.also {
+                              parent = this@createLambdaIrSimpleFunction
+                            },
+                          )
                         }
                       )
                       if (loggingCallExpressions.causeExpression != null) {
@@ -556,8 +561,13 @@ class KotlinLoggingIrGenerationExtension(
                                 endOffset = UNDEFINED_OFFSET,
                                 symbol = extensionReceiverValueParameter!!.symbol,
                               )
-                            parent = currentDeclarationParent!!
-                            setRegularArgument(0, loggingCallExpressions.causeExpression)
+                            parent = this@createLambdaIrSimpleFunction
+                            setRegularArgument(
+                              0,
+                              loggingCallExpressions.causeExpression.also {
+                                parent = this@createLambdaIrSimpleFunction
+                              },
+                            )
                           }
                         )
                       }
