@@ -118,16 +118,22 @@ class KotlinLoggingIrGenerationExtension(
           )
           .runOnFileInOrder(file)
         try {
-          validateIr(messageCollector, IrVerificationMode.ERROR, {
-            performBasicIrValidation(
-              file, pluginContext.irBuiltIns, "KotlinLoggingIrGenerationExtension",
-              IrValidatorConfig()
-            )
-          })
+          validateIr(
+            messageCollector,
+            IrVerificationMode.ERROR,
+            {
+              performBasicIrValidation(
+                file,
+                pluginContext.irBuiltIns,
+                "KotlinLoggingIrGenerationExtension",
+                IrValidatorConfig(),
+              )
+            },
+          )
         } catch (e: Throwable) {
           messageCollector.report(
             CompilerMessageSeverity.ERROR,
-            "IR validation failed: ${e.message ?: e.toString()}"
+            "IR validation failed: ${e.message ?: e.toString()}",
           )
         }
       }
@@ -563,7 +569,9 @@ class KotlinLoggingIrGenerationExtension(
                             )
                           setRegularArgument(
                             0,
-                            loggingCallExpressions.messageExpression.reassignParent(this@createLambdaIrSimpleFunction),
+                            loggingCallExpressions.messageExpression.reassignParent(
+                              this@createLambdaIrSimpleFunction
+                            ),
                           )
                         }
                       )
@@ -578,7 +586,9 @@ class KotlinLoggingIrGenerationExtension(
                               )
                             setRegularArgument(
                               0,
-                              loggingCallExpressions.causeExpression.reassignParent(this@createLambdaIrSimpleFunction),
+                              loggingCallExpressions.causeExpression.reassignParent(
+                                this@createLambdaIrSimpleFunction
+                              ),
                             )
                           }
                         )
