@@ -6,18 +6,23 @@ import com.javiersc.kotlin.compiler.extensions.ir.createLambdaIrSimpleFunction
 import com.javiersc.kotlin.compiler.extensions.ir.toIrConstructorCall
 import org.jetbrains.kotlin.backend.common.FileLoweringPass
 import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
+import org.jetbrains.kotlin.backend.common.IrValidatorConfig
 import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
 import org.jetbrains.kotlin.backend.common.extensions.IrPluginContext
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
+import org.jetbrains.kotlin.backend.common.validateIr
 import org.jetbrains.kotlin.backend.jvm.codegen.isAnnotatedWithDeprecated
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
+import org.jetbrains.kotlin.config.IrVerificationMode
 import org.jetbrains.kotlin.ir.IrElement
 import org.jetbrains.kotlin.ir.UNDEFINED_OFFSET
 import org.jetbrains.kotlin.ir.builders.irCall
 import org.jetbrains.kotlin.ir.builders.irInt
 import org.jetbrains.kotlin.ir.builders.irString
 import org.jetbrains.kotlin.ir.declarations.IrClass
+import org.jetbrains.kotlin.ir.declarations.IrDeclaration
+import org.jetbrains.kotlin.ir.declarations.IrDeclarationBase
 import org.jetbrains.kotlin.ir.declarations.IrDeclarationOrigin
 import org.jetbrains.kotlin.ir.declarations.IrEnumEntry
 import org.jetbrains.kotlin.ir.declarations.IrFile
@@ -112,6 +117,19 @@ class KotlinLoggingIrGenerationExtension(
             messageCollector,
           )
           .runOnFileInOrder(file)
+        try {
+          validateIr(messageCollector, IrVerificationMode.ERROR, {
+            performBasicIrValidation(
+              file, pluginContext.irBuiltIns, "KotlinLoggingIrGenerationExtension",
+              IrValidatorConfig()
+            )
+          })
+        } catch (e: Throwable) {
+          messageCollector.report(
+            CompilerMessageSeverity.ERROR,
+            "IR validation failed: ${e.message ?: e.toString()}"
+          )
+        }
       }
     }
   }
@@ -545,7 +563,7 @@ class KotlinLoggingIrGenerationExtension(
                             )
                           setRegularArgument(
                             0,
-                            loggingCallExpressions.messageExpression,
+                            loggingCallExpressions.messageExpression.reassignParent(this@createLambdaIrSimpleFunction),
                           )
                         }
                       )
@@ -560,7 +578,7 @@ class KotlinLoggingIrGenerationExtension(
                               )
                             setRegularArgument(
                               0,
-                              loggingCallExpressions.causeExpression,
+                              loggingCallExpressions.causeExpression.reassignParent(this@createLambdaIrSimpleFunction),
                             )
                           }
                         )
@@ -573,6 +591,26 @@ class KotlinLoggingIrGenerationExtension(
         } as IrCall,
         loggingCallExpressions.messageTemplate,
       )
+    }
+
+    private fun <T : IrElement> T.reassignParent(function: IrSimpleFunction): T {
+      if (this is IrDeclaration) {
+        parent = function
+      } else {
+        this.acceptChildrenVoid(
+          object : IrVisitorVoid() {
+            override fun visitElement(element: IrElement) {
+              element.acceptChildrenVoid(this)
+            }
+
+            override fun visitDeclaration(declaration: IrDeclarationBase) {
+              declaration.parent = function
+              declaration.acceptChildrenVoid(this)
+            }
+          }
+        )
+      }
+      return this
     }
 
     private fun sameParameters(
