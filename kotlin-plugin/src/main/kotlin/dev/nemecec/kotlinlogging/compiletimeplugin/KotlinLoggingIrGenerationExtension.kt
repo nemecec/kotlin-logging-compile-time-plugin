@@ -130,7 +130,7 @@ class KotlinLoggingIrGenerationExtension(
               )
             },
           )
-        } catch (e: Throwable) {
+        } catch (e: Exception) {
           messageCollector.report(
             CompilerMessageSeverity.ERROR,
             "IR validation failed: ${e.message ?: e.toString()}",
