@@ -543,12 +543,9 @@ class KotlinLoggingIrGenerationExtension(
                               endOffset = UNDEFINED_OFFSET,
                               symbol = extensionReceiverValueParameter!!.symbol,
                             )
-                          parent = this@createLambdaIrSimpleFunction
                           setRegularArgument(
                             0,
-                            loggingCallExpressions.messageExpression.also {
-                              parent = this@createLambdaIrSimpleFunction
-                            },
+                            loggingCallExpressions.messageExpression,
                           )
                         }
                       )
@@ -561,12 +558,9 @@ class KotlinLoggingIrGenerationExtension(
                                 endOffset = UNDEFINED_OFFSET,
                                 symbol = extensionReceiverValueParameter!!.symbol,
                               )
-                            parent = this@createLambdaIrSimpleFunction
                             setRegularArgument(
                               0,
-                              loggingCallExpressions.causeExpression.also {
-                                parent = this@createLambdaIrSimpleFunction
-                              },
+                              loggingCallExpressions.causeExpression,
                             )
                           }
                         )
