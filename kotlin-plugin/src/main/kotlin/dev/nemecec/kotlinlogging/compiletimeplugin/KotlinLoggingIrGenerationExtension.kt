@@ -24,6 +24,7 @@ import org.jetbrains.kotlin.ir.declarations.IrClass
 import org.jetbrains.kotlin.ir.declarations.IrDeclaration
 import org.jetbrains.kotlin.ir.declarations.IrDeclarationBase
 import org.jetbrains.kotlin.ir.declarations.IrDeclarationOrigin
+import org.jetbrains.kotlin.ir.declarations.IrDeclarationParent
 import org.jetbrains.kotlin.ir.declarations.IrEnumEntry
 import org.jetbrains.kotlin.ir.declarations.IrFile
 import org.jetbrains.kotlin.ir.declarations.IrFunction
@@ -570,7 +571,8 @@ class KotlinLoggingIrGenerationExtension(
                           setRegularArgument(
                             0,
                             loggingCallExpressions.messageExpression.reassignParent(
-                              this@createLambdaIrSimpleFunction
+                              currentDeclarationParent!!,
+                              this@createLambdaIrSimpleFunction,
                             ),
                           )
                         }
@@ -587,7 +589,8 @@ class KotlinLoggingIrGenerationExtension(
                             setRegularArgument(
                               0,
                               loggingCallExpressions.causeExpression.reassignParent(
-                                this@createLambdaIrSimpleFunction
+                                currentDeclarationParent!!,
+                                this@createLambdaIrSimpleFunction,
                               ),
                             )
                           }
@@ -603,9 +606,12 @@ class KotlinLoggingIrGenerationExtension(
       )
     }
 
-    private fun <T : IrElement> T.reassignParent(function: IrSimpleFunction): T {
+    private fun <T : IrElement> T.reassignParent(
+      oldParent: IrDeclarationParent,
+      newParent: IrDeclarationParent,
+    ): T {
       if (this is IrDeclaration) {
-        parent = function
+        if (this.parent == oldParent) this.parent = newParent
       } else {
         this.acceptChildrenVoid(
           object : IrVisitorVoid() {
@@ -614,7 +620,7 @@ class KotlinLoggingIrGenerationExtension(
             }
 
             override fun visitDeclaration(declaration: IrDeclarationBase) {
-              declaration.parent = function
+              if (declaration.parent == oldParent) declaration.parent = newParent
               declaration.acceptChildrenVoid(this)
             }
           }
