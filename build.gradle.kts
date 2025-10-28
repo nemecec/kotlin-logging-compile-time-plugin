@@ -1,4 +1,7 @@
 import com.vanniktech.maven.publish.MavenPublishBaseExtension
+import org.gradle.api.plugins.JavaBasePlugin
+import org.gradle.api.plugins.JavaPluginExtension
+import org.gradle.jvm.toolchain.JavaLanguageVersion
 import org.jetbrains.dokka.gradle.engine.parameters.VisibilityModifier
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
@@ -56,16 +59,30 @@ subprojects {
     enabled = project.findProperty("signingInMemoryKey") != null
   }
 
-  val javaVersion = JavaVersion.VERSION_1_8
-
-  tasks.withType(JavaCompile::class.java).configureEach {
-    sourceCompatibility = javaVersion.toString()
-    targetCompatibility = javaVersion.toString()
+  // Use Java 17 toolchain for building and testing
+  plugins.withType<JavaBasePlugin> {
+    extensions.configure<JavaPluginExtension> {
+      toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+      }
+    }
   }
 
+  // Target Java 8 bytecode for main code (use --release flag)
+  tasks.withType(JavaCompile::class.java).configureEach {
+    val isTestTask = name.startsWith("compileTest") || name.contains("Test", ignoreCase = false)
+    if (!isTestTask) {
+      options.release.set(8)
+    }
+  }
+
+  // Target Java 8 bytecode for main code
   tasks.withType(KotlinJvmCompile::class.java).configureEach {
     compilerOptions {
-      jvmTarget.set(JvmTarget.fromTarget(javaVersion.toString()))
+      val isTestTask = name.startsWith("compileTest") || name.contains("Test", ignoreCase = false)
+      if (!isTestTask) {
+        jvmTarget.set(JvmTarget.JVM_1_8)
+      }
     }
   }
 
