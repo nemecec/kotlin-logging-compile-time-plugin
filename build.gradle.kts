@@ -1,7 +1,5 @@
 import com.vanniktech.maven.publish.MavenPublishBaseExtension
-import org.jetbrains.dokka.DokkaConfiguration.Visibility
-import org.jetbrains.dokka.gradle.DokkaMultiModuleTask
-import org.jetbrains.dokka.gradle.DokkaTaskPartial
+import org.jetbrains.dokka.gradle.engine.parameters.VisibilityModifier
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 import java.net.URI
@@ -21,30 +19,33 @@ allprojects {
   version = "1.4.2"
 }
 
-tasks.named("dokkaHtmlMultiModule", DokkaMultiModuleTask::class.java).configure {
-  moduleName.set("Kotlin-logging compile-time plugin")
+dependencies {
+  dokka(project(":kotlin-plugin-gradle"))
+  dokka(project(":kotlin-plugin"))
 }
 
-allprojects {
-  tasks.withType<DokkaTaskPartial>().configureEach {
-    dokkaSourceSets.configureEach {
-      documentedVisibilities.set(
-        setOf(
-          Visibility.PUBLIC,
-          Visibility.PROTECTED
+subprojects {
+  pluginManager.withPlugin("org.jetbrains.dokka") {
+    configure<org.jetbrains.dokka.gradle.DokkaExtension> {
+      dokkaSourceSets.configureEach {
+        documentedVisibilities.set(
+          setOf(
+            VisibilityModifier.Public,
+            VisibilityModifier.Protected
+          )
         )
-      )
-      reportUndocumented.set(false)
-      jdkVersion.set(8)
+        reportUndocumented.set(false)
+        jdkVersion.set(8)
 
-      perPackageOption {
-        matchingRegex.set("dev\\.nemecec\\.kotlinlogging\\.compiletimeplugin\\.internal\\..*")
-        suppress.set(true)
-      }
-      sourceLink {
-        localDirectory.set(rootProject.projectDir)
-        remoteUrl.set(URI("https://github.com/nemecec/kotlin-logging-compile-time-plugin/tree/main/").toURL())
-        remoteLineSuffix.set("#L")
+        perPackageOption {
+          matchingRegex.set("dev\\.nemecec\\.kotlinlogging\\.compiletimeplugin\\.internal\\..*")
+          suppress.set(true)
+        }
+        sourceLink {
+          localDirectory.set(rootProject.projectDir)
+          remoteUrl.set(URI("https://github.com/nemecec/kotlin-logging-compile-time-plugin/tree/main/"))
+          remoteLineSuffix.set("#L")
+        }
       }
     }
   }
