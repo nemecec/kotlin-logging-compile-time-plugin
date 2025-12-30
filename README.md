@@ -67,6 +67,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 | 2.2.10         | 1.3.x (latest 1.3.1) |
 | 2.2.20         | 1.4.x (latest 1.4.3) |
 | 2.2.21         | 1.4.x (latest 1.4.3) |
+| 2.3.0          | 1.5.x (latest 1.5.0) |
 
 ## Usage
 
@@ -74,7 +75,7 @@ Add the following to the `build.gradle.kts` of your Kotlin project:
 
 ```kotlin
 plugins {
-  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.4.3"
+  id("dev.nemecec.kotlinlogging.compile-time-plugin") version "1.5.0"
 }
 
 dependencies {
