@@ -1,5 +1,5 @@
 [versions]
-kotlinversion = "2.2.21"
+kotlinversion = "2.3.0"
 ktfmt = "0.47"
 dokka = "2.1.0"
 build-config = "6.0.2"
@@ -7,9 +7,9 @@ maven-publish = "0.34.0"
 spotless = "8.0.0"
 
 auto-service = "1.1.1"
-kotlin-compiler-extensions = "0.10.0+2.2.21"
+kotlin-compiler-extensions = "0.11.0+2.3.0"
 junit-jupiter = "6.0.1"
-kctfork = "0.11.0"
+kctfork = "0.12.0"
 kotlin-logging-jvm = "7.0.13"
 logback = "1.5.20"
 
