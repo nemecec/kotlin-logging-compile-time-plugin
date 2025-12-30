@@ -36,6 +36,7 @@ private const val KOTLIN_LOGGING_PREFIX = "kotlin-logging-"
 class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPluginConfig) :
   CompilerPluginRegistrar() {
   override val supportsK2 = true
+  override val pluginId = BuildConfig.KOTLIN_PLUGIN_ID
 
   @Suppress("unused") // Used by service loader
   constructor() : this(KotlinLoggingPluginConfig())

@@ -6,11 +6,9 @@ import com.javiersc.kotlin.compiler.extensions.ir.createLambdaIrSimpleFunction
 import com.javiersc.kotlin.compiler.extensions.ir.toIrConstructorCall
 import org.jetbrains.kotlin.backend.common.FileLoweringPass
 import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
-import org.jetbrains.kotlin.backend.common.IrValidatorConfig
 import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
 import org.jetbrains.kotlin.backend.common.extensions.IrPluginContext
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
-import org.jetbrains.kotlin.backend.common.validateIr
 import org.jetbrains.kotlin.backend.jvm.codegen.isAnnotatedWithDeprecated
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
@@ -59,6 +57,9 @@ import org.jetbrains.kotlin.ir.util.isEnumClass
 import org.jetbrains.kotlin.ir.util.kotlinFqName
 import org.jetbrains.kotlin.ir.util.primaryConstructor
 import org.jetbrains.kotlin.ir.util.statements
+import org.jetbrains.kotlin.ir.validation.IrValidatorConfig
+import org.jetbrains.kotlin.ir.validation.validateIr
+import org.jetbrains.kotlin.ir.validation.withBasicChecks
 import org.jetbrains.kotlin.ir.visitors.*
 import org.jetbrains.kotlin.name.CallableId
 import org.jetbrains.kotlin.name.ClassId
@@ -120,16 +121,12 @@ class KotlinLoggingIrGenerationExtension(
           .runOnFileInOrder(file)
         try {
           validateIr(
+            file,
+            pluginContext.irBuiltIns,
+            IrValidatorConfig().withBasicChecks(),
             messageCollector,
             IrVerificationMode.ERROR,
-            {
-              performBasicIrValidation(
-                file,
-                pluginContext.irBuiltIns,
-                "KotlinLoggingIrGenerationExtension",
-                IrValidatorConfig(),
-              )
-            },
+            "KotlinLoggingIrGenerationExtension",
           )
         } catch (e: Exception) {
           messageCollector.report(
