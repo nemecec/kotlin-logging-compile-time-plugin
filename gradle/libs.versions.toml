@@ -9,8 +9,8 @@ spotless = "8.1.0"
 auto-service = "1.1.1"
 kotlin-compiler-extensions = "0.11.0+2.3.0"
 junit-jupiter = "6.0.1"
-kctfork = "0.12.0"
-kotlin-logging-jvm = "7.0.13"
+kctfork = "0.12.1"
+kotlin-logging-jvm = "7.0.14"
 logback = "1.5.23"
 
 [libraries]
