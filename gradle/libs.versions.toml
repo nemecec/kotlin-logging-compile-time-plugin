@@ -3,7 +3,7 @@ kotlinversion = "2.3.0"
 ktfmt = "0.47"
 dokka = "2.1.0"
 build-config = "6.0.7"
-maven-publish = "0.35.0"
+maven-publish = "0.36.0"
 spotless = "8.1.0"
 
 auto-service = "1.1.1"
@@ -11,7 +11,7 @@ kotlin-compiler-extensions = "0.11.0+2.3.0"
 junit-jupiter = "6.0.2"
 kctfork = "0.12.1"
 kotlin-logging-jvm = "7.0.14"
-logback = "1.5.24"
+logback = "1.5.25"
 
 [libraries]
 auto-service = { group = "com.google.auto.service", name = "auto-service", version.ref = "auto-service" }
