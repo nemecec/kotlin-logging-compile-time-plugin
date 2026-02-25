@@ -53,7 +53,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 ## Requirements
 
 * [Kotlin](https://kotlinlang.org) 2.0 or newer (see below for compatibility matrix)
-* [kotlin-logging](https://github.com/oshai/kotlin-logging) 8.0.0 or newer
+* [kotlin-logging](https://github.com/oshai/kotlin-logging) 8.0.0 or newer (version 1.5.1 bumped to v8)
 
 ### Kotlin compatibility matrix
 
@@ -68,6 +68,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 | 2.2.20         | 1.4.x (latest 1.4.3) |
 | 2.2.21         | 1.4.x (latest 1.4.3) |
 | 2.3.0          | 1.5.x (latest 1.5.0) |
+| 2.3.10         | 1.5.x (latest 1.5.1) |
 
 ## Usage
 
