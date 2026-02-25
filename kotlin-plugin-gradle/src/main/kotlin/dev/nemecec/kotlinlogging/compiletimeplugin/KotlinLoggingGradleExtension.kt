@@ -22,8 +22,6 @@ import org.gradle.api.provider.Property
 // Based on https://github.com/bnorm/kotlin-ir-plugin-template
 open class KotlinLoggingGradleExtension(objects: ObjectFactory) {
   val disableAll: Property<Boolean> = objects.property(Boolean::class.java).convention(false)
-  val disableTransformingDeprecatedApi: Property<Boolean> =
-    objects.property(Boolean::class.java).convention(false)
   val disableTransformingEntryExitApi: Property<Boolean> =
     objects.property(Boolean::class.java).convention(false)
   val disableTransformingThrowingCatchingApi: Property<Boolean> =

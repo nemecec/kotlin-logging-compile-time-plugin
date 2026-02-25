@@ -29,7 +29,6 @@ tasks.withType<Test> {
 // Optional: configure the plugin (by default all features are enabled)
 kotlinLoggingCompileTimePlugin {
   disableAll = false
-  disableTransformingDeprecatedApi = false
   disableTransformingEntryExitApi = false
   disableTransformingThrowingCatchingApi = false
   disableCollectingCallSiteInformation = false

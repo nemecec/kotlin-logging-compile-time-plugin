@@ -14,10 +14,6 @@ enum class FeatureFlag(
       }
     },
   ),
-  DISABLE_TRANSFORMING_DEPRECATED_API(
-    { KotlinLoggingPluginConfig(disableTransformingDeprecatedApi = true) },
-    {},
-  ),
   DISABLE_TRANSFORMING_ENTRY_EXIT_API(
     { KotlinLoggingPluginConfig(disableTransformingEntryExitApi = true) },
     {},

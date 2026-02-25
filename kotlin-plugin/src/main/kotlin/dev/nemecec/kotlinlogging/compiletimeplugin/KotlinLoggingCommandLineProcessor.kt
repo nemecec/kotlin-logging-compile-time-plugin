@@ -31,8 +31,6 @@ import org.jetbrains.kotlin.config.CompilerConfigurationKey
 class KotlinLoggingCommandLineProcessor : CommandLineProcessor {
   companion object {
     private const val OPTION_DISABLE_ALL = "disableAll"
-    private const val OPTION_DISABLE_TRANSFORMING_DEPRECATED_API =
-      "disableTransformingDeprecatedApi"
     private const val OPTION_DISABLE_TRANSFORMING_ENTRY_EXIT_API = "disableTransformingEntryExitApi"
     private const val OPTION_DISABLE_TRANSFORMING_THROWING_CATCHING_API =
       "disableTransformingThrowingCatchingApi"
@@ -40,8 +38,6 @@ class KotlinLoggingCommandLineProcessor : CommandLineProcessor {
       "disableCollectingCallSiteInformation"
 
     val ARG_DISABLE_ALL = CompilerConfigurationKey<Boolean>(OPTION_DISABLE_ALL)
-    val ARG_DISABLE_TRANSFORMING_DEPRECATED_API =
-      CompilerConfigurationKey<Boolean>(OPTION_DISABLE_TRANSFORMING_DEPRECATED_API)
     val ARG_DISABLE_TRANSFORMING_ENTRY_EXIT_API =
       CompilerConfigurationKey<Boolean>(OPTION_DISABLE_TRANSFORMING_ENTRY_EXIT_API)
     val ARG_DISABLE_TRANSFORMING_THROWING_CATCHING_API =
@@ -58,12 +54,6 @@ class KotlinLoggingCommandLineProcessor : CommandLineProcessor {
         optionName = OPTION_DISABLE_ALL,
         valueDescription = "boolean",
         description = "Disable all transformations",
-        required = false,
-      ),
-      CliOption(
-        optionName = OPTION_DISABLE_TRANSFORMING_DEPRECATED_API,
-        valueDescription = "boolean",
-        description = "Disable transforming KLogger deprecated API to non-deprecated API",
         required = false,
       ),
       CliOption(
@@ -93,8 +83,6 @@ class KotlinLoggingCommandLineProcessor : CommandLineProcessor {
   ) {
     return when (option.optionName) {
       OPTION_DISABLE_ALL -> configuration.put(ARG_DISABLE_ALL, value.toBoolean())
-      OPTION_DISABLE_TRANSFORMING_DEPRECATED_API ->
-        configuration.put(ARG_DISABLE_TRANSFORMING_DEPRECATED_API, value.toBoolean())
       OPTION_DISABLE_TRANSFORMING_ENTRY_EXIT_API ->
         configuration.put(ARG_DISABLE_TRANSFORMING_ENTRY_EXIT_API, value.toBoolean())
       OPTION_DISABLE_TRANSFORMING_THROWING_CATCHING_API ->

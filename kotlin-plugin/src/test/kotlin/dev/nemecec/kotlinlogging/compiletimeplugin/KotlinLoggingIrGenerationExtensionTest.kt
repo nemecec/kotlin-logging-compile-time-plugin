@@ -1,6 +1,5 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
-import io.github.oshai.kotlinlogging.KLogger
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -160,10 +159,6 @@ class KotlinLoggingIrGenerationExtensionTest {
                     label = "with marker=$withMarker"
                     filename = "marker-$withMarker"
                     test {
-                      skip =
-                        (withMarker &&
-                          !withThrowable) // skip variant with only marker and message builder --
-                      // that is handled in deprecated API container
                       code {
                         useClass = withClass
                         useThrowable = withThrowable
@@ -171,7 +166,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                         logStatement =
                           LogStatement(
                             funName = withLogLevel.levelName,
-                            arguments = listOf(THROWABLE_PLACEHOLDER, MARKER_PLACEHOLDER),
+                            arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
                             lastArgumentLambda = """ "${withLogLevel.levelName} messageBuilder" """,
                           )
                       }
@@ -186,10 +181,6 @@ class KotlinLoggingIrGenerationExtensionTest {
                       }
                     }
                     test {
-                      skip =
-                        (withMarker &&
-                          !withThrowable) // skip variant with only marker and message builder --
-                      // that is handled in deprecated API container
                       code {
                         useClass = withClass
                         useThrowable = withThrowable
@@ -198,7 +189,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                         logStatement =
                           LogStatement(
                             funName = withLogLevel.levelName,
-                            arguments = listOf(THROWABLE_PLACEHOLDER, MARKER_PLACEHOLDER),
+                            arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
                             lastArgumentLambda =
                               """ "${withLogLevel.levelName} messageBuilder ${expression("i")}" """,
                           )
@@ -215,10 +206,6 @@ class KotlinLoggingIrGenerationExtensionTest {
                       }
                     }
                     test {
-                      skip =
-                        (withMarker &&
-                          !withThrowable) // skip variant with only marker and message builder --
-                      // that is handled in deprecated API container
                       code {
                         useClass = withClass
                         useThrowable = withThrowable
@@ -227,7 +214,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                         logStatement =
                           LogStatement(
                             funName = withLogLevel.levelName,
-                            arguments = listOf(THROWABLE_PLACEHOLDER, MARKER_PLACEHOLDER),
+                            arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
                             lastArgumentLambda =
                               """ "${withLogLevel.levelName} messageBuilder ${expression("i")} ${expression("helper()")}" """,
                           )
@@ -245,10 +232,6 @@ class KotlinLoggingIrGenerationExtensionTest {
                       }
                     }
                     test {
-                      skip =
-                        (withMarker &&
-                          !withThrowable) // skip variant with only marker and message builder --
-                      // that is handled in deprecated API container
                       code {
                         useClass = withClass
                         useThrowable = withThrowable
@@ -259,7 +242,7 @@ class KotlinLoggingIrGenerationExtensionTest {
                           LogStatement(
                             funName = withLogLevel.levelName,
                             arguments =
-                              listOf(THROWABLE_PLACEHOLDER, MARKER_PLACEHOLDER, "messageLambda"),
+                              listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER, "messageLambda"),
                           )
                       }
                       expect {
@@ -269,336 +252,6 @@ class KotlinLoggingIrGenerationExtensionTest {
                           formattedMessage = "${withLogLevel.levelName} messageBuilder"
                           hasMarker = withMarker
                           hasThrowable = withThrowable
-                        }
-                      }
-                    }
-                    collection {
-                      label = "deprecated ${KLogger::class.simpleName} API"
-                      filename = "deprecated-${KLogger::class.simpleName}"
-                      featureFlagExpectationAdjuster {
-                        featureFlags(FeatureFlag.DISABLE_TRANSFORMING_DEPRECATED_API)
-                        adjuster {
-                          loggedEvent {
-                            message = formattedMessage
-                            callerDataFirstElement = null
-                          }
-                        }
-                      }
-                      test {
-                        skip = !withMarker // skip variants without marker -- those are handled in
-                        // non-deprecated API tests
-                        code {
-                          useClass = withClass
-                          useThrowable = withThrowable
-                          useMarker = withMarker
-                          logStatement =
-                            LogStatement(
-                              funName = withLogLevel.levelName,
-                              arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
-                              lastArgumentLambda =
-                                """ "${withLogLevel.levelName} messageBuilder" """,
-                            )
-                        }
-                        expect {
-                          loggedEvent {
-                            level = withLogLevel
-                            message = "\"${withLogLevel.levelName} messageBuilder\""
-                            formattedMessage = "${withLogLevel.levelName} messageBuilder"
-                            hasMarker = withMarker
-                            hasThrowable = withThrowable
-                          }
-                        }
-                      }
-                      test {
-                        skip = !withMarker // skip variants without marker -- those are handled in
-                        // non-deprecated API tests
-                        code {
-                          useClass = withClass
-                          useThrowable = withThrowable
-                          useMarker = withMarker
-                          initCode = "val i = 42"
-                          logStatement =
-                            LogStatement(
-                              funName = withLogLevel.levelName,
-                              arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
-                              lastArgumentLambda =
-                                """ "${withLogLevel.levelName} messageBuilder ${expression("i")}" """,
-                            )
-                        }
-                        expect {
-                          loggedEvent {
-                            level = withLogLevel
-                            message =
-                              "\"${withLogLevel.levelName} messageBuilder ${expression("i")}\""
-                            formattedMessage = "${withLogLevel.levelName} messageBuilder 42"
-                            hasMarker = withMarker
-                            hasThrowable = withThrowable
-                          }
-                        }
-                      }
-                      test {
-                        skip = !withMarker // skip variants without marker -- those are handled in
-                        // non-deprecated API tests
-                        code {
-                          useClass = withClass
-                          useThrowable = withThrowable
-                          useMarker = withMarker
-                          initCode = "val i = 42"
-                          logStatement =
-                            LogStatement(
-                              funName = withLogLevel.levelName,
-                              arguments = listOf(MARKER_PLACEHOLDER, THROWABLE_PLACEHOLDER),
-                              lastArgumentLambda =
-                                """ "${withLogLevel.levelName} messageBuilder ${expression("i")} ${expression("helper()")}" """,
-                            )
-                          extraMethodCode = """fun helper() = "Hello!""""
-                        }
-                        expect {
-                          loggedEvent {
-                            level = withLogLevel
-                            message =
-                              "\"${withLogLevel.levelName} messageBuilder ${expression("i")} ${expression("helper()")}\""
-                            formattedMessage = "${withLogLevel.levelName} messageBuilder 42 Hello!"
-                            hasMarker = withMarker
-                            hasThrowable = withThrowable
-                          }
-                        }
-                      }
-                      test {
-                        code {
-                          useClass = withClass
-                          useThrowable = withThrowable
-                          useMarker = withMarker
-                          logStatement =
-                            LogStatement(
-                              funName = withLogLevel.levelName,
-                              arguments =
-                                listOf(
-                                  MARKER_PLACEHOLDER,
-                                  """ "${withLogLevel.levelName} message {}" """.trim(),
-                                  THROWABLE_PLACEHOLDER,
-                                ),
-                            )
-                        }
-                        expect {
-                          loggedEvent {
-                            level = withLogLevel
-                            message = "\"${withLogLevel.levelName} message {}\""
-                            formattedMessage = "${withLogLevel.levelName} message {}"
-                            hasMarker = withMarker
-                            hasThrowable = withThrowable
-                          }
-                        }
-                      }
-                      test {
-                        code {
-                          useClass = withClass
-                          useThrowable = withThrowable
-                          useMarker = withMarker
-                          initCode =
-                            "val message = \"${withLogLevel.levelName} message as variable\""
-                          logStatement =
-                            LogStatement(
-                              funName = withLogLevel.levelName,
-                              arguments =
-                                listOf(MARKER_PLACEHOLDER, "message", THROWABLE_PLACEHOLDER),
-                            )
-                        }
-                        expect {
-                          loggedEvent {
-                            level = withLogLevel
-                            message = "message"
-                            slf4jMessage = "${withLogLevel.levelName} message as variable"
-                            formattedMessage = "${withLogLevel.levelName} message as variable"
-                            hasMarker = withMarker
-                            hasThrowable = withThrowable
-                          }
-                        }
-                      }
-                      collection {
-                        label = "deprecated API with SLF4J placeholders"
-                        filename = "deprecated-slf4j-placeholders"
-                        featureFlagExpectationAdjuster {
-                          featureFlags(
-                            FeatureFlag.DISABLE_ALL,
-                            FeatureFlag.DISABLE_TRANSFORMING_DEPRECATED_API,
-                          )
-                          adjuster {
-                            loggedEvent {
-                              message = slf4jMessage
-                              formattedMessage = slf4jFormattedMessage
-                              callerDataFirstElement = null
-                              hasThrowable = withThrowable
-                            }
-                          }
-                        }
-                        test {
-                          code {
-                            useClass = withClass
-                            useThrowable = withThrowable
-                            useMarker = withMarker
-                            initCode = "val arg = 42"
-                            logStatement =
-                              LogStatement(
-                                funName = withLogLevel.levelName,
-                                arguments =
-                                  listOf(
-                                    MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} message {}" """.trim(),
-                                    "arg",
-                                    THROWABLE_PLACEHOLDER,
-                                  ),
-                              )
-                          }
-                          expect {
-                            loggedEvent {
-                              level = withLogLevel
-                              message = "\"${withLogLevel.levelName} message {}\""
-                              slf4jMessage = "${withLogLevel.levelName} message {}"
-                              formattedMessage = "${withLogLevel.levelName} message 42"
-                              hasMarker = withMarker
-                              hasThrowable = withThrowable
-                            }
-                          }
-                        }
-                        test {
-                          code {
-                            useClass = withClass
-                            useThrowable = withThrowable
-                            useMarker = withMarker
-                            initCode = "val arg = 42"
-                            logStatement =
-                              LogStatement(
-                                funName = withLogLevel.levelName,
-                                arguments =
-                                  listOf(
-                                    MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} message with concatenation ${expression("arg")} {}" """
-                                      .trim(),
-                                    "arg",
-                                    THROWABLE_PLACEHOLDER,
-                                  ),
-                              )
-                          }
-                          expect {
-                            loggedEvent {
-                              level = withLogLevel
-                              message =
-                                "\"${withLogLevel.levelName} message with concatenation ${expression("arg")} {}\""
-                              slf4jMessage =
-                                "${withLogLevel.levelName} message with concatenation 42 {}"
-                              formattedMessage =
-                                "${withLogLevel.levelName} message with concatenation 42 42"
-                              hasMarker = withMarker
-                              hasThrowable = withThrowable
-                            }
-                          }
-                        }
-                        test {
-                          code {
-                            useClass = withClass
-                            useThrowable = withThrowable
-                            useMarker = withMarker
-                            extraImportCode = "import kotlin.time.Duration.Companion.minutes"
-                            extraCodeBeforeMethod = "private var arg: Long = 42"
-                            logStatement =
-                              LogStatement(
-                                funName = withLogLevel.levelName,
-                                arguments =
-                                  listOf(
-                                    MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} with extension function {} interval" """
-                                      .trim(),
-                                    "arg.minutes",
-                                    THROWABLE_PLACEHOLDER,
-                                  ),
-                              )
-                          }
-                          expect {
-                            loggedEvent {
-                              level = withLogLevel
-                              message =
-                                "\"${withLogLevel.levelName} with extension function {} interval\""
-                              slf4jMessage =
-                                "${withLogLevel.levelName} with extension function {} interval"
-                              formattedMessage =
-                                "${withLogLevel.levelName} with extension function 42m interval"
-                              hasMarker = withMarker
-                              hasThrowable = withThrowable
-                            }
-                          }
-                        }
-                        test {
-                          code {
-                            useClass = withClass
-                            useThrowable = withThrowable
-                            useMarker = withMarker
-                            initCode = "val arg = 42"
-                            logStatement =
-                              LogStatement(
-                                funName = withLogLevel.levelName,
-                                arguments =
-                                  listOf(
-                                    MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} message {} " + "" + "{}" + "{}" + " abc" + " {}" """
-                                      .trim(),
-                                    "arg",
-                                    "helper()",
-                                    THROWABLE_PLACEHOLDER,
-                                  ),
-                              )
-                            extraMethodCode = """fun helper() = "Hello!""""
-                          }
-                          expect {
-                            loggedEvent {
-                              level = withLogLevel
-                              message =
-                                """"${withLogLevel.levelName} message {} " + "" + "{}" + "{}" + " abc" + " {}""""
-                              slf4jMessage = "${withLogLevel.levelName} message {} {}{} abc {}"
-                              formattedMessage =
-                                if (withThrowable)
-                                  "${withLogLevel.levelName} message 42 Hello!java.lang.Exception: expected! abc {}"
-                                else "${withLogLevel.levelName} message 42 Hello!{} abc {}"
-                              slf4jFormattedMessage =
-                                "${withLogLevel.levelName} message 42 Hello!{} abc {}"
-                              hasMarker = withMarker
-                              hasThrowable = false
-                            }
-                          }
-                        }
-                        test {
-                          code {
-                            useClass = withClass
-                            useThrowable = withThrowable
-                            useMarker = withMarker
-                            initCode = "val a = 1; val b = 2"
-                            logStatement =
-                              LogStatement(
-                                funName = withLogLevel.levelName,
-                                arguments =
-                                  listOf(
-                                    MARKER_PLACEHOLDER,
-                                    """ "${withLogLevel.levelName} message {}a" + " {}b" + " {}ab" + " ab" """
-                                      .trim(),
-                                    "a",
-                                    "b",
-                                    "ab()",
-                                    THROWABLE_PLACEHOLDER,
-                                  ),
-                              )
-                            extraMethodCode = """fun ab() = 12"""
-                          }
-                          expect {
-                            loggedEvent {
-                              level = withLogLevel
-                              message =
-                                """"${withLogLevel.levelName} message {}a" + " {}b" + " {}ab" + " ab""""
-                              slf4jMessage = "${withLogLevel.levelName} message {}a {}b {}ab ab"
-                              formattedMessage = "${withLogLevel.levelName} message 1a 2b 12ab ab"
-                              hasMarker = withMarker
-                              hasThrowable = withThrowable
-                            }
-                          }
                         }
                       }
                     }

@@ -9,7 +9,6 @@ import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
 import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
 import org.jetbrains.kotlin.backend.common.extensions.IrPluginContext
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
-import org.jetbrains.kotlin.backend.jvm.codegen.isAnnotatedWithDeprecated
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
 import org.jetbrains.kotlin.config.IrVerificationMode
@@ -194,8 +193,6 @@ class KotlinLoggingIrGenerationExtension(
     val function0Class = context.irBuiltIns.functionN(0)
     val anyType = context.irBuiltIns.anyType
     val messageBuilderLambdaType = function0Class.typeWith(anyType)
-    val stringType = context.irBuiltIns.stringType
-
     @OptIn(UnsafeDuringIrConstructionAPI::class)
     val toStringFunctionSymbol =
       context
@@ -209,20 +206,6 @@ class KotlinLoggingIrGenerationExtension(
           it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
             messageBuilderLambdaType.classifierOrFail
         }
-    @OptIn(UnsafeDuringIrConstructionAPI::class)
-    val castToThrowableFunctionSymbol =
-      context
-        .referenceFunctions(
-          CallableId(
-            packageName = FqName(PACKAGE_NAME_INTERNAL),
-            Name.identifier("hiddenCastToThrowable"),
-          )
-        )
-        .single {
-          it.owner.extensionReceiverValueParameter?.type?.classifierOrFail ==
-            anyType.classifierOrFail
-        }
-
     val kLoggerClassSymbol =
       context.referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("KLogger")))!!
   }
@@ -304,12 +287,6 @@ class KotlinLoggingIrGenerationExtension(
           "info",
           "warn",
           "error" -> {
-            if (
-              config.disableTransformingDeprecatedApi &&
-                expression.symbol.owner.isAnnotatedWithDeprecated
-            ) {
-              return super.visitCall(expression)
-            }
             val (newStatement, messageTemplate) = createAtStatementFromSimpleLoggingCall(expression)
             injectCompilerOptionsIntoAtStatement(
               expression,
