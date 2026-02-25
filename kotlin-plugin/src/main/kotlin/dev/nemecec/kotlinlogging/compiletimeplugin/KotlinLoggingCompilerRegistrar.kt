@@ -57,9 +57,6 @@ class KotlinLoggingCompilerRegistrar(private val defaultConfig: KotlinLoggingPlu
         disableAll =
           configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_ALL]
             ?: defaultConfig.disableAll,
-        disableTransformingDeprecatedApi =
-          configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_TRANSFORMING_DEPRECATED_API]
-            ?: defaultConfig.disableTransformingDeprecatedApi,
         disableTransformingEntryExitApi =
           configuration[KotlinLoggingCommandLineProcessor.ARG_DISABLE_TRANSFORMING_ENTRY_EXIT_API]
             ?: defaultConfig.disableTransformingEntryExitApi,
