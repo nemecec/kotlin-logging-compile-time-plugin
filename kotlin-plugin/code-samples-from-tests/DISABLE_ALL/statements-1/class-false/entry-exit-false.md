@@ -2,11 +2,11 @@
 
 
 
-###  entry(argument1, argument2) at Test406Kt.main(test406.kt:12)
+###  entry(argument1, argument2) at Test206Kt.main(test206.kt:12)
 
 User code:
 ```kotlin
-package test406
+package test206
 import io.github.oshai.kotlinlogging.*
 
 
@@ -27,7 +27,7 @@ fun main() {
   
 Remains as-is:
 ```kotlin
-package test406
+package test206
 import io.github.oshai.kotlinlogging.*
 
 
@@ -46,11 +46,11 @@ fun main() {
 
 ```
 
-###  exit(resultValue) at Test407Kt.main(test407.kt:12)
+###  exit(resultValue) at Test207Kt.main(test207.kt:12)
 
 User code:
 ```kotlin
-package test407
+package test207
 import io.github.oshai.kotlinlogging.*
 
 
@@ -71,7 +71,7 @@ fun main(): Int {
   
 Remains as-is:
 ```kotlin
-package test407
+package test207
 import io.github.oshai.kotlinlogging.*
 
 
@@ -90,11 +90,11 @@ fun main(): Int {
 
 ```
 
-###  exit() at Test408Kt.main(test408.kt:12)
+###  exit() at Test208Kt.main(test208.kt:12)
 
 User code:
 ```kotlin
-package test408
+package test208
 import io.github.oshai.kotlinlogging.*
 
 
@@ -115,7 +115,7 @@ fun main() {
   
 Remains as-is:
 ```kotlin
-package test408
+package test208
 import io.github.oshai.kotlinlogging.*
 
 

@@ -2,11 +2,11 @@
 
 
 
-###  throwing(throwable) at MainTest.main(test814.kt:12)
+###  throwing(throwable) at MainTest.main(test414.kt:12)
 
 User code:
 ```kotlin
-package test814
+package test414
 import io.github.oshai.kotlinlogging.*
 
 
@@ -28,7 +28,7 @@ private val logger = KotlinLogging.logger {}
   
 Remains as-is:
 ```kotlin
-package test814
+package test414
 import io.github.oshai.kotlinlogging.*
 
 
@@ -48,11 +48,11 @@ private val logger = KotlinLogging.logger {}
 
 ```
 
-###  catching(throwable) at MainTest.main(test815.kt:12)
+###  catching(throwable) at MainTest.main(test415.kt:12)
 
 User code:
 ```kotlin
-package test815
+package test415
 import io.github.oshai.kotlinlogging.*
 
 
@@ -74,7 +74,7 @@ private val logger = KotlinLogging.logger {}
   
 Remains as-is:
 ```kotlin
-package test815
+package test415
 import io.github.oshai.kotlinlogging.*
 
 

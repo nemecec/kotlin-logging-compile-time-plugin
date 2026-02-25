@@ -2,11 +2,11 @@
 
 
 
-###  entry(argument1, argument2) at Test1216Kt.main(test1216.kt:12)
+###  entry(argument1, argument2) at Test616Kt.main(test616.kt:12)
 
 User code:
 ```kotlin
-package test1216
+package test616
 import io.github.oshai.kotlinlogging.*
 
 
@@ -28,7 +28,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1216
+package test616
 import io.github.oshai.kotlinlogging.*
 
 
@@ -39,8 +39,8 @@ fun main() {
   
   
   val argument1 = 42; val argument2 = true
-  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 12))
-  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test1216.Test1216Kt", methodName = "main", fileName = "test1216.kt", lineNumber = 13))
+  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test616.Test616Kt", methodName = "main", fileName = "test616.kt", lineNumber = 12))
+  logger.entryWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "entry(argument1, argument2)", className = "test616.Test616Kt", methodName = "main", fileName = "test616.kt", lineNumber = 13))
 }
 
 
@@ -48,11 +48,11 @@ fun main() {
 
 ```
 
-###  exit(resultValue) at Test1217Kt.main(test1217.kt:12)
+###  exit(resultValue) at Test617Kt.main(test617.kt:12)
 
 User code:
 ```kotlin
-package test1217
+package test617
 import io.github.oshai.kotlinlogging.*
 
 
@@ -74,7 +74,7 @@ fun main(): Int {
   
 Transformed into:
 ```kotlin
-package test1217
+package test617
 import io.github.oshai.kotlinlogging.*
 
 
@@ -85,8 +85,8 @@ fun main(): Int {
   
   
   val resultValue = 42
-  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 12))
-  return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test1217.Test1217Kt", methodName = "main", fileName = "test1217.kt", lineNumber = 13))
+  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test617.Test617Kt", methodName = "main", fileName = "test617.kt", lineNumber = 12))
+  return logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "exit(resultValue)", className = "test617.Test617Kt", methodName = "main", fileName = "test617.kt", lineNumber = 13))
 }
 
 
@@ -94,11 +94,11 @@ fun main(): Int {
 
 ```
 
-###  exit() at Test1218Kt.main(test1218.kt:12)
+###  exit() at Test618Kt.main(test618.kt:12)
 
 User code:
 ```kotlin
-package test1218
+package test618
 import io.github.oshai.kotlinlogging.*
 
 
@@ -120,7 +120,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1218
+package test618
 import io.github.oshai.kotlinlogging.*
 
 
@@ -131,8 +131,8 @@ fun main() {
   
   
   
-  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 12))
-  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test1218.Test1218Kt", methodName = "main", fileName = "test1218.kt", lineNumber = 13))
+  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test618.Test618Kt", methodName = "main", fileName = "test618.kt", lineNumber = 12))
+  logger.exitWithCompilerData(KLoggingEventBuilder.InternalCompilerData(className = "test618.Test618Kt", methodName = "main", fileName = "test618.kt", lineNumber = 13))
 }
 
 

@@ -2,11 +2,11 @@
 
 
 
-###  throwing(throwable) at Test1219Kt.main(test1219.kt:12)
+###  throwing(throwable) at Test619Kt.main(test619.kt:12)
 
 User code:
 ```kotlin
-package test1219
+package test619
 import io.github.oshai.kotlinlogging.*
 
 
@@ -28,7 +28,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1219
+package test619
 import io.github.oshai.kotlinlogging.*
 
 
@@ -39,8 +39,8 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 12), throwable)
-  throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test1219.Test1219Kt", methodName = "main", fileName = "test1219.kt", lineNumber = 13), throwable)
+  logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test619.Test619Kt", methodName = "main", fileName = "test619.kt", lineNumber = 12), throwable)
+  throw logger.throwingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "throwing(throwable)", className = "test619.Test619Kt", methodName = "main", fileName = "test619.kt", lineNumber = 13), throwable)
 }
 
 
@@ -48,11 +48,11 @@ fun main() {
 
 ```
 
-###  catching(throwable) at Test1220Kt.main(test1220.kt:12)
+###  catching(throwable) at Test620Kt.main(test620.kt:12)
 
 User code:
 ```kotlin
-package test1220
+package test620
 import io.github.oshai.kotlinlogging.*
 
 
@@ -74,7 +74,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1220
+package test620
 import io.github.oshai.kotlinlogging.*
 
 
@@ -85,8 +85,8 @@ fun main() {
   
   val throwable = Exception("expected!")
   
-  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 12), throwable)
-  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test1220.Test1220Kt", methodName = "main", fileName = "test1220.kt", lineNumber = 13), throwable)
+  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test620.Test620Kt", methodName = "main", fileName = "test620.kt", lineNumber = 12), throwable)
+  logger.catchingWithCompilerData(KLoggingEventBuilder.InternalCompilerData(messageTemplate = "catching(throwable)", className = "test620.Test620Kt", methodName = "main", fileName = "test620.kt", lineNumber = 13), throwable)
 }
 
 

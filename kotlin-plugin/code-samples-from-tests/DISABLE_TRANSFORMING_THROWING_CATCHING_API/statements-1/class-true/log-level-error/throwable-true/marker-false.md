@@ -1,0 +1,443 @@
+## featureFlag=DISABLE_TRANSFORMING_THROWING_CATCHING_API / With 1 log statement(s) / with class=true / with log level=ERROR / with throwable=true / with marker=false
+
+
+
+###  error(throwable) { "error messageBuilder" } at MainTest.main(test176.kt:12)
+
+User code:
+```kotlin
+package test176
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.error(throwable) { "error messageBuilder" }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test176
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.at(Level.ERROR) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder\"", className = "test176.MainTest", methodName = "main", fileName = "test176.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  error(throwable) { "error messageBuilder $i" } at MainTest.main(test177.kt:12)
+
+User code:
+```kotlin
+package test177
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.error(throwable) { "error messageBuilder $i" }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test177
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error messageBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i\"", className = "test177.MainTest", methodName = "main", fileName = "test177.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  error(throwable) { "error messageBuilder $i ${helper()}" } at MainTest.main(test178.kt:12)
+
+User code:
+```kotlin
+package test178
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.error(throwable) { "error messageBuilder $i ${helper()}" }
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test178
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i ${helper()}\"", className = "test178.MainTest", methodName = "main", fileName = "test178.kt", lineNumber = 12)
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
+
+###  error(throwable, messageLambda) at MainTest.main(test179.kt:12)
+
+User code:
+```kotlin
+package test179
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val messageLambda: () -> Any = { "error messageBuilder" }
+    logger.error(throwable, messageLambda)
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test179
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val messageLambda: () -> Any = { "error messageBuilder" }
+    logger.at(Level.ERROR) { message = "error messageBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda", className = "test179.MainTest", methodName = "main", fileName = "test179.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  atError() { message="error eventBuilder"; cause=throwable } at MainTest.main(test180.kt:12)
+
+User code:
+```kotlin
+package test180
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.atError() { message="error eventBuilder"; cause=throwable }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test180
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test180.MainTest", methodName = "main", fileName = "test180.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  atError() { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test181.kt:12)
+
+User code:
+```kotlin
+package test181
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.atError() { message="error eventBuilder $i"; cause=throwable }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test181
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test181.MainTest", methodName = "main", fileName = "test181.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  atError() { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test182.kt:12)
+
+User code:
+```kotlin
+package test182
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.atError() { message="error eventBuilder $i ${helper()}"; cause=throwable }
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test182
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test182.MainTest", methodName = "main", fileName = "test182.kt", lineNumber = 12)
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder"; cause=throwable } at MainTest.main(test183.kt:12)
+
+User code:
+```kotlin
+package test183
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.at(Level.ERROR) { message="error eventBuilder"; cause=throwable }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test183
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    
+    logger.at(Level.ERROR) { message = "error eventBuilder"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"", className = "test183.MainTest", methodName = "main", fileName = "test183.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable } at MainTest.main(test184.kt:12)
+
+User code:
+```kotlin
+package test184
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=throwable }
+  }
+  
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test184
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error eventBuilder 42"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"", className = "test184.MainTest", methodName = "main", fileName = "test184.kt", lineNumber = 12)
+  }
+  
+}
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable } at MainTest.main(test185.kt:12)
+
+User code:
+```kotlin
+package test185
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=throwable }
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
+  
+Transformed into:
+```kotlin
+package test185
+import io.github.oshai.kotlinlogging.*
+
+
+public class MainTest {
+private val logger = KotlinLogging.logger {}
+
+  fun main() {
+    
+    val throwable = Exception("expected!")
+    val i = 42
+    logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; cause = throwable; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"", className = "test185.MainTest", methodName = "main", fileName = "test185.kt", lineNumber = 12)
+  }
+  fun helper() = "Hello!"
+}
+
+
+```
