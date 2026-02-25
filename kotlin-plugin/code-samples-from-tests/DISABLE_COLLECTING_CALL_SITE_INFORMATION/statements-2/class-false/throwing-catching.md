@@ -2,11 +2,11 @@
 
 
 
-###  throwing(throwable) at Test1219Kt.main(test1219.kt:12)
+###  throwing(throwable) at Test619Kt.main(test619.kt:12)
 
 User code:
 ```kotlin
-package test1219
+package test619
 import io.github.oshai.kotlinlogging.*
 
 
@@ -28,7 +28,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1219
+package test619
 import io.github.oshai.kotlinlogging.*
 
 
@@ -48,11 +48,11 @@ fun main() {
 
 ```
 
-###  catching(throwable) at Test1220Kt.main(test1220.kt:12)
+###  catching(throwable) at Test620Kt.main(test620.kt:12)
 
 User code:
 ```kotlin
-package test1220
+package test620
 import io.github.oshai.kotlinlogging.*
 
 
@@ -74,7 +74,7 @@ fun main() {
   
 Transformed into:
 ```kotlin
-package test1220
+package test620
 import io.github.oshai.kotlinlogging.*
 
 

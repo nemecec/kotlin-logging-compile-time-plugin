@@ -1,0 +1,443 @@
+## featureFlag=DISABLE_ALL / With 1 log statement(s) / with class=false / with log level=INFO / with throwable=true / with marker=true
+
+
+
+###  info(marker, throwable) { "info messageBuilder" } at Test291Kt.main(test291.kt:12)
+
+User code:
+```kotlin
+package test291
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.info(marker, throwable) { "info messageBuilder" }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test291
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.info(marker, throwable) { "info messageBuilder" }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, throwable) { "info messageBuilder $i" } at Test292Kt.main(test292.kt:12)
+
+User code:
+```kotlin
+package test292
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.info(marker, throwable) { "info messageBuilder $i" }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test292
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.info(marker, throwable) { "info messageBuilder $i" }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, throwable) { "info messageBuilder $i ${helper()}" } at Test293Kt.main(test293.kt:12)
+
+User code:
+```kotlin
+package test293
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test293
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.info(marker, throwable) { "info messageBuilder $i ${helper()}" }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  info(marker, throwable, messageLambda) at Test294Kt.main(test294.kt:12)
+
+User code:
+```kotlin
+package test294
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val messageLambda: () -> Any = { "info messageBuilder" }
+  logger.info(marker, throwable, messageLambda)
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test294
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val messageLambda: () -> Any = { "info messageBuilder" }
+  logger.info(marker, throwable, messageLambda)
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  atInfo(marker) { message="info eventBuilder"; cause=throwable } at Test295Kt.main(test295.kt:12)
+
+User code:
+```kotlin
+package test295
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.atInfo(marker) { message="info eventBuilder"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test295
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.atInfo(marker) { message="info eventBuilder"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  atInfo(marker) { message="info eventBuilder $i"; cause=throwable } at Test296Kt.main(test296.kt:12)
+
+User code:
+```kotlin
+package test296
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.atInfo(marker) { message="info eventBuilder $i"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test296
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.atInfo(marker) { message="info eventBuilder $i"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test297Kt.main(test297.kt:12)
+
+User code:
+```kotlin
+package test297
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test297
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.atInfo(marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable } at Test298Kt.main(test298.kt:12)
+
+User code:
+```kotlin
+package test298
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test298
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  
+  logger.at(Level.INFO, marker) { message="info eventBuilder"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable } at Test299Kt.main(test299.kt:12)
+
+User code:
+```kotlin
+package test299
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test299
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.at(Level.INFO, marker) { message="info eventBuilder $i"; cause=throwable }
+}
+
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+
+###  at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable } at Test300Kt.main(test300.kt:12)
+
+User code:
+```kotlin
+package test300
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```
+  
+Remains as-is:
+```kotlin
+package test300
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  val marker = MyMarker("markerName")
+  val throwable = Exception("expected!")
+  val i = 42
+  logger.at(Level.INFO, marker) { message="info eventBuilder $i ${helper()}"; cause=throwable }
+}
+fun helper() = "Hello!"
+
+class MyMarker(private val name: String): Marker { override fun getName() = name }
+
+```

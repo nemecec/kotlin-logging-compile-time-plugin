@@ -1,0 +1,463 @@
+## featureFlag=DISABLE_COLLECTING_CALL_SITE_INFORMATION / With 2 log statement(s) / with class=false / with log level=ERROR / with throwable=false / with marker=false
+
+
+
+###  error() { "error messageBuilder" } at Test811Kt.main(test811.kt:12)
+
+User code:
+```kotlin
+package test811
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.error() { "error messageBuilder" }
+  logger.error() { "error messageBuilder" }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test811
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder\"")
+  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder\"")
+}
+
+
+
+
+```
+
+###  error() { "error messageBuilder $i" } at Test812Kt.main(test812.kt:12)
+
+User code:
+```kotlin
+package test812
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.error() { "error messageBuilder $i" }
+  logger.error() { "error messageBuilder $i" }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test812
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i\"")
+  logger.at(Level.ERROR) { message = "error messageBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i\"")
+}
+
+
+
+
+```
+
+###  error() { "error messageBuilder $i ${helper()}" } at Test813Kt.main(test813.kt:12)
+
+User code:
+```kotlin
+package test813
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.error() { "error messageBuilder $i ${helper()}" }
+  logger.error() { "error messageBuilder $i ${helper()}" }
+}
+fun helper() = "Hello!"
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test813
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i ${helper()}\"")
+  logger.at(Level.ERROR) { message = "error messageBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error messageBuilder $i ${helper()}\"")
+}
+fun helper() = "Hello!"
+
+
+
+```
+
+###  error(messageLambda) at Test814Kt.main(test814.kt:12)
+
+User code:
+```kotlin
+package test814
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val messageLambda: () -> Any = { "error messageBuilder" }
+  logger.error(messageLambda)
+  logger.error(messageLambda)
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test814
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val messageLambda: () -> Any = { "error messageBuilder" }
+  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda")
+  logger.at(Level.ERROR) { message = "error messageBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "messageLambda")
+}
+
+
+
+
+```
+
+###  atError() { message="error eventBuilder"; cause=null } at Test815Kt.main(test815.kt:12)
+
+User code:
+```kotlin
+package test815
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.atError() { message="error eventBuilder"; cause=null }
+  logger.atError() { message="error eventBuilder"; cause=null }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test815
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"")
+}
+
+
+
+
+```
+
+###  atError() { message="error eventBuilder $i"; cause=null } at Test816Kt.main(test816.kt:12)
+
+User code:
+```kotlin
+package test816
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.atError() { message="error eventBuilder $i"; cause=null }
+  logger.atError() { message="error eventBuilder $i"; cause=null }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test816
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"")
+}
+
+
+
+
+```
+
+###  atError() { message="error eventBuilder $i ${helper()}"; cause=null } at Test817Kt.main(test817.kt:12)
+
+User code:
+```kotlin
+package test817
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
+  logger.atError() { message="error eventBuilder $i ${helper()}"; cause=null }
+}
+fun helper() = "Hello!"
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test817
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"")
+}
+fun helper() = "Hello!"
+
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder"; cause=null } at Test818Kt.main(test818.kt:12)
+
+User code:
+```kotlin
+package test818
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
+  logger.at(Level.ERROR) { message="error eventBuilder"; cause=null }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test818
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder\"")
+}
+
+
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder $i"; cause=null } at Test819Kt.main(test819.kt:12)
+
+User code:
+```kotlin
+package test819
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
+  logger.at(Level.ERROR) { message="error eventBuilder $i"; cause=null }
+}
+
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test819
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder 42"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i\"")
+}
+
+
+
+
+```
+
+###  at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null } at Test820Kt.main(test820.kt:12)
+
+User code:
+```kotlin
+package test820
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
+  logger.at(Level.ERROR) { message="error eventBuilder $i ${helper()}"; cause=null }
+}
+fun helper() = "Hello!"
+
+
+
+```
+  
+Transformed into:
+```kotlin
+package test820
+import io.github.oshai.kotlinlogging.*
+
+
+
+private val logger = KotlinLogging.logger {}
+
+fun main() {
+  
+  
+  val i = 42
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"")
+  logger.at(Level.ERROR) { message = "error eventBuilder 42 Hello!"; internalCompilerData = KLoggingEventBuilder.InternalCompilerData(messageTemplate = "\"error eventBuilder $i ${helper()}\"")
+}
+fun helper() = "Hello!"
+
+
+
+```

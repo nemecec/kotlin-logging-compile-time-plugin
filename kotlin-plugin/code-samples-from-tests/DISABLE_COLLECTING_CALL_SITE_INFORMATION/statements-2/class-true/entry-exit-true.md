@@ -2,11 +2,11 @@
 
 
 
-###  entry(argument1, argument2) at MainTest.main(test811.kt:12)
+###  entry(argument1, argument2) at MainTest.main(test411.kt:12)
 
 User code:
 ```kotlin
-package test811
+package test411
 import io.github.oshai.kotlinlogging.*
 
 
@@ -28,7 +28,7 @@ private val logger = KotlinLogging.logger {}
   
 Transformed into:
 ```kotlin
-package test811
+package test411
 import io.github.oshai.kotlinlogging.*
 
 
@@ -48,11 +48,11 @@ private val logger = KotlinLogging.logger {}
 
 ```
 
-###  exit(resultValue) at MainTest.main(test812.kt:12)
+###  exit(resultValue) at MainTest.main(test412.kt:12)
 
 User code:
 ```kotlin
-package test812
+package test412
 import io.github.oshai.kotlinlogging.*
 
 
@@ -74,7 +74,7 @@ private val logger = KotlinLogging.logger {}
   
 Transformed into:
 ```kotlin
-package test812
+package test412
 import io.github.oshai.kotlinlogging.*
 
 
@@ -94,11 +94,11 @@ private val logger = KotlinLogging.logger {}
 
 ```
 
-###  exit() at MainTest.main(test813.kt:12)
+###  exit() at MainTest.main(test413.kt:12)
 
 User code:
 ```kotlin
-package test813
+package test413
 import io.github.oshai.kotlinlogging.*
 
 
@@ -120,7 +120,7 @@ private val logger = KotlinLogging.logger {}
   
 Remains as-is:
 ```kotlin
-package test813
+package test413
 import io.github.oshai.kotlinlogging.*
 
 
