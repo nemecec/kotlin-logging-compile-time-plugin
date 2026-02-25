@@ -53,7 +53,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 ## Requirements
 
 * [Kotlin](https://kotlinlang.org) 2.0 or newer (see below for compatibility matrix)
-* [kotlin-logging](https://github.com/oshai/kotlin-logging) 7.0.5 or newer
+* [kotlin-logging](https://github.com/oshai/kotlin-logging) 8.0.0 or newer
 
 ### Kotlin compatibility matrix
 
@@ -86,7 +86,6 @@ dependencies {
 // Optional: configure the plugin (by default all features are enabled)
 kotlinLoggingCompileTimePlugin {
   disableAll = false
-  disableTransformingDeprecatedApi = false
   disableTransformingEntryExitApi = false
   disableTransformingThrowingCatchingApi = false
   disableCollectingCallSiteInformation = false
@@ -104,8 +103,6 @@ See also the [sample](sample) project for a complete example.
 The plugin can be configured using the following flags:
 
 * `disableAll` - disables all features of the plugin (default: `false`), all code is left unchanged.
-* `disableTransformingDeprecatedApi` - disables transforming deprecated `KLogger` API calls (default: `false`).
-* `disableTransformingNotImplementedApi` - disables transforming `KLogger` API calls that have not been implemented (default: `false`).
 * `disableTransformingEntryExitApi` - disables transforming `KLogger` API calls for entry/exit logging (default: `false`).
 * `disableTransformingThrowingCatchingApi` - disables transforming `KLogger` API calls for throwing/catching exceptions (default: `false`).
 * `disableCollectingCallSiteInformation` - disables collecting call site information (default: `false`).
@@ -151,25 +148,17 @@ fun info(throwable: Throwable?, message: () -> Any?): Unit
 fun warn(throwable: Throwable?, message: () -> Any?): Unit
 fun error(throwable: Throwable?, message: () -> Any?): Unit
 
-fun trace(throwable: Throwable? = null, marker: Marker?, message: () -> Any?): Unit
-fun debug(throwable: Throwable? = null, marker: Marker?, message: () -> Any?): Unit
-fun info(throwable: Throwable? = null, marker: Marker?, message: () -> Any?): Unit
-fun warn(throwable: Throwable? = null, marker: Marker?, message: () -> Any?): Unit
-fun error(throwable: Throwable? = null, marker: Marker?, message: () -> Any?): Unit
+fun trace(marker: Marker?, message: () -> Any?): Unit
+fun debug(marker: Marker?, message: () -> Any?): Unit
+fun info(marker: Marker?, message: () -> Any?): Unit
+fun warn(marker: Marker?, message: () -> Any?): Unit
+fun error(marker: Marker?, message: () -> Any?): Unit
 
-// deprecated
-fun trace(marker: Marker?, msg: () -> Any?): Unit
-fun debug(marker: Marker?, msg: () -> Any?): Unit
-fun info(marker: Marker?, msg: () -> Any?): Unit
-fun warn(marker: Marker?, msg: () -> Any?): Unit
-fun error(marker: Marker?, msg: () -> Any?): Unit
-
-// deprecated
-fun trace(marker: Marker?, t: Throwable?, msg: () -> Any?): Unit
-fun debug(marker: Marker?, t: Throwable?, msg: () -> Any?): Unit
-fun info(marker: Marker?, t: Throwable?, msg: () -> Any?): Unit
-fun warn(marker: Marker?, t: Throwable?, msg: () -> Any?): Unit
-fun error(marker: Marker?, t: Throwable?, msg: () -> Any?): Unit
+fun trace(marker: Marker?, throwable: Throwable?, message: () -> Any?): Unit
+fun debug(marker: Marker?, throwable: Throwable?, message: () -> Any?): Unit
+fun info(marker: Marker?, throwable: Throwable?, message: () -> Any?): Unit
+fun warn(marker: Marker?, throwable: Throwable?, message: () -> Any?): Unit
+fun error(marker: Marker?, throwable: Throwable?, message: () -> Any?): Unit
 ```
 
 Transformed to the `at` API with the message template filled in:
@@ -208,109 +197,6 @@ it to the `KLoggingEventBuilder` instance.
         messageTemplate = "<source of message from event-builder lambda expression>",
         // other fields omitted for brevity
       )
-```
-
-#### Log-message-as-plain-String API calls, non-parameterized
-
-```kotlin
-fun trace(msg: String?): Unit
-fun debug(msg: String?): Unit
-fun info(msg: String?): Unit
-fun warn(msg: String?): Unit
-fun error(msg: String?): Unit
-
-// deprecated
-fun trace(msg: String?, t: Throwable?): Unit
-fun debug(msg: String?, t: Throwable?): Unit
-fun info(msg: String?, t: Throwable?): Unit
-fun warn(msg: String?, t: Throwable?): Unit
-fun error(msg: String?, t: Throwable?): Unit
-
-// deprecated
-fun trace(marker: Marker?, msg: String?): Unit
-fun debug(marker: Marker?, msg: String?): Unit
-fun info(marker: Marker?, msg: String?): Unit
-fun warn(marker: Marker?, msg: String?): Unit
-fun error(marker: Marker?, msg: String?): Unit
-
-// deprecated
-fun trace(marker: Marker?, msg: String?, t: Throwable?): Unit
-fun debug(marker: Marker?, msg: String?, t: Throwable?): Unit
-fun info(marker: Marker?, msg: String?, t: Throwable?): Unit
-fun warn(marker: Marker?, msg: String?, t: Throwable?): Unit
-fun error(marker: Marker?, msg: String?, t: Throwable?): Unit
-```
-
-Transformed to the `at` API with the message template filled in:
-```kotlin
-    logger.at(Level.TRACE|DEBUG|INFO|WARN|ERROR) {
-      message = message
-      cause = throwable
-      internalCompilerData = KLoggingEventBuilder.InternalCompilerData(
-        messageTemplate = "<source of message expression>",
-        // other fields omitted for brevity
-      )
-    }
-```
-
-#### Log-message-as-plain-String API calls, parameterized
-
-```kotlin
-// deprecated
-fun trace(msg: String?, arg: Any?): Unit
-fun debug(msg: String?, arg: Any?): Unit
-fun info(msg: String?, arg: Any?): Unit
-fun warn(msg: String?, arg: Any?): Unit
-fun error(msg: String?, arg: Any?): Unit
-
-// deprecated
-fun trace(msg: String?, arg1: Any?, arg2: Any?): Unit
-fun debug(msg: String?, arg1: Any?, arg2: Any?): Unit
-fun info(msg: String?, arg1: Any?, arg2: Any?): Unit
-fun warn(msg: String?, arg1: Any?, arg2: Any?): Unit
-fun error(msg: String?, arg1: Any?, arg2: Any?): Unit
-
-// deprecated
-fun trace(msg: String?, vararg arguments: Any?): Unit
-fun debug(msg: String?, vararg arguments: Any?): Unit
-fun info(msg: String?, vararg arguments: Any?): Unit
-fun warn(msg: String?, vararg arguments: Any?): Unit
-fun error(msg: String?, vararg arguments: Any?): Unit
-
-// deprecated
-fun trace(marker: Marker?, msg: String?, arg: Any?): Unit
-fun debug(marker: Marker?, msg: String?, arg: Any?): Unit
-fun info(marker: Marker?, msg: String?, arg: Any?): Unit
-fun warn(marker: Marker?, msg: String?, arg: Any?): Unit
-fun error(marker: Marker?, msg: String?, arg: Any?): Unit
-
-// deprecated
-fun trace(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
-fun debug(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
-fun info(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
-fun warn(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
-fun error(marker: Marker?, msg: String?, arg1: Any?, arg2: Any?): Unit
-
-// deprecated
-fun trace(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
-fun debug(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
-fun info(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
-fun warn(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
-fun error(marker: Marker?, msg: String?, vararg arguments: Any?): Unit
-```
-
-Transformed to the `at` API with the compiler data filled in. It will also merge the message template
-with the argument values and will extract `Throwable` if possible.
-
-```kotlin
-    logger.at(Level.TRACE|DEBUG|INFO|WARN|ERROR) {
-      message = "<message with {} placeholders replaced>"
-      cause = lastArgument?.castToThrowable()
-      internalCompilerData = KLoggingEventBuilder.InternalCompilerData(
-        messageTemplate = "<source of message>",
-        // other fields omitted for brevity
-      )
-    }
 ```
 
 #### Specialized API calls (entry/exit, throwing/catching)
