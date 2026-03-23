@@ -69,6 +69,7 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 | 2.2.21         | 1.4.x (latest 1.4.3) |
 | 2.3.0          | 1.5.x (latest 1.5.1) |
 | 2.3.10         | 1.5.x (latest 1.5.1) |
+| 2.3.20         | 1.6.x (latest 1.6.0) |
 
 ## Usage
 
