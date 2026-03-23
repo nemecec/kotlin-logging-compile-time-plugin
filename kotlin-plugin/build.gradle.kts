@@ -47,6 +47,7 @@ tasks {
 kotlin {
   compilerOptions {
     javaParameters = true
+    freeCompilerArgs.add("-Xcontext-parameters")
   }
 }
 

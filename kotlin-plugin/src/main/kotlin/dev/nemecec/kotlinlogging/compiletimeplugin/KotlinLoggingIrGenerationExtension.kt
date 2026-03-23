@@ -510,30 +510,30 @@ class KotlinLoggingIrGenerationExtension(
             createIrFunctionExpression(
               type = typesHelper.eventBuilderLambdaType,
               function =
-                context.createLambdaIrSimpleFunction {
-                  parameters =
-                    listOf(
-                      factory
-                        .createValueParameter(
-                          startOffset = UNDEFINED_OFFSET,
-                          endOffset = UNDEFINED_OFFSET,
-                          origin = IrDeclarationOrigin.DEFINED,
-                          kind = IrParameterKind.ExtensionReceiver,
-                          name = typesHelper.extensionReceiverParameterName,
-                          type = typesHelper.eventBuilderClassSymbol.defaultType,
-                          isAssignable = false,
-                          symbol = IrValueParameterSymbolImpl(),
-                          varargElementType = null,
-                          isCrossinline = false,
-                          isNoinline = false,
-                          isHidden = false,
-                        )
-                        .apply { parent = this@createLambdaIrSimpleFunction }
-                    )
-                  returnType = typesHelper.unitType
-                  parent = currentDeclarationParent!!
-                  body =
-                    context.createIrBlockBody {
+                with(context) {
+                  createLambdaIrSimpleFunction {
+                    parameters =
+                      listOf(
+                        factory
+                          .createValueParameter(
+                            startOffset = UNDEFINED_OFFSET,
+                            endOffset = UNDEFINED_OFFSET,
+                            origin = IrDeclarationOrigin.DEFINED,
+                            kind = IrParameterKind.ExtensionReceiver,
+                            name = typesHelper.extensionReceiverParameterName,
+                            type = typesHelper.eventBuilderClassSymbol.defaultType,
+                            isAssignable = false,
+                            symbol = IrValueParameterSymbolImpl(),
+                            varargElementType = null,
+                            isCrossinline = false,
+                            isNoinline = false,
+                            isHidden = false,
+                          )
+                          .apply { parent = this@createLambdaIrSimpleFunction }
+                      )
+                    returnType = typesHelper.unitType
+                    parent = currentDeclarationParent!!
+                    body = createIrBlockBody {
                       statements.add(
                         builder.irCall(typesHelper.setMessageFunction.owner).apply {
                           dispatchReceiver =
@@ -571,6 +571,7 @@ class KotlinLoggingIrGenerationExtension(
                         )
                       }
                     }
+                  }
                 },
               origin = IrStatementOrigin.LAMBDA,
             ),
