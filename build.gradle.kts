@@ -9,6 +9,15 @@ import java.net.URI
 
 buildscript {
   extra["kotlin_plugin_id"] = "dev.nemecec.kotlinlogging.compile-time-plugin"
+
+  configurations.classpath {
+    resolutionStrategy.eachDependency {
+      if (requested.group == "com.fasterxml.jackson.core" && requested.name == "jackson-core") {
+        useVersion("2.18.6")
+        because("GHSA-72hv-8253-57qq")
+      }
+    }
+  }
 }
 
 plugins {
@@ -20,6 +29,15 @@ plugins {
 allprojects {
   group = "dev.nemecec.kotlinlogging.compiletimeplugin"
   version = "1.6.1-SNAPSHOT"
+
+  configurations.configureEach {
+    resolutionStrategy.eachDependency {
+      if (requested.group == "org.bouncycastle" && requested.name.endsWith("-jdk18on")) {
+        useVersion("1.84")
+        because("GHSA-cj8j-37rh-8475, GHSA-c3fc-8qff-9hwx, GHSA-wg6q-6289-32hp")
+      }
+    }
+  }
 }
 
 dependencies {
