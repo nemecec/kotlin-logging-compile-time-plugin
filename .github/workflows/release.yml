@@ -8,6 +8,10 @@ on:
         required: true
         type: string
 
+permissions:
+  contents: read
+  checks: write
+
 jobs:
   # First, run the full build to validate everything works
   build:
