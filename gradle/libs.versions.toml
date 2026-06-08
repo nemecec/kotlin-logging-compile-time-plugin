@@ -2,14 +2,14 @@
 kotlinversion = "2.3.20"
 ktfmt = "0.47"
 dokka = "2.2.0"
-build-config = "6.0.9"
+build-config = "6.0.10"
 maven-publish = "0.36.0"
 spotless = "8.6.0"
 
 auto-service = "1.1.1"
-kotlin-compiler-extensions = "0.13.0+2.3.20"
+kotlin-compiler-extensions = "0.15.0+"
 junit-jupiter = "6.1.0"
-kctfork = "0.12.1"
+kctfork = "0.13.0"
 kotlin-logging-jvm = "8.0.4"
 logback = "1.5.34"
 
