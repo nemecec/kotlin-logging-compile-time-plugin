@@ -6,6 +6,7 @@ import com.javiersc.kotlin.compiler.extensions.ir.createLambdaIrSimpleFunction
 import com.javiersc.kotlin.compiler.extensions.ir.toIrConstructorCall
 import org.jetbrains.kotlin.backend.common.FileLoweringPass
 import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
+import org.jetbrains.kotlin.backend.common.extensions.DeclarationFinder
 import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
 import org.jetbrains.kotlin.backend.common.extensions.IrPluginContext
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
@@ -105,7 +106,8 @@ class KotlinLoggingIrGenerationExtension(
   override fun generate(moduleFragment: IrModuleFragment, pluginContext: IrPluginContext) {
     messageCollector.report(CompilerMessageSeverity.INFO, "Plugin config: $config")
     if (!config.disableAll) {
-      if (!pluginContext.kotlinLoggingIsAvailable()) {
+      val firstFile = moduleFragment.files.firstOrNull() ?: return
+      if (!pluginContext.finderForSource(firstFile).kotlinLoggingIsAvailable()) {
         messageCollector.report(
           severity = CompilerMessageSeverity.WARNING,
           message =
@@ -121,6 +123,7 @@ class KotlinLoggingIrGenerationExtension(
             loggingApiVersion,
             SourceFile(file),
             pluginContext,
+            pluginContext.finderForSource(file),
             messageCollector,
           )
           .runOnFileInOrder(file)
@@ -143,27 +146,25 @@ class KotlinLoggingIrGenerationExtension(
     }
   }
 
-  private fun IrPluginContext.kotlinLoggingIsAvailable() =
-    referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level"))) != null
+  private fun DeclarationFinder.kotlinLoggingIsAvailable() =
+    findClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level"))) != null
 
-  class TypesHelper(val context: IrPluginContext) {
+  class TypesHelper(val context: IrPluginContext, finder: DeclarationFinder) {
 
     val atMethodName = Name.identifier("at")
     val extensionReceiverParameterName = Name.identifier("\$this\$at")
 
     val levelClassSymbol =
-      context.referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level")))!!
+      finder.findClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Level")))!!
     val markerClassSymbol =
-      context.referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Marker")))!!
+      finder.findClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("Marker")))!!
     val markerType = markerClassSymbol.defaultType
     val throwableType = context.irBuiltIns.throwableType
 
     val function1Class = context.irBuiltIns.functionN(1)
     val unitType = context.irBuiltIns.unitType
     val eventBuilderClassSymbol =
-      context.referenceClass(
-        ClassId(FqName(PACKAGE_NAME), Name.identifier("KLoggingEventBuilder"))
-      )!!
+      finder.findClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("KLoggingEventBuilder")))!!
     val eventBuilderLambdaType =
       function1Class.typeWith(eventBuilderClassSymbol.defaultType, unitType)
     @OptIn(UnsafeDuringIrConstructionAPI::class)
@@ -171,7 +172,7 @@ class KotlinLoggingIrGenerationExtension(
     @OptIn(UnsafeDuringIrConstructionAPI::class)
     val setCauseFunction = eventBuilderClassSymbol.owner.getPropertySetter("cause")!!
     val internalCompilerDataClassSymbol =
-      context.referenceClass(
+      finder.findClass(
         ClassId(
           FqName(PACKAGE_NAME),
           FqName("KLoggingEventBuilder.InternalCompilerData"),
@@ -180,8 +181,8 @@ class KotlinLoggingIrGenerationExtension(
       )!!
     @OptIn(UnsafeDuringIrConstructionAPI::class)
     val setHiddenInternalCompilerDataFunction =
-      context
-        .referenceFunctions(
+      finder
+        .findFunctions(
           CallableId(
             packageName = FqName(PACKAGE_NAME_INTERNAL),
             Name.identifier("hiddenInternalCompilerData"),
@@ -201,8 +202,8 @@ class KotlinLoggingIrGenerationExtension(
     val messageBuilderLambdaType = function0Class.typeWith(anyType)
     @OptIn(UnsafeDuringIrConstructionAPI::class)
     val toStringFunctionSymbol =
-      context
-        .referenceFunctions(
+      finder
+        .findFunctions(
           CallableId(
             packageName = FqName(PACKAGE_NAME_INTERNAL),
             Name.identifier("hiddenToStringSafe"),
@@ -213,7 +214,7 @@ class KotlinLoggingIrGenerationExtension(
             messageBuilderLambdaType.classifierOrFail
         }
     val kLoggerClassSymbol =
-      context.referenceClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("KLogger")))!!
+      finder.findClass(ClassId(FqName(PACKAGE_NAME), Name.identifier("KLogger")))!!
   }
 
   class AccessorCallTransformer(
@@ -221,10 +222,11 @@ class KotlinLoggingIrGenerationExtension(
     private val loggingApiVersion: String?,
     private val sourceFile: SourceFile,
     private val context: IrPluginContext,
+    private val finder: DeclarationFinder,
     private val messageCollector: MessageCollector,
   ) : IrElementTransformerVoidWithContext(), FileLoweringPass {
 
-    private val typesHelper = TypesHelper(context)
+    private val typesHelper = TypesHelper(context, finder)
 
     @OptIn(UnsafeDuringIrConstructionAPI::class)
     fun findKLoggerExtensionFunction(
@@ -232,8 +234,8 @@ class KotlinLoggingIrGenerationExtension(
       extraFilter: (IrFunction) -> Boolean = { _ -> true },
     ): IrSimpleFunctionSymbol {
       val overloadedFunctionName = "${originalFunctionName}WithCompilerData"
-      return context
-        .referenceFunctions(
+      return finder
+        .findFunctions(
           CallableId(
             packageName = FqName(PACKAGE_NAME_INTERNAL),
             Name.identifier(overloadedFunctionName),
