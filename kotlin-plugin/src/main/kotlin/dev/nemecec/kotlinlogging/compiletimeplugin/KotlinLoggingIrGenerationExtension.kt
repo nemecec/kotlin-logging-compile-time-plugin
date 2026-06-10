@@ -88,6 +88,12 @@ internal val IrCall.regularArguments
 private val IrSimpleFunction.extensionReceiverValueParameter
   get() = parameters.firstOrNull({ it.kind == IrParameterKind.ExtensionReceiver })
 
+@OptIn(UnsafeDuringIrConstructionAPI::class)
+internal fun IrFunctionAccessExpression.insertExtensionReceiver(value: IrExpression?) {
+  val parameter = symbol.owner.parameters.first { it.kind == IrParameterKind.ExtensionReceiver }
+  arguments[parameter.indexInParameters] = value
+}
+
 private const val PACKAGE_NAME = "io.github.oshai.kotlinlogging"
 private const val PACKAGE_NAME_INTERNAL = "io.github.oshai.kotlinlogging.internal"
 
