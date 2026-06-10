@@ -28,7 +28,7 @@ plugins {
 
 allprojects {
   group = "dev.nemecec.kotlinlogging.compiletimeplugin"
-  version = "1.6.1"
+  version = "1.6.2-SNAPSHOT"
 
   configurations.configureEach {
     resolutionStrategy.eachDependency {
