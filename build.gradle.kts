@@ -12,9 +12,10 @@ buildscript {
 
   configurations.classpath {
     resolutionStrategy.eachDependency {
-      if (requested.group == "com.fasterxml.jackson.core" && requested.name == "jackson-core") {
-        useVersion("2.18.6")
-        because("GHSA-72hv-8253-57qq")
+      if (requested.group.startsWith("com.fasterxml.jackson")) {
+        // Align to jackson-bom 2.21.5: core/databind track the patch line, annotations does not.
+        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.5")
+        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v")
       }
     }
   }
