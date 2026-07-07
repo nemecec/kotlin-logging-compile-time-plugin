@@ -37,6 +37,12 @@ allprojects {
         useVersion("1.84")
         because("GHSA-cj8j-37rh-8475, GHSA-c3fc-8qff-9hwx, GHSA-wg6q-6289-32hp")
       }
+      if (requested.group.startsWith("com.fasterxml.jackson")) {
+        // Also reaches the Dokka worker runtime classpath, which the buildscript rule does not.
+        // Align to jackson-bom 2.21.5: core/databind track the patch line, annotations does not.
+        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.5")
+        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v")
+      }
     }
   }
 }
