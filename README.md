@@ -71,7 +71,8 @@ For more details, see [What does it do (in detail)?](#what-does-it-do-in-detail)
 | 2.3.10         | 1.5.x (latest 1.5.1) |
 | 2.3.20         | 1.6.x (latest 1.6.1) |
 | 2.3.21         | 1.6.x (latest 1.6.1) |
-| 2.4.0          | 1.7.x (latest 1.7.0) |
+| 2.4.0          | 1.7.x (latest 1.7.1) |
+| 2.4.10         | 1.7.x (latest 1.7.1) |
 
 ## Usage
 
