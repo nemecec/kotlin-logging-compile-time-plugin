@@ -24,6 +24,8 @@ kotlin-logging-jvm = { group = "io.github.oshai", name = "kotlin-logging-jvm", v
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 [plugins]
+# Declared as a plugin alias (rather than kotlin("jvm").version(...)) so that Dependabot tracks the Kotlin version.
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlinversion" }
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 build-config = { id = "com.github.gmazzo.buildconfig", version.ref = "build-config" }
 maven-publish = { id = "com.vanniktech.maven.publish.base", version.ref = "maven-publish" }
