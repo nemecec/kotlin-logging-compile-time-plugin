@@ -6,12 +6,17 @@ updates:
       interval: "weekly"
     groups:
       # Kotlin and the compiler extensions built against it move in lockstep and usually need a source change,
-      # so they get their own pull request instead of blocking the routine updates.
+      # so they get their own pull request instead of blocking the routine updates. Dependabot assigns a
+      # dependency to the most specific matching group and counts an update-types rule as more specific than
+      # a pattern, so minor-and-patch has to exclude them explicitly for this group to receive anything.
       kotlin:
         patterns:
           - "org.jetbrains.kotlin*"
           - "com.javiersc.kotlin*"
       minor-and-patch:
+        exclude-patterns:
+          - "org.jetbrains.kotlin*"
+          - "com.javiersc.kotlin*"
         update-types:
           - "patch"
           - "minor"
