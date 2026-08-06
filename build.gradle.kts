@@ -29,7 +29,7 @@ plugins {
 
 allprojects {
   group = "dev.nemecec.kotlinlogging.compiletimeplugin"
-  version = "1.7.1"
+  version = "1.7.2-SNAPSHOT"
 
   configurations.configureEach {
     resolutionStrategy.eachDependency {
