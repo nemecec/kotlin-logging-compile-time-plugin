@@ -55,7 +55,7 @@ gradlePlugin {
 
 mavenPublishing {
   configure(
-    GradlePlugin(javadocJar = JavadocJar.Empty())
+    GradlePlugin(javadocJar = JavadocJar.Dokka("dokkaGeneratePublicationHtml"))
   )
 }
 
