@@ -4,6 +4,7 @@ import com.vanniktech.maven.publish.KotlinJvm
 plugins {
   kotlin("jvm")
   kotlin("kapt")
+  alias(libs.plugins.dokka)
   alias(libs.plugins.maven.publish)
   alias(libs.plugins.build.config)
   alias(libs.plugins.spotless)
