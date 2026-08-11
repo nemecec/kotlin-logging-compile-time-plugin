@@ -35,7 +35,7 @@ buildConfig {
 
 mavenPublishing {
   configure(
-    KotlinJvm(javadocJar = JavadocJar.Empty())
+    KotlinJvm(javadocJar = JavadocJar.Dokka("dokkaGeneratePublicationHtml"))
   )
 }
 
