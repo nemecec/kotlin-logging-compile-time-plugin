@@ -11,6 +11,7 @@ import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 plugins {
   kotlin("jvm")
   id("java-gradle-plugin")
+  alias(libs.plugins.dokka)
   alias(libs.plugins.maven.publish)
   alias(libs.plugins.build.config)
   alias(libs.plugins.spotless)
