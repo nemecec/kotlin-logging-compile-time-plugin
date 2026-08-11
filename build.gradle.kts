@@ -43,6 +43,12 @@ allprojects {
         useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.5")
         because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v")
       }
+      if (requested.group == "org.jsoup" && requested.name == "jsoup") {
+        // Dokka's generator runtime pins 1.16.1. Dokka never calls Cleaner/Safelist, so the
+        // advisory is unreachable here, but the pin keeps the dependency graph clean.
+        useVersion("1.23.1")
+        because("GHSA-pmhh-3w7g-xqp8")
+      }
     }
   }
 }
