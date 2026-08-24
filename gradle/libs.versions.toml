@@ -4,7 +4,7 @@ ktfmt = "0.47"
 dokka = "2.2.0"
 build-config = "6.0.10"
 maven-publish = "0.37.0"
-spotless = "8.9.0"
+spotless = "8.10.0"
 
 auto-service = "1.1.1"
 kotlin-compiler-extensions = "0.15.0+2.4.0"
