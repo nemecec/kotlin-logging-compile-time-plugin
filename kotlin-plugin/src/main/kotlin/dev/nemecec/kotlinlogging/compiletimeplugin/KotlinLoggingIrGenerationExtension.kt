@@ -128,14 +128,21 @@ class KotlinLoggingIrGenerationExtension(
           )
           .runOnFileInOrder(file)
         try {
-          validateIr(
-            file,
-            pluginContext.irBuiltIns,
-            IrValidatorConfig().withBasicChecks(),
-            messageCollector,
-            IrVerificationMode.ERROR,
-            "KotlinLoggingIrGenerationExtension",
-          )
+          val hasValidationErrors =
+            validateIr(
+              file,
+              pluginContext.irBuiltIns,
+              IrValidatorConfig().withBasicChecks(),
+              pluginContext.diagnosticReporter,
+              IrVerificationMode.ERROR,
+              "KotlinLoggingIrGenerationExtension",
+            )
+          if (hasValidationErrors) {
+            messageCollector.report(
+              CompilerMessageSeverity.ERROR,
+              "IR validation failed for ${file.fileEntry.name}",
+            )
+          }
         } catch (e: Exception) {
           messageCollector.report(
             CompilerMessageSeverity.ERROR,
