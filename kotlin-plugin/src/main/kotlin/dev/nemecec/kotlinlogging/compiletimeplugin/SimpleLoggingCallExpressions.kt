@@ -1,6 +1,5 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
-import com.javiersc.kotlin.compiler.extensions.ir.toIrGetEnumValue
 import org.jetbrains.kotlin.backend.common.ScopeWithIr
 import org.jetbrains.kotlin.backend.common.lower.DeclarationIrBuilder
 import org.jetbrains.kotlin.ir.builders.irCall
