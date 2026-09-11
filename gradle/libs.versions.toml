@@ -4,7 +4,7 @@ ktfmt = "0.47"
 dokka = "2.2.0"
 build-config = "6.0.10"
 maven-publish = "0.37.0"
-spotless = "8.10.1"
+spotless = "8.10.2"
 
 auto-service = "1.1.1"
 junit-jupiter = "6.1.3"
