@@ -7,7 +7,6 @@ maven-publish = "0.37.0"
 spotless = "8.10.1"
 
 auto-service = "1.1.1"
-kotlin-compiler-extensions = "0.15.0+2.4.0"
 junit-jupiter = "6.1.3"
 kctfork = "0.13.0"
 kotlin-logging-jvm = "8.0.4"
@@ -16,7 +15,7 @@ logback = "1.6.3"
 [libraries]
 auto-service = { group = "com.google.auto.service", name = "auto-service", version.ref = "auto-service" }
 auto-service-annotations = { group = "com.google.auto.service", name = "auto-service-annotations", version.ref = "auto-service" }
-kotlin-compiler-extensions = { group = "com.javiersc.kotlin", name = "kotlin-compiler-extensions", version.ref = "kotlin-compiler-extensions" }
+kotlin-compiler = { group = "org.jetbrains.kotlin", name = "kotlin-compiler", version.ref = "kotlinversion" }
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit-jupiter" }
 junit-platform = { group = "org.junit.platform", name = "junit-platform-launcher" }
 kctfork = { group = "dev.zacsweers.kctfork", name = "core", version.ref = "kctfork" }

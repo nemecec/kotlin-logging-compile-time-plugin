@@ -13,7 +13,7 @@ plugins {
 dependencies {
   kapt(libs.auto.service)
   compileOnly(libs.auto.service.annotations)
-  implementation(libs.kotlin.compiler.extensions)
+  compileOnly(libs.kotlin.compiler)
 
   testImplementation(kotlin("test-junit"))
   testImplementation(libs.junit.jupiter)
