@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-@file:OptIn(ExperimentalCompilerApi::class)
+@file:OptIn(ExperimentalCompilerApi::class, MessageCollectorAccess::class)
 
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
@@ -27,6 +27,7 @@ import org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar
 import org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi
 import org.jetbrains.kotlin.config.CommonConfigurationKeys
 import org.jetbrains.kotlin.config.CompilerConfiguration
+import org.jetbrains.kotlin.config.MessageCollectorAccess
 import org.jetbrains.kotlin.util.capitalizeDecapitalize.toLowerCaseAsciiOnly
 
 private const val KOTLIN_LOGGING_PREFIX = "kotlin-logging-"
