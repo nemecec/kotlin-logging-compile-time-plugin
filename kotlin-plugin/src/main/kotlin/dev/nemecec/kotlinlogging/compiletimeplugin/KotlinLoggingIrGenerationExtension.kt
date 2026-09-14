@@ -1,5 +1,9 @@
 package dev.nemecec.kotlinlogging.compiletimeplugin
 
+import com.javiersc.kotlin.compiler.extensions.ir.createIrBlockBody
+import com.javiersc.kotlin.compiler.extensions.ir.createIrFunctionExpression
+import com.javiersc.kotlin.compiler.extensions.ir.createLambdaIrSimpleFunction
+import com.javiersc.kotlin.compiler.extensions.ir.toIrConstructorCall
 import org.jetbrains.kotlin.backend.common.FileLoweringPass
 import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
 import org.jetbrains.kotlin.backend.common.extensions.DeclarationFinder

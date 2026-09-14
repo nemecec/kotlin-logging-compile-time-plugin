@@ -13,6 +13,9 @@ plugins {
 dependencies {
   kapt(libs.auto.service)
   compileOnly(libs.auto.service.annotations)
+  // The helpers used from kotlin-compiler-extensions are inline, so nothing of it is needed at run
+  // time. The compiler that runs the plugin provides the compiler API.
+  compileOnly(libs.kotlin.compiler.extensions)
   compileOnly(libs.kotlin.compiler)
 
   testImplementation(kotlin("test-junit"))
