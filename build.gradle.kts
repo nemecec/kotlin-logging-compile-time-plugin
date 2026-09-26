@@ -34,8 +34,13 @@ allprojects {
   configurations.configureEach {
     resolutionStrategy.eachDependency {
       if (requested.group == "org.bouncycastle" && requested.name.endsWith("-jdk18on")) {
-        useVersion("1.84")
-        because("GHSA-cj8j-37rh-8475, GHSA-c3fc-8qff-9hwx, GHSA-wg6q-6289-32hp")
+        useVersion("1.86")
+        because("GHSA-cj8j-37rh-8475, GHSA-c3fc-8qff-9hwx, GHSA-wg6q-6289-32hp, GHSA-qp49-qgx5-5m26, GHSA-9pwp-9qqc-pr26")
+      }
+      if (requested.group == "org.freemarker" && requested.name == "freemarker") {
+        // Dokka's generator runtime pins 2.3.32.
+        useVersion("2.3.35")
+        because("GHSA-27j2-h3m2-8237")
       }
       if (requested.group.startsWith("com.fasterxml.jackson")) {
         // Also reaches the Dokka worker runtime classpath, which the buildscript rule does not.
