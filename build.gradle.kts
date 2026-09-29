@@ -13,9 +13,9 @@ buildscript {
   configurations.classpath {
     resolutionStrategy.eachDependency {
       if (requested.group.startsWith("com.fasterxml.jackson")) {
-        // Align to jackson-bom 2.21.5: core/databind track the patch line, annotations does not.
-        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.5")
-        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v")
+        // Align to jackson-bom 2.21.6: core/databind track the patch line, annotations does not.
+        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.6")
+        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v, GHSA-gx83-3vf8-gh7j, GHSA-q4xh-88c3-wmh7, GHSA-wjgm-6hv5-3cvf")
       }
     }
   }
@@ -44,9 +44,9 @@ allprojects {
       }
       if (requested.group.startsWith("com.fasterxml.jackson")) {
         // Also reaches the Dokka worker runtime classpath, which the buildscript rule does not.
-        // Align to jackson-bom 2.21.5: core/databind track the patch line, annotations does not.
-        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.5")
-        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v")
+        // Align to jackson-bom 2.21.6: core/databind track the patch line, annotations does not.
+        useVersion(if (requested.name == "jackson-annotations") "2.21" else "2.21.6")
+        because("GHSA-72hv-8253-57qq, GHSA-j3rv-43j4-c7qm, GHSA-rmj7-2vxq-3g9f, GHSA-hgj6-7826-r7m5, GHSA-5jmj-h7xm-6q6v, GHSA-gx83-3vf8-gh7j, GHSA-q4xh-88c3-wmh7, GHSA-wjgm-6hv5-3cvf")
       }
       if (requested.group == "org.jsoup" && requested.name == "jsoup") {
         // Dokka's generator runtime pins 1.16.1. Dokka never calls Cleaner/Safelist, so the
