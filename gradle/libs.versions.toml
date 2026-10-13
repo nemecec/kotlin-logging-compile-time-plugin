@@ -1,5 +1,5 @@
 [versions]
-kotlinversion = "2.4.20"
+kotlinversion = "2.4.21"
 ktfmt = "0.47"
 dokka = "2.2.0"
 build-config = "6.1.2"
